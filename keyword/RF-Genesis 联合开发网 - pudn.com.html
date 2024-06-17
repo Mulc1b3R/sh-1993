@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>genesis 联合开发网 - pudn.com</title>
+	<title>RF-Genesis 联合开发网 - pudn.com</title>
 
     <link href="/Public/m/css/bootstrap.min.css" rel="stylesheet">
     <link href="/Public/m/font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -31,10 +31,10 @@
 	<script src="/Public/m/js/inspinia.js"></script>
 	<script src="/Public/m/js/plugins/pace/pace.min.js"></script>
 	
-<META name="Keywords" content="genesis 程序员 编程 源码 源代码 下载">
+<META name="Keywords" content="RF-Genesis RayTracing diffusion mmwave sensys 程序员 编程 源码 源代码 下载">
 
 	
-<META name="Description" content="genesis The modern desktop environment for everyone on anything, stars:35, update:2024-05-03 17:45:42">
+<META name="Description" content="RF-Genesis RF成因：通过基于模拟的数据合成和生成扩散模型实现毫米波传感的零激发泛化（SenSys 23）">
 
 </head>
 
@@ -102,59 +102,116 @@
 	<div class="my-container">
 			<div class="nav-dir" style="padding:10px 0px">
 				<a href="/">Pudn.com</a>&nbsp;&gt;&nbsp;下载中心
-				&nbsp;&gt;&nbsp;其他				&nbsp;&gt;&nbsp;<font color=red>genesis</font>
+				&nbsp;&gt;&nbsp;硬件设计				&nbsp;&gt;&nbsp;<font color=red>RF-Genesis</font>
 			</div>
 
 
 		<div class="row">
 			<div class="col-xs-12 col-md-8">
-				<div class="item-name">genesis</div>
+				<div class="item-name">RF-Genesis</div>
 				<div class="item-keyword">
-									</div>
+					<a href="#" class="keyword" keyword="RayTracing">RayTracing</a>&nbsp;<a href="#" class="keyword" keyword="diffusion">diffusion</a>&nbsp;<a href="#" class="keyword" keyword="mmwave">mmwave</a>&nbsp;<a href="#" class="keyword" keyword="sensys">sensys</a>&nbsp;				</div>
 				<div class="item-action">
 					<div class="btn-group">
-						<a href=/Download/dl/id/1714762011131436 target=_blank class="btn btn-primary btn-sm">去下载(<span id="down-count">0</span>)</a>
-						<a href="###" class="btn btn-white btn-sm vote-up"><i class="fa fa-thumbs-up"></i> 赞(<span id="vote-up-count">0</span>) </a>
+						<a href=/Download/dl/id/1705978195103944 target=_blank class="btn btn-primary btn-sm">去下载(<span id="down-count">0</span>)</a>
+						<a href="###" class="btn btn-white btn-sm vote-up"><i class="fa fa-thumbs-up"></i> 赞(<span id="vote-up-count">3</span>) </a>
 						<a href="###" class="btn btn-white btn-sm vote-down"><i class="fa fa-thumbs-down"></i> 踩(<span id="vote-down-count">0</span>) </a>
-						<a href="/Download/comment/id/1714762011131436" data-toggle="modal" data-target="#myModal" class="btn btn-white btn-sm"><i class="fa fa-comment"></i> 评论(<span id="comment-count">0</span>) </a>
+						<a href="/Download/comment/id/1705978195103944" data-toggle="modal" data-target="#myModal" class="btn btn-white btn-sm"><i class="fa fa-comment"></i> 评论(<span id="comment-count">0</span>) </a>
 						<a href="###" class="btn btn-white btn-sm favor-item"><i class="fa fa-heart"></i> 收藏(<span id="favor-count">0</span>) </a>
 					</div>
 				</div>
 				<hr>
 
 				<div class="item-info">
-					<B>所属分类</B>：其他<BR>
-					<B>开发工具</B>：Dart<BR>
+					<B>所属分类</B>：硬件设计<BR>
+					<B>开发工具</B>：Python<BR>
 					<B>文件大小</B>：0KB<BR>
 					<B>下载次数</B>：0<BR>
-					<B>上传日期</B>：2024-05-04 02:46:51<BR>
+					<B>上传日期</B>：2024-01-22 16:08:55<BR>
 					<B>上 传 者</B>：<a href=/User/profile/id/1682139907912860.html>sh-1993</a><BR>
 				</div>
 				<div class="item-intro">
-					说明：&nbsp;&nbsp;The modern desktop environment for everyone on anything, stars:35, update:2024-05-03 17:45:42				</div>
+					说明：&nbsp;&nbsp;RF成因：通过基于模拟的数据合成和生成扩散模型实现毫米波传感的零激发泛化（SenSys 23）<BR>(RF Genesis: Zero-Shot Generalization of mmWave Sensing through Simulation-Based Data Synthesis and Generative Diffusion Models (SenSys 23))				</div>
 				<hr>
 				<div><B>文件列表</B>: </div>
 				<div id="file-list">
-				android/<BR>assets/wallpaper/<BR>lib/<BR>linux/<BR>nix/<BR>test/<BR>web/<BR>windows/<BR>.metadata<BR>LICENSE<BR>analysis_options.yaml<BR>flake.lock<BR>flake.nix<BR>pubspec.lock<BR>pubspec.lock.json<BR>pubspec.yaml<BR>				</div>
+				docs/<BR>genesis/<BR>models/<BR>LICENSE<BR>requirements.txt<BR>run.py<BR>setup.sh<BR>				</div>
 				<hr>
 				<div id="readme">
-				# shell
+				# RF Genesis
+### [Project Page](https://rfgen.xingyuchen.me/) | [Paper](https://xingyuchen.me/files/Xingyu.Chen_SenSys23_RFGen.pdf) 
 
-Next-gen mobile & desktop compositor
+The offical implementation of [  *RF Genesis: Zero-Shot Generalization of mmWave Sensing
+through Simulation-Based Data Synthesis and Generative
+Diffusion Models*](https://rfgen.xingyuchen.me/).
 
-## Getting Started
+[Xingyu Chen](https://xingyuchen.me/),
+[Xinyu Zhang](http://xyzhang.ucsd.edu/index.html),
+UC San Diego.
 
-This project is a starting point for a Flutter application.
+In SenSys 2023
+![teaser](https://rfgen.xingyuchen.me/RFGen/pull.png)
+## News
+ **22/Jan/24** - Initial Release of RF Genesis!
 
-A few resources to get you started if this is your first Flutter project:
+## To-Do List
+- [ ] Release the RFLoRA pretrained model.
+- [ ] Release the RFLoRA training dataset and procedures.
+- [ ] More documentations.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-				</div>
+## Quick Start
+This code was tested on `Ubuntu 20.04.5 LTS` and requires:
+
+* Python 3.10
+* conda3 or miniconda3
+* CUDA capable GPU (one is enough)
+
+
+Clone the repository
+```
+git clone git@github.com:Asixa/RF-Genesis.git
+cd RF-Genesis
+```
+Download the dependencies [*RFGen_Dependencies.zip*](https://ucsdcloud-my.sharepoint.com/:u:/g/personal/xic063_ucsd_edu/EWUa1yi8V-RKrs2mYwWgom8B5ezkctME6_W_nkSc10iDLg?e=tbVhfX) and drop it to the root folder 
+**without unzipping it**.
+
+Create a conda environment.
+```
+conda create -n rfgen python=3.10 -y 
+conda activate rfgen
+```
+Install python packages
+```
+pip install -r requirements.txt
+sh setup.sh
+```
+Run a simple example.
+```
+python run.py -o "a person walking back and forth" -e "a living room" -n "hello_rfgen"
+```
+
+
+
+## Citation
+```
+@inproceedings{chen2023rfgenesis,
+      author = {Chen, Xingyu and Zhang, Xinyu},
+      title = {RF Genesis: Zero-Shot Generalization of mmWave Sensing through Simulation-Based Data Synthesis and Generative Diffusion Models},
+      booktitle = {ACM Conference on Embedded Networked Sensor Systems (SenSys ’23)},
+      year = {2023},
+      pages = {1-14},
+      address = {Istanbul, Turkiye},
+      publisher = {ACM, New York, NY, USA},
+      url = {https://doi.org/10.1145/3625687.3625798},
+      doi = {10.1145/3625687.3625798}
+  }
+```
+
+
+## License
+This code is distributed under an [MIT LICENSE](LICENSE).
+Note that our code depends on other libraries, including [CLIP](https://github.com/openai/CLIP), [SMPL](https://smpl.is.tue.mpg.de/), [MDM](https://guytevet.github.io/mdm-page/) and uses datasets that each have their own respective licenses that must also be followed.				</div>
 				<hr>
 				<div><B>近期下载者</B>：</div>
 				<div id="download-users"></div>
@@ -162,7 +219,7 @@ samples, guidance on mobile development, and a full API reference.
 				<div><B>相关文件</B>：</div>
 				<div id="relate-items"></div>
 				<hr>
-				<div><B>评论</B>：[<a href=/Download/comment/id/1714762011131436.html data-toggle=modal data-target="#myModal">我要评论</a>]&nbsp;[<a class='pop-a' href=/Download/report/id/1714762011131436.html>举报此文件</a>]</div>
+				<div><B>评论</B>：[<a href=/Download/comment/id/1705978195103944.html data-toggle=modal data-target="#myModal">我要评论</a>]&nbsp;[<a class='pop-a' href=/Download/report/id/1705978195103944.html>举报此文件</a>]</div>
 				<div id="file-comments"></div>
 				<hr>
 				<div><B>收藏者</B>：</div>
@@ -270,9 +327,9 @@ $(document).on("click",".keyword",function(){
 			}
 		});
 	});
-	var g_id="1714762011131436";
+	var g_id="1705978195103944";
 	var keywords =new Array();
-		function get_download_user(){
+	keywords[0] ='RayTracing';keywords[1] ='diffusion';keywords[2] ='mmwave';keywords[3] ='sensys';	function get_download_user(){
 		var url ="/Download/get_download_user/id/"+g_id+".html";
 		$.get(url,function(ret){
 			if(ret.length ==0) return;
