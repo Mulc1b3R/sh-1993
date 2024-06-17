@@ -1,0 +1,878 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>genesis_ruby 联合开发网 - pudn.com</title>
+
+    <link href="/Public/m/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/Public/m/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <link href="/Public/m/css/animate.css" rel="stylesheet">
+    <link href="/Public/m/css/style.css" rel="stylesheet">
+
+	<link href="/Public/m/css/plugins/slick/slick.css" rel="stylesheet">
+	<link href="/Public/m/css/plugins/slick/slick-theme.css" rel="stylesheet">
+
+	
+
+	<link href="/css/style.css" rel="stylesheet">
+
+	<!-- Mainly scripts -->
+	<script src="/Public/m/js/jquery-2.1.1.js"></script>
+	<script src="/Public/m/js/bootstrap.min.js"></script>
+
+	<script src="/Public/m/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+	<script src="/Public/m/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+	<!-- Custom and plugin javascript -->
+	<script src="/Public/m/js/inspinia.js"></script>
+	<script src="/Public/m/js/plugins/pace/pace.min.js"></script>
+	
+<META name="Keywords" content="genesis_ruby 程序员 编程 源码 源代码 下载">
+
+	
+<META name="Description" content="genesis_ruby 用于Genesis网关的Ruby SDK">
+
+</head>
+
+<body>
+
+<!-- /.main-container start -->
+
+<div class="pace  pace-inactive">
+  	<div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+  	<div class="pace-progress-inner"></div>
+	</div>
+	<div class="pace-activity"></div>
+</div>
+
+<div class="all-content">
+	<div class="my-container top-navigation">
+		<nav class="navbar navbar-static-top" role="navigation">
+			<div class="navbar-header">
+				<button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+					<i class="fa fa-reorder"></i>
+				</button>
+				<a href="http://www.pudn.com" class="navbar-brand">联合开发网</a>
+			</div>
+			<div class="navbar-collapse collapse" id="navbar">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="/" style="padding-right:8px;padding-left:8px;font-size:16px">首页</a>
+					</li>
+					<li>
+						<a href="https://search.pudn.com" style="padding-right:8px;padding-left:8px;font-size:16px">搜索</a>
+					</li>
+				</ul>
+               	<ul class="nav navbar-top-links navbar-right">
+               							<li>
+                       	<a href="/User/login.html">
+                           	&nbsp; <i class="fa fa-sign-out"></i>登录
+                       	</a>
+                   	</li>
+                   	<li>
+                       	<a href="/User/reg.html"><i class="fa fa-sign-out"></i>注册
+                       	</a>
+                   	</li>
+					               	</ul>
+			</div>
+		</nav>
+	</div>
+	<form action="https://search.pudn.com/Download" method="get">
+	<div class="top-menu-line2">
+		<div class="my-container">
+			<a href=/Download/upload.html>上传</a>
+			&nbsp; <a href=/User>管理</a>
+			&nbsp; <a href=https://search.pudn.com/Download>搜索</a>
+			&nbsp; <a href=/Guestbook>留言</a>
+			<div class="input-group pull-right" style="max-width:200px;margin:3px 15px 0px 0px">
+				<input type="text" name="keyword" maxlength=20 placeholder="请输入关键字" class="form-control input-sm">
+				<span class="input-group-btn"> <button type="submit" class="btn btn-white input-sm" style="border:1px solid #AAA"><i class="fa fa-search"></i></button>
+				</span>
+			</div>
+		</div>
+	</div></form>
+
+
+
+<div class="row wrapper white-bg">
+	<div class="my-container">
+			<div class="nav-dir" style="padding:10px 0px">
+				<a href="/">Pudn.com</a>&nbsp;&gt;&nbsp;下载中心
+				&nbsp;&gt;&nbsp;代理服务器				&nbsp;&gt;&nbsp;<font color=red>genesis_ruby</font>
+			</div>
+
+
+		<div class="row">
+			<div class="col-xs-12 col-md-8">
+				<div class="item-name">genesis_ruby</div>
+				<div class="item-keyword">
+									</div>
+				<div class="item-action">
+					<div class="btn-group">
+						<a href=/Download/dl/id/1700857477315692 target=_blank class="btn btn-primary btn-sm">去下载(<span id="down-count">0</span>)</a>
+						<a href="###" class="btn btn-white btn-sm vote-up"><i class="fa fa-thumbs-up"></i> 赞(<span id="vote-up-count">1</span>) </a>
+						<a href="###" class="btn btn-white btn-sm vote-down"><i class="fa fa-thumbs-down"></i> 踩(<span id="vote-down-count">0</span>) </a>
+						<a href="/Download/comment/id/1700857477315692" data-toggle="modal" data-target="#myModal" class="btn btn-white btn-sm"><i class="fa fa-comment"></i> 评论(<span id="comment-count">0</span>) </a>
+						<a href="###" class="btn btn-white btn-sm favor-item"><i class="fa fa-heart"></i> 收藏(<span id="favor-count">0</span>) </a>
+					</div>
+				</div>
+				<hr>
+
+				<div class="item-info">
+					<B>所属分类</B>：代理服务器<BR>
+					<B>开发工具</B>：Ruby<BR>
+					<B>文件大小</B>：0KB<BR>
+					<B>下载次数</B>：0<BR>
+					<B>上传日期</B>：2023-11-23 10:06:37<BR>
+					<B>上 传 者</B>：<a href=/User/profile/id/1682139907912860.html>sh-1993</a><BR>
+				</div>
+				<div class="item-intro">
+					说明：&nbsp;&nbsp;用于Genesis网关的Ruby SDK<BR>(Ruby SDK for Genesis gateway)				</div>
+				<hr>
+				<div><B>文件列表</B>: </div>
+				<div id="file-list">
+				.pronto.<B>yml</B> (217, 2023-12-05)<BR>.<B>rspec</B> (53, 2023-12-05)<BR>.rubocop.<B>yml</B> (2540, 2023-12-05)<BR>CHANGELOG.<B>md</B> (1122, 2023-12-05)<BR>Gemfile (168, 2023-12-05)<BR>Gemfile.<B>lock</B> (3746, 2023-12-05)<BR>LICENSE (1072, 2023-12-05)<BR>Rakefile (216, 2023-12-05)<BR>VERSION (6, 2023-12-05)<BR>bin/ (0, 2023-12-05)<BR>bin/console (347, 2023-12-05)<BR>bin/setup (131, 2023-12-05)<BR>genesis_ruby.<B>gemspec</B> (2261, 2023-12-05)<BR>lib/ (0, 2023-12-05)<BR>lib/genesis_ruby.<B>rb</B> (1541, 2023-12-05)<BR>lib/genesis_ruby/ (0, 2023-12-05)<BR>lib/genesis_ruby/api/ (0, 2023-12-05)<BR>lib/genesis_ruby/api/constants/ (0, 2023-12-05)<BR>lib/genesis_ruby/api/constants/currencies/ (0, 2023-12-05)<BR>lib/genesis_ruby/api/constants/currencies/iso4217.<B>rb</B> (32227, 2023-12-05)<BR>lib/genesis_ruby/api/constants/date_time_formats.<B>rb</B> (1158, 2023-12-05)<BR>lib/genesis_ruby/api/constants/endpoints.<B>rb</B> (444, 2023-12-05)<BR>lib/genesis_ruby/api/constants/environments.<B>rb</B> (340, 2023-12-05)<BR>lib/genesis_ruby/api/constants/states.<B>rb</B> (3266, 2023-12-05)<BR>lib/genesis_ruby/api/constants/states/ (0, 2023-12-05)<BR>lib/genesis_ruby/api/constants/states/state.<B>rb</B> (1246, 2023-12-05)<BR>lib/genesis_ruby/api/constants/transactions.<B>rb</B> (17140, 2023-12-05)<BR>lib/genesis_ruby/api/constants/transactions/ (0, 2023-12-05)<BR>lib/genesis_ruby/api/constants/transactions/parameters/ (0, 2023-12-05)<BR>lib/genesis_ruby/api/constants/transactions/parameters/business/ (0, 2023-12-05)<BR>lib/genesis_ruby/api/constants/transactions/parameters/business/payment_types.<B>rb</B> (461, 2023-12-05)<BR>lib/genesis_ruby/api/constants/transactions/parameters/recurring/ (0, 2023-12-05)<BR>lib/genesis_ruby/api/constants/transactions/parameters/recurring/categories.<B>rb</B> (589, 2023-12-05)<BR>lib/genesis_ruby/api/constants/transactions/parameters/recurring/types.<B>rb</B> (781, 2023-12-05)<BR>lib/genesis_ruby/api/constants/transactions/parameters/refund/ (0, 2023-12-05)<BR>... ...<BR>				</div>
+				<hr>
+				<div id="readme">
+				
+# Genesis Ruby
+
+[![Software License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)
+
+Ruby Client for Genesis Payment Processing Gateway
+
+## Overview
+
+Client Library for processing payments through Genesis Payment Processing Gateway. Its highly recommended to checkout "Genesis Payment Gateway API Documentation" first, in order to get an overview of Genesis's Payment Gateway API and functionality.
+
+## Requirements
+
+* Ruby version 2.7 or newer
+* [net-http](https://rubygems.org/gems/net-http) 0.3.2 or newer
+* [nokogiri](https://rubygems.org/gems/nokogiri) 1.14 or newer
+
+## Installation
+
+Add this line to your application's Gemfile:
+
+```ruby
+gem 'genesis_ruby'
+```
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install genesis_ruby
+
+## Getting Started
+
+### Configuration
+```ruby
+configuration             = GenesisRuby::Configuration.new
+configuration.username    = '<YOUR USERNAME>'
+configuration.password    = '<YOUR PASSWORD>'
+configuration.token       = '<YOUR TOKEN>'
+configuration.environment = GenesisRuby::Api::Constants::Environments::STAGING   # Support alias strings: 'test', 'testing', 'staging', 'live', 'prod', 'production'
+configuration.endpoint    = GenesisRuby::Api::Constants::Endpoints::EMERCHANTPAY # Support alias strings: 'emp', 'emerchantpay', 'ecp', 'ecomprocessing', 'e-comprocessing'
+```
+
+### Web Payment Form 
+```ruby
+require 'genesis_ruby'
+
+begin
+  genesis = GenesisRuby::Genesis.for(config: configuration, request: GenesisRuby::Api::Requests::Wpf::Create) do |request|
+    # Common Attributes
+    request.transaction_id     = '12345-67890'
+    request.amount             = '0.99'
+    request.currency           = 'EUR'
+    request.usage              = 'Example usage'
+    request.description        = 'You are about to complete you purchase'
+    request.customer_email     = 'travis@example.com'
+    request.customer_phone     = '+1987987987987'
+    request.notification_url   = 'https://www.example.com/notification'
+    request.return_success_url = 'https://www.example.com/success'
+    request.return_cancel_url  = 'https://www.example.com/failure'
+    request.return_failure_url = 'https://www.example.com/cancel.html'
+    request.return_pending_url = 'https://www.example.com/payment-pending.html'
+
+    # Transaction Types
+    request.add_transaction_type('authorize3d')
+    # Transaction Type with Customer Attribute 
+    request.add_transaction_type('sale3d', { bin: '420000' })
+
+    # Tokenization Attributes
+    request.consumer_id   = '123456789'
+    request.remember_card = true
+
+    # Billing Attributes
+    request.billing_first_name = 'Travis'
+    request.billing_last_name  = 'Pastrana'
+    request.billing_address1   = 'Muster Str. 12'
+    request.billing_zip_code   = '10178'
+    request.billing_city       = 'Los Angeles'
+    request.billing_state      = 'CA'
+    request.billing_country    = 'US'
+
+    # Shipping Attributes
+    request.shipping_first_name = 'Travis'
+    request.shipping_last_name  = 'Pastrana'
+    request.shipping_address1   = 'Muster Str. 12'
+    request.shipping_zip_code   = '10178'
+    request.shipping_city       = 'Los Angeles'
+    request.shipping_state      = 'CA'
+    request.shipping_country    = 'US'
+
+    # Internationalization
+    request.locale = 'EN'
+
+    # Other
+    request.lifetime            = 30
+    request.web_payment_form_id = '987654321'
+  end.execute
+  
+  puts genesis.response.response_object
+
+rescue GenesisRuby::Error => error
+  puts error.message
+end
+```
+
+A full list of the Transaction Types and Custom Attributes can be found [here](https://emerchantpay.github.io/gateway-api-docs/?shell#wpf-transaction-types).
+
+### Transactions
+
+```ruby
+require 'genesis_ruby'
+
+begin
+  genesis = GenesisRuby::Genesis.for(config: configuration, request: GenesisRuby::Api::Requests::Financial::Cards::Sale) do |request|
+    # Common Attributes
+    request.transaction_id     = '12345-67890'
+    request.amount             = '0.99'
+    request.currency           = 'EUR'
+    request.usage              = 'Example usage'
+    request.customer_email     = 'travis@example.com'
+    request.customer_phone     = '+1987987987987'
+
+    # Credit Card Attributes
+    request.card_holder      = 'Travis Pastrana'
+    request.card_number      = '4200000000000000'
+    request.expiration_month = '12'
+    request.expiration_year  = '2040'
+    request.cvv              = '834'
+
+    # Billing Attributes
+    request.billing_first_name = 'Travis'
+    request.billing_last_name  = 'Pastrana'
+    request.billing_address1   = 'Muster Str. 12'
+    request.billing_zip_code   = '10178'
+    request.billing_city       = 'Los Angeles'
+    request.billing_state      = 'CA'
+    request.billing_country    = 'US'
+  end.execute
+
+  puts genesis.response.response_object
+
+rescue GenesisRuby::Error => error
+  puts error.message
+end
+```
+
+### Example 3DSv2 Request
+
+Sample request including all the conditionally required/optional params for initiating a 3DS transaction with the 3DSv2-Method authentication protocol.
+
+Also, an example is provided for the 3DS-Method-continue API call that will have to be submitted after the 3DS-Method is initiated.
+<details>
+
+```ruby
+require 'genesis_ruby'
+
+begin
+  genesis_3ds_v2 = GenesisRuby::Genesis.for(config: configuration, request: GenesisRuby::Api::Requests::Financial::Cards::Sale3d) do |request|
+    # Common Attributes
+    request.transaction_id     = '12345-67890'
+    request.remote_ip          = '127.0.0.1'
+    request.amount             = '0.99'
+    request.currency           = 'EUR'
+    request.usage              = 'Example usage'
+    request.customer_email     = 'travis@example.com'
+    request.customer_phone     = '+1987987987987'
+
+    # Credit Card Attributes
+    request.card_holder      = 'Travis Pastrana'
+
+    # Test Cases
+    request.card_number = '4012000000060085' # Test Case: Synchronous 3DSv2 Request with Frictionless flow
+    # request.card_number = '4066330000000004' # Test Case: Asynchronous 3DSv2 Request with 3DS-Method and Frictionless flow
+    # request.card_number = '4918190000000002' # Test Case: Asynchronous 3DSv2 Request with Challenge flow
+    # request.card_number = '4938730000000001' # Test Case: Asynchronous 3DSv2 Request with 3DS-Method Challenge flow
+    # request.card_number = '4901170000000003' # Test Case: Asynchronous 3DSv2 Request with Fallback flow
+    # request.card_number = '4901164281364345' # Test Case: Asynchronous 3DSv2 Request with 3DS-Method Fallback flow
+
+    request.expiration_month = '12'
+    request.expiration_year  = '2040'
+    request.cvv              = '123'
+
+    # Async Attributes
+    request.notification_url   = 'https://example.com/notification'
+    request.return_success_url = 'https://example.com/success'
+    request.return_failure_url = 'https://example.com/failure'
+
+    # Billing Attributes
+    request.billing_first_name = 'Travis'
+    request.billing_last_name  = 'Pastrana'
+    request.billing_address1   = 'Kreisfreie Stadt Berlin'
+    request.billing_zip_code   = '10115'
+    request.billing_city       = 'Berlin'
+    request.billing_country    = 'DE'
+
+    # Threeds V2 Attributes
+
+    ## Method Attributes
+    request.threeds_v2_method_callback_url = 'https://www.example.com/threeds/threeds_method/callback'
+
+    ## Control Attributes
+    request.threeds_v2_control_device_type           =
+            GenesisRuby::Api::Constants::Transactions::Parameters::Threeds::Version2::Control::DeviceTypes::BROWSER
+    request.threeds_v2_control_challenge_window_size =
+            GenesisRuby::Api::Constants::Transactions::Parameters::Threeds::Version2::Control::ChallengeWindowSizes::FULLSCREEN
+    request.threeds_v2_control_challenge_indicator   =
+            GenesisRuby::Api::Constants::Transactions::Parameters::Threeds::Version2::Control::ChallengeIndicators::MANDATE
+
+    ## Browser Attributes
+    ## When Control Device Type is Browser
+    request.threeds_v2_browser_accept_header    = '*/*'
+    request.threeds_v2_browser_java_enabled     = true
+    request.threeds_v2_browser_language         = 'en-GB'
+    request.threeds_v2_browser_color_depth      = 48
+    request.threeds_v2_browser_screen_height    = 900
+    request.threeds_v2_browser_screen_width     = 1440
+    request.threeds_v2_browser_time_zone_offset = '+0'
+    request.threeds_v2_browser_user_agent       = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36'
+
+    ## SDK
+    ## When Control Device Type is SDK
+    request.threeds_v2_sdk_interface                 =
+            GenesisRuby::Api::Constants::Transactions::Parameters::Threeds::Version2::Sdk::Interfaces::BOTH
+    request.threeds_v2_sdk_ui_types                  =
+            GenesisRuby::Api::Constants::Transactions::Parameters::Threeds::Version2::Sdk::UiTypes::TEXT
+    request.threeds_v2_sdk_ui_types                  =
+            GenesisRuby::Api::Constants::Transactions::Parameters::Threeds::Version2::Sdk::UiTypes::SINGLE_SELECT
+    request.threeds_v2_sdk_ui_types                  =
+            GenesisRuby::Api::Constants::Transactions::Parameters::Threeds::Version2::Sdk::UiTypes::MULTI_SELECT
+    request.threeds_v2_sdk_application_id            = 'fc1650c0-5778-0138-8205-2cbc32a32d65'
+    request.threeds_v2_sdk_encrypted_data            = 'encrypted-data-here'
+    request.threeds_v2_sdk_ephemeral_public_key_pair = 'public-key-pair'
+    request.threeds_v2_sdk_max_timeout               = 10
+    request.threeds_v2_sdk_reference_number          = 'sdk-reference-number-her'
+
+
+    ## Purchase Attributes
+    request.threeds_v2_purchase_category =
+            GenesisRuby::Api::Constants::Transactions::Parameters::Threeds::Version2::Purchase::Categories::GOODS
+
+    ## Recurring
+    request.threeds_v2_recurring_expiration_date = '12-12-2024'
+    request.threeds_v2_recurring_frequency       = 30
+
+    ## Merchant Risk Attributes
+    request.threeds_v2_merchant_risk_shipping_indicator           =
+            GenesisRuby::Api::Constants::Transactions::Parameters::Threeds::Version2::MerchantRisk::ShippingIndicators::SAME_AS_BILLING
+    request.threeds_v2_merchant_risk_delivery_timeframe           =
+            GenesisRuby::Api::Constants::Transactions::Parameters::Threeds::Version2::MerchantRisk::DeliveryTimeframes::ANOTHER_DAY
+    request.threeds_v2_merchant_risk_reorder_items_indicator      =
+            GenesisRuby::Api::Constants::Transactions::Parameters::Threeds::Version2::MerchantRisk::ReorderItemIndicators::FIRST_TIME
+    request.threeds_v2_merchant_risk_pre_order_purchase_indicator =
+            GenesisRuby::Api::Constants::Transactions::Parameters::Threeds::Version2::MerchantRisk::PreOrderPurchaseIndicators::MERCHANDISE_AVAILABLE
+    request.threeds_v2_merchant_risk_pre_order_date               = '31-12-2030'
+    request.threeds_v2_merchant_risk_gift_card                    = true
+    request.threeds_v2_merchant_risk_gift_card_count              = 99
+
+    ## Card Holder Account Attributes
+    request.threeds_v2_card_holder_account_creation_date                       = '31-12-2022'
+    request.threeds_v2_card_holder_account_update_indicator                    =
+            GenesisRuby::Api::Constants::Transactions::Parameters::Threeds::Version2::CardHolderAccount::UpdateIndicators::MORE_THAN_60DAYS
+    request.threeds_v2_card_holder_account_last_change_date                    = '31-12-2022'
+    request.threeds_v2_card_holder_account_password_change_indicator           =
+            GenesisRuby::Api::Constants::Transactions::Parameters::Threeds::Version2::CardHolderAccount::PasswordChangeIndicators::NO_CHANGE
+    request.threeds_v2_card_holder_account_password_change_date                = '31-12-2022'
+    request.threeds_v2_card_holder_account_shipping_address_usage_indicator    =
+            GenesisRuby::Api::Constants::Transactions::Parameters::Threeds::Version2::CardHolderAccount::ShippingAddressUsageIndicators::MORE_THAN_60DAYS
+    request.threeds_v2_card_holder_account_shipping_address_date_first_used    = '31-12-2022'
+    request.threeds_v2_card_holder_account_transactions_activity_last24_hours  = 2
+    request.threeds_v2_card_holder_account_transactions_activity_previous_year = 10
+    request.threeds_v2_card_holder_account_provision_attempts_last24_hours     = 1
+    request.threeds_v2_card_holder_account_purchases_count_last6_months        = 5
+    request.threeds_v2_card_holder_account_suspicious_activity_indicator       =
+            GenesisRuby::Api::Constants::Transactions::Parameters::Threeds::Version2::CardHolderAccount::SuspiciousActivityIndicators::NO_SUSPICIOUS_OBSERVED
+    request.threeds_v2_card_holder_account_registration_indicator              =
+            GenesisRuby::Api::Constants::Transactions::Parameters::Threeds::Version2::CardHolderAccount::RegistrationIndicators::MORE_THAN_60DAYS
+    request.threeds_v2_card_holder_account_registration_date                   = '31-12-2022'
+
+  end.execute
+
+  response_3ds_v2 = genesis_3ds_v2.response
+
+  if response_3ds_v2.approved?
+    # Transaction approved no customer action required
+    # Test Case: Synchronous 3DSv2 Request with Frictionless flow
+    puts response_3ds_v2.response_object
+  end
+
+  if response_3ds_v2.declined? || response_3ds_v2.error?
+    # Transaction declined no customer action required
+    # Synchronous 3DSv2 Request with Frictionless flow
+    puts response_3ds_v2.response_object
+  end
+
+  if response_3ds_v2.pending_async?
+    # Additional Actions Required
+    response_object_3ds_v2 = response_3ds_v2.response_object
+
+    if response_object_3ds_v2[:redirect_url]
+      # An interaction between consumer and issuer is required
+      # 3DSv2 Challenge required
+      # 3DSv1 payer authentication required - fallback from 3DSv2 to 3DSv1
+      # Test Case: Asynchronous 3DSv2 Request with Challenge flow
+      # Test Case: Asynchronous 3DSv2 Request with Fallback flow
+      puts response_object_3ds_v2[:redirect_url_type]
+      puts response_object_3ds_v2[:redirect_url]
+    end
+
+    if response_object_3ds_v2[:threeds_method_url]
+      # 3DS-Method submission is required
+      # Generate 3DSv2-Method Signature token used for Threeds Method Continue Request. It's not required when the 3DS-Method continue request is built by the initial request's response object.
+      puts GenesisRuby::Utils::Threeds::V2.generate_signature(
+              unique_id: response_object_3ds_v2[:unique_id],
+              amount: response_object_3ds_v2[:amount],
+              timestamp: response_object_3ds_v2[:timestamp].strftime(GenesisRuby::Api::Constants::DateTimeFormats::YYYY_MM_DD_H_I_S_ZULU),
+              merchant_password: configuration.password
+      )
+
+      # Execute 3DS-Method Continue Request after initiating the 3DS-Method submission
+      # The new request is loaded from the response object of the initial request
+      genesis_3ds_v2_continue = GenesisRuby::Api::Requests::Financial::Cards::Threeds::V2::MethodContinue.build_from_response_object(
+              configuration,
+              genesis_3ds_v2.response.response_object
+      )
+
+      genesis_3ds_v2_continue.execute
+
+      response_3ds_v2_continue = genesis_3ds_v2_continue.response
+
+      if response_3ds_v2_continue.approved?
+        # Transaction APPROVED no customer action required
+        # Test Case: Asynchronous 3DSv2 Request with 3DS-Method and Frictionless flow
+        puts response_3ds_v2_continue.response_object
+      end
+
+      if response_3ds_v2_continue.declined? || response_3ds_v2_continue.error?
+        # Transaction declined no customer action required
+        puts response_3ds_v2_continue.response_object
+      end
+
+      if response_3ds_v2_continue.pending_async?
+        # Customer action required
+        continue_response_object = response_3ds_v2_continue.response_object
+
+        if continue_response_object[:redirect_url]
+          # Test Case: Asynchronous 3DSv2 Request with 3DS-Method Challenge flow
+          # Test Case: Asynchronous 3DSv2 Request with 3DS-Method Fallback flow
+          puts continue_response_object[:redirect_url_type]
+          puts continue_response_object[:redirect_url]
+        end
+      end
+    end
+  end
+
+rescue GenesisRuby::Error => error
+  puts error.message
+end
+```
+
+</details>
+
+### Standalone ThreedsV2 Method Continue Request.
+
+<details>
+
+```ruby
+require 'genesis_ruby'
+
+begin
+  genesis = GenesisRuby::Genesis.for(config: configuration, request: GenesisRuby::Api::Requests::Financial::Cards::Threeds::V2::MethodContinue) do |request|
+    # Amount in minor currency unit
+    # If the AMOUNT is not in a minor currency unit then SET the CURRENCY. The AMOUNT will be converted into minor currency unit internally using the CURRENCY property.
+    # Ex. amount = 10.00
+    #     currency = 'EUR'
+    #   The AMOUNT in that case for signature generation will be 1000
+    # Amount is included in the response from the initial request in major currency unit genesis.response.response_object[:amount]
+    request.amount = 10.00
+
+    # If CURRENCY is set, AMOUNT value will be converted into MINOR currency unit
+    # If you SET the AMOUNT in MINOR currency unit DO NOT set CURRENCY
+    # Currency is included in the response from the initial request in major currency unit genesis.response.response_object[:currency]
+    request.currency = 'EUR'
+
+    # Set only one of the unique_id or url
+    # request.url = 'https://staging.gate.emerchantpay.net/threeds/threeds_method/d6a6aa96292e4856d4a352ce634a4335'
+    request.transaction_unique_id = 'd6a6aa96292e4856d4a352ce634a4335'
+
+    # String representation of the timestamp
+    # request.transaction_timestamp = genesis.response
+    #   .response_object[:timestamp].strftime(GenesisRuby::Api::Constants::DateTimeFormats::YYYY_MM_DD_H_I_S_ZULU)
+    request.transaction_timestamp = '2020-12-31T23:59:59Z'
+  end.execute
+
+  response = genesis.response
+
+  if response.approved?
+    # Asynchronous 3DSv2 Request with 3DS-Method and Frictionless flow
+    # Transaction approved no customer action required
+    puts response.response_object
+  end
+
+  if response.pending_async?
+    # Customer action required
+    response_object = response.response_object
+
+    if response_object[:redirect_url]
+      # Asynchronous 3DSv2 Request with 3DS-Method Challenge flow
+      # Asynchronous 3DSv2 Request with 3DS-Method Fallback flow
+      puts response_object[:redirect_url_type]
+      puts response_object[:redirect_url]
+    end
+  end
+
+rescue GenesisRuby::Error => error
+  puts error.message
+end
+```
+
+</details>
+
+
+### Recurring
+
+A recurring transaction describes a payment where the cardholder’s account is periodically charged for a repeated 
+delivery and use of a product or service (subscription, membership fee, etc.) over time. A recurring payment consists of an initial transaction and one or several repeated subsequent transactions.
+
+```ruby
+request.recurring_type = GenesisRuby::Api::Constants::Transactions::Parameters::Recurring::Types::INITIAL
+```
+
+#### Managed Recurring
+
+Managed Recurring provides the option to automatically schedule recurring transactions for a specific day and time.
+Managed Recurring is available after additional configuration. More info can be found [here](https://emerchantpay.github.io/gateway-api-docs/?shell#managed-recurring-intro)
+
+```ruby
+request.recurring_type = GenesisRuby::Api::Constants::Transactions::Parameters::Recurring::Types::MANAGED
+```
+
+* <details>
+  <summary>Web Payment Form</summary>
+  
+  ```ruby
+  request.add_transaction_type(
+    'sale3d',
+    {
+      managed_recurring: {
+        mode:        'automatic',
+      ... ...				</div>
+				<hr>
+				<div><B>近期下载者</B>：</div>
+				<div id="download-users"></div>
+				<hr>
+				<div><B>相关文件</B>：</div>
+				<div id="relate-items"></div>
+				<hr>
+				<div><B>评论</B>：[<a href=/Download/comment/id/1700857477315692.html data-toggle=modal data-target="#myModal">我要评论</a>]&nbsp;[<a class='pop-a' href=/Download/report/id/1700857477315692.html>举报此文件</a>]</div>
+				<div id="file-comments"></div>
+				<hr>
+				<div><B>收藏者</B>：</div>
+				<div id="favor-users"></div>
+				<p></p>
+			</div>
+
+			<div class="col-xs-12 col-md-4">
+
+				<div class="ad-sidebar text-center">
+					<div class="ad-300">
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+	<div class="my-footer">
+		<div class="container">
+		<div class="pull-right">
+		</div>
+
+		<div>
+			
+			<a href="http://www.pudn.com" target=_blank>© 联合开发网 from 2004</a> | 
+			<a href="/Index/contact.html">联系站长</a> | 
+			<a href=" https://beian.miit.gov.cn" target=_blank>湘ICP备2023001425号</a> | 
+			<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=43010502000604" target=_blank>网安备43010502000604</a> | 
+		</div>
+		</div>
+	</div>
+
+
+</div><!-- /wrapper-->
+
+
+
+
+<!-- page specific plugin scripts -->
+
+<!-- inline scripts related to this page -->
+
+<div id="myModal" class="modal fade" tabindex="-1" 
+			role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			
+		</div>
+	</div>
+</div><!-- /.modal-table -->
+
+</body>
+
+<script type="text/javascript">
+$(document).on('click', '.list-more', function(){
+	var id=$(this).attr('data-id');
+	$('#list-'+id).css('max-height',$('#list-'+id)[0].scrollHeight);
+	$(this).removeClass('list-more');
+	$(this).addClass('list-hide');
+	$(this).html('<i class="fa fa-angle-double-up"></i>');
+	
+	//$(this).hide();
+
+	return false;
+});
+
+$(document).on('click', '.list-hide', function(){
+	var id=$(this).attr('data-id');
+	$('#list-'+id).css('max-height','100px');
+	$(this).removeClass('list-hide');
+	$(this).addClass('list-more');
+	$(this).html('<i class="fa fa-angle-double-down"></i>');
+	
+	return false;
+});
+
+$("#myModal").on("hidden.bs.modal", function() {
+    $(this).removeData();
+});
+
+$(document).on("click",".keyword",function(){
+	var keyword=$(this).attr("keyword");
+	var type_id=$(this).attr("type_id");
+	if(typeof(type_id) =="undefined" || type_id =="") type_id="0";
+	location.href="http://search.pudn.com/Download/index?keyword="+keyword;
+	
+	return false;
+});
+</script>
+<script type="text/javascript" src="/js/time.js"></script>
+
+
+<script type="text/javascript" src="/js/marked.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.hide-list').each(function(){
+			if ($(this)[0].offsetHeight < $(this)[0].scrollHeight){
+				var id=$(this).attr('id');
+				id =id.substring(5);
+				$(this).after('<div style="text-align:center"><a href="" class="list-more" data-id="' + id + '"><i class="fa fa-angle-double-down"></i></a></div>');
+			}
+		});
+	});
+	var g_id="1700857477315692";
+	var keywords =new Array();
+		function get_download_user(){
+		var url ="/Download/get_download_user/id/"+g_id+".html";
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var html='';
+			for(i in ret){
+				html =html + '<a href=/User/profile/id/'+ret[i].user_new_id+'.html>'+ret[i].name+'</a> ';
+			}
+			$('#download-users').append(html);
+		});
+	}
+	
+	function get_relate_item(){
+		var url ="/Download/get_relate_item/id/"+g_id+'.html';
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var html='';
+			var intro;
+			for(i in ret){
+				intro =ret[i].intro;
+				for(j in keywords){
+					var reg =new RegExp(keywords[j],'gmi');
+					intro =intro.replace(reg,'<font color=brown>'+keywords[j]+'</font>');
+				}
+				html =html + '[<a href=/Download/item/id/'+ret[i].new_id+'.html>'+ret[i].name+'</a>]&nbsp; '+intro+'<BR>';
+			}
+			$('#relate-items').append(html);
+		});
+		
+	}
+	function get_score_name(score){
+		switch(score){
+		case '100': return '很好，推荐下载';
+		case '85': return '还不错';
+		case '75': return '一般，勉强可用';
+		case '50': return '差';
+		case '3': return '纯粹是垃圾';
+		case '40': return '和说明完全不符';
+		case '20': return '文件不全';
+		case '10': return '不是源代码或资料';
+		case '5': return '文件有密码，不知道密码';
+		case '0': return '不能解压或下载失败';
+		}
+		return '';
+	}
+	function get_comment(){
+		var url ="/Download/get_comments/id/"+g_id+'.html';
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var total_count =ret.total_count;
+			var data =ret.data;
+			var html='';
+			for(i in data){
+				html =html + '<a href="/User/profile/id/'+data[i].user_new_id+'.html" class="uploader">'+data[i].user_name+'</a>: <span class="comment-score">'+get_score_name(data[i].score)+'</span>, '+data[i].content+'<BR>';
+			}
+			$('#file-comments').append(html);
+		});
+		
+	}
+	function get_favor(){
+		var url ="/Download/get_item_favors/id/"+g_id+".html";
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var html='';
+			for(i in ret){
+				html =html + '<a href=/User/profile/id/'+ret[i].user_new_id+'.html class=user>'+ret[i].name+'</a>&nbsp;';
+			}
+			$('#favor-users').html(html);
+		});
+	}
+	// 得到下载这个的用户又下载了什么
+	function get_more_download(){
+		
+	}
+	// 得到下载这个的用户又搜索了什么
+	function get_more_keyword(){
+		
+	}
+	
+	// 得到论坛相关问题
+	function get_bbs(){
+		
+	}
+	
+	// 得到软件工场相关内容
+	function get_works(){
+		
+	}
+	
+	// 得到相关聊天室
+	function get_chat(){
+		
+	}
+	
+	// 得到相关软件商城信息
+	function get_shop(){
+		
+	}
+	
+	// 得到job
+	
+	// 得到学习内容
+
+	// 数据
+	get_download_user();
+	//get_relate_item();
+	get_comment();
+	get_favor();
+	
+	$('.vote-up').click(function(){
+		var url="/Download/vote/t/up/id/"+g_id;
+		$.get(url,function(ret){
+			if(ret.status==0){
+				alert(ret.info);
+				if(ret.url.length >0)
+					location.href=ret.url;
+			}
+			else{
+				var s =$('#vote-up-count').html();
+				if(s =='') s="0";
+				var count =parseInt(s)+1;
+				$('#vote-up-count').html(count);
+			}
+		})
+		return false;
+	});
+	$('.vote-down').click(function(){
+		var url="/Download/vote/t/down/id/"+g_id;
+		$.get(url,function(ret){
+			if(ret.status==0)
+				alert(ret.info);
+			else{
+				var s =$('#vote-down-count').html();
+				if(s =='') s="0";
+				var count =parseInt(s)+1;
+				$('#vote-down-count').html(count);
+			}
+		})
+		return false;
+	});
+	$('.favor-item').click(function(){
+		var url="/Favor/add/t/0/id/"+g_id;
+		$.get(url,function(ret){
+			if(ret.status==0){
+				alert(ret.info);
+			}
+			else{
+				var s =$('#favor-count').html();
+				if(s =='') s="0";
+				var count =parseInt(s)+1;
+				$('#favor-count').html(count);
+			}
+		})
+		return false;
+	});
+	$('.pop-a').click(function(){
+		var url=$(this).attr('href');
+		$.get(url,function(ret){
+			alert(ret.info);
+			//location.reload();
+		})
+		return false;
+	});
+
+document.getElementById('readme').innerHTML =marked.parse(document.getElementById('readme').innerHTML);
+</script>
+
+
+
+</html>
