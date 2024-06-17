@@ -1,0 +1,721 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Genesis3D-v1.6-Src 联合开发网 - pudn.com</title>
+
+    <link href="/Public/m/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/Public/m/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <link href="/Public/m/css/animate.css" rel="stylesheet">
+    <link href="/Public/m/css/style.css" rel="stylesheet">
+
+	<link href="/Public/m/css/plugins/slick/slick.css" rel="stylesheet">
+	<link href="/Public/m/css/plugins/slick/slick-theme.css" rel="stylesheet">
+
+	
+
+	<link href="/css/style.css" rel="stylesheet">
+
+	<!-- Mainly scripts -->
+	<script src="/Public/m/js/jquery-2.1.1.js"></script>
+	<script src="/Public/m/js/bootstrap.min.js"></script>
+
+	<script src="/Public/m/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+	<script src="/Public/m/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+	<!-- Custom and plugin javascript -->
+	<script src="/Public/m/js/inspinia.js"></script>
+	<script src="/Public/m/js/plugins/pace/pace.min.js"></script>
+	
+<META name="Keywords" content="Genesis3D-v1.6-Src open 3D  射击 genesis3d   AIM-GP rotate cur downlo 程序员 编程 源码 源代码 下载">
+
+	
+<META name="Description" content="Genesis3D-v1.6-Src Advanced Genesis3D is the engine used by the Tsudashi project. This is a rebuild of The Premiere Open Source 3D Real-Time Rendering Engine: Genesis3D. The aim is to fix bugs and to add new features.">
+
+</head>
+
+<body>
+
+<!-- /.main-container start -->
+
+<div class="pace  pace-inactive">
+  	<div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+  	<div class="pace-progress-inner"></div>
+	</div>
+	<div class="pace-activity"></div>
+</div>
+
+<div class="all-content">
+	<div class="my-container top-navigation">
+		<nav class="navbar navbar-static-top" role="navigation">
+			<div class="navbar-header">
+				<button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+					<i class="fa fa-reorder"></i>
+				</button>
+				<a href="http://www.pudn.com" class="navbar-brand">联合开发网</a>
+			</div>
+			<div class="navbar-collapse collapse" id="navbar">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="/" style="padding-right:8px;padding-left:8px;font-size:16px">首页</a>
+					</li>
+					<li>
+						<a href="https://search.pudn.com" style="padding-right:8px;padding-left:8px;font-size:16px">搜索</a>
+					</li>
+				</ul>
+               	<ul class="nav navbar-top-links navbar-right">
+               							<li>
+                       	<a href="/User/login.html">
+                           	&nbsp; <i class="fa fa-sign-out"></i>登录
+                       	</a>
+                   	</li>
+                   	<li>
+                       	<a href="/User/reg.html"><i class="fa fa-sign-out"></i>注册
+                       	</a>
+                   	</li>
+					               	</ul>
+			</div>
+		</nav>
+	</div>
+	<form action="https://search.pudn.com/Download" method="get">
+	<div class="top-menu-line2">
+		<div class="my-container">
+			<a href=/Download/upload.html>上传</a>
+			&nbsp; <a href=/User>管理</a>
+			&nbsp; <a href=https://search.pudn.com/Download>搜索</a>
+			&nbsp; <a href=/Guestbook>留言</a>
+			<div class="input-group pull-right" style="max-width:200px;margin:3px 15px 0px 0px">
+				<input type="text" name="keyword" maxlength=20 placeholder="请输入关键字" class="form-control input-sm">
+				<span class="input-group-btn"> <button type="submit" class="btn btn-white input-sm" style="border:1px solid #AAA"><i class="fa fa-search"></i></button>
+				</span>
+			</div>
+		</div>
+	</div></form>
+
+
+
+<div class="row wrapper white-bg">
+	<div class="my-container">
+			<div class="nav-dir" style="padding:10px 0px">
+				<a href="/">Pudn.com</a>&nbsp;&gt;&nbsp;下载中心
+				&nbsp;&gt;&nbsp;Windows编程				&nbsp;&gt;&nbsp;<font color=red>Genesis3D-v1.6-Src</font>
+			</div>
+
+
+		<div class="row">
+			<div class="col-xs-12 col-md-8">
+				<div class="item-name">Genesis3D-v1.6-Src</div>
+				<div class="item-keyword">
+					<a href="#" class="keyword" keyword="open">open</a>&nbsp;<a href="#" class="keyword" keyword="3D  射击">3D  射击</a>&nbsp;<a href="#" class="keyword" keyword="genesis3d  ">genesis3d  </a>&nbsp;<a href="#" class="keyword" keyword="AIM-GP">AIM-GP</a>&nbsp;<a href="#" class="keyword" keyword="rotate cur downlo">rotate cur downlo</a>&nbsp;				</div>
+				<div class="item-action">
+					<div class="btn-group">
+						<a href=/Download/dl/id/315151 target=_blank class="btn btn-primary btn-sm"><i class="fa fa-download"></i> 下载(<span id="down-count">30</span>)</a>
+						<a href="###" class="btn btn-white btn-sm vote-up"><i class="fa fa-thumbs-up"></i> 赞(<span id="vote-up-count">0</span>) </a>
+						<a href="###" class="btn btn-white btn-sm vote-down"><i class="fa fa-thumbs-down"></i> 踩(<span id="vote-down-count">0</span>) </a>
+						<a href="/Download/comment/id/315151" data-toggle="modal" data-target="#myModal" class="btn btn-white btn-sm"><i class="fa fa-comment"></i> 评论(<span id="comment-count">0</span>) </a>
+						<a href="###" class="btn btn-white btn-sm favor-item"><i class="fa fa-heart"></i> 收藏(<span id="favor-count">0</span>) </a>
+					</div>
+				</div>
+				<hr>
+
+				<div class="item-info">
+					<B>所属分类</B>：Windows编程<BR>
+					<B>开发工具</B>：C++<BR>
+					<B>文件大小</B>：2477KB<BR>
+					<B>下载次数</B>：30<BR>
+					<B>上传日期</B>：2007-08-03 14:50:31<BR>
+					<B>上 传 者</B>：<a href=/User/profile/id/1169346785133745.html>无名小兵</a><BR>
+				</div>
+				<div class="item-intro">
+					说明：&nbsp;&nbsp;Advanced Genesis3D is the engine used by the Tsudashi project. This is a rebuild of The Premiere Open Source 3D Real-Time Rendering Engine: Genesis3D. The aim is to fix bugs and to add new features.				</div>
+				<hr>
+				<div><B>文件列表</B>: </div>
+				<div id="file-list">
+				ActView (0, 2002-12-26)<BR>ActView\ActView.<B>dsp</B> (6591, 2001-09-15)<BR>ActView\ActView.<B>dsw</B> (537, 2000-07-22)<BR>ActView\ActView.<B>mak</B> (6830, 1999-03-24)<BR>ActView\Doc (0, 2002-12-26)<BR>ActView\Doc\ActView.<B>CNT</B> (663, 1998-09-16)<BR>ActView\Doc\ActView.<B>doc</B> (47616, 1999-11-15)<BR>ActView\Doc\ActView.<B>err</B> (475, 1998-09-16)<BR>ActView\Doc\ACTVIEW.<B>HLP</B> (16112, 1999-11-15)<BR>ActView\Doc\ActView.<B>hpj</B> (3575, 1999-11-15)<BR>ActView\Doc\ActView.<B>rbh</B> (455, 1998-09-14)<BR>ActView\Doc\ActView.<B>rta</B> (59, 1998-09-16)<BR>ActView\Doc\ActView.<B>rtf</B> (50231, 1998-09-16)<BR>ActView\Doc\ActView.<B>rtk</B> (1093, 1999-11-15)<BR>ActView\Doc\ActView.<B>rts</B> (1633, 1999-11-15)<BR>ActView\Doc\ffend.<B>bmp</B> (246, 1998-09-14)<BR>ActView\Doc\ffframe.<B>bmp</B> (246, 1998-09-14)<BR>ActView\Doc\frame.<B>bmp</B> (438, 1998-09-14)<BR>ActView\Doc\move.<B>bmp</B> (566, 1998-09-14)<BR>ActView\Doc\pan.<B>bmp</B> (246, 1998-09-14)<BR>ActView\Doc\pause.<B>bmp</B> (246, 1998-09-14)<BR>ActView\Doc\play.<B>bmp</B> (246, 1998-09-14)<BR>ActView\Doc\rotate.<B>bmp</B> (246, 1998-09-14)<BR>ActView\Doc\rrframe.<B>bmp</B> (246, 1998-09-14)<BR>ActView\Doc\rrstart.<B>bmp</B> (246, 1998-09-14)<BR>ActView\Doc\stop.<B>bmp</B> (246, 1998-09-14)<BR>ActView\Doc\zoom.<B>bmp</B> (246, 1998-09-14)<BR>ActView\Main (0, 2002-12-26)<BR>ActView\Main\ActView.<B>aps</B> (87444, 2001-09-15)<BR>ActView\Main\actview.<B>c</B> (58436, 2000-07-22)<BR>ActView\Main\actview.<B>clw</B> (244, 2001-04-01)<BR>ActView\Main\ActView.<B>rc</B> (13493, 2001-09-15)<BR>ActView\Main\blender.<B>c</B> (54814, 2000-07-22)<BR>ActView\Main\Blender.<B>h</B> (2517, 1999-11-15)<BR>ActView\Main\resource.<B>h</B> (5800, 2001-09-15)<BR>ActView\res (0, 2002-12-26)<BR>ActView\res\actview.<B>bmp</B> (19478, 1999-11-15)<BR>ActView\res\actview.<B>ico</B> (2238, 2001-09-15)<BR>ActView\res\blend.<B>ico</B> (766, 1999-11-15)<BR>ActView\res\ffend.<B>ico</B> (1078, 1998-09-09)<BR>... ...<BR>				</div>
+				<hr>
+				<div id="readme">
+				Reality Factory VFS Explorer
+----------------------------
+
+The VFS Explorer allows you to combine most of your game resources (actors, bitmaps,
+sounds and levels) into one large file, which can be accessed by Reality Factory. This
+"Pack" or "VFS" file, as they are known, can also be encrypted to prevent others from
+extracting and using your resources.
+
+Using VFS Explorer
+------------------
+
+After running the program you will see a tree view of an empty Reality Factory resource
+file directory and a column of buttons. These buttons are as follows :
+
+New 	- emptys the tree view and sets up the default directory structure. All previous
+	files will be lost.
+
+Open	- opens a VFS file and displays it in the tree view. All previous files will be
+	lost. If the VFS file is encrypted you will be asked to enter the encryption
+	key before the file is opened.
+
+Add	- adds files to the currently selected folder. Use Shift or Cntl to select
+	multiple files to add.
+
+Rename	- renames the selected file or folder.
+
+Delete	- deletes the selected file or folder. You will be asked to confirm the deletion
+	before it takes place. If a folder is deleted all the files in that folder are
+	also deleted.
+
+Extract	- extracts a file from the VFS file and saves to a user selected location.
+
+MkDir	- creates a new subfolder of the currently selected folder. If a file is currently
+	selected the folder that contains it will be used as the parent folder.
+
+Save	- saves the tree view to a VFS file. If the "Use Encryption on Saving" box is
+	checked then you will be prompted to enter the encryption key before the file
+	is created.
+
+Double clicking on a file in the tree view will open that file using the program that
+Windows has associated with it.
+
+Encryption
+----------
+
+VFS Explorer uses an encryption method of the "cheap lock" class. This will keep out the
+honest folk but could be broken by a hacker. The encryption key used is 4 characters long,
+although it can be shorter (giving less encryption). If you give the wrong key when opening
+an encrypted file it will still load but the file contents will be garbage. No indication
+is given that the wrong key was used, as VFS Explorer cannot tell if this happened. So
+don't forget your encryption key. The current version of Reality Factory (0.5.4) does not
+support encryption, although it will be in later versions.
+
+General Information
+-------------------
+
+Not all resources can be placed in a VFS file. Those that can are :
+
+	1. all actors
+	2. all bitmaps
+	3. most Wav files
+	4. all level BSP files
+
+What can't be placed in a VFS file are :
+
+	1. Wav files used as streaming audio
+	2. Midi files
+	3. Avi files
+
+These files are accessed directly by Windows, which cannot read them from a VFS file.
+
+The current version of Reality Factory (0.5.4) attempts to load the resources from the
+VFS file first, then checks the disk directory second. This will be swapped in later
+versions so you can replace a resource simply by placing the new version in the correct
+directory, where it will be loaded first.
+
+The VFS file must reside in the same directory as realityfactory.exe in order for the 
+file to be opened properly.
+
+Minimum VFS Contents
+--------------------
+
+The following files are needed by Reality Factory as minimum resources in a VFS file. To
+this list can be added all resources needed by your level(s). Note that the demo level
+second.bsp uses the Wav file laughter3.wav and this is included in the Media\Audio
+folder. It is not needed in the VFS file for minimum content.
+
+Directory			File
+---------			----
+Media\Actors			bolt.act
+				ernie.act
+				grenade.act
+				proj.act
+				rocket.act
+				vbat.act
+				vchain.act
+				vgrenade.act
+				vmgun.act
+				vrocket.act
+				vsword.act
+				wbat.act
+				wchain.act
+				wgrenade.act
+				wmgun.act
+				wrocket.act
+				wsword.act
+
+Media\Audio			bathit.wav
+				bounce.wav
+				bulletfire.wav
+				grenade.wav
+				grenexp.wav
+				loopbzzt.wav
+				mimpact.wav
+				mlaunch.wav
+				onebzzt.wav
+				rockexp.wav
+				rockfire.wav
+				rockfly.was
+				startup.wav
+				swordhit.wav
+				swordmiss.wav
+
+Media\Audio\Menu		pop1.wav
+				pop2.wav
+
+Media\Bitmaps			a_bubl.bmp
+				a_flame.bmp
+				a_lvsmoke.bmp
+				a_rain.bmp
+				attitude_g.bmp
+				attitude_i.bmp
+				bolt.bmp
+				bubl.bmp
+				corona.bmp
+				corona_a.bmp
+				flame03.bmp
+				g_bubble.bmp
+				happiness_g.bmp
+				happiness_i.bmp
+				health_g.bmp
+				health_i.bmp
+				hud1.bmp
+				lvsmoke.bmp
+				mana_g.bmp
+				mana_i.bmp
+				rain.bmp
+				rflogo.bmp
+
+Media\Bitmaps\Explode		1exp01.bmp
+				1exp02.bmp
+				1exp03.bmp
+				1exp04.bmp
+				1exp05.bmp
+				1exp06.bmp
+				a_1exp01.bmp
+				a_1exp02.bmp
+				a_1exp03.bmp
+				a_1exp04.bmp
+				a_1exp05.bmp
+				a_1exp06.bmp
+				a_expl1.bmp
+				a_expl2.bmp
+				a_expl3.bmp
+				a_expl4.bmp
+				a_expl5.bmp
+				a_expl6.bmp
+				a_expl7.bmp
+				a_sexp1.bmp
+				a_sexp2.bmp
+				a_sexp3.bmp
+				a_sexp4.bmp
+				a_sexp5.bmp
+				a_sexp6.bmp
+				a_sexp7.bmp
+				expl1.bmp
+				expl2.bmp
+				expl3.bmp
+				expl4.bmp
+				expl5.bmp
+				expl6.bmp
+				expl7.bmp
+				sexp1.bmp
+				sexp2.bmp
+				sexp3.bmp
+				sexp4.bmp
+				sexp5.bmp
+				sexp6.bmp
+				sexp7.bmp
+
+Media\Explode\Fx		a_smk01.bmp
+				a_smk02.bmp
+				a_smk03.bmp
+				a_smk04.bmp
+				a_smk05.bmp
+				a_smk06.bmp
+				a_smk07.bmp
+				a_smk08.bmp
+				a_smk09.bmp
+				a_smk1.bmp
+				a_smk2.bmp
+				a_smk3.bmp
+				a_smk4.bmp
+				a_smk21.bmp
+				a_smk22.bmp
+				a_smk23.bmp
+				a_smk24.bmp
+				a_smk25.bmp
+				parti1.bmp
+				parti2.bmp
+				parti3.bmp
+				parti4.bmp
+				parti5.bmp
+				parti6.bmp
+				parti7.bmp
+				parti8.bmp
+				smk1.bmp
+				smk2.bmp
+				smk3.bmp
+				smk4.bmp
+				smk21.bmp
+				smk22.bmp
+				smk23.bmp
+				smk24.bmp
+				smk25.bmp
+				smoke_01.bmp
+				smoke_02.bmp
+				smoke_03.bmp
+				smoke_04.bmp
+				smoke_05.bmp
+				smoke_06.bmp
+				smoke_07.bmp
+				smoke_08.bmp
+				smoke_09.bmp
+				smoke_10.bmp
+
+Media\Explode\Menu		a_cour8b.bmp
+				a_cour11b.bmp
+				a_cour12b.bmp
+				a_cour14b.bmp
+				a_cour16b.bmp
+				a_cour20b.bmp
+				a_cour25b.bmp
+				a_credits.bmp
+				a_crosshair.bmp
+				a_cursor.bmp
+				a_images.bmp
+				a_images1.bmp
+				a_remap.bmp
+				a_titles.bmp
+				background.bmp
+				cour8b.bmp
+				cour11b.bmp
+				cour12b.bmp
+				cour14b.bmp
+				cour16b.bmp
+				cour20b.bmp
+				cour25b.bmp
+				credits.bmp
+				crosshair.bmp
+				cursor.bmp
+				images.bmp
+				images1.bmp
+				loading.bmp
+				remap.bmp
+				titles.bmp
+
+Files Required for a Demo
+-------------------------
+
+To make a complete demo package of Reality Factory you must have these files. This assumes
+you have placed all the .act, .bmp, .wav and .bsp files required by your level(s) into the
+VFS file.
+
+Directory			File
+---------			----
+
+<root>				d3ddrv.dll
+				glidedrv.dll
+				hud.ini (if required)
+				menu.ini (or replacement ini file)
+				player.ini (if required)
+				pack.vfs (or replacement vfs file)
+				realityfactory.exe
+				realityfactory.ini
+				softdrv.dll
+				softdrv2.dll
+
+<root>\Media\Audio		Any .wav files used for streaming audio
+
+<root>\Media\Midi		Any .mid files used
+
+<root>\Media\Video		Any .avi files used
+				</div>
+				<hr>
+				<div><B>近期下载者</B>：</div>
+				<div id="download-users"></div>
+				<hr>
+				<div><B>相关文件</B>：</div>
+				<div id="relate-items"></div>
+				<hr>
+				<div><B>评论</B>：[<a href=/Download/comment/id/315151.html data-toggle=modal data-target="#myModal">我要评论</a>]&nbsp;[<a class='pop-a' href=/Download/report/id/315151.html>举报此文件</a>]</div>
+				<div id="file-comments"></div>
+				<hr>
+				<div><B>收藏者</B>：</div>
+				<div id="favor-users"></div>
+				<p></p>
+			</div>
+
+			<div class="col-xs-12 col-md-4">
+
+				<div class="ad-sidebar text-center">
+					<div class="ad-300">
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+	<div class="my-footer">
+		<div class="container">
+		<div class="pull-right">
+		</div>
+
+		<div>
+			
+			<a href="http://www.pudn.com" target=_blank>© 联合开发网 from 2004</a> | 
+			<a href="/Index/contact.html">联系站长</a> | 
+			<a href=" https://beian.miit.gov.cn" target=_blank>湘ICP备2023001425号</a> | 
+			<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=43010502000604" target=_blank>网安备43010502000604</a> | 
+		</div>
+		</div>
+	</div>
+
+
+</div><!-- /wrapper-->
+
+
+
+
+<!-- page specific plugin scripts -->
+
+<!-- inline scripts related to this page -->
+
+<div id="myModal" class="modal fade" tabindex="-1" 
+			role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			
+		</div>
+	</div>
+</div><!-- /.modal-table -->
+
+</body>
+
+<script type="text/javascript">
+$(document).on('click', '.list-more', function(){
+	var id=$(this).attr('data-id');
+	$('#list-'+id).css('max-height',$('#list-'+id)[0].scrollHeight);
+	$(this).removeClass('list-more');
+	$(this).addClass('list-hide');
+	$(this).html('<i class="fa fa-angle-double-up"></i>');
+	
+	//$(this).hide();
+
+	return false;
+});
+
+$(document).on('click', '.list-hide', function(){
+	var id=$(this).attr('data-id');
+	$('#list-'+id).css('max-height','100px');
+	$(this).removeClass('list-hide');
+	$(this).addClass('list-more');
+	$(this).html('<i class="fa fa-angle-double-down"></i>');
+	
+	return false;
+});
+
+$("#myModal").on("hidden.bs.modal", function() {
+    $(this).removeData();
+});
+
+$(document).on("click",".keyword",function(){
+	var keyword=$(this).attr("keyword");
+	var type_id=$(this).attr("type_id");
+	if(typeof(type_id) =="undefined" || type_id =="") type_id="0";
+	location.href="http://search.pudn.com/Download/index?keyword="+keyword;
+	
+	return false;
+});
+</script>
+<script type="text/javascript" src="/js/time.js"></script>
+
+
+<script type="text/javascript" src="/js/marked.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.hide-list').each(function(){
+			if ($(this)[0].offsetHeight < $(this)[0].scrollHeight){
+				var id=$(this).attr('id');
+				id =id.substring(5);
+				$(this).after('<div style="text-align:center"><a href="" class="list-more" data-id="' + id + '"><i class="fa fa-angle-double-down"></i></a></div>');
+			}
+		});
+	});
+	var g_id="315151";
+	var keywords =new Array();
+	keywords[0] ='open';keywords[1] ='3D  射击';keywords[2] ='genesis3d  ';keywords[3] ='AIM-GP';keywords[4] ='rotate cur downlo';	function get_download_user(){
+		var url ="/Download/get_download_user/id/"+g_id+".html";
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var html='';
+			for(i in ret){
+				html =html + '<a href=/User/profile/id/'+ret[i].user_new_id+'.html>'+ret[i].name+'</a> ';
+			}
+			$('#download-users').append(html);
+		});
+	}
+	
+	function get_relate_item(){
+		var url ="/Download/get_relate_item/id/"+g_id+'.html';
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var html='';
+			var intro;
+			for(i in ret){
+				intro =ret[i].intro;
+				for(j in keywords){
+					var reg =new RegExp(keywords[j],'gmi');
+					intro =intro.replace(reg,'<font color=brown>'+keywords[j]+'</font>');
+				}
+				html =html + '[<a href=/Download/item/id/'+ret[i].new_id+'.html>'+ret[i].name+'</a>]&nbsp; '+intro+'<BR>';
+			}
+			$('#relate-items').append(html);
+		});
+		
+	}
+	function get_score_name(score){
+		switch(score){
+		case '100': return '很好，推荐下载';
+		case '85': return '还不错';
+		case '75': return '一般，勉强可用';
+		case '50': return '差';
+		case '3': return '纯粹是垃圾';
+		case '40': return '和说明完全不符';
+		case '20': return '文件不全';
+		case '10': return '不是源代码或资料';
+		case '5': return '文件有密码，不知道密码';
+		case '0': return '不能解压或下载失败';
+		}
+		return '';
+	}
+	function get_comment(){
+		var url ="/Download/get_comments/id/"+g_id+'.html';
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var total_count =ret.total_count;
+			var data =ret.data;
+			var html='';
+			for(i in data){
+				html =html + '<a href="/User/profile/id/'+data[i].user_new_id+'.html" class="uploader">'+data[i].user_name+'</a>: <span class="comment-score">'+get_score_name(data[i].score)+'</span>, '+data[i].content+'<BR>';
+			}
+			$('#file-comments').append(html);
+		});
+		
+	}
+	function get_favor(){
+		var url ="/Download/get_item_favors/id/"+g_id+".html";
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var html='';
+			for(i in ret){
+				html =html + '<a href=/User/profile/id/'+ret[i].user_new_id+'.html class=user>'+ret[i].name+'</a>&nbsp;';
+			}
+			$('#favor-users').html(html);
+		});
+	}
+	// 得到下载这个的用户又下载了什么
+	function get_more_download(){
+		
+	}
+	// 得到下载这个的用户又搜索了什么
+	function get_more_keyword(){
+		
+	}
+	
+	// 得到论坛相关问题
+	function get_bbs(){
+		
+	}
+	
+	// 得到软件工场相关内容
+	function get_works(){
+		
+	}
+	
+	// 得到相关聊天室
+	function get_chat(){
+		
+	}
+	
+	// 得到相关软件商城信息
+	function get_shop(){
+		
+	}
+	
+	// 得到job
+	
+	// 得到学习内容
+
+	// 数据
+	get_download_user();
+	//get_relate_item();
+	get_comment();
+	get_favor();
+	
+	$('.vote-up').click(function(){
+		var url="/Download/vote/t/up/id/"+g_id;
+		$.get(url,function(ret){
+			if(ret.status==0){
+				alert(ret.info);
+				if(ret.url.length >0)
+					location.href=ret.url;
+			}
+			else{
+				var s =$('#vote-up-count').html();
+				if(s =='') s="0";
+				var count =parseInt(s)+1;
+				$('#vote-up-count').html(count);
+			}
+		})
+		return false;
+	});
+	$('.vote-down').click(function(){
+		var url="/Download/vote/t/down/id/"+g_id;
+		$.get(url,function(ret){
+			if(ret.status==0)
+				alert(ret.info);
+			else{
+				var s =$('#vote-down-count').html();
+				if(s =='') s="0";
+				var count =parseInt(s)+1;
+				$('#vote-down-count').html(count);
+			}
+		})
+		return false;
+	});
+	$('.favor-item').click(function(){
+		var url="/Favor/add/t/0/id/"+g_id;
+		$.get(url,function(ret){
+			if(ret.status==0){
+				alert(ret.info);
+			}
+			else{
+				var s =$('#favor-count').html();
+				if(s =='') s="0";
+				var count =parseInt(s)+1;
+				$('#favor-count').html(count);
+			}
+		})
+		return false;
+	});
+	$('.pop-a').click(function(){
+		var url=$(this).attr('href');
+		$.get(url,function(ret){
+			alert(ret.info);
+			//location.reload();
+		})
+		return false;
+	});
+
+document.getElementById('readme').innerHTML =marked.parse(document.getElementById('readme').innerHTML);
+</script>
+
+
+
+</html>
