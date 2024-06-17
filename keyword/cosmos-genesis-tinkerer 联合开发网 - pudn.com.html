@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Genesis 联合开发网 - pudn.com</title>
+	<title>cosmos-genesis-tinkerer 联合开发网 - pudn.com</title>
 
     <link href="/Public/m/css/bootstrap.min.css" rel="stylesheet">
     <link href="/Public/m/font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -31,10 +31,10 @@
 	<script src="/Public/m/js/inspinia.js"></script>
 	<script src="/Public/m/js/plugins/pace/pace.min.js"></script>
 	
-<META name="Keywords" content="Genesis 程序员 编程 源码 源代码 下载">
+<META name="Keywords" content="cosmos-genesis-tinkerer 程序员 编程 源码 源代码 下载">
 
 	
-<META name="Description" content="Genesis KON Mainnet Genesis json文件">
+<META name="Description" content="cosmos-genesis-tinkerer Python模块，用于修补Cosmos Network Genesis文件，">
 
 </head>
 
@@ -102,64 +102,115 @@
 	<div class="my-container">
 			<div class="nav-dir" style="padding:10px 0px">
 				<a href="/">Pudn.com</a>&nbsp;&gt;&nbsp;下载中心
-				&nbsp;&gt;&nbsp;WEB开发				&nbsp;&gt;&nbsp;<font color=red>Genesis</font>
+				&nbsp;&gt;&nbsp;collect				&nbsp;&gt;&nbsp;<font color=red>cosmos-genesis-tinkerer</font>
 			</div>
 
 
 		<div class="row">
 			<div class="col-xs-12 col-md-8">
-				<div class="item-name">Genesis</div>
+				<div class="item-name">cosmos-genesis-tinkerer</div>
 				<div class="item-keyword">
 									</div>
 				<div class="item-action">
 					<div class="btn-group">
-						<a href=/Download/dl/id/1706842823743351 target=_blank class="btn btn-primary btn-sm">去下载(<span id="down-count">0</span>)</a>
-						<a href="###" class="btn btn-white btn-sm vote-up"><i class="fa fa-thumbs-up"></i> 赞(<span id="vote-up-count">1</span>) </a>
+						<a href=/Download/dl/id/1689845399787315 target=_blank class="btn btn-primary btn-sm">去下载(<span id="down-count">0</span>)</a>
+						<a href="###" class="btn btn-white btn-sm vote-up"><i class="fa fa-thumbs-up"></i> 赞(<span id="vote-up-count">14</span>) </a>
 						<a href="###" class="btn btn-white btn-sm vote-down"><i class="fa fa-thumbs-down"></i> 踩(<span id="vote-down-count">0</span>) </a>
-						<a href="/Download/comment/id/1706842823743351" data-toggle="modal" data-target="#myModal" class="btn btn-white btn-sm"><i class="fa fa-comment"></i> 评论(<span id="comment-count">0</span>) </a>
+						<a href="/Download/comment/id/1689845399787315" data-toggle="modal" data-target="#myModal" class="btn btn-white btn-sm"><i class="fa fa-comment"></i> 评论(<span id="comment-count">0</span>) </a>
 						<a href="###" class="btn btn-white btn-sm favor-item"><i class="fa fa-heart"></i> 收藏(<span id="favor-count">0</span>) </a>
 					</div>
 				</div>
 				<hr>
 
 				<div class="item-info">
-					<B>所属分类</B>：WEB开发<BR>
-					<B>开发工具</B>：Others<BR>
+					<B>所属分类</B>：collect<BR>
+					<B>开发工具</B>：Python<BR>
 					<B>文件大小</B>：0KB<BR>
 					<B>下载次数</B>：0<BR>
-					<B>上传日期</B>：2024-02-01 19:41:26<BR>
+					<B>上传日期</B>：2023-06-21 16:17:49<BR>
 					<B>上 传 者</B>：<a href=/User/profile/id/1682139907912860.html>sh-1993</a><BR>
 				</div>
 				<div class="item-intro">
-					说明：&nbsp;&nbsp;KON Mainnet Genesis json文件<BR>(KON Mainnet Genesis json file)				</div>
+					说明：&nbsp;&nbsp;Python模块，用于修补Cosmos Network Genesis文件，<BR>(Python module for tinkering with Cosmos Network Genesis files,)				</div>
 				<hr>
 				<div><B>文件列表</B>: </div>
 				<div id="file-list">
-				openethereum<BR>BRIDGE.md<BR>conf-miner.toml.example<BR>conf.toml.example<BR>genesis.json<BR>				</div>
+				LICENSE (11359, 2023-11-20)<BR>conftest.<B>py</B> (775, 2023-11-20)<BR>cosmos_genesis_tinker.<B>py</B> (28149, 2023-11-20)<BR>example_fresh_genesis.<B>py</B> (3034, 2023-11-20)<BR>example_mainnet_genesis.<B>py</B> (3352, 2023-11-20)<BR>example_rs_testnet_genesis.<B>py</B> (3272, 2023-11-20)<BR>example_stateful_genesis.<B>py</B> (3906, 2023-11-20)<BR>lint.<B>sh</B> (430, 2023-11-20)<BR>requirements.<B>txt</B> (383, 2023-11-20)<BR>tests/ (0, 2023-11-20)<BR>tests/fresh_genesis.<B>json</B> (10236, 2023-11-20)<BR>tests/stateful_genesis.json.<B>gz</B> (133, 2023-11-20)<BR>tests/test_tinker.<B>py</B> (32048, 2023-11-20)<BR>theta-public-genesis/ (0, 2023-11-20)<BR>theta-public-genesis/public_testnet_genesis.json.<B>gz</B> (133, 2023-11-20)<BR>				</div>
 				<hr>
 				<div id="readme">
-				# KON Mainnet
-## TL;DR
-- Openethereum based mainnet
-- PoA with smartcontract control
+				# Cosmos Genesis Tinker
 
-## Install
-```bash
-git submodule update --init --recursive
-cd openethereum
-# opentehreum compile with README.md
-# https://github.com/openethereum/openethereum/releases/tag/v3.2.6
+A Python module for modifying Cosmos genesis files.
+
+Use this tool to test how the network reacts to a given scenario. The available operations include (but are not limited to):
+* Swapping validators
+* Swapping delegators
+* Increasing balance
+* Increasing validator power
+* Increasing delegator stake to a validator
+
+ This project is in active development. 
+
+## Setup
+
+### Requirements
+
+* `jq`
+* Python 3.10
+
+1. Clone from github:  `git clone git@github.com:hyphacoop/cosmos-genesis-tinkerer.git`
+2. Change directory: `cd cosmos-genesis-tinkerer`
+3. Create a python virtual environment: `python -m venv .env`
+4. Source env shell vars:  `source .env/bin/activate`
+5. Install requirements: `pip install -r requirements.txt`
+
+## Running a tinker file
+
+You can run an example genesis tinker file like this:
+```
+./example_fresh_genesis.py
 ```
 
-Config   Openethereum Config    
-1. conf.toml bootnode  
-2. genesis.json KON mainnet data injection
-[ ](https://openethereum.github.io/Configuring-OpenEthereum)
+It will read the `fresh_genesis.json` file from the `tests` folder and generate `tinkered_genesis.json`.
 
+## Usage
 
-##  
-- (Blockscout) : https://explorer.kon-wallet.com/
-- API (JSON-RPC) : https://api.kon-wallet.com/
+Access full module documentation with `pydoc cosmos_genesis_tinker`.
+
+Example:
+
+```python
+from cosmos_genesis_tinker import GenesisTinker, Delegator
+
+tinker = cosmos_genesis_tinker.GenesisTinker(
+    input_file='input.json',
+    output_file='output.json')
+
+old_del = Delegator()
+old_del.address = 'cosmos123'
+old_del.public_key = 'abcxyz'
+
+new_del = Delegator()
+new_del.address = 'cosmos456'
+new_del.public_key = 'defuvw'
+
+tinker.add_task(tinker.replace_delegator,
+    old_delegator=old_del,
+    new_delegator=new_del)
+    
+tinker.add_task(tinker.increase_balance,
+    address=new_delegator.address,
+    amount=9000000000,
+    denom='uatom')
+
+tinker.run_tasks()
+```
+
+## Exported genesis files
+We export the `cosmoshub-4` genesis bi-weekly and modify the exported genesis with `example_mainnet_genesis.py`:
+
+- A set of exported `cosmoshub-4` genesis files can be found [here](https://files.polypore.xyz/genesis/mainnet-genesis-export/).
+- A set of tinkered `cosmoshub-4` genesis files can be found [here](https://files.polypore.xyz/genesis/mainnet-genesis-tinkered/).
 				</div>
 				<hr>
 				<div><B>近期下载者</B>：</div>
@@ -168,7 +219,7 @@ Config   Openethereum Config
 				<div><B>相关文件</B>：</div>
 				<div id="relate-items"></div>
 				<hr>
-				<div><B>评论</B>：[<a href=/Download/comment/id/1706842823743351.html data-toggle=modal data-target="#myModal">我要评论</a>]&nbsp;[<a class='pop-a' href=/Download/report/id/1706842823743351.html>举报此文件</a>]</div>
+				<div><B>评论</B>：[<a href=/Download/comment/id/1689845399787315.html data-toggle=modal data-target="#myModal">我要评论</a>]&nbsp;[<a class='pop-a' href=/Download/report/id/1689845399787315.html>举报此文件</a>]</div>
 				<div id="file-comments"></div>
 				<hr>
 				<div><B>收藏者</B>：</div>
@@ -276,7 +327,7 @@ $(document).on("click",".keyword",function(){
 			}
 		});
 	});
-	var g_id="1706842823743351";
+	var g_id="1689845399787315";
 	var keywords =new Array();
 		function get_download_user(){
 		var url ="/Download/get_download_user/id/"+g_id+".html";

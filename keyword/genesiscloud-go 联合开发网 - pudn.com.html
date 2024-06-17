@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Genesis 联合开发网 - pudn.com</title>
+	<title>genesiscloud-go 联合开发网 - pudn.com</title>
 
     <link href="/Public/m/css/bootstrap.min.css" rel="stylesheet">
     <link href="/Public/m/font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -31,10 +31,10 @@
 	<script src="/Public/m/js/inspinia.js"></script>
 	<script src="/Public/m/js/plugins/pace/pace.min.js"></script>
 	
-<META name="Keywords" content="Genesis 程序员 编程 源码 源代码 下载">
+<META name="Keywords" content="genesiscloud-go 程序员 编程 源码 源代码 下载">
 
 	
-<META name="Description" content="Genesis KON Mainnet Genesis json文件">
+<META name="Description" content="genesiscloud-go Genesis Cloud Go客户端">
 
 </head>
 
@@ -102,64 +102,109 @@
 	<div class="my-container">
 			<div class="nav-dir" style="padding:10px 0px">
 				<a href="/">Pudn.com</a>&nbsp;&gt;&nbsp;下载中心
-				&nbsp;&gt;&nbsp;WEB开发				&nbsp;&gt;&nbsp;<font color=red>Genesis</font>
+				&nbsp;&gt;&nbsp;其他				&nbsp;&gt;&nbsp;<font color=red>genesiscloud-go</font>
 			</div>
 
 
 		<div class="row">
 			<div class="col-xs-12 col-md-8">
-				<div class="item-name">Genesis</div>
+				<div class="item-name">genesiscloud-go</div>
 				<div class="item-keyword">
 									</div>
 				<div class="item-action">
 					<div class="btn-group">
-						<a href=/Download/dl/id/1706842823743351 target=_blank class="btn btn-primary btn-sm">去下载(<span id="down-count">0</span>)</a>
+						<a href=/Download/dl/id/1708364928984337 target=_blank class="btn btn-primary btn-sm">去下载(<span id="down-count">0</span>)</a>
 						<a href="###" class="btn btn-white btn-sm vote-up"><i class="fa fa-thumbs-up"></i> 赞(<span id="vote-up-count">1</span>) </a>
 						<a href="###" class="btn btn-white btn-sm vote-down"><i class="fa fa-thumbs-down"></i> 踩(<span id="vote-down-count">0</span>) </a>
-						<a href="/Download/comment/id/1706842823743351" data-toggle="modal" data-target="#myModal" class="btn btn-white btn-sm"><i class="fa fa-comment"></i> 评论(<span id="comment-count">0</span>) </a>
+						<a href="/Download/comment/id/1708364928984337" data-toggle="modal" data-target="#myModal" class="btn btn-white btn-sm"><i class="fa fa-comment"></i> 评论(<span id="comment-count">0</span>) </a>
 						<a href="###" class="btn btn-white btn-sm favor-item"><i class="fa fa-heart"></i> 收藏(<span id="favor-count">0</span>) </a>
 					</div>
 				</div>
 				<hr>
 
 				<div class="item-info">
-					<B>所属分类</B>：WEB开发<BR>
-					<B>开发工具</B>：Others<BR>
+					<B>所属分类</B>：其他<BR>
+					<B>开发工具</B>：GO<BR>
 					<B>文件大小</B>：0KB<BR>
 					<B>下载次数</B>：0<BR>
-					<B>上传日期</B>：2024-02-01 19:41:26<BR>
+					<B>上传日期</B>：2024-02-19 17:00:19<BR>
 					<B>上 传 者</B>：<a href=/User/profile/id/1682139907912860.html>sh-1993</a><BR>
 				</div>
 				<div class="item-intro">
-					说明：&nbsp;&nbsp;KON Mainnet Genesis json文件<BR>(KON Mainnet Genesis json file)				</div>
+					说明：&nbsp;&nbsp;Genesis Cloud Go客户端<BR>(Genesis Cloud Go Client)				</div>
 				<hr>
 				<div><B>文件列表</B>: </div>
 				<div id="file-list">
-				openethereum<BR>BRIDGE.md<BR>conf-miner.toml.example<BR>conf.toml.example<BR>genesis.json<BR>				</div>
+				codegen/<BR>examples/list-instances/<BR>tools/<BR>LICENSE.txt<BR>client.gen.go<BR>client.go<BR>go.mod<BR>go.sum<BR>types.gen.go<BR>				</div>
 				<hr>
 				<div id="readme">
-				# KON Mainnet
-## TL;DR
-- Openethereum based mainnet
-- PoA with smartcontract control
+				# Genesis Cloud Go Client
 
-## Install
+The Genesis Cloud Go client provides the ability to manage each services resources programmatically from scripts or applications.
+
+- [Godoc](https://pkg.go.dev/github.com/genesiscloud/genesiscloud-go?tab=doc)
+- [Genesis Cloud API Documentation](https://developers.genesiscloud.com/)
+- [How to generate an API key?](https://support.genesiscloud.com/support/solutions/articles/47001126146-how-to-generate-an-api-token-)
+
+This repository is licensed under Mozilla Public License 2.0 (no copyleft exception) (see [LICENSE.txt](./LICENSE.txt)).
+
+# Maintainers
+
+This client is maintained by Genesis Cloud. If you encounter any problems, feel free to create issues or pull requests.
+
+## Requirements
+
+- [Go](https://golang.org/doc/install) >= 1.19
+
+## Installation
+
 ```bash
-git submodule update --init --recursive
-cd openethereum
-# opentehreum compile with README.md
-# https://github.com/openethereum/openethereum/releases/tag/v3.2.6
+go get github.com/genesiscloud/genesiscloud-go
 ```
 
-Config   Openethereum Config    
-1. conf.toml bootnode  
-2. genesis.json KON mainnet data injection
-[ ](https://openethereum.github.io/Configuring-OpenEthereum)
+## Getting Started
 
+```go
+import "github.com/genesiscloud/genesiscloud-go"
 
-##  
-- (Blockscout) : https://explorer.kon-wallet.com/
-- API (JSON-RPC) : https://api.kon-wallet.com/
+// Generic pointer in Go 1.18+. Alternatively use "k8s.io/utils/pointer"
+func pointer[T any](v T) *T {
+	return &v
+}
+
+client, err := genesiscloud.NewGenesisCloudClient(genesiscloud.ClientConfig{
+	Token: os.Getenv("GENESISCLOUD_TOKEN"),
+})
+if err != nil {
+	// ...
+}
+
+resp, err := client.ListInstancesWithResponse(ctx, &genesiscloud.ListInstancesParams{
+	Page:    pointer(1),
+	PerPage: pointer(100),
+})
+if err != nil {
+	// ...
+}
+```
+
+## Examples
+
+You can find additional examples in the [GoDoc](https://pkg.go.dev/github.com/genesiscloud/genesiscloud-go?tab=doc) or
+check the [examples folder](./examples).
+
+```sh
+GENESISCLOUD_TOKEN="XXXX" go run ./examples/list-instances
+```
+
+## Development or update of OpenAPI document
+
+```sh
+# Update openapi.yaml (./codegen/openapi.yaml)
+
+# Generate code
+go generate ./...
+```
 				</div>
 				<hr>
 				<div><B>近期下载者</B>：</div>
@@ -168,7 +213,7 @@ Config   Openethereum Config
 				<div><B>相关文件</B>：</div>
 				<div id="relate-items"></div>
 				<hr>
-				<div><B>评论</B>：[<a href=/Download/comment/id/1706842823743351.html data-toggle=modal data-target="#myModal">我要评论</a>]&nbsp;[<a class='pop-a' href=/Download/report/id/1706842823743351.html>举报此文件</a>]</div>
+				<div><B>评论</B>：[<a href=/Download/comment/id/1708364928984337.html data-toggle=modal data-target="#myModal">我要评论</a>]&nbsp;[<a class='pop-a' href=/Download/report/id/1708364928984337.html>举报此文件</a>]</div>
 				<div id="file-comments"></div>
 				<hr>
 				<div><B>收藏者</B>：</div>
@@ -276,7 +321,7 @@ $(document).on("click",".keyword",function(){
 			}
 		});
 	});
-	var g_id="1706842823743351";
+	var g_id="1708364928984337";
 	var keywords =new Array();
 		function get_download_user(){
 		var url ="/Download/get_download_user/id/"+g_id+".html";

@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Genesis 联合开发网 - pudn.com</title>
+	<title>Genesis-Plaza-SDK7 联合开发网 - pudn.com</title>
 
     <link href="/Public/m/css/bootstrap.min.css" rel="stylesheet">
     <link href="/Public/m/font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -31,10 +31,10 @@
 	<script src="/Public/m/js/inspinia.js"></script>
 	<script src="/Public/m/js/plugins/pace/pace.min.js"></script>
 	
-<META name="Keywords" content="Genesis 程序员 编程 源码 源代码 下载">
+<META name="Keywords" content="Genesis-Plaza-SDK7 程序员 编程 源码 源代码 下载">
 
 	
-<META name="Description" content="Genesis KON Mainnet Genesis json文件">
+<META name="Description" content="Genesis-Plaza-SDK7 创世纪广场SDK7">
 
 </head>
 
@@ -102,64 +102,150 @@
 	<div class="my-container">
 			<div class="nav-dir" style="padding:10px 0px">
 				<a href="/">Pudn.com</a>&nbsp;&gt;&nbsp;下载中心
-				&nbsp;&gt;&nbsp;WEB开发				&nbsp;&gt;&nbsp;<font color=red>Genesis</font>
+				&nbsp;&gt;&nbsp;其他				&nbsp;&gt;&nbsp;<font color=red>Genesis-Plaza-SDK7</font>
 			</div>
 
 
 		<div class="row">
 			<div class="col-xs-12 col-md-8">
-				<div class="item-name">Genesis</div>
+				<div class="item-name">Genesis-Plaza-SDK7</div>
 				<div class="item-keyword">
 									</div>
 				<div class="item-action">
 					<div class="btn-group">
-						<a href=/Download/dl/id/1706842823743351 target=_blank class="btn btn-primary btn-sm">去下载(<span id="down-count">0</span>)</a>
+						<a href=/Download/dl/id/1712171091686245 target=_blank class="btn btn-primary btn-sm">去下载(<span id="down-count">0</span>)</a>
 						<a href="###" class="btn btn-white btn-sm vote-up"><i class="fa fa-thumbs-up"></i> 赞(<span id="vote-up-count">1</span>) </a>
 						<a href="###" class="btn btn-white btn-sm vote-down"><i class="fa fa-thumbs-down"></i> 踩(<span id="vote-down-count">0</span>) </a>
-						<a href="/Download/comment/id/1706842823743351" data-toggle="modal" data-target="#myModal" class="btn btn-white btn-sm"><i class="fa fa-comment"></i> 评论(<span id="comment-count">0</span>) </a>
+						<a href="/Download/comment/id/1712171091686245" data-toggle="modal" data-target="#myModal" class="btn btn-white btn-sm"><i class="fa fa-comment"></i> 评论(<span id="comment-count">0</span>) </a>
 						<a href="###" class="btn btn-white btn-sm favor-item"><i class="fa fa-heart"></i> 收藏(<span id="favor-count">0</span>) </a>
 					</div>
 				</div>
 				<hr>
 
 				<div class="item-info">
-					<B>所属分类</B>：WEB开发<BR>
-					<B>开发工具</B>：Others<BR>
+					<B>所属分类</B>：其他<BR>
+					<B>开发工具</B>：TypeScript<BR>
 					<B>文件大小</B>：0KB<BR>
 					<B>下载次数</B>：0<BR>
-					<B>上传日期</B>：2024-02-01 19:41:26<BR>
+					<B>上传日期</B>：2024-04-03 18:31:42<BR>
 					<B>上 传 者</B>：<a href=/User/profile/id/1682139907912860.html>sh-1993</a><BR>
 				</div>
 				<div class="item-intro">
-					说明：&nbsp;&nbsp;KON Mainnet Genesis json文件<BR>(KON Mainnet Genesis json file)				</div>
+					说明：&nbsp;&nbsp;创世纪广场SDK7<BR>(Genesis Plaza SDK7)				</div>
 				<hr>
 				<div><B>文件列表</B>: </div>
 				<div id="file-list">
-				openethereum<BR>BRIDGE.md<BR>conf-miner.toml.example<BR>conf.toml.example<BR>genesis.json<BR>				</div>
+				.vscode/<BR>images/<BR>models/<BR>models_outside/<BR>screenshots/<BR>sounds/<BR>src/<BR>.dclignore<BR>package.json<BR>scene.json<BR>tsconfig.json<BR>				</div>
 				<hr>
 				<div id="readme">
-				# KON Mainnet
-## TL;DR
-- Openethereum based mainnet
-- PoA with smartcontract control
+				# Genesis-Plaza SDK7
 
-## Install
-```bash
-git submodule update --init --recursive
-cd openethereum
-# opentehreum compile with README.md
-# https://github.com/openethereum/openethereum/releases/tag/v3.2.6
+NOTICE!
+
+Code that has been commented out and needs revisiting should be tagged with 
+
+```
+/*
+//TODO TAG:PORT-REIMPLEMENT-ME
+code block to be revistied here
+*/
 ```
 
-Config   Openethereum Config    
-1. conf.toml bootnode  
-2. genesis.json KON mainnet data injection
-[ ](https://openethereum.github.io/Configuring-OpenEthereum)
+## How to deploy
+
+NOTE: This is deployed by a git action
+branches are configured to auto deploy.  Merge code ready to release into release branch
+
+* testing = peer-testing
+
+This folder contains all the necessary files to launch a Decentraland scene.
 
 
-##  
-- (Blockscout) : https://explorer.kon-wallet.com/
-- API (JSON-RPC) : https://api.kon-wallet.com/
+_A few screenshots of Genesis Plaza._
+
+![screenshots](https://github.com/decentraland-scenes/Genesis-Plaza/blob/master/screenshots/genesis-plaza-final.jpg)
+
+## Description
+The newly revamped [Genesis Plaza](https://play.decentraland.org/).
+
+Read the behind the scenes from this scene in these blog posts:
+- [Creating Genesis Plaza Part 1](https://decentraland.org/blog/tutorials/creating-genesis-plaza-part-1/)
+- [Creating Genesis Plaza Part 2](https://decentraland.org/blog/tutorials/creator-genesis-plaza-part-2/)
+
+This scene contains a lot of useful mechanics, including:
+- Interacting with an NPC
+- Fetching data from APIs
+- Adding teleports to other scenes
+- Adding external links outside Decentraland
+- Syncing player actions with the messagebus
+- Streaming audio
+- Streaming video
+- Displaying a custom UI
+
+Because it can be hard to find specific things in such a large repository, some of the most interesting bits of the scene have been exported into their own example repos:
+
+- [NPC Dialog](https://github.com/decentraland-scenes/npc-dialog-example-scene): A UI window presents texts from an NPC, allowing you to use the Right Click, E and F keys to advance the conversation or answer questions.
+- [NFT](https://github.com/decentraland-scenes/Certified-criptokitty): Display a 2D NFT in a picture frame.
+- [Events API](https://github.com/decentraland-scenes/Events-API): Query the Decentraland Events API for any events that are currently active to display their info. If more than one, flip through them on the display.
+- [Piano Floor](https://github.com/decentraland-scenes/piano-floor-example-scene): Play the keys of this piano by stepping on them. All players will hear the notes that are played.
+- [Zenquencer](https://github.com/decentraland-scenes/Zenquencer): Create musical patterns that are played in sequence. Players are synced through both the messagebus and a DB in a server.
+
+
+## Try it out
+
+**Install the CLI**
+
+Download and install the Decentraland CLI by running the following command:
+
+```bash
+npm i -g decentraland
+```
+
+**Previewing the scene**
+
+Download this example and navigate to its directory, then run:
+
+```
+$:  dcl start
+```
+
+Any dependencies are installed and then the CLI opens the scene in a new browser tab.
+
+**Setting up the server**
+
+The scene is set up to make use of the same server that's used by Genesis Plaza. To launch your own server, we recommend you deploy what's in the `/server` folder to your own Firebase account, following the steps in [this tutorial](https://decentraland.org/blog/tutorials/servers-part-2/). To store data on an Amazon S3 server, as done here, you'll also need to set up your own Amazon S3, and fetch credentials for that account to include in your server folder.
+
+Learn more about how to build your own scenes in our [documentation](https://docs.decentraland.org/) site.
+
+If something doesn’t work, please [file an issue](https://github.com/decentraland-scenes/Awesome-Repository/issues/new).
+
+
+
+## Links
+- [NPC Dialog](https://docs.google.com/spreadsheets/d/1cpD_T0jgLFA0zrU5izp5y60Q2nof2ok-Eof1mbTBfgE/edit?usp=sharing) 
+- [NFT Data](https://docs.google.com/spreadsheets/d/157IMZB91LFsBRnEofxlBO0nqjDAWLITOFLWnA414Pck/edit?usp=sharing)
+- [Teleporter Data](https://docs.google.com/spreadsheets/d/1Hhv_B8lq9hDAmONi9iqcBRZXN2TIoaNx6SKs71Cfqj8/edit?usp=sharing)
+
+## Acknowledgements
+- Thank you to [Polygonal Mind](https://www.polygonalmind.com/) for providing sample code of the NPC used in [Tomb Chaser](https://play.decentraland.org/?position=12,46) 
+- _alice.mp3_ modified from https://freesound.org/people/mik300z/sounds/103525/
+- _bela.mp3_ modified from https://freesound.org/people/AderuMoro/sounds/213282/
+- _betty_.mp3_ modified from https://freesfx.co.uk/Category/Robots/83
+- _bob.mp3_ modified from https://freesound.org/people/mik300z/sounds/103525/ 
+- _charlie_.mp3_ modified from https://freesound.org/people/Satoration/sounds/57296/ 
+- _marsha.mp3_ modified from https://freesound.org/people/urupin/sounds/199905/
+- _ron.mp3_ modified from https://freesound.org/people/xtrgamr/sounds/257808/
+- _beerPump.mp3_ modified from https://freesound.org/people/RG_Campus/sounds/392893/
+- _error.mp3_ modified from https://freesound.org/people/distillerystudio/sounds/327736/
+- _pickUp.mp3_ modified from https://freesound.org/people/drummerman/sounds/368130/
+- _putDown.mp3_ modified from https://freesound.org/people/Nightflame/sounds/368614/
+- _swallow.mp3_ modified from https://freesound.org/people/freakinbehemoth/sounds/243635/
+- _micFeedback.mp3_ modified from https://freesound.org/people/chimerical/sounds/105980/
+
+## Copyright info
+
+This scene is protected with a standard Apache 2 licence. See the terms and conditions in the [LICENSE](/LICENSE) file.
+
 				</div>
 				<hr>
 				<div><B>近期下载者</B>：</div>
@@ -168,7 +254,7 @@ Config   Openethereum Config
 				<div><B>相关文件</B>：</div>
 				<div id="relate-items"></div>
 				<hr>
-				<div><B>评论</B>：[<a href=/Download/comment/id/1706842823743351.html data-toggle=modal data-target="#myModal">我要评论</a>]&nbsp;[<a class='pop-a' href=/Download/report/id/1706842823743351.html>举报此文件</a>]</div>
+				<div><B>评论</B>：[<a href=/Download/comment/id/1712171091686245.html data-toggle=modal data-target="#myModal">我要评论</a>]&nbsp;[<a class='pop-a' href=/Download/report/id/1712171091686245.html>举报此文件</a>]</div>
 				<div id="file-comments"></div>
 				<hr>
 				<div><B>收藏者</B>：</div>
@@ -276,7 +362,7 @@ $(document).on("click",".keyword",function(){
 			}
 		});
 	});
-	var g_id="1706842823743351";
+	var g_id="1712171091686245";
 	var keywords =new Array();
 		function get_download_user(){
 		var url ="/Download/get_download_user/id/"+g_id+".html";
