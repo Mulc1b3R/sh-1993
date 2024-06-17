@@ -1,0 +1,489 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>UAT-Neural-Network 联合开发网 - pudn.com</title>
+
+    <link href="/Public/m/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/Public/m/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <link href="/Public/m/css/animate.css" rel="stylesheet">
+    <link href="/Public/m/css/style.css" rel="stylesheet">
+
+	<link href="/Public/m/css/plugins/slick/slick.css" rel="stylesheet">
+	<link href="/Public/m/css/plugins/slick/slick-theme.css" rel="stylesheet">
+
+	
+
+	<link href="/css/style.css" rel="stylesheet">
+
+	<!-- Mainly scripts -->
+	<script src="/Public/m/js/jquery-2.1.1.js"></script>
+	<script src="/Public/m/js/bootstrap.min.js"></script>
+
+	<script src="/Public/m/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+	<script src="/Public/m/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+	<!-- Custom and plugin javascript -->
+	<script src="/Public/m/js/inspinia.js"></script>
+	<script src="/Public/m/js/plugins/pace/pace.min.js"></script>
+	
+<META name="Keywords" content="UAT-Neural-Network 程序员 编程 源码 源代码 下载">
+
+	
+<META name="Description" content="UAT-Neural-Network The repository is for UAT Neural Network that utilizes the concepts of multi-threading and multiprocessing to dynamically created internal layer and neurons of the Neural Network; according to the given input to process data and controls memory access between shared processes using semaphores and mutexes">
+
+</head>
+
+<body>
+
+<!-- /.main-container start -->
+
+<div class="pace  pace-inactive">
+  	<div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+  	<div class="pace-progress-inner"></div>
+	</div>
+	<div class="pace-activity"></div>
+</div>
+
+<div class="all-content">
+	<div class="my-container top-navigation">
+		<nav class="navbar navbar-static-top" role="navigation">
+			<div class="navbar-header">
+				<button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+					<i class="fa fa-reorder"></i>
+				</button>
+				<a href="http://www.pudn.com" class="navbar-brand">联合开发网</a>
+			</div>
+			<div class="navbar-collapse collapse" id="navbar">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="/" style="padding-right:8px;padding-left:8px;font-size:16px">首页</a>
+					</li>
+					<li>
+						<a href="https://search.pudn.com" style="padding-right:8px;padding-left:8px;font-size:16px">搜索</a>
+					</li>
+				</ul>
+               	<ul class="nav navbar-top-links navbar-right">
+               							<li>
+                       	<a href="/User/login.html">
+                           	&nbsp; <i class="fa fa-sign-out"></i>登录
+                       	</a>
+                   	</li>
+                   	<li>
+                       	<a href="/User/reg.html"><i class="fa fa-sign-out"></i>注册
+                       	</a>
+                   	</li>
+					               	</ul>
+			</div>
+		</nav>
+	</div>
+	<form action="https://search.pudn.com/Download" method="get">
+	<div class="top-menu-line2">
+		<div class="my-container">
+			<a href=/Download/upload.html>上传</a>
+			&nbsp; <a href=/User>管理</a>
+			&nbsp; <a href=https://search.pudn.com/Download>搜索</a>
+			&nbsp; <a href=/Guestbook>留言</a>
+			<div class="input-group pull-right" style="max-width:200px;margin:3px 15px 0px 0px">
+				<input type="text" name="keyword" maxlength=20 placeholder="请输入关键字" class="form-control input-sm">
+				<span class="input-group-btn"> <button type="submit" class="btn btn-white input-sm" style="border:1px solid #AAA"><i class="fa fa-search"></i></button>
+				</span>
+			</div>
+		</div>
+	</div></form>
+
+
+
+<div class="row wrapper white-bg">
+	<div class="my-container">
+			<div class="nav-dir" style="padding:10px 0px">
+				<a href="/">Pudn.com</a>&nbsp;&gt;&nbsp;下载中心
+				&nbsp;&gt;&nbsp;C/C++基础				&nbsp;&gt;&nbsp;<font color=red>UAT-Neural-Network</font>
+			</div>
+
+
+		<div class="row">
+			<div class="col-xs-12 col-md-8">
+				<div class="item-name">UAT-Neural-Network</div>
+				<div class="item-keyword">
+									</div>
+				<div class="item-action">
+					<div class="btn-group">
+						<a href=/Download/dl/id/1718477893876503 target=_blank class="btn btn-primary btn-sm">去下载(<span id="down-count">0</span>)</a>
+						<a href="###" class="btn btn-white btn-sm vote-up"><i class="fa fa-thumbs-up"></i> 赞(<span id="vote-up-count">0</span>) </a>
+						<a href="###" class="btn btn-white btn-sm vote-down"><i class="fa fa-thumbs-down"></i> 踩(<span id="vote-down-count">0</span>) </a>
+						<a href="/Download/comment/id/1718477893876503" data-toggle="modal" data-target="#myModal" class="btn btn-white btn-sm"><i class="fa fa-comment"></i> 评论(<span id="comment-count">0</span>) </a>
+						<a href="###" class="btn btn-white btn-sm favor-item"><i class="fa fa-heart"></i> 收藏(<span id="favor-count">0</span>) </a>
+					</div>
+				</div>
+				<hr>
+
+				<div class="item-info">
+					<B>所属分类</B>：C/C++基础<BR>
+					<B>开发工具</B>：C++<BR>
+					<B>文件大小</B>：0KB<BR>
+					<B>下载次数</B>：0<BR>
+					<B>上传日期</B>：2024-06-16 02:58:13<BR>
+					<B>上 传 者</B>：<a href=/User/profile/id/1682139907912860.html>sh-1993</a><BR>
+				</div>
+				<div class="item-intro">
+					说明：&nbsp;&nbsp;The repository is for UAT Neural Network that utilizes the concepts of multi-threading and multiprocessing to dynamically created internal layer and neurons of the Neural Network; according to the given input to process data and controls memory access between shared processes using semaphores and mutexes				</div>
+				<hr>
+				<div><B>文件列表</B>: </div>
+				<div id="file-list">
+				Input.cpp<BR>Layer.cpp<BR>Output.cpp<BR>config.txt<BR>how_to_install.txt<BR>run.sh<BR>				</div>
+				<hr>
+				<div id="readme">
+				# UAT-Neural-Network
+### Genreal Description
+
+This repository features a Neural Network built entirely from scratch using C++ programming language. The Neural Network features a multi-layered architecture optimized for multi-core processors and utilizes the concepts of multi-threading to efficiently process data.
+
+Initially the network consists of 3 Layers; Input, Middle and the Output Layer, but the network can dynamically creates additional internal layers based on the user input where each layer consists of multiple dynamically created neurons to input and process data. The network supports both forward and backward propagation and uses pipes to communicate data between different layers of the architecture.
+
+Other than that to ensure thread-safe operations and and prevent race conditions, the Neural Network also utilizes mutexes and semaphores to control memory access between multiple shared resources.
+
+### Technologies Used: 
+C++ | Operating Systems
+
+### How to Install
+Initially you are required to Install a copy of Ubuntu or any other Linus distro in you system.
+It is upto you wheater you want to go with Virtual Machine or Dual Boot.
+Also, in case you want to set up a Virtual Mechine, the choice is yours wheather VM Ware or Virtual Box.
+While programming the Neural Network I went with Virtual Box + Ubuntu configuration.
+
+To Install Ubuntu I have attached multiple resources below:
+
+https://www.youtube.com/watch?v=DhVjgI57Ino
+
+https://www.youtube.com/watch?v=NhlhJFKmzpk
+
+https://www.youtube.com/watch?v=qq-7X8zLP7g
+
+After this you would need to install g++ complier in Ubuntu:
+
+https://www.youtube.com/watch?v=QKUhMOd-KOM
+
+### Running the Neural Network
+Finally now download all the files and paste everything in a folder.
+Then Right Click.
+Open Terminal Here.
+Then type chmod +X run.sh and Press Enter.
+Then type ./run
+Press Enter and your good to go.
+While running the Neural Network, it will ask you to Enter the Number of layers and Neurons.
+The range for both of the values is between 2 and 8.
+
+### Warning
+Always keep the config file in the folder where you kept all the other code.
+Also remember to never delete a row from the config file and always keep the number of lines to 51.
+
+<img width="731" alt="1" src="https://github.com/umairkhalidx/UAT-Neural-Network/assets/109782978/0d77c2dc-8559-4fd8-b630-3d728c8ad7ad">
+
+<img width="715" alt="2" src="https://github.com/umairkhalidx/UAT-Neural-Network/assets/109782978/f96dc160-80b0-4120-ae0c-9d583f2844a2">
+
+<img width="512" alt="3" src="https://github.com/umairkhalidx/UAT-Neural-Network/assets/109782978/827f2ff6-ca04-4d6d-aa37-e1f26e71fb2b">
+
+<img width="801" alt="4" src="https://github.com/umairkhalidx/UAT-Neural-Network/assets/109782978/07ce2846-60ef-4692-adad-b4d91d2deacb">
+
+<img width="777" alt="5" src="https://github.com/umairkhalidx/UAT-Neural-Network/assets/109782978/123fe328-497f-4c4e-8eba-380107740cc7">
+
+
+
+
+
+
+
+
+				</div>
+				<hr>
+				<div><B>近期下载者</B>：</div>
+				<div id="download-users"></div>
+				<hr>
+				<div><B>相关文件</B>：</div>
+				<div id="relate-items"></div>
+				<hr>
+				<div><B>评论</B>：[<a href=/Download/comment/id/1718477893876503.html data-toggle=modal data-target="#myModal">我要评论</a>]&nbsp;[<a class='pop-a' href=/Download/report/id/1718477893876503.html>举报此文件</a>]</div>
+				<div id="file-comments"></div>
+				<hr>
+				<div><B>收藏者</B>：</div>
+				<div id="favor-users"></div>
+				<p></p>
+			</div>
+
+			<div class="col-xs-12 col-md-4">
+
+				<div class="ad-sidebar text-center">
+					<div class="ad-300">
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+	<div class="my-footer">
+		<div class="container">
+		<div class="pull-right">
+		</div>
+
+		<div>
+			
+			<a href="http://www.pudn.com" target=_blank>© 联合开发网 from 2004</a> | 
+			<a href="/Index/contact.html">联系站长</a> | 
+			<a href=" https://beian.miit.gov.cn" target=_blank>湘ICP备2023001425号</a> | 
+			<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=43010502000604" target=_blank>网安备43010502000604</a> | 
+		</div>
+		</div>
+	</div>
+
+
+</div><!-- /wrapper-->
+
+
+
+
+<!-- page specific plugin scripts -->
+
+<!-- inline scripts related to this page -->
+
+<div id="myModal" class="modal fade" tabindex="-1" 
+			role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			
+		</div>
+	</div>
+</div><!-- /.modal-table -->
+
+</body>
+
+<script type="text/javascript">
+$(document).on('click', '.list-more', function(){
+	var id=$(this).attr('data-id');
+	$('#list-'+id).css('max-height',$('#list-'+id)[0].scrollHeight);
+	$(this).removeClass('list-more');
+	$(this).addClass('list-hide');
+	$(this).html('<i class="fa fa-angle-double-up"></i>');
+	
+	//$(this).hide();
+
+	return false;
+});
+
+$(document).on('click', '.list-hide', function(){
+	var id=$(this).attr('data-id');
+	$('#list-'+id).css('max-height','100px');
+	$(this).removeClass('list-hide');
+	$(this).addClass('list-more');
+	$(this).html('<i class="fa fa-angle-double-down"></i>');
+	
+	return false;
+});
+
+$("#myModal").on("hidden.bs.modal", function() {
+    $(this).removeData();
+});
+
+$(document).on("click",".keyword",function(){
+	var keyword=$(this).attr("keyword");
+	var type_id=$(this).attr("type_id");
+	if(typeof(type_id) =="undefined" || type_id =="") type_id="0";
+	location.href="http://search.pudn.com/Download/index?keyword="+keyword;
+	
+	return false;
+});
+</script>
+<script type="text/javascript" src="/js/time.js"></script>
+
+
+<script type="text/javascript" src="/js/marked.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.hide-list').each(function(){
+			if ($(this)[0].offsetHeight < $(this)[0].scrollHeight){
+				var id=$(this).attr('id');
+				id =id.substring(5);
+				$(this).after('<div style="text-align:center"><a href="" class="list-more" data-id="' + id + '"><i class="fa fa-angle-double-down"></i></a></div>');
+			}
+		});
+	});
+	var g_id="1718477893876503";
+	var keywords =new Array();
+		function get_download_user(){
+		var url ="/Download/get_download_user/id/"+g_id+".html";
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var html='';
+			for(i in ret){
+				html =html + '<a href=/User/profile/id/'+ret[i].user_new_id+'.html>'+ret[i].name+'</a> ';
+			}
+			$('#download-users').append(html);
+		});
+	}
+	
+	function get_relate_item(){
+		var url ="/Download/get_relate_item/id/"+g_id+'.html';
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var html='';
+			var intro;
+			for(i in ret){
+				intro =ret[i].intro;
+				for(j in keywords){
+					var reg =new RegExp(keywords[j],'gmi');
+					intro =intro.replace(reg,'<font color=brown>'+keywords[j]+'</font>');
+				}
+				html =html + '[<a href=/Download/item/id/'+ret[i].new_id+'.html>'+ret[i].name+'</a>]&nbsp; '+intro+'<BR>';
+			}
+			$('#relate-items').append(html);
+		});
+		
+	}
+	function get_score_name(score){
+		switch(score){
+		case '100': return '很好，推荐下载';
+		case '85': return '还不错';
+		case '75': return '一般，勉强可用';
+		case '50': return '差';
+		case '3': return '纯粹是垃圾';
+		case '40': return '和说明完全不符';
+		case '20': return '文件不全';
+		case '10': return '不是源代码或资料';
+		case '5': return '文件有密码，不知道密码';
+		case '0': return '不能解压或下载失败';
+		}
+		return '';
+	}
+	function get_comment(){
+		var url ="/Download/get_comments/id/"+g_id+'.html';
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var total_count =ret.total_count;
+			var data =ret.data;
+			var html='';
+			for(i in data){
+				html =html + '<a href="/User/profile/id/'+data[i].user_new_id+'.html" class="uploader">'+data[i].user_name+'</a>: <span class="comment-score">'+get_score_name(data[i].score)+'</span>, '+data[i].content+'<BR>';
+			}
+			$('#file-comments').append(html);
+		});
+		
+	}
+	function get_favor(){
+		var url ="/Download/get_item_favors/id/"+g_id+".html";
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var html='';
+			for(i in ret){
+				html =html + '<a href=/User/profile/id/'+ret[i].user_new_id+'.html class=user>'+ret[i].name+'</a>&nbsp;';
+			}
+			$('#favor-users').html(html);
+		});
+	}
+	// 得到下载这个的用户又下载了什么
+	function get_more_download(){
+		
+	}
+	// 得到下载这个的用户又搜索了什么
+	function get_more_keyword(){
+		
+	}
+	
+	// 得到论坛相关问题
+	function get_bbs(){
+		
+	}
+	
+	// 得到软件工场相关内容
+	function get_works(){
+		
+	}
+	
+	// 得到相关聊天室
+	function get_chat(){
+		
+	}
+	
+	// 得到相关软件商城信息
+	function get_shop(){
+		
+	}
+	
+	// 得到job
+	
+	// 得到学习内容
+
+	// 数据
+	get_download_user();
+	//get_relate_item();
+	get_comment();
+	get_favor();
+	
+	$('.vote-up').click(function(){
+		var url="/Download/vote/t/up/id/"+g_id;
+		$.get(url,function(ret){
+			if(ret.status==0){
+				alert(ret.info);
+				if(ret.url.length >0)
+					location.href=ret.url;
+			}
+			else{
+				var s =$('#vote-up-count').html();
+				if(s =='') s="0";
+				var count =parseInt(s)+1;
+				$('#vote-up-count').html(count);
+			}
+		})
+		return false;
+	});
+	$('.vote-down').click(function(){
+		var url="/Download/vote/t/down/id/"+g_id;
+		$.get(url,function(ret){
+			if(ret.status==0)
+				alert(ret.info);
+			else{
+				var s =$('#vote-down-count').html();
+				if(s =='') s="0";
+				var count =parseInt(s)+1;
+				$('#vote-down-count').html(count);
+			}
+		})
+		return false;
+	});
+	$('.favor-item').click(function(){
+		var url="/Favor/add/t/0/id/"+g_id;
+		$.get(url,function(ret){
+			if(ret.status==0){
+				alert(ret.info);
+			}
+			else{
+				var s =$('#favor-count').html();
+				if(s =='') s="0";
+				var count =parseInt(s)+1;
+				$('#favor-count').html(count);
+			}
+		})
+		return false;
+	});
+	$('.pop-a').click(function(){
+		var url=$(this).attr('href');
+		$.get(url,function(ret){
+			alert(ret.info);
+			//location.reload();
+		})
+		return false;
+	});
+
+document.getElementById('readme').innerHTML =marked.parse(document.getElementById('readme').innerHTML);
+</script>
+
+
+
+</html>
