@@ -1,0 +1,690 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>genesis-layout-extras 联合开发网 - pudn.com</title>
+
+    <link href="/Public/m/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/Public/m/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <link href="/Public/m/css/animate.css" rel="stylesheet">
+    <link href="/Public/m/css/style.css" rel="stylesheet">
+
+	<link href="/Public/m/css/plugins/slick/slick.css" rel="stylesheet">
+	<link href="/Public/m/css/plugins/slick/slick-theme.css" rel="stylesheet">
+
+	
+
+	<link href="/css/style.css" rel="stylesheet">
+
+	<!-- Mainly scripts -->
+	<script src="/Public/m/js/jquery-2.1.1.js"></script>
+	<script src="/Public/m/js/bootstrap.min.js"></script>
+
+	<script src="/Public/m/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+	<script src="/Public/m/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+	<!-- Custom and plugin javascript -->
+	<script src="/Public/m/js/inspinia.js"></script>
+	<script src="/Public/m/js/plugins/pace/pace.min.js"></script>
+	
+<META name="Keywords" content="genesis-layout-extras WordPress wordpress-plugin plugin layouts layout 程序员 编程 源码 源代码 下载">
+
+	
+<META name="Description" content="genesis-layout-extras 对于Genesis支持的站点：允许修改主页、各种档案、分类、帖子类型、附件、搜索...的默认布局...，">
+
+</head>
+
+<body>
+
+<!-- /.main-container start -->
+
+<div class="pace  pace-inactive">
+  	<div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+  	<div class="pace-progress-inner"></div>
+	</div>
+	<div class="pace-activity"></div>
+</div>
+
+<div class="all-content">
+	<div class="my-container top-navigation">
+		<nav class="navbar navbar-static-top" role="navigation">
+			<div class="navbar-header">
+				<button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+					<i class="fa fa-reorder"></i>
+				</button>
+				<a href="http://www.pudn.com" class="navbar-brand">联合开发网</a>
+			</div>
+			<div class="navbar-collapse collapse" id="navbar">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="/" style="padding-right:8px;padding-left:8px;font-size:16px">首页</a>
+					</li>
+					<li>
+						<a href="https://search.pudn.com" style="padding-right:8px;padding-left:8px;font-size:16px">搜索</a>
+					</li>
+				</ul>
+               	<ul class="nav navbar-top-links navbar-right">
+               							<li>
+                       	<a href="/User/login.html">
+                           	&nbsp; <i class="fa fa-sign-out"></i>登录
+                       	</a>
+                   	</li>
+                   	<li>
+                       	<a href="/User/reg.html"><i class="fa fa-sign-out"></i>注册
+                       	</a>
+                   	</li>
+					               	</ul>
+			</div>
+		</nav>
+	</div>
+	<form action="https://search.pudn.com/Download" method="get">
+	<div class="top-menu-line2">
+		<div class="my-container">
+			<a href=/Download/upload.html>上传</a>
+			&nbsp; <a href=/User>管理</a>
+			&nbsp; <a href=https://search.pudn.com/Download>搜索</a>
+			&nbsp; <a href=/Guestbook>留言</a>
+			<div class="input-group pull-right" style="max-width:200px;margin:3px 15px 0px 0px">
+				<input type="text" name="keyword" maxlength=20 placeholder="请输入关键字" class="form-control input-sm">
+				<span class="input-group-btn"> <button type="submit" class="btn btn-white input-sm" style="border:1px solid #AAA"><i class="fa fa-search"></i></button>
+				</span>
+			</div>
+		</div>
+	</div></form>
+
+
+
+<div class="row wrapper white-bg">
+	<div class="my-container">
+			<div class="nav-dir" style="padding:10px 0px">
+				<a href="/">Pudn.com</a>&nbsp;&gt;&nbsp;下载中心
+				&nbsp;&gt;&nbsp;其他				&nbsp;&gt;&nbsp;<font color=red>genesis-layout-extras</font>
+			</div>
+
+
+		<div class="row">
+			<div class="col-xs-12 col-md-8">
+				<div class="item-name">genesis-layout-extras</div>
+				<div class="item-keyword">
+					<a href="#" class="keyword" keyword="WordPress">WordPress</a>&nbsp;<a href="#" class="keyword" keyword="wordpress-plugin">wordpress-plugin</a>&nbsp;<a href="#" class="keyword" keyword="plugin">plugin</a>&nbsp;<a href="#" class="keyword" keyword="layouts">layouts</a>&nbsp;<a href="#" class="keyword" keyword="layout">layout</a>&nbsp;				</div>
+				<div class="item-action">
+					<div class="btn-group">
+						<a href=/Download/dl/id/1689710850988456 target=_blank class="btn btn-primary btn-sm">去下载(<span id="down-count">0</span>)</a>
+						<a href="###" class="btn btn-white btn-sm vote-up"><i class="fa fa-thumbs-up"></i> 赞(<span id="vote-up-count">4</span>) </a>
+						<a href="###" class="btn btn-white btn-sm vote-down"><i class="fa fa-thumbs-down"></i> 踩(<span id="vote-down-count">0</span>) </a>
+						<a href="/Download/comment/id/1689710850988456" data-toggle="modal" data-target="#myModal" class="btn btn-white btn-sm"><i class="fa fa-comment"></i> 评论(<span id="comment-count">0</span>) </a>
+						<a href="###" class="btn btn-white btn-sm favor-item"><i class="fa fa-heart"></i> 收藏(<span id="favor-count">0</span>) </a>
+					</div>
+				</div>
+				<hr>
+
+				<div class="item-info">
+					<B>所属分类</B>：其他<BR>
+					<B>开发工具</B>：PHP<BR>
+					<B>文件大小</B>：0KB<BR>
+					<B>下载次数</B>：0<BR>
+					<B>上传日期</B>：2019-05-04 21:00:46<BR>
+					<B>上 传 者</B>：<a href=/User/profile/id/1682139907912860.html>sh-1993</a><BR>
+				</div>
+				<div class="item-intro">
+					说明：&nbsp;&nbsp;对于Genesis支持的站点：允许修改主页、各种档案、分类、帖子类型、附件、搜索...的默认布局...，<BR>(For Genesis powered Sites: Allows modifying of default layouts for homepage, various archives, taxonomies, post types, attachment, search, 404 pages.)				</div>
+				<hr>
+				<div><B>文件列表</B>: </div>
+				<div id="file-list">
+				CHANGES.<B>md</B> (13718, 2019-05-04)<BR>LICENSE (18012, 2019-05-04)<BR>LICENSE.<B>txt</B> (18012, 2019-05-04)<BR>assets-repos/ (0, 2019-05-04)<BR>assets-repos/github-com/ (0, 2019-05-04)<BR>assets-repos/github-com/gle-banner.<B>png</B> (686839, 2019-05-04)<BR>assets-repos/wordpress-org/ (0, 2019-05-04)<BR>assets-repos/wordpress-org/banner-1544x500.<B>png</B> (686839, 2019-05-04)<BR>assets-repos/wordpress-org/banner-772x250.<B>png</B> (193256, 2019-05-04)<BR>assets-repos/wordpress-org/icon-128x128.<B>png</B> (21919, 2019-05-04)<BR>assets-repos/wordpress-org/icon-256x256.<B>png</B> (68707, 2019-05-04)<BR>assets-repos/wordpress-org/screenshot-01.<B>png</B> (111957, 2019-05-04)<BR>assets-repos/wordpress-org/screenshot-02.<B>png</B> (117058, 2019-05-04)<BR>assets-repos/wordpress-org/screenshot-03.<B>png</B> (75999, 2019-05-04)<BR>assets-repos/wordpress-org/screenshot-04.<B>png</B> (149993, 2019-05-04)<BR>assets-repos/wordpress-org/screenshot-05.<B>png</B> (164191, 2019-05-04)<BR>assets-repos/wordpress-org/screenshot-06.<B>png</B> (107905, 2019-05-04)<BR>assets-repos/wordpress-org/screenshot-07.<B>png</B> (48385, 2019-05-04)<BR>assets-repos/wordpress-org/screenshot-08.<B>png</B> (147254, 2019-05-04)<BR>assets-repos/wordpress-org/screenshot-09.<B>png</B> (45692, 2019-05-04)<BR>assets-repos/wordpress-org/screenshot-10.<B>png</B> (128592, 2019-05-04)<BR>assets-repos/wordpress-org/screenshot-11.<B>png</B> (52830, 2019-05-04)<BR>assets-repos/wordpress-org/screenshot-12.<B>png</B> (29046, 2019-05-04)<BR>assets/ (0, 2019-05-04)<BR>assets/css/ (0, 2019-05-04)<BR>assets/css/gle-admin-styles.<B>css</B> (6185, 2019-05-04)<BR>assets/css/gle-admin-styles.min.<B>css</B> (4139, 2019-05-04)<BR>assets/css/gle-layout-2col-html5-styles.<B>css</B> (1120, 2019-05-04)<BR>assets/css/gle-layout-2col-html5-styles.min.<B>css</B> (568, 2019-05-04)<BR>assets/css/gle-layout-2col-styles.<B>css</B> (1035, 2019-05-04)<BR>assets/css/gle-layout-2col-styles.min.<B>css</B> (496, 2019-05-04)<BR>assets/css/gle-layout-3col-html5-styles.<B>css</B> (2381, 2019-05-04)<BR>assets/css/gle-layout-3col-html5-styles.min.<B>css</B> (1514, 2019-05-04)<BR>assets/css/gle-layout-3col-styles.<B>css</B> (2249, 2019-05-04)<BR>assets/css/gle-layout-3col-styles.min.<B>css</B> (1383, 2019-05-04)<BR>assets/css/gle-layout-hncs-html5-styles.<B>css</B> (2031, 2019-05-04)<BR>assets/css/gle-layout-hncs-html5-styles.min.<B>css</B> (1183, 2019-05-04)<BR>... ...<BR>				</div>
+				<hr>
+				<div id="readme">
+				# Genesis Layout Extras - Default Layouts in Genesis for WordPress 
+**Contributors:** daveshine, deckerweb, wpautobahn  
+**Donate link:** https://www.paypal.me/deckerweb  
+**Tags:** genesis, genesiswp, genesis framework, layout, layouts, layout manager, post, page, singular, attachment, search, taxonomoy, 404 error, 404 page, bbPress, CPT, AgentPress Listings, agentpress, deckerweb  
+**Requires at least:** 3.4 plus Genesis 1.8+  
+**Tested up to:** 5.2  
+**Requires PHP:** 5.6  
+**Stable tag:** 2.1.2  
+**License:** GPL-2.0-or-later  
+**License URI:** https://opensource.org/licenses/GPL-2.0  
+
+For Genesis powered Sites: Allows modifying of default layouts for homepage, various archives, taxonomies, post types, attachment, search, 404 pages.
+
+[<img src="https://raw.githubusercontent.com/deckerweb/genesis-layout-extras/master/assets-repos/github-com/gle-banner.png" data-canonical-src="https://raw.githubusercontent.com/deckerweb/genesis-layout-extras/master/assets-repos/github-com/gle-banner.png" width="772" height="250" />](https://wordpress.org/plugins/genesis-layout-extras/)
+
+
+## Description 
+
+**Among the Top 10 most downloaded Genesis plugins ever :) Thank you!**
+
+
+###  Set Default Layots in Genesis 
+With this **lightweight plugin** for the popular Genesis Framework you can very **easily modify** the (registered) **default layouts** for homepage, singular pages (for posts and pages), various archive sections, author pages, attachment pages, search results pages, the 404 page - all done via a new admin settings page. Just look for it at the submenu: *Genesis > Layout Extras*.
+
+Also, you can optionally add Layouts meta box support for post types inpost screens which don't have it yet. Plus, Genesis Archive Settings for post types could be enabled as well. 
+
+As a smart bonus the plugin also includes the layout setting for the *bbPress 2.x* forum plugin which itself is compatible to Genesis. Also added is the layout setting for other plugins from the Genesis ecosystem or other third-party authors: for example *AgentPress Listings* which includes the custom post type 'listings' and the taxonomy 'features'. Just have a look on the below listings for full explanation.
+
+**Please note:** The plugin requires the *Genesis Theme Framework* (GPL-2.0+), a paid premium product released by StudioPress/ WPEngine, Inc. (via studiopress.com).
+
+
+###  Video of Plugin's Settings Walkthrough (v2.0.0): 
+[youtube https://www.youtube.com/watch?v=WchU8FOJYyY]
+[**original video link**](https://www.youtube.com/watch?v=WchU8FOJYyY) *by plugin developer David Decker*
+
+
+###  Regular WordPress Sections for a Default Layout Setting 
+* **Home Page** (works with `home.php` or static page as front page)
+* **Search Results Page** (if there *are* results)
+* **Search not found Page** (if there are NO results)
+* **404 Error Page**
+* **"Post" Pages** (default singular post views)
+* **"Page" Pages** (default singular page views)
+* **Attachment Page** (default singular attachment views)
+* **Author Page** (default singular author views)
+* **Date Archive Page** (optional with setting for Year, Month, Day) (default views for date archives)
+* **Category Page** (default category archive views)
+* **Tag Page** (default tag archive views)
+* **Taxonomy Page** (default custom taxonomy views)
+
+
+###  Plugins: Supported Custom Post Types set by Plugins 
+* **Genesis Portfolio Pro**: Archive Page for post type "Portfolio" - plus taxonomy "(Portfolio) Type"
+* **Genesis Author Pro**: Archive Page for post type "Book" - plus taxonomy pages for "(Book) Authors", "(Book) Series" and "(Book) Tags"
+* **AgentPress Listings**: Archive Page for post type "Listings" - plus taxonomy "(Listing) Features"
+* **Simple Listings for Genesis**: Archive Page for post type "Listings" - plus taxonomy "(Listing) Status"
+* **bbPress 2.x Forum**: all Forums (all areas) - plus "Topics" - *Integration plugin recommended: [bbPress Genesis Extend](https://wordpress.org/plugins/bbpress-genesis-extend/)*
+* **WooCommerce**: for all taxonomy pages for "Product Categories" and "Product Tags" - *Integration plugin recommended: [Genesis Connect for WooCommerce](https://wordpress.org/plugins/genesis-connect-woocommerce/)*
+* **Easy Digital Downloads**: Archive Page for Custom Type "Downloads" - plus taxonomies "Download Categories" and "Download Tags" - *Integration plugin recommended: [Genesis Connect for Easy Digital Downloads](https://wordpress.org/plugins/genesis-connect-edd/)*
+* **Jigoshop**: for all taxonomy pages for "Product Categories" and "Product Tags" - *Integration plugin recommended: [Genesis Connect for Jigoshop](https://www.jigoshop.com/product/genesis-connect-for-jigoshop/)*
+* **Sugar Events Calendar**: Archive Page for Custom Type "Events" - plus taxonomy "Event Categories"
+* (Legacy) **Genesis Media Project**: Archive Page for Custom Type "Video" - plus taxonomies "SlideShows", "Video Categories", "Video Tags"
+* ***Note:** Even more plugins and/ or custom post types (CPTs) may be added in future plugin versions*
+
+
+###  Child Themes: Supported Custom Post Types set by Child Themes 
+* Child Theme: **Minimum 2.0** by StudioPress: Archive Page for post type "Portfolio"
+* Child Theme: **Executive 2.0** by StudioPress: Archive Page for post type "Portfolio"
+* These 10 Child Themes by **ZigZagPress brand**: *Bijou*, *Engrave*, *Eshop*, *Megalithe*, *Neo*, *Prestige*, *Single*, *Solo*, *Tequila*, *Vanilla* -- Archive Page for post type "Portfolio" - plus taxonomy "Portfolio Category" for all of these.
+* Child Theme: **Clip Cart** by Themedy Themes: Archive Page for post type "Products" - plus taxonomy "Product Categories"
+* Child Theme: **Stage** by Themedy Themes: Taxonomy "Photo Galleries"
+
+
+###  Translations 
+*  English (United States) - `en_US` = default, always included
+*  [German (informal, default)](https://translate.wordpress.org/locale/de/default/wp-plugins/genesis-layout-extras) - `de_DE`
+*  [German (formal)](https://translate.wordpress.org/locale/de/formal/wp-plugins/genesis-layout-extras) - `de_DE_formal`
+* All other user-submitted translation see at [language packs overview page](https://translate.wordpress.org/projects/wp-plugins/genesis-layout-extras)
+* `.pot` file (`genesis-layout-extras.pot`) for translators is also always included :)
+* Easy plugin translation platform with GlotPress tool: [Translate "Genesis Layout Extras"...](https://translate.wordpress.org/projects/wp-plugins/genesis-layout-extras)
+
+
+###  Personal Note from Developer (2018) 
+**Please note**, this plugin lives on, it is far from "dead"! I could not maintain it the last 5 years (August 2013 until August 2018), as I had personal issues keeping me from it. However, the plugin worked very well in almost all cases over the years, that is due to the super stable Genesis Framework.
+
+**UPDATE Is Out!** Yes, the update v2.1.0 is finally out (you are on its readme just now). The plugin will get further maintenance and development.
+
+
+###  Be a Contributor 
+If you want to translate, [go to the Translation Portal at translate.wordpress.org](https://translate.wordpress.org/projects/wp-plugins/genesis-layout-extras).
+
+You can also contribute code-wise via our [Genesis Layout Extras GitHub Repository](https://github.com/deckerweb/genesis-layout-extras) - and see where you can help.
+
+
+###  Liked Genesis Layout Extras Plugin? 
+* [**Rate us 5  stars on WordPress.org**](https://wordpress.org/support/plugin/genesis-layout-extras/reviews/?filter=5/#new-post) :)
+* [**Join our Newsletter for Site Builders** ](https://eepurl.com/gbAUUn) - *get plugin insider info, and more interesting stuff for Genesis WordPress users*
+* Engage in our [Facebook Community User Group ]((https://www.facebook.com/groups/deckerweb.wordpress.plugins/).
+* [**Become a Patron** ](https://www.patreon.com/deckerweb) and support ongoing development, maintenance and support of this plugin
+
+
+###  This Plugin ... 
+* ... scratches my own itch!
+* ... is *Quality Made in Germany*
+* ... was created with  love (plus some  coffee) :-) - [if you like it consider donating](https://www.paypal.me/deckerweb)
+
+
+###  Recommended Time Saver 
+Try [**Toolbar Extras for Genesis**](https://toolbarextras.com/) my other great plugin for Site Builders and admins: Building sites with Genesis or Elementor or both? [**Your work will get easier & faster with Toolbar Extras.**](https://wordpress.org/plugins/toolbar-extras/) With extended plugin & theme support baked right in. Of course, "Genesis Layout Extras" is integrated as well :)
+
+* [Plugin Page here on WordPress.org](https://wordpress.org/plugins/toolbar-extras/)
+* [Plugin's own website toolbarextras.com](https://toolbarextras.com/)
+* In your WordPress admin dashboard search for `toolbar extras` in the plugin installer ;-)
+
+
+##  Check out my other Genesis Plugins 
+* [**Genesis Widgetized Not Found & 404**](https://wordpress.org/plugins/genesis-widgetized-notfound/) - be prepared for the edge cases
+* [**Genesis What's New Info**](https://wordpress.org/plugins/genesis-whats-new-info/) - show the what's new overview page via left-hand admin menu
+* [**Genesis Extra Settings Transporter**](https://wordpress.org/plugins/genesis-extra-settings-transporter/) - addionally export Genesis specific plugin & child theme settings
+* [Genesis Shortcode UI (for Shortcake)](https://github.com/deckerweb/genesis-shortcode-ui)
+* [Genesis Elementor Canvas](https://github.com/deckerweb/genesis-elementor-canvas)
+* [Genesis Featured Page Extras](https://wordpress.org/plugins/genesis-featured-page-extras/) - more options for the featured page widget
+* [Genesis Prose Extras](https://wordpress.org/plugins/genesis-prose-extras/) - add-on for Prose child theme
+* [Genesis Printstyle Plus](https://wordpress.org/plugins/genesis-printstyle-plus/) - just print it out - only what's needed
+* [Genesis Widgetized Archive](https://wordpress.org/plugins/genesis-widgetized-archive/) - easily set up content for your Archive page (template)
+* [Genesis Widgetized Footer](https://wordpress.org/plugins/genesis-widgetized-footer/) - easily set up your copyright/ credits/ back to top
+* [Genesis Connect for Easy Digital Downloads](https://wordpress.org/plugins/genesis-connect-edd/) - plugin for easy & elegant integration
+* [*My Genesis plugins newsletter*](https://eepurl.com/gbAUUn)
+
+
+##  My Other WordPress Plugins 
+* [**Toolbar Extras for Genesis & Elementor - WordPress Admin Bar Enhanced**](https://wordpress.org/plugins/toolbar-extras/)
+* [**Toolbar Extras for Oxygen Builder - Add-On plugin**](https://wordpress.org/plugins/toolbar-extras-oxygen/)
+* [**Builder Template Categories - for WordPress Page Builders**](https://wordpress.org/plugins/builder-template-categories/)
+* [**Polylang Connect for Elementor – Language Switcher & Template Tweaks**](https://wordpress.org/plugins/connect-polylang-elementor/)
+* [**Simple Download Manager for WP Document Revisions**](https://wordpress.org/plugins/wpdr-simple-downloads/)
+* [Multisite Toolbar Additions](https://wordpress.org/plugins/multisite-toolbar-additions/)
+* [Cleaner Plugin Installer](https://wordpress.org/plugins/cleaner-plugin-installer/)
+* [*My plugins newsletter*](https://eepurl.com/gbAUUn)
+
+
+## Installation 
+
+
+###  Minimum Requirements 
+
+* WordPress version 4.7 or higher
+* **NOTE:** Only works with *Genesis Framework* (GPL-2.0+) as the parent theme. This is a paid premium product by StudioPress/ WPEngine, Inc., [available via studiopress.com](https://deckerweb.de/go/genesis/)
+* PHP version 5.6 or higher
+* MySQL version 5.0 or higher
+* For plugin settings: Administrator user with capabilities `manage_options` and `edit_theme_options` who is logged-in
+
+
+###  We Recommend Your Host Supports at least: 
+
+* PHP version 7.2 or higher
+* MySQL version 5.6 or higher / or MariaDB 10 or higher
+
+
+###  Installation 
+
+1. Install using the WordPress built-in Plugin installer (via **Plugins > Add New** - search for `genesis layout extras`), or extract the ZIP file and drop the contents in the `wp-content/plugins/` directory of your WordPress installation.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
+3. In your left-hand **Genesis Theme Settings > Layout Extras**, setup your default layouts and you're good to go :).
+4. General usage: Set layout options DIFFERENT from the Genesis default *for special sections*.
+
+
+###  Video of Plugin's Settings Walkthrough (v2.0.0): 
+[youtube https://www.youtube.com/watch?v=WchU8FOJYyY]
+[**original video link**](https://www.youtube.com/watch?v=WchU8FOJYyY) *by plugin developer David Decker*
+
+
+### Choose from one of the following layouts 
+*1) Up to 6 default layouts of Genesis - when registered:*
+
+* Genesis Default (your default setting from Genesis Theme settings)
+* Content-Sidebar
+* Sidebar-Content
+* Content-Sidebar-Sidebar
+* Sidebar-Sidebar-Content
+* Sidebar-Content-Sidebar
+* Full Width Content
+
+*2) Currently up to 9 additional layouts of this plugin (Genesis Layout Extras):*
+
+* Sidebars below Content *)
+* Primary below Content
+* Primary above Content
+* Header+Nav/Content/Sidebar (experimental!)
+* Content/Sidebar-Alt *)
+* Sidebar-Alt/Content *)
+* Content/Sidebar-Alt/Sidebar
+* Sidebar/Sidebar-Alt/Content
+* Sidebar/Content/Sidebar-Alt
+
+*) = Not with my ["Genesis Prose Extras" plugin](https://wordpress.org/plugins/genesis-prose-extras/) - that brings those layouts on its own, but with more optimized CSS :)
+
+PLEASE NOTE: These 9 additional layouts were added in 2013 under a different situation of the overall market and Genesis. Looking back it was a mistake to do that, as the whole CSS for Child Themes is just unmanageable! Therefore the support for these layouts cannot and will not be given any longer! But rest assured: for backwards compatibility and for the users that somehow used them, I will keep their registering functions and their CSS in the plugin for as long as possible.
+
+However, I might be hide the options from the settings page in the future (again this will not affect your usage!). To be clear: I will NOT remove features that were in it for 5 years and of course are used in the wild. I serve my users and the community. But please understand that I cannot longer offer support in any way for THESE ADDITIONAL layout options. You can always register your own options and maintain the CSS for your special use case. No problem at all! :-) --- Thanks for your support!
+
+
+### Additional Post Type Support: 
+* For public custom post types, enable Genesis Inpost Options (Layouts, SEO, Scripts)
+* For public custom post types with archive support, enable Genesis Archive Settings
+
+
+
+## Frequently Asked Questions 
+
+
+### 2018: Still Support for the additional layout options? 
+**PLEASE NOTE:** These 9 additional layouts were added in 2013 under a different situation of the overall market and Genesis. Looking back, it was a mistake to do that, as the whole CSS for Child Themes is just unmanageable! Therefore the support for these layouts cannot and will not be given any longer after December 18th, 2018 (which is the release date of v2.1.0 the "back to life" version)! But rest assured: for backwards compatibility and for the users that somehow used them, I will keep their registering functions and their CSS in the plugin for as long as possible.
+
+However, I might be hide the options from the settings page at some point in the future (again this will not affect your usage!). To be clear: I will NOT remove features that were in it for 5 years and of course are used in the wild. I serve my users and the community. But please understand that I cannot longer offer support in any way for THESE ADDITIONAL layout options. You can always register your own options and maintain the CSS for your special use case. No problem at all! :-) --- Thanks for your support!
+
+
+
+### Why up to 9 new layout options, aren't the default one's enough? 
+Good question, hehe :) -- Since you are absolutely not forced to use the new options you can disable all and set the settings meta box to not display (via "Screen options" tab on top right corner), so you won't even see them on the plugin's settings page.
+
+If, however, you want some new - simplyfied or tweaked - *flavors of existing layouts*, then you might try one of the new options. So for example, the "Primary below Content" layout option is perfect for minimalistic one-column sites. Or the "Sidebars below Content" is great for content-oriented blogs and/or sites that want to drop the bloat from the SIDEbar and only offer a bit more stuff *below* the main content - in a nice 2-column outfit.
+
+
+
+### I don't see the new layout options in the plugin settings, what's up? 
+This could only be the case if your child theme (or another plugin or some code snippet...) has *un-registered* both Genesis default sidebars. Those two are needed for the layout options, so, if they are not there, you just cannot see and use my plugin's layout options.
+
+
+
+### Are the alternate layouts responsive? 
+Yes, they are! All is working like it should with minimal additions on CSS style rules (only what's really needed).
+
+
+
+### Help, the new layouts look not good on my site (CSS...), what can I do? 
+This may depend on the used CSS rules loaded via the plugin. Those rules are NOT based on specific child themes but use a "middle-of-the-road" general concept that is based on *percentage CSS values*. This way I can save a lot of (child theme specific) overhead.
+
+This approach may work with a lot of the official child themes by StudioPress. Sure, not all! Just try, and if needed, add additional CSS rules to your child theme style sheet to tweak the plugin styles.
+
+Also, you are free to not load the plugin styles at all (see plugin settings!). In that case you might add completely custom CSS styles to your child theme (or wherever, via another plugin or what...).
+
+
+
+### I only see 3 layouts in the select drop-down where are the others? 
+This means that your current active Child Theme or a plugin (or even some code snippet...) has **unregistered** some layouts. The select drop-down field of this plugin only represents what was registered before - this being the case via Genesis itself or a Child Theme or plugins.
+
+Note: The most recent "Sample" Child Theme from StudioPress, and many other newer Child Themes, only come with three (or even 2 only) layout options.
+
+
+
+### You can modify the layout of the plugin's AgentPress Listings post type. What does this mean? 
+Nothing spectacular, you just can set the layout option for the archive pages of the "listings" post type, plus for all terms of its built-in "features" taxonomy. - Of course, the plugin (and so the setting in there) could be used with the AgentPress child theme and also with any other Genesis child theme, so this setting might come in really handy ;-).
+
+
+
+### I noticed that some (layout section) settings have no effect at all, what happens here? 
+This has to do with priorities. In general, if there's a template for a specific page (archive) type, for example `image.php` for image attachment display, then Genesis & WordPress will always use that first for the content output AS LONG AS there's an layout setting function or filter in there. Only if there are no templates with layout settings found, the layout option settings will take full effect. So, if our example `image.php` has a layout filter set in this then has the higher priority. But if there's no layout filter in there then the plugin's layout setting will take effect! - Well, if you experience such cases just leave these fields on "Genesis Default" and you're good to go :-). (You might call that a limitation of the plugin or whatever but that's the intended behavior of WordPress & Genesis.)
+
+
+
+### What does the Additional Post Type support do? 
+Noth ... ...				</div>
+				<hr>
+				<div><B>近期下载者</B>：</div>
+				<div id="download-users"></div>
+				<hr>
+				<div><B>相关文件</B>：</div>
+				<div id="relate-items"></div>
+				<hr>
+				<div><B>评论</B>：[<a href=/Download/comment/id/1689710850988456.html data-toggle=modal data-target="#myModal">我要评论</a>]&nbsp;[<a class='pop-a' href=/Download/report/id/1689710850988456.html>举报此文件</a>]</div>
+				<div id="file-comments"></div>
+				<hr>
+				<div><B>收藏者</B>：</div>
+				<div id="favor-users"></div>
+				<p></p>
+			</div>
+
+			<div class="col-xs-12 col-md-4">
+
+				<div class="ad-sidebar text-center">
+					<div class="ad-300">
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+	<div class="my-footer">
+		<div class="container">
+		<div class="pull-right">
+		</div>
+
+		<div>
+			
+			<a href="http://www.pudn.com" target=_blank>© 联合开发网 from 2004</a> | 
+			<a href="/Index/contact.html">联系站长</a> | 
+			<a href=" https://beian.miit.gov.cn" target=_blank>湘ICP备2023001425号</a> | 
+			<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=43010502000604" target=_blank>网安备43010502000604</a> | 
+		</div>
+		</div>
+	</div>
+
+
+</div><!-- /wrapper-->
+
+
+
+
+<!-- page specific plugin scripts -->
+
+<!-- inline scripts related to this page -->
+
+<div id="myModal" class="modal fade" tabindex="-1" 
+			role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			
+		</div>
+	</div>
+</div><!-- /.modal-table -->
+
+</body>
+
+<script type="text/javascript">
+$(document).on('click', '.list-more', function(){
+	var id=$(this).attr('data-id');
+	$('#list-'+id).css('max-height',$('#list-'+id)[0].scrollHeight);
+	$(this).removeClass('list-more');
+	$(this).addClass('list-hide');
+	$(this).html('<i class="fa fa-angle-double-up"></i>');
+	
+	//$(this).hide();
+
+	return false;
+});
+
+$(document).on('click', '.list-hide', function(){
+	var id=$(this).attr('data-id');
+	$('#list-'+id).css('max-height','100px');
+	$(this).removeClass('list-hide');
+	$(this).addClass('list-more');
+	$(this).html('<i class="fa fa-angle-double-down"></i>');
+	
+	return false;
+});
+
+$("#myModal").on("hidden.bs.modal", function() {
+    $(this).removeData();
+});
+
+$(document).on("click",".keyword",function(){
+	var keyword=$(this).attr("keyword");
+	var type_id=$(this).attr("type_id");
+	if(typeof(type_id) =="undefined" || type_id =="") type_id="0";
+	location.href="http://search.pudn.com/Download/index?keyword="+keyword;
+	
+	return false;
+});
+</script>
+<script type="text/javascript" src="/js/time.js"></script>
+
+
+<script type="text/javascript" src="/js/marked.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.hide-list').each(function(){
+			if ($(this)[0].offsetHeight < $(this)[0].scrollHeight){
+				var id=$(this).attr('id');
+				id =id.substring(5);
+				$(this).after('<div style="text-align:center"><a href="" class="list-more" data-id="' + id + '"><i class="fa fa-angle-double-down"></i></a></div>');
+			}
+		});
+	});
+	var g_id="1689710850988456";
+	var keywords =new Array();
+	keywords[0] ='WordPress';keywords[1] ='wordpress-plugin';keywords[2] ='plugin';keywords[3] ='layouts';keywords[4] ='layout';	function get_download_user(){
+		var url ="/Download/get_download_user/id/"+g_id+".html";
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var html='';
+			for(i in ret){
+				html =html + '<a href=/User/profile/id/'+ret[i].user_new_id+'.html>'+ret[i].name+'</a> ';
+			}
+			$('#download-users').append(html);
+		});
+	}
+	
+	function get_relate_item(){
+		var url ="/Download/get_relate_item/id/"+g_id+'.html';
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var html='';
+			var intro;
+			for(i in ret){
+				intro =ret[i].intro;
+				for(j in keywords){
+					var reg =new RegExp(keywords[j],'gmi');
+					intro =intro.replace(reg,'<font color=brown>'+keywords[j]+'</font>');
+				}
+				html =html + '[<a href=/Download/item/id/'+ret[i].new_id+'.html>'+ret[i].name+'</a>]&nbsp; '+intro+'<BR>';
+			}
+			$('#relate-items').append(html);
+		});
+		
+	}
+	function get_score_name(score){
+		switch(score){
+		case '100': return '很好，推荐下载';
+		case '85': return '还不错';
+		case '75': return '一般，勉强可用';
+		case '50': return '差';
+		case '3': return '纯粹是垃圾';
+		case '40': return '和说明完全不符';
+		case '20': return '文件不全';
+		case '10': return '不是源代码或资料';
+		case '5': return '文件有密码，不知道密码';
+		case '0': return '不能解压或下载失败';
+		}
+		return '';
+	}
+	function get_comment(){
+		var url ="/Download/get_comments/id/"+g_id+'.html';
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var total_count =ret.total_count;
+			var data =ret.data;
+			var html='';
+			for(i in data){
+				html =html + '<a href="/User/profile/id/'+data[i].user_new_id+'.html" class="uploader">'+data[i].user_name+'</a>: <span class="comment-score">'+get_score_name(data[i].score)+'</span>, '+data[i].content+'<BR>';
+			}
+			$('#file-comments').append(html);
+		});
+		
+	}
+	function get_favor(){
+		var url ="/Download/get_item_favors/id/"+g_id+".html";
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var html='';
+			for(i in ret){
+				html =html + '<a href=/User/profile/id/'+ret[i].user_new_id+'.html class=user>'+ret[i].name+'</a>&nbsp;';
+			}
+			$('#favor-users').html(html);
+		});
+	}
+	// 得到下载这个的用户又下载了什么
+	function get_more_download(){
+		
+	}
+	// 得到下载这个的用户又搜索了什么
+	function get_more_keyword(){
+		
+	}
+	
+	// 得到论坛相关问题
+	function get_bbs(){
+		
+	}
+	
+	// 得到软件工场相关内容
+	function get_works(){
+		
+	}
+	
+	// 得到相关聊天室
+	function get_chat(){
+		
+	}
+	
+	// 得到相关软件商城信息
+	function get_shop(){
+		
+	}
+	
+	// 得到job
+	
+	// 得到学习内容
+
+	// 数据
+	get_download_user();
+	//get_relate_item();
+	get_comment();
+	get_favor();
+	
+	$('.vote-up').click(function(){
+		var url="/Download/vote/t/up/id/"+g_id;
+		$.get(url,function(ret){
+			if(ret.status==0){
+				alert(ret.info);
+				if(ret.url.length >0)
+					location.href=ret.url;
+			}
+			else{
+				var s =$('#vote-up-count').html();
+				if(s =='') s="0";
+				var count =parseInt(s)+1;
+				$('#vote-up-count').html(count);
+			}
+		})
+		return false;
+	});
+	$('.vote-down').click(function(){
+		var url="/Download/vote/t/down/id/"+g_id;
+		$.get(url,function(ret){
+			if(ret.status==0)
+				alert(ret.info);
+			else{
+				var s =$('#vote-down-count').html();
+				if(s =='') s="0";
+				var count =parseInt(s)+1;
+				$('#vote-down-count').html(count);
+			}
+		})
+		return false;
+	});
+	$('.favor-item').click(function(){
+		var url="/Favor/add/t/0/id/"+g_id;
+		$.get(url,function(ret){
+			if(ret.status==0){
+				alert(ret.info);
+			}
+			else{
+				var s =$('#favor-count').html();
+				if(s =='') s="0";
+				var count =parseInt(s)+1;
+				$('#favor-count').html(count);
+			}
+		})
+		return false;
+	});
+	$('.pop-a').click(function(){
+		var url=$(this).attr('href');
+		$.get(url,function(ret){
+			alert(ret.info);
+			//location.reload();
+		})
+		return false;
+	});
+
+document.getElementById('readme').innerHTML =marked.parse(document.getElementById('readme').innerHTML);
+</script>
+
+
+
+</html>
