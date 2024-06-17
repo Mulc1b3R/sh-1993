@@ -16,6 +16,7 @@ folders include :
 * ```cronos.py``` is a python script that scrapes the site for all the new uploads it has most recently reposted from github.
 * 'comparison files' illustrates the similarity of the content of uploaded github files with those reposred on pudn.com.  
 * ```data.json``` contains relevant data pertaining to the website pudn.com
+* ```pudn.com-keyword-genesis.txt``` contains the 30 pages of data harvested from the keywoed search prior to cleaning and data extraction.
 * an html file is created programmatically with the format , ```1516516556534242.html``` , each file representing a github listing.
 * the example index pages of our work in this repo have been renamed by me in order so as to be more human readable , with both the
 * listed name submitted by the git hub user and the chinese name injected by pudn.com prior to relisting in China.
