@@ -1,0 +1,3035 @@
+search genesis
+ pudn.com
+ 
+ 
+[其他] genesis_java
+
+genesis Java客户端集成
+Genesis Java client integration (2024-01-24, Java, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1706122865606508.html
+[建站系统] genesis-child-themes
+
+genesis儿童主题，这仍然与genesis框架一起工作
+Genesis child themes, thats still works with Genesis framework (2023-12-03, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1701664253108285.html
+[VHDL/FPGA/Verilog] DE2_115_genesis
+
+FPGA genesis内核
+FPGA Genesis core (2023-11-25, Verilog, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1701071907730633.html
+[其他] genesis_php
+
+genesis PHP客户端集成
+Genesis PHP client integration (2023-11-17, PHP, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1700257302209128.html
+[其他] genesis-shortcodes
+
+genesis短代码插件，
+Genesis Shortcodes Plugin, (2014-03-27, PHP, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1697606476728031.html
+[其他] farmbot-genesis
+
+FarmBot genesis硬件文档，
+FarmBot Genesis hardware documentation, (2023-09-15, Ruby, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694801989109828.html
+[压缩解压] genesis-3d
+
+genesis-3D zip来源于genesis-3D.com.cn>，
+Genesis-3D zip source from , (2013-12-17, C#, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689244213735940.html
+[collect] vue-genesis-template
+
+genesis的Vue SSR，
+Vue SSR for Genesis, (2021-07-27, TypeScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689152001365497.html
+[DevOps] genesis-terraform-ansible-app
+
+genesis DevOps学校
+for Genesis DevOps School (2022-07-14, HCL, 60KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686971676536693.html
+[内容生成] genesis
+
+genesis和genesis-V2的官方PyTorch实现
+Official PyTorch implementation of GENESIS and GENESIS-V2 (2022-04-13, Python, 269KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686194419119459.html
+[其他] genesis-framework-v3.3.2
+
+genesis Framework Download genesis Framework
+Genesis Framework Download Genesis Framework (2020-08-24, PHP, 455KB, 下载0次)
+http://www.pudn.com/Download/item/id/1598258081249061.html
+[Linux/Unix编程] SF_genesis-v1.7.2.01020130925
+
+New genesis 1.7.2 for Sandforce SF2xxx controllers
+New Genesis 1.7.2 for Sandforce SF2xxx controllers (2018-02-27, LINUX, 24352KB, 下载30次)
+http://www.pudn.com/Download/item/id/1519668692100602.html
+[其他] 管道源码
+
+易语言genesis管道接口，支持所有genesis
+genesis script all geneeiss ver (2018-01-21, WINDOWS, 67KB, 下载6次)
+http://www.pudn.com/Download/item/id/1516516556534242.html
+[软件设计/软件工程] gm5221_Training_OSDWB
+
+genesis Workbench使用文档，介绍genesis Workbench的使用方式以及如何生成OSD；
+Genesis Workbench use manual, use the document to introduce the use of the Genesis Workbench as well as how to generate the OSD (2012-02-12, Visual Basic, 921KB, 下载44次)
+http://www.pudn.com/Download/item/id/1770039.html
+[软件设计/软件工程] genesis
+
+genesis封边脚本，自动运行，genesis script
+genesis Edge script to run automatically, genesis script (2011-04-23, Perl, 9KB, 下载10次)
+http://www.pudn.com/Download/item/id/1503190.html
+[图形图像处理] C0525-DAT-01D
+
+genesis image scaler gm0525 datasheet
+genesis image scaler gm0525 datasheet (2011-02-14, Others, 688KB, 下载6次)
+http://www.pudn.com/Download/item/id/1428413.html
+[软件设计/软件工程] C5321-DAT-01A
+
+genesis image scaler gm5321 datasheet
+genesis image scaler gm5321 datasheet (2011-02-14, Others, 667KB, 下载4次)
+http://www.pudn.com/Download/item/id/1428410.html
+[图形图像处理] C1501-DAT-02A
+
+genesis image scaler c1501 datasheet
+genesis image scaler c1501 datasheet (2011-02-14, Others, 1008KB, 下载4次)
+http://www.pudn.com/Download/item/id/1428403.html
+[Windows编程] me
+
+genesis film modifying script
+Genesis script (2009-06-12, Windows_Unix, 3KB, 下载27次)
+http://www.pudn.com/Download/item/id/803659.html
+[嵌入式/单片机/硬件编程] genesis5.1.0.18
+
+genesis Microchip Inc. LCD controller chip configuration and debugging tool genesis5.1.0.18.zip
+Genesis Microchip Inc. LCD controller chip configuration and debugging tool genesis5.1.0.18.zip (2009-03-08, Windows_Unix, 5721KB, 下载112次)
+http://www.pudn.com/Download/item/id/664833.html 
+
+
+[其他] a-genesis
+
+起源
+a genesis (2024-04-05, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1712344226988256.html
+[其他] genesis-Easy-Publishing-BE
+
+genesis Easy Publishing比利时
+Genesis Easy Publishing BE (2024-03-04, CSS, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1709578675521263.html
+[其他] genesis-React
+
+genesis React
+Genesis React (2024-02-21, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1708541865381276.html
+[区块链开发] yooldo-genesis-contract
+
+Yooldo的genesis智能合约
+Genesis Smart Contracts for Yooldo (2024-01-29, Solidity, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1706511773584796.html
+[内容生成] genesis-Advance-AI-Assistant
+
+genesis高级人工智能助手
+GENESIS Advance AI Assistant (2023-12-06, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1701850881714114.html
+[建站系统] genesis-child-themes-2
+
+创世纪的儿童主题，这仍然与创世纪框架第2部分一起工作
+Genesis child themes, thats still works with Genesis framework part 2 (2023-12-03, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1701664253963754.html
+[建站系统] genesis-child-themes-3
+
+创世纪儿童主题，这仍然与创世纪框架第3部分一起工作
+Genesis child themes, thats still works with Genesis framework part 3 (2023-12-03, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1701664253493273.html
+[代理服务器] genesis_ruby
+
+用于genesis网关的Ruby SDK
+Ruby SDK for Genesis gateway (2023-11-23, Ruby, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1700857477315692.html
+[建站系统] clearlytech-genesis
+
+ClearlyTech的genesis Wordpress主题
+Genesis Wordpress Theme for ClearlyTech (2014-04-14, CSS, 1634KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686440143536010.html
+[建站系统] genesis-starter
+
+genesis Framework初学者主题，支持Gulp。
+A Genesis Framework starter theme with Gulp support. (2016-05-28, CSS, 361KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686439640541771.html
+[建站系统] genesis-mobile-first
+
+[WordPress][genesis]对于严肃的genesis开发人员来说，这是一个方便的入门主题。
+[WordPress][Genesis] A handy starter theme for serious Genesis developers. (2014-07-02, CSS, 18KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686439599399132.html
+[建站系统] genesis-starter
+
+基于genesis Sample 2.3.0的genesis框架的初学者主题
+Starter theme for Genesis framework based on Genesis Sample 2.3.0 (2018-05-29, CSS, 494KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686439551159232.html
+[游戏引擎] genesis
+
+genesis
+Genesis (2017-04-12, C, 6425KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686420897644025.html
+[DirectX] Game-Aladdin-genesis-C-DirectX
+
+游戏Aladdin genesis C++DirectX
+Game Aladdin Genesis C++ DirectX (2018-01-05, C++, 49214KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686384289747425.html
+[区块链开发] genesis-contracts
+
+genesis迭代的智能合约
+smart contracts of the Genesis iteration (2023-01-05, JavaScript, 215KB, 下载0次)
+http://www.pudn.com/Download/item/id/1672854069626935.html
+[前端开发] genesis-challenge
+
+前端genesis测试
+Teste de Front-end Genesis (2021-10-13, SCSS, 82KB, 下载0次)
+http://www.pudn.com/Download/item/id/1634099299985927.html
+[Python工具库] Library-genesis-Bot
+
+Library genesis Bot，Telegram Library genesis机器人
+Library-Genesis-Bot,Telegram Library Genesis Bot (2023-01-29, Python, 19KB, 下载0次)
+http://www.pudn.com/Download/item/id/1674961335998030.html
+[其他] genesis ind_templ_build_600+
+
+genesis Metatrader 4 Trading System FULL
+Genesis Metatrader 4 Trading System FULL (2018-07-06, MQL, 899KB, 下载0次)
+http://www.pudn.com/Download/item/id/1530826899856658.html
+[GIS/地图编程] genesis-ABC
+
+genesis分孔图替换成ABC等符号,自行替换后就可以使用了
+genesis gdd sysmbol (2015-12-12, TEXT, 8KB, 下载2次)
+http://www.pudn.com/Download/item/id/1449915294187187.html
+[汇编语言] fp_scale.tcl
+
+genesis 软件脚本 用于钻带拉伸处理
+genesis2000 scale (2010-10-24, tcl/tk, 9KB, 下载7次)
+http://www.pudn.com/Download/item/id/1325978.html 
+
+
+[Java编程] genesis-meituan-openapi-java-sdk
+
+genesis美团openapi java sdk
+genesis meituan openapi java sdk (2024-04-06, Java, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1712370772274006.html
+[其他] genesis-Easy-Publishing-FE
+
+genesis Easy Publishing有限公司
+Genesis Easy Publishing FE (2024-03-22, TypeScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1711134163271947.html
+[硬件设计] UMDv3-genesis-kicad
+
+UMDv3 genesis kicad
+UMDv3 genesis kicad (2024-03-15, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1710538111227500.html
+[其他] genesis-Epicode
+
+创世纪史诗
+Genesis Epicode (2024-02-15, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1708058238461113.html
+[代理服务器] genesis_dotnet
+
+genesis支付网关的.net客户端集成
+.net client integration for Genesis Payment Gateway (2024-01-31, C#, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1706832306552798.html
+[hotest] Owshen
+
+owshennetwork成因
+owshennetwork genesis (2023-12-30, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1704113028835106.html
+[hotest] OwshenNetwork
+
+owshennetwork成因
+owshennetwork genesis (2023-12-30, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1704113028355075.html
+[其他] ephemery-genesis
+
+短暂发生
+ephemery genesis (2023-12-21, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1703183507476546.html
+[其他] Sega_genesis_Autosplits
+
+Sega genesis光盘的自动拆分
+Autosplits for Sega Genesis roms (2023-12-03, ASL, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1701623284714930.html
+[其他] genesis-code
+
+Visual Studio Code genesis开发扩展
+Visual Studio Code Genesis Development Extension (2023-11-29, TypeScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1701302991105028.html
+[其他] genesis-dio
+
+成因dio
+genesis dio (2022-01-23, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1699955210381482.html
+[Linux/Unix编程] genesis-Cronjobs
+
+genesis服务器cron作业管理器，
+genesis server cron job manager, (2023-04-08, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694371680391415.html
+[collect] genesis-docs
+
+起源文件，
+Document of genesis, (2023-02-06, Shell, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689152001597109.html
+[collect] genesis-router-demo
+
+用于genesis路由器演示的Vue SSR，
+Vue SSR for Genesis router demo, (2021-06-25, TypeScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689152001237958.html
+[游戏引擎] genesis-Game-Engine-3
+
+genesis-Game-Engine-3，，
+Genesis-Game-Engine-3,, (2022-05-25, Java, 402KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686414573188592.html
+[VHDL/FPGA/Verilog] openFPGA-genesis
+
+genesis核心用于模拟口袋上的openFPGA
+Genesis core for openFPGA on Analogue Pocket (2022-11-08, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1667867210228454.html
+[其他] SF_genesis
+
+file description for genesis
+file description for genesis (2021-03-27, UNIX, 91KB, 下载0次)
+http://www.pudn.com/Download/item/id/1616856382780142.html
+[嵌入式/单片机/硬件编程] PCB--CAM-genesis-script
+
+PCB CAM genesis脚本 支持各种语言开发genesis脚本工具包
+PCB CAM genesis Genesis scripting support various scripting language development toolkit (2014-05-11, Visual Basic, 37KB, 下载27次)
+http://www.pudn.com/Download/item/id/2537609.html
+[图形图像处理] gm8225FW-V1.1-Customer_StdLib
+
+genesis 8225 的C库文件，全部C语言源代码
+genesis 8225 C library source file (2012-06-09, C/C++, 957KB, 下载6次)
+http://www.pudn.com/Download/item/id/1907409.html
+[其他嵌入式/单片机内容] genesis_ZR3
+
+genesis公司早间ZR3系列显示芯片的源程序，可以编译修改的。
+Genesis Company morning show ZR3 series chip source, you can modify the compiler. (2008-12-09, C/C++, 1518KB, 下载16次)
+http://www.pudn.com/Download/item/id/599906.html 
+
+
+[hotest] https-github
+
+https:github.com Owshen网络起源
+https: github.com OwshenNetwork genesis (2023-12-30, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1704113028812879.html
+[hotest] https-github
+
+https:github.com Owshen网络起源
+https: github.com OwshenNetwork genesis (2023-12-30, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1704113028827528.html
+[hotest] ittps-github
+
+ittps:github.com Owshen网络起源
+ittps: github.com OwshenNetwork genesis (2023-12-30, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1704113028647417.html
+[其他] genesis-Institute
+
+创世纪研究所
+Genesis Institute (2023-12-01, HTML, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1701457430863031.html
+[hotest] genesis
+
+起源宣言
+declaration of genesis (2023-11-28, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1701258135909523.html
+[开发工具] genesis-tools
+
+Terra 2.0的genesis构建脚本，
+Genesis Build Script for Terra 2.0, (2023-08-29, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1693872554562458.html
+[自动驾驶] OpenDrive-genesis
+
+Sega genesis 32X的开放式硬件推车，
+A open hardware flashcart for the Sega Genesis 32X, (2021-02-27, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1693832022977011.html
+[collect] kiwi
+
+一个简单的Sega genesis模拟器
+A simple Sega Genesis emulator (2017-08-27, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689487400901389.html
+[虚拟化] genesis-plus-gx-xenon
+
+genesis加上gx氙气，，
+genesis-plus-gx-xenon,, (2012-01-14, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689204060346217.html
+[游戏] genesisGameJam
+
+genesis游戏果酱
+Game for Genesis Game Jam (2020-12-20, C#, 30742KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687612968625614.html
+[处理器开发] maixduino-genplus
+
+用于Maixduino的基于genesis Plus GX的MEGADRIVE genesis仿真器
+Genesis-Plus-GX based MEGADRIVE GENESIS emulator for the Maixduino (2020-07-11, C, 1382KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687216284793348.html
+[建站系统] genesis-sample-sass
+
+Sassified genesis样本2.6.0
+Sassified Genesis Sample 2.6.0 (2018-05-27, CSS, 21KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686439612606063.html
+[Bootstrap] bootstrap-for-genesis
+
+一个很棒的创世纪框架儿童主题使用Bootstrap 4
+An awesome Genesis Framework child theme using Bootstrap 4 (2023-01-27, PHP, 328KB, 下载0次)
+http://www.pudn.com/Download/item/id/1674761413963898.html
+[VHDL/FPGA/Verilog] openFPGA-genesis
+
+Sega genesis模拟口袋的FPGA实现。
+FPGA implementation of Sega Genesis for Analogue Pocket. (2022-10-19, Verilog, 3433KB, 下载0次)
+http://www.pudn.com/Download/item/id/1666169592331859.html
+[人工智能/神经网络/深度学习] genesis
+
+genesis，麻省理工学院机器学习与理解项目
+genesis,MIT Project for Machine Learning and Understanding (2014-09-29, Java, 62106KB, 下载0次)
+http://www.pudn.com/Download/item/id/1411932080392421.html
+[软件设计/软件工程] genesis一键制作飞针自动化完整板源码分享
+
+genesis一键制作飞针自动化完整板源码分享
+Genesis one click production of flying needle automation complete board source code sharing (2019-12-25, Perl, 12KB, 下载2次)
+http://www.pudn.com/Download/item/id/1577267011770309.html
+[Windows编程] setnote
+
+genesis脚本，自动标注x,y坐标以及直径
+genesis script,auto note x,y,dia (2016-07-12, Perl, 1KB, 下载3次)
+http://www.pudn.com/Download/item/id/1468312432610601.html
+[Windows编程] pnl
+
+硬板perl封边脚本，想学脚本的朋友可以参考
+genesis script-genesis Edge script to run automatically, genesis script (2016-07-06, Perl, 8KB, 下载2次)
+http://www.pudn.com/Download/item/id/1467804647194273.html
+[Linux/Unix编程] Output_film
+
+C-Shell写的genesis菲林自动输出的脚本！
+C-Shell wrote film to be automatic output genesis script! (2012-03-10, Unix_Linux, 1KB, 下载6次)
+http://www.pudn.com/Download/item/id/1789737.html
+[单片机开发] GMzan
+
+genesis 的gmzen系列显示器驱动芯片量产程序
+genesis of gmzen Series Display Driver IC production process (2009-03-25, C/C++, 4601KB, 下载114次)
+http://www.pudn.com/Download/item/id/687903.html 
+
+
+[其他] genesis-Plaza-SDK7
+
+创世纪广场SDK7
+Genesis Plaza SDK7 (2024-04-03, TypeScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1712171091686245.html
+[其他] genesis-1
+
+起源1.0
+genesis 1.0 (2024-03-04, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1709578712142156.html
+[其他] genesiscloud-go
+
+genesis Cloud Go客户端
+Genesis Cloud Go Client (2024-02-19, GO, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1708364928984337.html
+[NFT] genesis-dao-node
+
+起源道节点
+genesis dao node (2024-02-06, Rust, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1707378970924329.html
+[NFT] genesis-dao-node
+
+起源道节点
+genesis dao node (2024-02-06, Rust, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1707227313699083.html
+[WEB开发] genesis
+
+KON Mainnet genesis json文件
+KON Mainnet Genesis json file (2024-02-01, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1706842823743351.html
+[构建工具] wasm-genplus
+
+genesis Plus GX WebAssembly移植
+Genesis-Plus-GX WebAssembly porting (2023-11-07, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1699427662545057.html
+[游戏机] tetris
+
+genesis游戏机俄罗斯方块，
+genesis game console tetris, (2020-01-11, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694792262487014.html
+[硬件设计] genesis-FeRAM-Cart
+
+一个开放的Sega genesis盒式PCB，
+A open Sega Genesis cartridge PCB, (2020-10-06, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694049004901251.html
+[collect] genesis-web
+
+，
+, (2018-04-10, CSS, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1690031312141109.html
+[collect] cosmos-genesis-tinkerer
+
+Python模块，用于修补Cosmos Network genesis文件，
+Python module for tinkering with Cosmos Network Genesis files, (2023-06-21, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689845399787315.html
+[collect] genesis-Project
+
+genesis Project是一个Theatre.js+Three.js体验，
+Genesis Project is a Theatre.js + Three.js experience, (2018-11-28, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689804986855116.html
+[] rabbitmq-genesis-kit
+
+用于兔子MQ消息代理的genesis工具包
+A Genesis Kit for the RabbitMQ Message Broker (2022-09-14, Shell, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688636984397097.html
+[构建工具] digital-creative-genesis-webpack
+
+Digital Creative genesis是一个用于Laverty Creative客户端项目的genesis子主题，使用Webpack作为构建工具...
+Digital Creative Genesis is a Genesis child theme used for Laverty Creative client projects, using Webpack as a build tool. (2019-02-01, CSS, 553KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686912434768023.html
+[建站系统] zen
+
+genesis框架的最小主题，具有现代开发工作流。
+Minimal theme for the Genesis Framework with a modern development workflow. (2023-01-05, SCSS, 856KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686442896381431.html
+[区块链开发] genesis
+
+genesis，genesis haftal k olarak区块链技术hakk nda en nemli geli meleri mail olarak yollayan bir giri imdir。
+Genesis,Genesis haftal k olarak blockchain teknolojisi hakk nda en nemli geli meleri mail olarak yollayan bir giri imdir. (2023-01-26, HTML, 13826KB, 下载0次)
+http://www.pudn.com/Download/item/id/1674707975794070.html
+[区块链开发] N0018-genesis-crowd-funding
+
+N0018-genesis-crowd-funding,区块链众筹平台-中华创世纪-星火队
+N0018 Genesis crowd funding, blockchain crowdfunding platform - China Genesis Spark Team (2017-05-15, JavaScript, 280009KB, 下载0次)
+http://www.pudn.com/Download/item/id/1494799398849059.html
+[VHDL/FPGA/Verilog] 2621-app_GmVGA
+
+genesis液晶顯示IC GM2621 原程序
+Genesis LCD IC GM2621 original program (2011-08-05, Visual C++, 707KB, 下载21次)
+http://www.pudn.com/Download/item/id/1615405.html
+[软件设计/软件工程] C5221-DAT-04A
+
+genesis image scaler gm5221 datasheet
+genesis image scaler gm5221 datasheet (2011-02-14, Others, 658KB, 下载4次)
+http://www.pudn.com/Download/item/id/1428415.html
+[] C5020-DAT-01Q
+
+genesis image scaler gm5020 datasheet
+genesis image scaler gm5020 datasheet (2011-02-14, Others, 1198KB, 下载4次)
+http://www.pudn.com/Download/item/id/1428408.html 
+
+
+[大数据] primed-genesis-gwas
+
+在PRIMED数据上运行genesis的工作流
+Workflow for running GENESIS on PRIMED data (2024-02-15, wdl, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1707972403311125.html
+[hotest] Owshen
+
+Https:github.com OwshenNetwork起源
+Https: github.com OwshenNetwork genesis (2023-12-31, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1704113028278750.html
+[hotest] genesis
+
+Owshen奖励和空投
+Owshen rewards and airdrops (2023-12-31, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1704113028782653.html
+[区块链开发] op-genesis
+
+OP链的成因信息
+Genesis Information for OP Chains (2023-12-19, GO, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1703249375297954.html
+[其他] web-client
+
+genesis Vision平台
+Genesis Vision Platform (2023-11-16, TypeScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1701703384121526.html
+[其他] authoritydevbase
+
+genesis Framework Base初学者主题，
+Genesis Framework Base Starter Theme, (2014-01-10, PHP, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1695737168277434.html
+[其他] genesisInput
+
+Arduino示例，用于读取Sega genesis游戏板按钮，
+Arduino sample to read Sega Genesis gamepad buttons, (2021-08-16, C++, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694704431972993.html
+[collect] ida-genesis
+
+用于SEGA genesis ROM黑客的IDA脚本套件，
+Suite of IDA scripts for SEGA Genesis ROM hacking, (2020-11-07, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1690675601400116.html
+[数值算法/人工智能] genesis-apps
+
+genesis应用程序，，
+genesis-apps,, (2021-08-31, C++, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689595657181163.html
+[人工智能/神经网络/深度学习] genesis
+
+genesis是第一个用于词汇替换的生成方法（EMNLP2021）。
+GeneSis is the first generative approach for lexical substitution (EMNLP 2021). (2022-03-17, Python, 6808KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686620135707107.html
+[建站系统] free-genesis-themes
+
+一个免费的集合，做任何你想要的创世纪儿童主题。
+A collection of free, do-whatever-you-want Genesis child themes. (2017-02-27, CSS, 547KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686439557478329.html
+[企业管理] genesis-CRM
+
+WordPress的客户关系管理主题，基于genesis构建
+A Customer Relationship Management theme for WordPress, built on Genesis (2013-02-11, PHP, 132KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686285166874821.html
+[DeFi] genx
+
+genesis网络DeFi WIP
+Genesis Network DeFi WIP (2020-11-11, Solidity, 16KB, 下载0次)
+http://www.pudn.com/Download/item/id/1605074814975896.html
+[前端开发] genesis-starter-theme
+
+genesis框架的启动主题和现代开发工作流程
+A starter theme for the Genesis Framework with a modern development workflow (2020-04-18, PHP, 1476KB, 下载0次)
+http://www.pudn.com/Download/item/id/1587155600180801.html
+[以太坊] Ethereum.TestNet
+
+genesis文件和链以快速设置测试网
+Genesis file and chain to quickly setup a testnet (2016-08-09, Shell, 12KB, 下载0次)
+http://www.pudn.com/Download/item/id/1470695294518942.html
+[区块链开发] quorum-genesis
+
+quorum genesis，一个简单的实用程序，可以帮助为quorum许可的区块链创建genesis文件
+quorum-genesis,Simple utility to help create a genesis file for the Quorum permissioned blockchain (2017-01-11, JavaScript, 3KB, 下载0次)
+http://www.pudn.com/Download/item/id/1484130290166227.html
+[汇编语言] genesis
+
+Sega genesis simple init program in assembly language
+Sega genesis simple init program in assembly language (2018-05-05, Asm, 94KB, 下载0次)
+http://www.pudn.com/Download/item/id/1525499649649809.html
+[WEB开发] genesis.1.7.1
+
+genesis Frameword/Template for wordpress. Version 1.7.1
+Genesis Frameword/Template for wordpress. Version 1.7.1 (2011-10-12, PHP, 163KB, 下载3次)
+http://www.pudn.com/Download/item/id/1667220.html
+[单片机开发] H2_home
+
+genesis的HudsonII的源代码，现在genesis被ST公司收购了，是电视机的主板的源代码
+Genesis of HudsonII the source code, now being ST' s acquisition of Genesis, is the source code of the TV board (2010-09-25, C/C++, 6789KB, 下载39次)
+http://www.pudn.com/Download/item/id/1304137.html
+[单片机开发] Phoenixgm5621
+
+Detailed datasheet for genesis Microchip LCD controller gm5621
+Detailed datasheet for Genesis Microchip LCD controller gm5621 (2009-10-08, PDF, 152KB, 下载52次)
+http://www.pudn.com/Download/item/id/932030.html 
+
+
+[内容生成] networks
+
+用于Galactica网络的genesis配置和管理脚本
+Genesis configurations and management scripts for Galactica networks (2024-03-21, Shell, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1711079079794352.html
+[其他] terraform-provider-genesiscloud
+
+genesis云的地形提供者
+Terraform Provider for Genesis Cloud (2024-01-02, GO, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1704216808103562.html
+[系统/网络安全] bn-genesis
+
+用于SEGA genesis ROM黑客攻击的二进制忍者插件套件
+Binary Ninja plugin suite for SEGA Genesis ROM hacking (2021-09-13, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1700245787617615.html
+[其他] genesis-Shortcodes
+
+向所见即所得添加按钮，允许您添加默认的genesis短代码以及从默认genesis c构建的自定义短代码...，
+Adds a button to your WYSIWYG that allows you to add default Genesis shortcodes as well as custom shortcodes built from default Genesis column classes (2016-02-03, PHP, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1697606519111695.html
+[建站系统] genesis-enews-extended
+
+WordPress小部件为genesis eNews小部件提供附加功能。，
+WordPress widget to provide additional functionality to the Genesis eNews widget., (2023-09-09, PHP, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694302324296737.html
+[collect] libgen_uploader
+
+A Library genesis电子书上传器。，
+A Library Genesis ebook uploader., (2023-06-20, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1690115552161852.html
+[collect] shield-deployment
+
+用于屏蔽的genesis模板部署，
+A Genesis Template Deployment for SHIELD, (2017-01-13, Shell, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1690031295653769.html
+[OA办公系统] wpselect5
+
+WPselect html5 genesis框架主题，
+WPselect html5 theme for the Genesis Framework, (2015-05-29, CSS, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688907283752881.html
+[汇编语言] md-modules
+
+Sega Mega Drive genesis ROM的调试模块_和_实用程序
+Debugging modules _and_ utilities for Sega Mega-Drive Genesis ROMs (2023-06-29, Assembly, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688301075475908.html
+[hotest] sui-genesis
+
+各种sui网络的成因状态
+Genesis state for various sui networks (2023-06-27, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687987742147618.html
+[游戏] smash_genesis
+
+创世纪平台格斗游戏
+Genesis platform fight game (2022-04-14, C, 14KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687571668505364.html
+[游戏] zmap-tools
+
+genesis FPS“零公差”工具
+Tools for the Genesis FPS "Zero Tolerance" (2019-09-03, Python, 5KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687558681635752.html
+[建站系统] generator-wordpress
+
+genesis WordPress的约曼生成器
+Yeoman generator for Genesis WordPress (2016-05-26, JavaScript, 6KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686439062467234.html
+[建站系统] bones-for-genesis-2-0
+
+创世纪新项目的起点。专为genesis 3.*和WordPress 5.**打造。
+A starting point for new Genesis projects. Built for Genesis 3.* and WordPress 5.*+. (2023-04-14, PHP, 65KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686437919836367.html
+[前端开发] librebook
+
+使用Flutter构建的最小前端库genesis客户端
+A minimal front-end library genesis client, built with Flutter (2021-09-20, Dart, 8182KB, 下载0次)
+http://www.pudn.com/Download/item/id/1632109819963097.html
+[区块链开发] genesis
+
+genesis，genesis是一个用于Web3和基于区块链的分布式系统的端到端开发沙盒和测试平台。
+genesis,Genesis is an end-to-end development sandbox and testing platform for Web3 and blockchain-based distributed systems. (2023-03-30, GO, 135KB, 下载0次)
+http://www.pudn.com/Download/item/id/1680106458313607.html
+[区块链开发] genesisZ
+
+genesisZ，为您的Zcashy altcoin挖掘genesis区块
+GenesisZ,Mine the Genesis Block for your Zcashy altcoin (2018-05-17, Python, 25KB, 下载0次)
+http://www.pudn.com/Download/item/id/1526523537943335.html
+[Python工具库] libgen-api
+
+libgen api，Library genesis Python搜索库
+libgen-api,Library Genesis search library for Python (2023-04-18, Python, 24KB, 下载0次)
+http://www.pudn.com/Download/item/id/1681815502225296.html
+[其他] set
+
+主要作用是用于genesis的set拼版。
+Main role is set for the genesis of the jigsaw. (2013-07-16, Perl, 4KB, 下载3次)
+http://www.pudn.com/Download/item/id/2306656.html
+[其他] gm5xxx_datasheet
+
+genesis GM5xxx Datasheet, Full Technical information for the Display scaler that is used in many TFT displays.
+Genesis GM5xxx Datasheet, Full Technical information for the Display scaler that is used in many TFT displays. (2009-12-24, Video, 630KB, 下载76次)
+http://www.pudn.com/Download/item/id/1017110.html 
+
+
+[其他] genesis-server
+
+genesis server,, stars:3, update:2024-04-29 18:59:06 (2024-04-30, HTML, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1714417221640157.html
+[其他] genesis
+
+创世纪节点。JS客户端集成
+Genesis Node.JS client integration (2024-02-23, CoffeeScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1708716471304773.html
+[hotest] Jamiu
+
+https:github.com Owshen网络起源
+https: github.com OwshenNetwork genesis (2023-12-31, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1704113028501011.html
+[区块链开发] sidra-contracts
+
+Sidra Chain的genesis智能合约，
+Genesis Smart Contracts for Sidra Chain, (2023-10-27, Solidity, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1698478067166058.html
+[Python编程] genesis-api-example
+
+在Python中使用genesis API（RESTful JSON）的简单演示，
+Simple demo of using the GENESIS API (RESTful JSON) in Python, (2023-09-29, Jupyter Notebook, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1696016535176318.html
+[GIS/地图编程] GenScrollingMapDemo
+
+Sega genesis的滚动地图引擎演示，
+Scrolling map engine demo for Sega Genesis, (2023-06-04, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694070070303321.html
+[自动驾驶] genesis
+
+基于汽车品牌genesis的概念，
+Concept based on the automobile car brand Genesis, (2023-08-19, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1692511301398848.html
+[collect] Librarygenesis
+
+Library genesis iOS客户端，
+Library Genesis iOS Client, (2021-03-26, Swift, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689903733504614.html
+[人工智能/神经网络/深度学习] emacs-genesis-mode
+
+用于编辑genesis神经元模拟器脚本文件的Emacs主模式。，
+Emacs major mode for editing GENESIS neuron simulator script files., (2014-06-25, Emacs Lisp, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688736352937024.html
+[] substrate-benchmark-genesis
+
+用于生成用于基准测试运行时的genesis配置的工具。
+A tool to generate a genesis configuration used for benchmarking the runtime. (2021-03-10, JavaScript, 17902KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687538695904158.html
+[金融证券系统] trade-ipfs-storage
+
+genesis Vision贸易IPFS存储
+Genesis Vision trade IPFS storage (2018-01-10, C#, 17KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687130617332448.html
+[建站系统] WP-Construct
+
+新WordPress项目的样板，具有基于genesis框架的主题。
+Boilerplate for a new WordPress project with a Genesis Framework based theme. (2021-03-31, Shell, 397KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686441106441189.html
+[数学计算] eulerbeats-genesis-midi
+
+WIP-eulerbeats.com genesis LPs的MIDI、Sheet Music和Ableton文件
+WIP - MIDI, Sheet Music, and Ableton files for eulerbeats.com Genesis LPs (2021-03-03, JavaScript, 11276KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686256134750769.html
+[区块链开发] ico-contracts
+
+genesis Vision ICO以太坊智能合约
+Genesis Vision ICO Ethereum Smart contracts (2017-09-11, JavaScript, 38KB, 下载0次)
+http://www.pudn.com/Download/item/id/1505133561441012.html
+[区块链开发] platform-contracts
+
+智能合约genesis Vision平台
+Smart contracts Genesis Vision platform (2018-10-29, JavaScript, 13KB, 下载0次)
+http://www.pudn.com/Download/item/id/1540797252960862.html
+[区块链开发] genesis
+
+genesis，一个具有智能合约实施的“从头开始”的工作证明区块链
+Genesis,A "from-scratch" proof of work blockchain with smartcontracts implementation (2022-09-04, C++, 18288KB, 下载0次)
+http://www.pudn.com/Download/item/id/1662252822497241.html
+[其他] input_tgz
+
+genesis 自动导入料号，可做学习用
+Genesis automatically import JOB script,It can be used for learning (2020-07-08, Shell, 3KB, 下载1次)
+http://www.pudn.com/Download/item/id/1594203466870632.html
+[其他] genesis
+
+genesis-framework-v2.6.1
+genesis-framework-v2.6.1 (2019-02-05, PHP, 313KB, 下载1次)
+http://www.pudn.com/Download/item/id/1549367279152016.html
+[单片机开发] 2621-app_GmVGA
+
+genesis GM2621 LCD monitor source code. Support from VGA up to SVGA 1280x1024 resoulution .
+Genesis GM2621 LCD monitor source code. Support from VGA up to SVGA 1280x1024 resoulution . (2009-06-07, C/C++, 710KB, 下载84次)
+http://www.pudn.com/Download/item/id/797244.html
+[图形图像处理] GN(genesis)
+
+大名鼎鼎的GN：genesis的相关开发资料 做液晶电视，以及OSD字符叠加以及高级视频控制的朋友可以来看看，这些资料可是要和GN签订保密协议才会给的！
+Famous GN: genesis of the relevant information to do the development of LCD TV, as well as the OSD characters, as well as advanced video overlay control friends can look at it, but such information should be entered into confidentiality agreements and GN will give! (2009-01-13, MultiPlatform, 2792KB, 下载263次)
+http://www.pudn.com/Download/item/id/630373.html 
+
+
+[区块链开发] lorenzo-genesis
+
+Lorenzo chain genesis configs, stars:1, update:2024-05-08 02:05:09 (2024-05-08, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1715138954901744.html
+[其他] genesis
+
+成因
+genesis (2024-03-12, GO, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1710268406447924.html
+[其他] genesis
+
+成因
+genesis (2024-02-05, HTML, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1707158077323178.html
+[hotest] owshennetwork
+
+https:github.com OwshenNetwork Owshen网络起源
+https: github.com OwshenNetwork OwshenNetwork genesis (2023-12-30, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1704113028330314.html
+[其他] https-github
+
+https github.com Owshen网络起源
+https github.com OwshenNetwork genesis (2023-12-31, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1704044918668865.html
+[其他] cyclone_genesis_charts
+
+气旋成因生成的TC轨迹
+TC tracks generated by cyclone_genesis (2023-11-26, HTML, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1701019276586522.html
+[WEB开发] EA-genesis-Child
+
+创世纪的HTML5基子主题
+HTML5 base child theme for Genesis (2022-01-31, PHP, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1700227602910670.html
+[博客] CoreBlogNG
+
+Neon genesis核心博客，非常有趣，
+Neon Genesis Core Blog, very funny, (2023-08-21, HTML, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1692590503292460.html
+[collect] genesis-Plus-GX
+
+genesis Plus的增强端口-精确和便携式Sega 8 16位模拟器，
+An enhanced port of Genesis Plus - accurate & portable Sega 8 16 bit emulator, (2023-07-01, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689916957969881.html
+[单片机开发] ultra-dma-queue
+
+Sega genesis的超快速DMA队列，
+Super fast DMA queue for the Sega Genesis, (2022-07-17, Assembly, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689618999112088.html
+[人工智能/神经网络/深度学习] models_genesis_brain
+
+为大脑数据建模genesis。尝试ATLAS数据集和CQ500数据集。，
+Models Genesis for brain data. Tried for ATLAS dataset and CQ500 dataset., (2020-02-29, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688742172994798.html
+[浏览器] genesis-Plus-GX-Wasm
+
+genesis Plus GX的w.i.p.端口到您的网络浏览器！
+A w.i.p. port of Genesis Plus GX to your web browser! (2022-11-21, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688525793363127.html
+[游戏] quantum-burst
+
+：video_game:Sega genesis的子弹地狱式太空射手
+:video_game: A bullet hell style space shooter written for the Sega Genesis (2023-06-15, C, 55KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687552888281815.html
+[处理器开发] genesis2PCE
+
+允许将genesis 3和6按钮控制器调整为PC引擎
+Allows adapting Genesis 3 and 6 button controllers to the PC Engine (2020-09-03, C, 1382KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687219311891154.html
+[金融证券系统] trading-platform-integration
+
+genesis Vision交易平台集成包装器
+Genesis Vision trading platform integration wrapper (2017-11-25, C#, 87KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687130657465783.html
+[游戏引擎] elizabeth-engine
+
+世嘉Mega Drive genesis游戏引擎
+Game engine for Sega Mega Drive Genesis (2020-08-25, JavaScript, 203KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686415435164558.html
+[博客] CoreyMS-genesis-Theme
+
+个人博客的创世纪儿童主题
+Genesis child theme for personal blog (2015-01-03, CSS, 268KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686399978108907.html
+[前端开发] genesis-header-nav
+
+WordPress插件，注册菜单位置并将其显示在genesis Framework子主题的标题中。
+WordPress plugin that registers a menu location and displays it inside the header for a Genesis Framework child theme. (2018-01-13, PHP, 47KB, 下载0次)
+http://www.pudn.com/Download/item/id/1515831449103904.html
+[Bootstrap] Twitter-Bootstrap-for-WordPress-genesis
+
+复古StudioPress genesis主题入门套装，采用Twitter Bootstrap响应设计
+Starter set for retro-fitting StudioPress Genesis themes with Twitter Bootstrap responsive design (2012-05-20, PHP, 1KB, 下载0次)
+http://www.pudn.com/Download/item/id/1337462478373171.html
+[单片机开发] FLI8125_SOURCECODE
+
+genesis公司的FLI8125 LCD-TV源代码，已编译通过了，不过还得另配专用的环境编译软件。
+Genesis公司的FLI8125 LCD-TV源代码，已编译通过了，不过还得另配专用的环境编译软件。 (2009-07-22, C/C++, 1521KB, 下载74次)
+http://www.pudn.com/Download/item/id/852788.html 
+
+
+[其他] genesis
+
+成因
+genesis (2024-04-09, Java, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1712690653230335.html
+[其他] genesis
+
+创世纪
+Genesis (2024-03-15, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1710475728989488.html
+[数值算法/人工智能] genesis-equations
+
+2 AI General生成的方程式。
+2 Equations for the genesis of AI General. (2024-03-01, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1709268234648085.html
+[其他] genesis
+
+创世纪
+Genesis (2024-02-21, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1708541865768045.html
+[其他] genesis
+
+创世纪
+Genesis (2024-02-21, EJS, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1708541850412863.html
+[其他] genesis
+
+创世纪
+Genesis (2024-02-17, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1708193195723165.html
+[其他] genesis_path_follower
+
+现代创世纪MPC路径跟随器。
+MPC Path Follower for the Hyundai Genesis. (2020-12-06, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1699954313749573.html
+[聊天室] genesis-landing-page
+
+基于矿石1着陆不一致红色的genesis新着陆页面，
+New landing page for genesis based on orels1 landing-discord-red, (2023-10-27, Pug, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1698434428481325.html
+[Rust编程] jgenesis
+
+Sega genesis主系统游戏装备模拟器，
+Sega Genesis Master System Game Gear emulator, (2023-09-17, Rust, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694999104828073.html
+[项目开发与运营] nge_2_re
+
+Neon genesis Evangelion 2反向工程翻译，
+Neon Genesis Evangelion 2 reverse engineering translation, (2023-05-02, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694975751695180.html
+[其他] Arduinogenesis
+
+Sega genesis Mega Drive Arduino游戏板库，
+Sega Genesis Mega Drive gamepad library for Arduino, (2014-02-03, C++, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694704376773840.html
+[collect] git-hltraining
+
+Hyperledger白羊座训练，工具箱，testnet_genesis，
+Hyperledger Aries training, toolbox, testnet_genesis, (2022-11-10, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1690174243439584.html
+[金融证券系统] strategies
+
+genesis机器人的策略库。
+A library of strategies for the Genesis bot. (2023-07-03, TypeScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689452099576563.html
+[工具库] Libgenesis
+
+API解决方案-库genesis平台，以启用查询搜索
+An API workaround the library genesis platform to enable query search (2023-01-04, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689417914922684.html
+[其他] misc-megadrive_dev_resources
+
+Megadrive genesis开发资源收集
+Collection of Megadrive Genesis development resources (2019-04-29, Assembly, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688373290236099.html
+[游戏] Mega-Car-Wars
+
+Sega genesis Megadrive的等距冒险赛车游戏
+An isometric adventure racing game for the Sega Genesis Megadrive (2020-04-18, C, 15KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687584595559326.html
+[Unreal] LipSyncUE4
+
+虚幻引擎中genesis 8的唇形同步
+Lip Sync for Genesis 8 in Unreal Engine (2022-12-08, C#, 62431KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686344371586388.html
+[人工智能/神经网络/深度学习] Chaotic_genesis
+
+Chaotic_genesis，一种用遗传算法优化的混合混沌映射密码系统
+Chaotic_Genesis,A hybrid chaotic map cryptosystem optimized with genetic algorithm (2021-02-21, Python, 104KB, 下载0次)
+http://www.pudn.com/Download/item/id/1613906549139733.html
+[区块链开发] core-genesis-contract
+
+核心创世纪合约，核心区块链创世纪合约。
+core-genesis-contract,Core blockchain genesis contracts. (2023-04-18, Python, 666KB, 下载0次)
+http://www.pudn.com/Download/item/id/1681771926266418.html
+[单片机开发] App-52xx
+
+genesis芯片点屏程序，52xx-app系列，呵呵，买都买不到的噢
+genesis chip point-screen procedures, 52xx-app series, Oh, buy buy all the Oh (2007-12-13, C/C++, 2482KB, 下载83次)
+http://www.pudn.com/Download/item/id/374960.html 
+
+
+[区块链开发] pocket-network-genesis
+
+存储Pocket Network不同链的genesis文件的存储库
+A repository to store genesis files for different chains of the Pocket Network (2024-02-13, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1707903978221048.html
+[Python工具库] libby
+
+一个简单的CLI工具，用于从Library genesis（libgen）快速下载书籍
+a simple CLI tool to quickly download books from Library Genesis (libgen) (2023-12-29, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1703908562272960.html
+[Rust编程] libgen-rs
+
+library genesis的Rust API库和CLI工具
+Rust API library & CLI tool for Library Genesis (2023-11-14, Rust, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1699990145654406.html
+[其他] Sega-genesis-Checksum-Utility
+
+一个简单的命令行实用程序，用于验证（或更正）Sega genesis ROM校验和。，
+A simple command line utility to verify (or correct) Sega Genesis ROM checksums., (2021-06-12, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1695721341331866.html
+[仿真建模] BBR
+
+Simulink回购自着陆模型火箭（genesis），
+Simulink Repo for self-landing model rocket (Genesis), (2023-09-23, matlab, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1695504749185177.html
+[其他] genesisgamepad
+
+用于Arduino.的genesis Mega Drive游戏板驱动程序。，
+Genesis Mega Drive gamepad driver for Arduino., (2017-07-16, C++, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694704425912030.html
+[其他] team-member-biographies
+
+基本自定义帖子类型和自定义分类插件。需要genesis框架。，
+Basic Custom Post Type and Custom Taxonomy plugin. Requires the Genesis Framework., (2018-01-14, PHP, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689711148912697.html
+[工具库] LibGen
+
+一款在移动中从Library genesis下载书籍和论文的应用程序。
+An app to download books and papers from Library Genesis on the go. (2023-01-06, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689418162710805.html
+[collect] genesisV2
+
+genesis具有更多升级。
+Genesis with much more upgrade. (2019-09-16, C++, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689389500127993.html
+[网络编程] MegaBlue
+
+基于蓝牙的Mega Drive genesis操纵杆接口，
+A bluetooth based interface to Mega Drive Genesis Joysticks, (2019-10-03, C++, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689269372807491.html
+[数学计算] mixhash
+
+对多哈希算法进行genesis块证明。
+Make Genesis Block Proof of Work for multiple Hash Algorithms. (2018-03-02, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687905490749538.html
+[搜索引擎] core
+
+SEO主题的核心功能插件genesis子主题。
+Core functionality plugin for SEO Themes Genesis child themes. (2019-12-02, CSS, 1343KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687401369307763.html
+[处理器开发] sfc2md
+
+SNES Super Famicom到genesis Mega Drive控制器适配器
+SNES Super Famicom to Genesis Mega Drive controller adapter (2020-06-22, C, 860KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687219497324455.html
+[远程控制/远程桌面] python-genesiscreator
+
+A SHA256，加密，X11，X13，X15，Quark genesis Creator
+A SHA256, Scrypt, X11, X13, X15, Quark Genesis Creator (2023-06-09, Python, 28KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686565436602900.html
+[Bootstrap] bootstrap4-genesis
+
+WordPress创世纪入门儿童主题使用Bootstrap 4
+WordPress Genesis Starter Child Theme using Bootstrap 4 (2022-12-06, CSS, 278KB, 下载0次)
+http://www.pudn.com/Download/item/id/1670335064880133.html
+[以太坊] eth2-testnet-genesis
+
+为Eth2测试网创建一个起源状态
+Create a genesis state for an Eth2 testnet (2023-04-04, GO, 38KB, 下载0次)
+http://www.pudn.com/Download/item/id/1680600221521297.html
+[] lgdbdumps
+
+Library genesis（libgen）db在ipfs上转储镜像
+Library Genesis (libgen) db dumps mirror on ipfs (2023-05-11, HTML, 23KB, 下载0次)
+http://www.pudn.com/Download/item/id/1683771888905384.html
+[区块链开发] town
+
+镇▼ LUX genesis智能合约和Web3界面。
+town,▼ LUX Genesis smart contracts and Web3 interface. (2023-03-16, Rust, 132686KB, 下载0次)
+http://www.pudn.com/Download/item/id/1678955254903327.html
+[数值算法/人工智能] ewf-genesis-generator
+
+ewf生成生成器、ewf链生成JSON生成器，
+EWF s chain genesis JSON generator , (2022-04-14, JavaScript, 227KB, 下载0次)
+http://www.pudn.com/Download/item/id/1649873585988943.html
+[人工智能/神经网络/深度学习] genesis
+
+在TC和unix下用的，很好的一个遗传算法软件
+GENESIS Version 5.0 was written to promote the study of genetic algorithms for function minimization (2012-03-15, C++, 124KB, 下载2次)
+http://www.pudn.com/Download/item/id/1794505.html 
+
+
+[加密货币] generate-genesis
+
+A Bitcoin-clone (altcoin) genesis block generator., stars:8, update:2024-05-02 05:23:56 (2024-05-02, GO, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1714634930810597.html
+[其他] Finality-genesis
+
+This is the repository for the modpack Finality genesis., stars:2, update:2024-05-01 18:38:30 (2024-05-02, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1714589517150350.html
+[其他] para-genesis-1
+
+原始的共生项目，在macroquad中重写
+The original para-genesis project, rewritten in macroquad (2024-04-09, Rust, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1712690551856334.html
+[生物医药技术] Genomegenesis
+
+基因组genesis
+GenomeGenesis (2024-02-21, CSS, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1708560664729049.html
+[图形图象] Polygon_Arianee_Supernet
+
+Polygon Arianee Supernet的客户端和genesis文件
+Client & Genesis file for Polygon Arianee Supernet (2023-12-14, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1702571511359299.html
+[] genesis
+
+genesis密码生成器是一个基于Java的实用程序，旨在生成强大而安全的密码。
+The Genesis Password Generator is a Java-based utility crafted to generate strong and secure passwords. (2023-12-08, Java, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1702155106977107.html
+[系统/网络安全] neon-genesis
+
+NEON genesis是一款半风格化的2.0后照明模块，支持幻影自由。
+NEON GENESIS is a semi-stylized post-2.0 lighting mod with Phantom Liberty support. (2023-11-20, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1700514332141687.html
+[其他] genesis-shortcode-ui
+
+使用由Shortcake插件提供支持的短代码UI增强genesis框架的默认短代码。，
+Enhance the default Shortcodes of the Genesis Framework with a Shortcode UI powered by the Shortcake plugin., (2016-08-23, PHP, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1697606583774277.html
+[collect] QMMMscripts
+
+用于在genesis中运行QMMM的脚本集合，
+Collection of scripts for running QMMM in GENESIS, (2023-10-12, Shell, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1697118425157817.html
+[iPhone/iOS] Kid-C-Editor
+
+儿童变色龙地图编辑器（SEGA genesis游戏），
+Map editor for Kid Chameleon (SEGA Genesis game), (2021-07-08, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1696815122974873.html
+[其他] libmega
+
+sega genesis开发库（在真实硬件上工作），
+A sega-genesis development library (works on real hardware), (2018-03-02, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694176040386835.html
+[区块链开发] networks
+
+持久性平台的genesis文件来自链测试网络。，
+Genesis files for persistence platfrom chain testnets., (2023-09-07, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694107548155809.html
+[其他] genesis-layout-extras
+
+对于genesis支持的站点：允许修改主页、各种档案、分类、帖子类型、附件、搜索...的默认布局...，
+For Genesis powered Sites: Allows modifying of default layouts for homepage, various archives, taxonomies, post types, attachment, search, 404 pages. (2019-05-04, PHP, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689710850988456.html
+[OA办公系统] WPselect-genesis-child
+
+wpselect.com《创世纪框架》的儿童主题，
+Child Theme for Genesis Framework by wpselect.com, (2012-08-29, PHP, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688907997777316.html
+[人工智能/神经网络/深度学习] genesis
+
+在C++中实现genesis项目。，
+Implementation of the Genesis Project in C++., (2022-09-15, C++, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688747583776168.html
+[] genesis-simple-faq
+
+一个可访问的高性能WordPress插件，将常见问题管理和渲染添加到genesis子主题中。
+An accessible, performant WordPress plugin that adds FAQ management _and_ rendering to your Genesis child theme. (2020-04-13, PHP, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688232922741227.html
+[Python编程] genesis-sandbox-featured-content-widget
+
+genesis沙盒特色内容小工具。基于尼克·克罗夫特的《创世纪》特色小工具放大以实现额外功能...
+Genesis Sandbox Featured Content Widget. Based on Nick Croft s Genesis Featured Widget Amplified for additional functionality which allows support for custom post types, taxonomies, and extends the flexibility of the widget via action hooks to allow the elements to be re-positioned or other elements to be added. (2017-11-29, PHP, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688065076564433.html
+[建站系统] rootbeer
+
+用genesis和Foundation构建的WordPress初学者主题
+A WordPress starter theme built with Genesis and Foundation (2014-06-04, CSS, 267KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686439723883322.html
+[网络编程] vb
+
+VB连接genesis,绝对可以连接上,请放心使用,谢谢你的使用
+The VB connection GENESIS, can definitely connected, please feel free to use, Thank you for your use (2012-12-28, Visual Basic, 712KB, 下载11次)
+http://www.pudn.com/Download/item/id/2099669.html
+[GIS/地图编程] App_Projects
+
+美国专业的液晶电视芯片公司genesis的产品 HANSON2的软件源代码
+American Professional LCD TV chip company' s products HANSON2 GENESIS software source code (2010-10-07, C++, 13322KB, 下载145次)
+http://www.pudn.com/Download/item/id/1311543.html 
+
+
+[Docker] genesis_SES_task
+
+genesis Test Assignment. , stars:0, update:2024-05-20 20:37:50 (2024-05-21, GO, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1716253435129340.html
+[其他] genesis_cg_tool
+
+该项目帮助您为MD包genesis中的粗粒度模拟准备拓扑和坐标文件。
+This project helps you prepare topology and coordinate files for coarse-grained simulations in the MD package GENESIS. (2024-01-11, Julia, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1704986037907334.html
+[其他] KokonoePlayer-Lite
+
+Sega genesis MegaDrive VGM播放器，支持音效样本
+Sega Genesis MegaDrive VGM player with sound effect sample support (2024-01-04, Assembly, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1704471346325663.html
+[ASP/.NET编程] OwnshenNetwork
+
+创世纪
+Genesis (2023-12-31, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1704050580960920.html
+[区块链开发] networks
+
+用于连接OKP4网络的genesis和节点配置元素。，
+Genesis and node configuration elements for joining OKP4 networks., (2023-10-28, Makefile, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1698535120197960.html
+[其他] SegaControllerForApple2
+
+在Apple 2计算机上使用Sega genesis Megadrive Gamepad，
+Use a Sega Genesis Megadrive Gamepad with your Apple 2 Computer, (2019-11-09, C++, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694704439560746.html
+[前端开发] Gravity-Docs
+
+重力桥区块链的genesis文件和文档，
+Genesis files and Documentation for the Gravity Bridge Blockchain, (2023-08-21, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694363219970898.html
+[硬件设计] triple-bypass-kicad
+
+Sega genesis的音频和视频旁路电路，
+An audio and video bypass circuit for the Sega Genesis, (2021-05-17, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694054514340862.html
+[WEB开发] Triweb-Learning
+
+Tri-Web genesis Pvt.Ltd.的Web开发实习。，
+Web Development Internship at Tri-Web Genesis Pvt. Ltd., (2023-09-06, HTML, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694017213328120.html
+[博客] Infinite-Scroll-for-WP
+
+为在genesis Framework上运行的WordPress主题的主页、博客、档案和搜索结果添加无限滚动。，
+Adds infinite scroll to the home page, blog, archives, and search results for WordPress themes running on Genesis Framework., (2023-02-15, PHP, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1693452560227229.html
+[] gendev-macos
+
+适用于Mac OS X的genesis MegaDrive开发环境，
+Genesis MegaDrive Development Environment for Mac OS X, (2021-03-15, Assembly, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1690138610248151.html
+[编译器/解释器] megadrive-gcc
+
+用于sega megadrive genesis和32x的GCC工具链。
+A GCC toolchain for sega megadrive genesis and 32x. (2018-08-30, Shell, 589KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687133586554435.html
+[远程控制/远程桌面] genesisH0
+
+SHA256加密虚拟货币的X11 X13 X15 genesis块
+SHA256 scrypt X11 X13 X15 genesis blocks for virtual currencies (2021-03-02, Python, 8KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686563633970753.html
+[编程语言基础] genesis-Awesome-Theme
+
+创世纪儿童主题为SASS指南针的球迷保持相同的样式表，创世纪样本主题。
+Genesis Child Theme for fans of SASS Compass maintaining the same stylesheet that Genesis Sample Theme. (2014-09-12, CSS, 730KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686362993567776.html
+[虚拟/增强现实-VR/AR] ARKitgenesis8
+
+使用ARKit iPhone为DAZ3D genesis 8女性拍摄面部图像
+Facial capture with ARKit iPhone for DAZ3D Genesis 8 Female (2020-10-13, C#, 145827KB, 下载0次)
+http://www.pudn.com/Download/item/id/1602568427883721.html
+[JavaScript/JQuery] libgen
+
+Node.js的genesis API库（及更多）
+The Library Genesis API (and more) for Node.js (2023-03-09, JavaScript, 885KB, 下载0次)
+http://www.pudn.com/Download/item/id/1678352488978113.html
+[前端开发] genesis-sample
+
+这是为创世纪框架创建的示例主题。
+This is the sample theme created for the Genesis Framework. (2023-02-22, PHP, 1098KB, 下载0次)
+http://www.pudn.com/Download/item/id/1677079847941971.html
+[VHDL/FPGA/Verilog] smd-sixbutton-encoder
+
+Verilog中的Sega genesis Mega Drive控制器编码器
+Sega Genesis Mega Drive controller encoder in Verilog (2019-05-15, Verilog, 77KB, 下载0次)
+http://www.pudn.com/Download/item/id/1557868330559416.html
+[区块链开发] MoleculeNFT
+
+MoleculeNFT，Molecule NFT@genesis L1区块链的首次实现
+MoleculeNFT,First implementation of Molecule NFT @ Genesis L1 blockchain (2022-07-12, Solidity, 1919KB, 下载0次)
+http://www.pudn.com/Download/item/id/1657610974353422.html
+[网络编程] My-Documents
+
+VB连接genesis,绝对可以连接上,请放心使用,谢谢你的使用
+The VB connection GENESIS, can definitely connected, please feel free to use, Thank you for your use (2012-12-28, Visual Basic, 20KB, 下载7次)
+http://www.pudn.com/Download/item/id/2099670.html 
+
+
+[collect] genesis
+
+genesis creates the framework for initailizing a node.js application project and populates the initialized project with the necessary folder structure. , stars:0, update:2024-05-18 16:09:54 (2024-05-20, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1716188694690941.html
+[其他] HydrogenEngine
+
+具有“Sega genesis风格”图形的（WIP）简单2D游戏引擎
+A (WIP) simple 2D game engine with "Sega Genesis-styled" graphics (2024-03-14, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1710502163505459.html
+[其他] blockcore-tools
+
+各种工具，包括用于Blockcore平台的genesis Block Generator
+Various tools, including Genesis Block Generator for the Blockcore Platform (2024-02-23, C#, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1708705978359031.html
+[前端开发] chloropleth_map_maker
+
+占位符描述：@jerseywonder使用repo genesis创建了这个
+Placeholder description: @jerseywonder created this with repo-genesis (2024-02-08, HTML, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1707383082640070.html
+[其他] genesis
+
+Decentraland地图
+Decentraland map (2023-11-25, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1700935516548447.html
+[其他] LibGen-calibre
+
+将Library genesis添加到您的商店中的calibre插件。
+a calibre plug-in that adds Library Genesis to your stores. (2020-05-05, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1699954515386717.html
+[其他] segapad2usb
+
+Sega MD genesis gampepad适配器到USB。，
+Sega MD Genesis gampepad adapter to USB., (2023-09-08, C++, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694704450789411.html
+[人工智能/神经网络/深度学习] Airstriker_gym_ddqn
+
+Uni-Deep钢筋学习玩sega genesis游戏，空袭。，
+Uni - Deep Reinforcement learning to play the sega genesis game, airstrikers., (2023-08-18, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1692429885797701.html
+[collect] genesis-vue3
+
+如果你想了解Vue的微服务架构,可以先了解这个项目:genesis>,
+If you want to know Vue s microservice architecture, you can first learn about this project:, (2021-05-03, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689152001297270.html
+[JavaScript/JQuery] Library-genesis
+
+Library genesis是一个综合在线平台，提供免费访问体育领域的大量书籍...
+Library Genesis is a comprehensive online platform that provides free access to an extensive collection of books in PDF format. (2023-03-06, HTML, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688434580842813.html
+[游戏] genesis-Alpha
+
+多人在线阅读
+MMORPG (2015-06-23, Lua, 151KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687601902717176.html
+[编译器/解释器] m68k-gcc
+
+可在*nix mac、ARM64等上构建的自制megadrive genesis框架
+Homebrew megadrive genesis framework buildable on *nix mac, ARM64, etc (2022-08-18, C, 2126KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687133938563030.html
+[] genesis-sample-task-runner
+
+用于自动前缀、Sass编译、CSS缩小、自动浏览器重新加载等的Gulp工作流
+Gulp workflow for Auto prefixing, Sass compiling, CSS minification, automatic browser reloading and more (2018-05-29, CSS, 18KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686861414120187.html
+[建站系统] bds-starter-theme
+
+这是Brubaker Design Services的定制genesis初学者主题。它提供了模块化的文件结构和SASS...
+This is the custom Genesis starter theme for Brubaker Design Services. It provides a modular file structure and SASS partials for quick Wordpress developement. The Genesis Sample theme provided the foundation for this starter theme. (2020-11-05, SCSS, 111KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686442928585624.html
+[编程语言基础] genesis-Awesome-Clean-Theme
+
+创世纪儿童主题为SASS指南针的球迷保持相同的样式表，创世纪样本主题。
+Genesis Child Theme for fans of SASS Compass maintaining the same stylesheet that Genesis Sample Theme. (2014-07-28, CSS, 261KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686363356428010.html
+[前端开发] featured-custom-post-type-widget-for-genesis
+
+WordPress插件，它添加了一个小部件来显示genesis框架的特色自定义帖子类型
+WordPress plugin that adds a widget to display Featured Custom Post Types for the Genesis Framework (2016-11-13, PHP, 12KB, 下载0次)
+http://www.pudn.com/Download/item/id/1478993814343854.html
+[人工智能/神经网络/深度学习] genesis
+
+genesis：一个用于远程和本地创建、训练人工智能模型并与之交互的通用界面。
+Genesis: A versatile interface for creating, training, and interacting with AI models remotely and locally. (2023-05-23, Python, 79KB, 下载0次)
+http://www.pudn.com/Download/item/id/1684796394809837.html
+[VHDL/FPGA/Verilog] fpgagen
+
+SEGA genesis Megadrive核心，在Altera Terasic DE1板上运行。
+SEGA Genesis Megadrive core, running on a Altera Terasic DE1 board. (2019-10-07, VHDL, 349KB, 下载0次)
+http://www.pudn.com/Download/item/id/1570441689900514.html
+[以太坊] ethereum-genesis-generator
+
+创建一个以太坊执行和共识层testnet genesis，并通过Web服务器公开它以进行测试
+Create a ethereum execution and consensus layer testnet genesis and expose it via a webserver for testing purposes (2023-05-24, Python, 992KB, 下载0次)
+http://www.pudn.com/Download/item/id/1684921375333399.html
+[人工智能/神经网络/深度学习] genesis
+
+genesis，genesis（通用神经模拟系统的缩写）是一个（遗留的）通用模拟平台，由...
+GENESIS (short for GEneral NEural SImulation System) is a (legacy) general purpose simulation platform that was developed to support the simulation of neural systems ranging from subcellular components and biochemical reactions to complex models of single neurons, simulations of large networks, and systems-level models. (2014-11-05, C, 4930KB, 下载0次)
+http://www.pudn.com/Download/item/id/1415197336311532.html 
+
+
+[系统/网络安全] TBScreening
+
+GenAI genesis黑客马拉松提交：人工智能结核病预筛查
+GenAI Genesis Hackathon Submission: AI-powered pre-screening for tuberculosis (2024-03-31, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1711911353743276.html
+[人工智能/神经网络/深度学习] Virtual-Artificial-Intelligence-genesis-
+
+我创建了自己的虚拟人工智能genesis，他可以帮助我完成任务，也可以执行一些分析
+I created My own Virtual Artificial Intelligence named genesis, He can assist with my Tasks and also perform some analysis (2024-02-17, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1708290866738332.html
+[] System-Contracts
+
+该存储库托管Bloom genesis链的系统智能合约
+This repository hosts system smart contracts of the Bloom Genesis Chain (2024-02-13, Solidity, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1707893246890001.html
+[加密解密] Crypto-genesis
+
+NFT天才
+NFT-Geniuses (2024-01-30, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1706657695800571.html
+[人工智能/神经网络/深度学习] genesapi-tabular
+
+一个人类友好的API，用于从genesis导出表格数据，
+A human-friendly API to export tabular data from GENESIS, (2020-12-10, Jupyter Notebook, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694358475484453.html
+[其他] genesis
+
+genesis：一款基于raylib的迷人粒子生命模拟器。见证粒子的诞生、进化和迷人的相互作用...，
+Genesis: A captivating particle life simulator built on raylib. Witness the birth, evolution, and enthralling interplay of particles in this captivating journey into the depths of particle life. Explore emergent behaviors, experiment with dynamic systems, and immerse yourself in vibrant colors, fluid motion, and mesmerizing interactions. (2023-07-17, C++, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694272420834962.html
+[Java编程] genesis-A-Learning-Platform
+
+genesis:A Learning Platform是使用JAVA作为前端，MySQL作为后端创建的迷你项目。，
+Genesis: A Learning Platform is a mini project created using JAVA as the the frontend and MySQL as the Backend., (2021-12-07, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1693623372384306.html
+[collect] Library-genesis
+
+Library genesis（的代码库）+官方网站的tarball更新-这是j...，
+Library Genesis (code base from https://www.assembla.com/code/libgen/subversion/nodes) + tarball update from official website - this is just a free software to manage a bookshelf. This code can be used for any structured private or public bookshelf. I m not the author or maintainer. This is kept for archival purpose. (2016-10-01, HTML, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1690115539539840.html
+[collect] genipak-magicard-tool
+
+Sega genesis游戏作弊盒带Genipak和Magicard的代码转换工具。
+A code conversion tool for the Sega Genesis game cheating cartridge Genipak and Magicard. (2023-05-23, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689548662150938.html
+[] Topic-modelling-using-genesis
+
+我使用了过去10年中敏捷开发的数据集，然后应用genesis模型来找出...
+I used the dataset of Agile developments in last 10 years and then applied genesis model to figure out the topics in the given set of documents. (2020-07-19, HTML, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688518074456065.html
+[汇编语言] SegagenesisLibs
+
+sega genesis游戏的有用技巧和例程。
+Useful tricks _and_ routines for your sega genesis games. (2022-02-01, Assembly, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688301063714641.html
+[C/C++基础] choice4genesis
+
+ChoiceScript克隆，为Sega genesis生成与SGDK兼容的C源
+A ChoiceScript clone that generates SGDK-compatible C source for the Sega Genesis (2023-05-24, JavaScript, 1617KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687153067358000.html
+[内容生成] display-featured-image-genesis
+
+这个插件在genesis框架内工作，以新的有趣的方式显示您的文章页面特色图像。
+This plugin works within the Genesis Framework, to display your post page featured images in new and fun ways. (2023-03-26, PHP, 449KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687042985989515.html
+[内容生成] genesisColorCorrector
+
+用于将图像批量转换为Sega genesis兼容的颜色。
+For batch converting images to Sega Genesis compatible colors. (2019-01-07, C#, 8KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687042670747850.html
+[Bootstrap] bootstrap-genesis
+
+WordPress创世纪儿童主题设置使用Bootstrap，Sass，和Grunt
+WordPress Genesis Child Theme setup to use Bootstrap, Sass, and Grunt (2018-05-29, PHP, 344KB, 下载0次)
+http://www.pudn.com/Download/item/id/1527595524172935.html
+[区块链开发] oasys-genesis-contract
+
+oasys创世纪合约，oasys区块链创世纪智能合约
+oasys-genesis-contract,Genesis Smart Contracts for Oasys Blockchain (2023-03-10, TypeScript, 438KB, 下载0次)
+http://www.pudn.com/Download/item/id/1678415412415148.html
+[数值算法/人工智能] genesis
+
+genesis、区块链从无到有、智能合约、Dapp、Defi。。。
+Block Chain From Scratch, Smart Contract, Dapp, Defi ... , (2021-12-17, GO, 346KB, 下载0次)
+http://www.pudn.com/Download/item/id/1639675545387965.html
+[区块链开发] bsc-genesis-contract
+
+bsc创世纪合约，BNB智能链的创世纪合约，
+The genesis contracts of BNB Smart Chain. , (2023-04-21, Solidity, 356KB, 下载0次)
+http://www.pudn.com/Download/item/id/1682034694162919.html
+[单片机开发] genesis-znal
+
+genesis芯片点17寸以下PNAEL不错的方案。包含整套源码，在编译之前有部分被改动，需纠正。现在提供下载，网上其他地方是找不到的哦。
+GENESIS-chip point 17 inches below PNAEL a good program. Contains the entire source code at compile some were before the change, the need to correct. Now available for download, on-line can not be found elsewhere in the oh. (2009-10-31, C/C++, 4389KB, 下载73次)
+http://www.pudn.com/Download/item/id/955731.html
+[Windows编程] c++builder
+
+创世纪的c++ builder, 创世纪的c++ builder
+Genesis of c++ Builder, the Genesis c++ Builder (2008-07-03, Visual C++, 408KB, 下载10次)
+http://www.pudn.com/Download/item/id/503348.html 
+
+
+[其他] live-corona-data-vaccine-page
+
+占位符描述：@nickjevershed使用repo genesis创建了这个
+Placeholder description: @nickjevershed created this with repo-genesis (2024-01-10, HTML, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1704947906830490.html
+[Web3.0] genesis-Hackathon
+
+genesis是TPHxSRMIST组织的泛印度2天混合黑客马拉松，旨在增强印度空间中的web3文化。
+Genesis is a PAN India 2-day hybrid hackathon organized by TPHxSRMIST aimed at empowering the web3 culture in the Indian space. (2024-01-09, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1704813558499309.html
+[其他] GEN-SMS2VGA
+
+A genesis 1和Sega主系统RGBS输出到VGA适配器
+A Genesis 1 and Sega Master System RGBS output to VGA adapter (2023-11-02, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1698952288809063.html
+[其他] eosio
+
+合同允许EOS上的genesis帐户持有人重置丢失的密钥，
+Contract to allow genesis account holders on EOS to reset a lost key, (2022-12-09, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1695660760668273.html
+[其他] SegaController
+
+Arduino库，用于读取Sega genesis（Mega Drive）和主系统（Mark III）控制器。，
+Arduino library to read Sega Genesis (Mega Drive) and Master System (Mark III) controllers., (2018-06-14, C++, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694703564483629.html
+[其他] MegaBlaster2
+
+我的硬件Sega genesis Megadrive视频游戏音乐播放器的最新版本，
+The latest iteration of my hardware Sega Genesis Megadrive Video Game Music Player, (2022-02-01, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694175839190865.html
+[以太坊] eth2_network_genesis
+
+eth2_网络_起源，，
+eth2_network_genesis,, (2023-08-21, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1692652434350354.html
+[其他] genesapi-cli
+
+将genesis中的多维数据集转换为graphql api的数据管道，
+The data pipeline to turn cubes from GENESIS into a graphql api, (2020-04-10, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689298037101782.html
+[人工智能/神经网络/深度学习] brainfuck-SecondBasic
+
+用SecondBasic.编写的SEGA genesis的（部分损坏）脑干解释程序。，
+A (partially broken) brainfuck interpreter for the SEGA Genesis written in SecondBasic., (2022-02-03, VBA, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688755668141509.html
+[Fortran编程] genesis
+
+分子动力学软件genesis的源、测试集和文档。
+Source, test set, and document for Molecular Dynamics software, GENESIS. (2023-02-20, Fortran, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688338905663351.html
+[matlab编程] genesis-Visual-Hook-Guide
+
+通过查看genesis挂钩（动作和过滤挂钩）在主题中的实际位置，快速轻松地找到它们。世界...
+Find Genesis hooks (action and filter hooks) quick and easily by seeing their actual locations inside your theme. WordPress.org version found here: http://wordpress.org/extend/plugins/genesis-visual-hook-guide/ (2017-04-10, PHP, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688086334213009.html
+[前端开发] genesis
+
+静态站点生成器
+Static Site Generator (2015-07-07, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687940819120564.html
+[数学计算] nft-genesis-hash
+
+客户端ERC-721令牌生成哈希。
+Client-side ERC-721 token genesis hashes. (2023-01-24, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687905093359415.html
+[搜索引擎] Disable-genesis-Schema
+
+如果您正在使用Yoast SEO或其他插件来输出模式，请使用此选项来禁用genesis中的重复模式
+If you re using Yoast SEO or another plugin to output schema, use this to disable duplicate schema from Genesis (2019-04-17, PHP, 2KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687399088845107.html
+[游戏引擎] hedgehoghd
+
+（尚未工作）Platformer游戏引擎，与经典Sega genesis Sonic引擎兼容
+(Not yet working) Platformer game engine, compatible with the classic Sega Genesis Sonic engine (2011-01-08, Python, 134KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686417482763002.html
+[前端开发] Gizmozzi-genesis-Framework-Theme
+
+为genesis Framework构建的移动响应和HTML5主题。极简主义设计与惊人的功能坐...
+A mobile responsive and HTML5 theme built for the Genesis Framework. Minimalistic design with amazing features to satisfy needs of every wordpress user. (2018-03-23, CSS, 340KB, 下载0次)
+http://www.pudn.com/Download/item/id/1521763281997480.html
+[NFT] genesis-dao-frontend
+
+创世纪岛前端，，
+genesis-dao-frontend,, (2023-06-01, TypeScript, 10175KB, 下载0次)
+http://www.pudn.com/Download/item/id/1685548947462216.html
+[人工智能/神经网络/深度学习] genesis
+
+genesis应该是一个Ai，它可以分析文本提示，挑选正确的3D模型，并为它们提供服务...
+Genesis is supposed to be an Ai that can analyze text prompts and pick out the correct 3D models and serve them in the browser (2023-03-30, TypeScript, 3289KB, 下载0次)
+http://www.pudn.com/Download/item/id/1680175173380356.html
+[Python工具库] libgen-seedtools
+
+libgen seedtools，一个python CLI，用于管理Library genesis数据的种子。
+libgen-seedtools,A python CLI to manage torrents for Library Genesis data. (2022-12-03, Python, 30KB, 下载0次)
+http://www.pudn.com/Download/item/id/1670070028735552.html
+[数值算法/人工智能] bsc-genesis-contract
+
+bsc创世纪合约，币安智能链的创世纪合约。
+The genesis contracts of Binance Smart Chain. , (2021-05-19, Solidity, 261KB, 下载0次)
+http://www.pudn.com/Download/item/id/1621357775697889.html 
+
+
+[硬件设计] Datel-Sega-genesis-Pro-Action-Replay
+
+The Kicad files and rom dump of the Sega genesis Pro Action Replay, stars:1, update:2024-05-19 02:57:45 (2024-05-20, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1716173050581530.html
+[] genesis
+
+Seq2Seq词汇替换
+Seq2Seq lexical substitution (2024-01-03, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1704531006284002.html
+[大数据] genesis
+
+genesis允许您ping一组web端点以验证其状态。这些变量被导出，以便可以由Promet读取...
+Genesis allows you to ping a set of web endpoints to verify their status. These variables are exported so that they can be read by Prometheus, and thus be easily integrated into Grafana. (2022-09-01, GO, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1700218461679713.html
+[构建工具] web-genesis
+
+迷你网络包
+a mini-webpack (2023-11-15, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1700110204882095.html
+[其他] livre
+
+Library genesis的移动客户端，用于下载和阅读书籍。，
+A mobile client for Library Genesis for downloading and reading books., (2023-10-07, TypeScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1696696274493354.html
+[生物医药技术] genesis
+
+蛋白质骨架精制，
+protein backbone refinement, (2023-08-28, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1695749536561120.html
+[前端开发] bourbon-genesis
+
+genesis Starter主题使用Bourbon.io SASS库。这是Matt Banks Starter主题的一个分叉。我把指南针换成了Bourb...，
+Genesis Starter theme utilizing the Bourbon.io SASS library. This is a fork of Matt Banks Starter theme. I switched out Compass for Bourbon and also added PostCSS as a backend task for the final style sheet. Enjoy. (2017-07-27, PHP, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694369115603053.html
+[collect] clibgen
+
+Library genesis的命令行工具（libgen）
+Command Line Tool for Library Genesis (libgen) (2023-08-13, GO, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1691936451946462.html
+[区块链开发] networks
+
+Comdex链网络详细信息。genesis文件和同行详细信息将在此处发布。，
+Comdex chain networks details. Genesis file and peer details will be published here., (2023-08-01, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1691017579907376.html
+[其他] genesis-automatic-term-headline
+
+genesis Framework的插件，它自动向术语存档页面添加标题，与分类术语的名称相同，如果没有，例如...，
+Plugin for Genesis Framework, that automatically adds a headline to the term archive page, the same as the name of taxonomy term, if no explicit value is given. (2016-02-19, PHP, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689710856266092.html
+[] in-the-beginning
+
+Mobile first，Sass starter主题松散地基于genesis Sample主题
+Mobile-first, Sass starter theme loosely based on the Genesis Sample Theme (2016-05-31, CSS, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688351729391974.html
+[Fortran编程] genesis-2
+
+这是一个旧的存档存储库，我们将其保存为记录。请使用最新的genesis存储库，不要使用...
+This is an old archived repository that we keep for our records. Please use recent GENESIS repository and do not use this one. (2022-09-15, Fortran, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688338833213899.html
+[汇编语言] genesis-sass-starter
+
+创世纪儿童主题初学者与Sass_and_ Grunt。
+Genesis Child Theme Starter built with Sass _and_ Grunt. (2014-07-01, CSS, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688311213636022.html
+[] alfred_libgen
+
+通过Alfred从Library genesis中搜索和下载电子书
+Search and Dowload ebooks from Library Genesis through Alfred (2014-07-20, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688101389482117.html
+[数学计算] Sonic-Randomizer
+
+随机化Sonic1、2、3、K、3和K的MegaDrive genesis ROM
+Randomize a MegaDrive Genesis ROM of Sonic1, 2, 3, K, 3&K (2021-03-26, C#, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687913689306500.html
+[数学计算] bitcoin-block-hash-Google-Colab
+
+用许多编程语言Google Colab计算genesis Block哈希
+Calculate the Genesis Block hash in a number of programming languages Google Colab (2022-07-01, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687905609543539.html
+[自动编程] hw1-se-school_2022-code-review-Gerodote
+
+genesis软件工程师课程代码
+code for Genesis software engineer course (2022-09-26, Python, 29KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687287533742160.html
+[处理器开发] genesisControllerUsbPico
+
+Sega genesis控制器到USB适配器，使用Raspberry Pi-Pico微控制器
+Sega Genesis controllers to USB adapter using the Raspberry Pi Pico microcontroller (2022-05-19, C++, 7013KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687219847952518.html
+[] genesis
+
+关于德国统计数据库genesis的刮取和处理的工具
+Tools regarding the scraping and processing of the German statistical database, GENESIS (2010-04-22, JavaScript, 1037KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686779698158778.html
+[Windows编程] genesis
+
+操作注册表例子，更完整的操作注册表的例子
+operating the registry and more complete operation of the registry examples (2007-02-01, Visual Basic, 63KB, 下载17次)
+http://www.pudn.com/Download/item/id/247277.html 
+
+
+[DirectX] DirectX11_Darksidersgenesis_Portfolio
+
+Darksiders成因（DirectX11）
+Darksiders Genesis (DirectX11) (2024-04-08, C++, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1712568043736225.html
+[] nano-local
+
+使用genesis帐户和多个代表启动您自己的本地nano网络
+Spin up your own local nano network with a genesis account and multiple reps (2023-04-25, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1699858989412483.html
+[NFT] genesis-dao-node
+
+起源道节点，，
+genesis-dao-node,, (2023-08-13, Rust, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1691974731450616.html
+[前端开发] alexa-podcasts-skill
+
+占位符描述：[@tomrf1]（https:github.com tomrf1）使用repo genesis创建了这个，
+Placeholder description: [@tomrf1](https: github.com tomrf1) created this with repo-genesis, (2017-04-03, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689685549166080.html
+[前端开发] harry-potter-page-dividers
+
+占位符描述：[@cfen]（https:github.com-cfen）使用repo genesis创建了这个，
+Placeholder description: [@cfen](https: github.com cfen) created this with repo-genesis, (2016-11-22, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689685542208961.html
+[前端开发] aws-signed-request
+
+占位符描述：[@piuccio]（https:github.com piuccio）使用repo genesis创建了这个，
+Placeholder description: [@piuccio](https: github.com piuccio) created this with repo-genesis, (2016-06-16, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689685542244420.html
+[前端开发] bechdel-test
+
+占位符描述：[@jranks123]（https:github.com jranks123）使用repo genesis创建了这个，
+Placeholder description: [@jranks123](https: github.com jranks123) created this with repo-genesis, (2022-10-06, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689685529703150.html
+[前端开发] reusable-line-chart-v1
+
+占位符描述：[@nickjevershed]（https:github.com nickjevershed）使用repo genesis创建了这个，
+Placeholder description: [@nickjevershed](https: github.com nickjevershed) created this with repo-genesis, (2020-01-26, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689685529627487.html
+[前端开发] fulfilment-node-stub-lambda
+
+占位符描述：[@AWare]（https:github.com AWare）使用repo genesis创建了这个，
+Placeholder description: [@AWare](https: github.com AWare) created this with repo-genesis, (2022-03-15, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689685284575275.html
+[前端开发] js-conversion-course
+
+占位符描述：[@joelochlann]（https:github.com joelochlann）使用repo genesis创建了这个，
+Placeholder description: [@joelochlann](https: github.com joelochlann) created this with repo-genesis, (2020-11-21, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689685188928033.html
+[压缩解压] StrikeLZSS
+
+LZSS压缩机-沙漠丛林城市罢工（Mega Drive），
+LZSS compressor - Desert Jungle Urban Strike (Mega Drive), (2020-07-14, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689242120927128.html
+[collect] awesome-smd-sg-dev
+
+Sega genesis Mega Drive开发资源的策划列表，如工具、文档、模拟器、相关项目和开源ROM。
+A curated list of Sega Genesis Mega Drive development resources such as tools, docs, emulators, related projects and open-source ROMs. (2020-07-22, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688925953112576.html
+[] tiktuk
+
+使用React和TikTok API构建的网站-genesis前端学校任务
+Website built using React and TikTok API - Genesis Front-end School Task (2021-11-17, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688591444111922.html
+[游戏] Megadrive-Maze
+
+小型简单的世嘉Megadrive genesis迷宫游戏，目标是与Clion一起构建。
+Small and simple Sega Megadrive Genesis maze game targeted at building with Clion. (2020-07-19, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687915660497269.html
+[游戏] TANGLEWOOD
+
+用于SEGA Mega Drive和genesis的益智平台构建游戏，68000组件
+A puzzle-platforming game for the SEGA Mega Drive and Genesis, in 68000 assembly (2019-08-12, Assembly, 2547KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687571964917857.html
+[人工智能/神经网络/深度学习] genesis
+
+KI AI软件网
+KI AI Software net (2023-05-18, Others, 1KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687225679523823.html
+[加密货币] TrustyCoin
+
+比特币核心0.8.0版本的克隆，带有新的genesis区块
+A clone of Bitcoin Core version 0.8.0 with a new Genesis block (2017-12-03, C++, 2223KB, 下载0次)
+http://www.pudn.com/Download/item/id/1512251021538588.html
+[其他] child
+
+child thems - genesis wordpress
+child thems - genesis wordpress (2019-02-05, PHP, 210KB, 下载0次)
+http://www.pudn.com/Download/item/id/1549367769634180.html
+[软件设计/软件工程] C5060-DAT-01G
+
+genesis image scaler gm5060 datasheet
+genesis image scaler gm5060 datasheet (2011-02-14, TEXT, 1192KB, 下载1次)
+http://www.pudn.com/Download/item/id/1428420.html
+[软件设计/软件工程] C2120-DAT-01C
+
+genesis image scaler gm2120 datasheet
+genesis image scaler gm2120 datasheet (2011-02-14, TEXT, 584KB, 下载1次)
+http://www.pudn.com/Download/item/id/1428418.html 
+
+
+[collect] Obsidian-genesis
+
+一个黑曜石杂志模板，我用于创世计划。
+An Obsidian journal template that I use for Project Genesis. (2024-04-10, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1712742236137365.html
+[] Data-Spider-API
+
+ASP.公司。Net Core 8 Web API For The Data Spider genesis系统。
+ASP.Net Core 8 Web API For The Data Spider Genesis System. (2024-02-28, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1709155835310194.html
+[图形图象] genesis-assets
+
+共享静态图像资源
+Shared Static Image Assets (2024-02-19, HTML, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1708386075811956.html
+[加密货币] swanCoin
+
+加密货币的起源。
+Genesis of a crypto coin. (2024-02-08, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1707478672355302.html
+[其他] shadow_dancer
+
+《影子舞者》的额外舞台：贝维制作的SEGA genesis的Shinobi秘密
+Bonus stage from Shadow Dancer: The Secret of Shinobi for SEGA Genesis made in Bevy (2023-12-06, Rust, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1701984265536429.html
+[前端开发] mobile-fastly-cache-purger
+
+占位符描述：[@silvacb]（https:github.com silvacb）使用repo genesis创建了这个
+Placeholder description: [@silvacb](https: github.com silvacb) created this with repo-genesis (2023-11-30, Scala, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1701415796441390.html
+[iPhone/iOS] KidChameleonRemake
+
+重做创世纪游戏，
+Remake of the Genesis game, (2015-09-27, C#, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1696814845672128.html
+[前端开发] aus-referendum-results-parser-2023
+
+占位符描述：[@nickjevershed]（https:github.com nickjevershed）使用repo genesis创建了这个，
+Placeholder description: [@nickjevershed](https: github.com nickjevershed) created this with repo-genesis, (2023-09-21, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1695272022468019.html
+[其他] MSX-Mega-Adapter
+
+适配器，以便Sega Mega Drive（北美的Sega genesis）游戏板可以安全地与MSX系列计算机一起使用。，
+Adapter so that Sega Mega Drive (Sega Genesis in North America) gamepads can safely be used with the MSX line of computers., (2023-05-06, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694703847460276.html
+[处理器开发] netgens
+
+基于Sega genesis Emulator“Gens”版本2.12a.的Linux端口（x86处理器）。，
+A Linux port (x86 processors) based on the Sega Genesis Emulator "Gens" version 2.12a., (2016-05-13, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694589969548201.html
+[VHDL/FPGA/Verilog] Nuked-OPN2-FPGA
+
+YM3438 verilog、，
+YM3438 verilog, (2023-07-31, Verilog, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1691009462140766.html
+[collect] ophan-scanamo-upgrade-problem
+
+占位符描述：[@rtyley]（https:github.com rtyley）使用repo genesis创建了这个，
+Placeholder description: [@rtyley](https: github.com rtyley) created this with repo-genesis, (2022-09-26, Scala, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1690334749747022.html
+[collect] awesome-libgen
+
+《创世纪图书馆》（Library genesis）令人惊叹的列表，这是世界上最大的免费图书馆。，
+Awesome list of Library Genesis, the world s largest free library., (2023-03-29, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689880909738530.html
+[前端开发] react-native-with-kotlin
+
+占位符描述：[@maxspencer]（https:github.com maxspencer）使用repo genesis创建了这个，
+Placeholder description: [@maxspencer](https: github.com maxspencer) created this with repo-genesis, (2022-06-02, Objective-C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689684546439532.html
+[游戏] RetailClerk89
+
+一款以68000汇编编写的Sega genesis休闲冒险短游戏
+A short casual adventure game for the Sega Genesis written in 68000 assembly (2021-05-09, Assembly, 5241KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687584383919263.html
+[游戏] adventure-rpg
+
+利用SGDK为Sega genesis开发游戏。项目开始时是一个基于文本的冒险RPG，现在已经ev...
+Game in development for the Sega Genesis utilizing SGDK. Project started as a text based adventure RPG and has now evolved into a sprite based game. More details to come. (2023-04-28, C, 124KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687549168491693.html
+[建站系统] weart-genesis-base-theme
+
+创世纪框架的初学者儿童主题。网格系统、npm等。
+A starter Child theme for Genesis Framework. Grid system, npm, and more. (2021-05-31, SCSS, 59KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686442978644248.html
+[元宇宙] Metaverse-genesis-Land-Architecture
+
+元宇宙创世纪陆地建筑，，
+Metaverse-Genesis-Land-Architecture,, (2021-12-17, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1639713031495837.html
+[前端开发] the-dock
+
+WordPress前端开发人员的创世纪入门主题。
+A Genesis Starter Theme for WordPress Front-End developers. (2022-06-07, SCSS, 963KB, 下载0次)
+http://www.pudn.com/Download/item/id/1654584012192789.html
+[区块链开发] PyChain
+
+PyChain，使用Python实现的基本区块链，具有不可变哈希、nonce和genesis块
+PyChain,Basic Blockchain Implementation with Python with immutable hash, nonce and genesis block (2022-11-05, Python, 135KB, 下载0次)
+http://www.pudn.com/Download/item/id/1667641301840258.html 
+
+
+[] smdt
+
+Sega Megadrive/genesis terminal, telnet and IRC client, stars:0, update:2024-04-27 18:10:55 (2024-04-30, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1714483894560144.html
+[其他] neon-genesis-cyber-awareness
+
+网络意识VN
+Cyber awareness VN (2024-04-09, C#, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1712690685916379.html
+[其他] Go_gonesis
+
+使用单个命令（Go+genesis）生成准备推送到GitHub上的Golang项目模板
+Generate Golang project template ready to be pushed on GitHub using a single command (Go + Genesis) (2024-02-23, GO, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1708728635760204.html
+[系统/网络安全] golden-axe-32x-edition
+
+Sega Mega Drive genesis的Golden Axe ROM黑客，增加了32X支持
+Golden Axe ROM hack for the Sega Mega Drive Genesis that adds 32X support (2023-12-29, Assembly, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1703871700486395.html
+[前端开发] oz-230920-dblogs-heatwaves-deaths-risk
+
+占位符描述：[@jostricholas]（https:github.com Jostricholas）使用repo genesis创建了这个
+Placeholder description: [@joshnicholas](https: github.com joshnicholas) created this with repo-genesis (2023-12-01, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1701415777429577.html
+[其他] genesis
+
+弹簧云示例
+Spring cloud Example (2017-11-03, Java, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1700281769843989.html
+[] pico-megadrive
+
+用于MURMULATOR开发板的覆盆子Pi Pico Sega Megadrive Sega genesis模拟器，
+Raspberry Pi Pico Sega Megadrive Sega Genesis emulator for MURMULATOR devboard, (2023-10-06, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1696586366358683.html
+[代码编辑器] genmdm-editor
+
+用于genMDM的基于web的界面，这是Sega Mega Drive和genesis的MIDI控制器。还支持Mega Drive MIDI接口。，
+A web-based interface for genMDM, a MIDI controller for the Sega Mega Drive and Genesis. Also supports Mega Drive MIDI Interface., (2023-09-26, Vue, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1695704840453610.html
+[其他] cosmos
+
+该存储库仅包含genesis、addressbook和更多支持任何新的基于宇宙的链的文件，
+This repository only contain genesis, addressbook and more file supporting any new cosmos based chain, (2023-06-19, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694185202490261.html
+[数学计算] ParallaxFeaturedImage
+
+将WordPress genesis中的任何特色图像作为文章或页面的视差滚动背景，
+Make any featured image in WordPress Genesis the parallax scrolling background for your post or page, (2015-01-06, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1693985668869144.html
+[前端开发] oz-2023-facebook-political-ads-scraper
+
+占位符描述：[@nickjevershed]（https:github.com nickjevershed）使用repo genesis创建了这个，
+Placeholder description: [@nickjevershed](https: github.com nickjevershed) created this with repo-genesis, (2023-08-11, Jupyter Notebook, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1691720783794742.html
+[前端开发] design-system
+
+占位符描述：[@creido welly]（https:github.com creido welly）使用repo genesis创建了这个，
+Placeholder description: [@creido-welly](https: github.com creido-welly) created this with repo-genesis, (2023-08-02, TypeScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1691150069316397.html
+[Python编程] genesis-bourbon-neat
+
+使用波旁威士忌和Neat打造的创世纪初学者主题
+A Genesis Starter Theme built using Bourbon and Neat (2014-05-23, CSS, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688072882237164.html
+[数学计算] randstalker
+
+著名的Megadrive genesis经典之作“Landscaler:the Treasure of King Nole”的随机化器
+A randomizer for the famous Megadrive Genesis classic "Landstalker : The Treasure of King Nole" (2023-05-13, C++, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687912724523284.html
+[WEB开发] genesis
+
+全能图书下载器
+Almighty Book Downloader (2017-07-17, JavaScript, 402KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687480228457175.html
+[前端开发] vue-demo
+
+Vue 基于 genesis + TS + Vuex 实现的 SSR demo
+Vue implements SSR demo based on Genesis+TS+Vuex (2022-12-06, TypeScript, 20KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686429674611683.html
+[图形图象] genesis
+
+二维码编解码器
+QR Code Encoder & Decoder (2019-04-14, C#, 51KB, 下载0次)
+http://www.pudn.com/Download/item/id/1555219389954776.html
+[其他嵌入式/单片机内容] GM5621(include_57xx)_SRC
+
+附件包内有 genesis 出产的 Gm52xx, GM56xx, GM57xx IC 的 source code, GM57xx IC 可支持到更高的辨识率. (但内容无开发工具软件)
+Annex pack containing Genesis produced Gm52xx, GM56xx, GM57xx IC' s source code, GM57xx IC support to a higher recognition rate. (But not the content-free development tools software) (2009-12-07, C/C++, 2451KB, 下载106次)
+http://www.pudn.com/Download/item/id/995432.html
+[单片机开发] 52xx-app
+
+LCD MONITOR源码,genesis GM5621
+LCD MONITOR SOURCE CODE GENESIS GM5621 (2009-02-25, C/C++, 2868KB, 下载143次)
+http://www.pudn.com/Download/item/id/653157.html
+[Delphi/CppBuilder] c++builderjiaoc
+
+创世纪的c++ builder教程 创世纪的c++ builder教程
+Genesis of c++ Builder tutorial of Genesis c++ Builder tutorial (2009-01-04, C++ Builder, 678KB, 下载13次)
+http://www.pudn.com/Download/item/id/623458.html 
+
+
+[区块链开发] panacea-mainnet
+
+Panacea主网
+Panacea Mainnet (2024-03-21, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1711083221481323.html
+[其他] MD_Mini_2_Exclusive_Games_Patch_Files
+
+B一些Mega Drive Mini 2（genesis Mini 2）独家游戏的补丁
+BSPatches for some of the Mega Drive Mini 2 (Genesis Mini 2) exclusive games (2023-08-10, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1698581122646332.html
+[音频处理] ESP8266_VGM_Player_PSG_YM2612
+
+VGM（视频游戏音乐）播放器，采用世嘉genesis的YM2612和SN76489 PSG。，
+A VGM (Video Game Music) player featuring the YM2612 and SN76489 PSG from the Sega Genesis., (2018-03-25, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1696772186700853.html
+[前端开发] oz-230915-climate-inventories-changes
+
+占位符描述：[@jostricholas]（https:github.com Jostricholas）使用repo genesis创建了这个，
+Placeholder description: [@joshnicholas](https: github.com joshnicholas) created this with repo-genesis, (2023-09-15, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694750202203192.html
+[其他] eagle-usb-gamepad
+
+将原始NES、SNES、N64、genesis和Atari游戏板与您喜爱的模拟器一起使用。，
+Use original NES, SNES, N64, Genesis, and Atari gamepads with your favorite emulator., (2014-11-26, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694703675305265.html
+[硬件设计] MD-90SM-breakout-kicad
+
+MD-90SM Mini-Din 9（Sega genesis 2 A V）连接器的简单转接板，
+A simple breakout board for the MD-90SM Mini-Din 9 (Sega Genesis 2 A V) connector, (2019-01-07, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694061044641754.html
+[游戏] MegaDriveSuperTools
+
+一个用于Sega Mega Drive（Sega genesis）自制游戏修改的多工具套件项目，
+A multiple tools suite project for homebrew game modifications for Sega Mega Drive (Sega Genesis), (2017-08-10, C++, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689293408163067.html
+[collect] ckb-system-scripts
+
+CKB的官方系统脚本。这些合同将包括在genesis区块的系统单元中，
+CKB s official system scripts. Those contracts will be included in system cells in genesis blocks, (2023-07-06, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689048303151064.html
+[嵌入式/单片机/硬件编程] gen-sms-powerpcb-kicad
+
+简单的PCB，为genesis和SMS手推车提供+5V电源，用于测试和CPLD编程，
+Simple PCB to provide +5V power to Genesis and SMS carts for testing and CPLD programming, (2022-11-07, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688849842305434.html
+[其他] genesis
+
+数据中心自动化工具，
+A tool for data center automation, (2019-01-25, Ruby, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688764981513534.html
+[iPhone/iOS] MD
+
+MD.emu的Git镜像，Sega genesis和iOS主系统模拟器版权所有2011 Robert Broglia
+Git mirror of MD.emu, a Sega Genesis and Master system emulator for iOS copyright 2011 Robert Broglia (2017-04-17, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687811890809304.html
+[iPhone/iOS] genesis4iphone
+
+用于Apple iPhone和iPod Touch的Sega genesis（MegaDrive）和Sega CD模拟器。基于Notaz PicoDrive。
+A Sega Genesis (MegaDrive) and Sega CD emulator for the Apple iPhone and iPod Touch. Based on Notaz PicoDrive. (2008-05-14, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687805869324695.html
+[游戏] The-SCND-genesis-Legends
+
+SCND创世记：传奇是一款基于漫画《SCND创世纪》的战斗游戏。战斗系统是土卫六的混合体...
+The SCND Genesis: Legends is a fighting game based on the comic The SCND Genesis. The battle system is a hybrid of turn based RPG s and conventional 2D Fighters. The game has a hand-drawn comic book graphical style and has other anime style effects. Legends RMX is an "Enhanced Edition" of the original 2011 release. (2022-05-04, Java, 191815KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687550571813471.html
+[android开发] Cubex-Game-Project
+
+CubeX是由genesis Studios开发的单人、平台和冒险手机游戏
+CubeX is a singleplayer, platform and adventure mobile game developed by Genesis Studios (2019-06-09, C#, 12114KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686798111631241.html
+[建站系统] genesis-starter-theme
+
+该回购不再维持。现在可以在以下位置找到入门主题：
+This repo is no longer maintained. The starter theme can now be found at: (2023-01-12, CSS, 267KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686439565187428.html
+[内容生成] ecco-text
+
+为Sega genesis生成Ecco the Dolphin风格文本的程序
+Programs to generate text in the style of Ecco the Dolphin for Sega Genesis (2019-05-06, JavaScript, 170KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686221210972440.html
+[加密货币] genesis-block
+
+为比特币、莱特币、达世币、X11、Quark、Keccak、Qubit、NeoScrypt、Scrypt创建创世纪区块。。。
+Create Genesis Block for Bitcoin, Litcoin, Dash, X11, Quark, Keccak, Qubit, NeoScrypt, Scrypt... (2021-12-30, Python, 3KB, 下载0次)
+http://www.pudn.com/Download/item/id/1640856429216267.html
+[人工智能/神经网络/深度学习] pygtgym
+
+pygtgym，一个python包装器，用于使用genesis tubs JavaScript物理引擎创建的强化学习健身房环境。
+pygtgym,A python wrapper for reinforcement learning gym environments created using the genesis-tubs JavaScript physics engine. (2020-08-16, JavaScript, 321KB, 下载0次)
+http://www.pudn.com/Download/item/id/1597509803217086.html
+[Python工具库] libgen-api
+
+libgen-api，用Python和Flask编写的RESTful api，用于从Library genesis中刮取书籍
+libgen-api,RESTful API written in Python and Flask to scrape books from the Library Genesis (2022-12-08, Python, 4KB, 下载0次)
+http://www.pudn.com/Download/item/id/1670458684474772.html
+[Windows编程] Automatic-tail-hole-for-genesis
+
+在genesis里面自动加尾孔，应用非常方便，把它复制到陈放封边脚本的目录，就像运行封边脚本一样。
+Automatic tail hole for genesis，Application is very easy to copy it to Chen Fang Edge scripts directory, run the edge as the same script. (2011-04-16, Visual Basic, 1KB, 下载11次)
+http://www.pudn.com/Download/item/id/1493314.html 
+
+
+[系统/网络安全] Hackaverse-genesis
+
+Coming Soon, stars:1, update:2024-04-29 17:22:30 (2024-04-30, CSS, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1714413499729835.html
+[ASP/.NET编程] WonNetWork
+
+genesis-config, stars:1, update:2024-04-19 20:24:17 (2024-04-20, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1713566213852535.html
+[] tod
+
+一个web服务器，将您现在在Spotify上玩的游戏显示为Neon genesis Evangelion标题卡。
+A web server that displays your now playing on Spotify as a Neon Genesis Evangelion title card. (2024-03-25, GO, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1711488341235484.html
+[视频捕捉采集剪辑] flame
+
+Flammenwerfer（世嘉创世纪视频游戏）
+Flammenwerfer (Sega Genesis video game) (2024-03-12, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1710260217675434.html
+[人工智能/神经网络/深度学习] genesis-GPT
+
+genesis GPT试图使用行业标准和所有最新功能和特性创建自主代理。
+Genesis-GPT is an attempt to create a autonomous agent, using the industry standards and all the latest functions and features. (2023-11-03, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1699092001191956.html
+[其他] mai-post-reviewers
+
+将审阅者添加到帖子。包括要与genesis_post_info.一起使用的短代码和助手函数。，
+Add reviewers to posts. Includes shortcodes and helper functions to use with genesis_post_info., (2019-02-05, PHP, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1697606613703227.html
+[其他] Teensy_3_5_VGM_Player_YM2612_SN76489
+
+基于Teensy 3.5的硬件Sega genesis Master系统视频游戏音乐播放器，
+A hardware Sega Genesis Master system video game music player based on the Teensy 3.5, (2020-03-28, C++, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694176454717432.html
+[游戏] RetailClerk90
+
+一款用68000汇编编写的Sega genesis在建休闲冒险游戏，
+A work in-progress casual adventure game for the Sega Genesis written in 68000 assembly, (2023-09-03, Assembly, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1693776075649318.html
+[汽车电子软硬件开发] GMD_vs_TSLA_Stock_Analysis
+
+通过API调用报废数据，并分析genesis Minerals Ltd和Tesla的股票表现，
+Scraping data via API calls and analyzing the stock performance of Genesis Minerals Ltd and Tesla, (2023-08-24, Jupyter Notebook, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1692985752198772.html
+[] genesis
+
+尝试学习操作系统开发，
+An Attempt to learn Operating System development, (2021-02-19, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689673227153161.html
+[collect] Nuked-MD
+
+循环精确Mega Drive模拟器（WIP）
+Cycle accurate Mega Drive emulator (WIP) (2023-07-16, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689547546952952.html
+[android开发] Aurora
+
+非官方Library genesis（Libgen）Android移动客户端。
+Non-official Library Genesis (Libgen) Android mobile client. (2023-06-22, kotlin, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687784450168598.html
+[内容生成] genesis
+
+开罗的程序地形生成
+Procedural Terrain Generation in Cairo (2022-04-28, JavaScript, 311KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687189847239631.html
+[处理器开发] STM32_VGM_Player_YM2612_SN76489
+
+基于STM32 BluePill板和真正的YM2612+SN76489声音芯片的世嘉genesis音乐播放器。
+A Sega Genesis music player based off of the STM32 BluePill board and real YM2612+SN76489 sound chips. (2021-03-23, C, 52124KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686650059223688.html
+[后台框架] genesis
+
+蓝瓶产品信息管理（PIM）
+Blue Bottle Product Information Management (PIM) (2021-05-17, Ruby, 26KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686477410141365.html
+[游戏引擎] SFPC
+
+一个用于Windows PC的策略RPG游戏引擎，用C++编写，灵感来自genesis的Shining系列游戏。
+A strategy RPG game engine for Windows PCs written in C++, inspired by the Shining series of games for the Genesis. (2015-06-01, C++, 17827KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686410973697509.html
+[内容生成] genesis
+
+genesis是一个使用Roslyn进行代码生成的实验。它接受一个输入源文件，并将构造一个代码生成...
+Genesis is an experiment in code generation with Roslyn. It takes an input source file, and will construct a code generator able to produce that file. Functions of this very narrow generator can then be overriden to create a more general code generator. (2018-12-18, C#, 4970KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686314638580809.html
+[区块链开发] status-network-token
+
+状态网络令牌，状态贡献期的智能合约，以及genesis和网络令牌
+status-network-token,Smart Contracts for the Status Contribution Period, along with Genesis and Network Tokens (2022-12-06, JavaScript, 312KB, 下载0次)
+http://www.pudn.com/Download/item/id/1670318798738005.html
+[C#编程] Shingeki no Bahamut genesis BD
+
+anime sink BD smi intint
+anime sink BD smi intint (2018-03-27, WINDOWS, 88KB, 下载1次)
+http://www.pudn.com/Download/item/id/1522165488618281.html
+[软件设计/软件工程] DFM
+
+this is have a genesis dfm ,you understand of my QQ.
+this is have a genesis dfm ,you understand of my QQ. (2017-07-08, Perl, 1319KB, 下载1次)
+http://www.pudn.com/Download/item/id/1499501895975489.html 
+
+
+[其他] Scart-Megadrive-2-12v-cable
+
+PCB form Megadrive/genesis 2 RGB minidin to Scart adapter with 12V DCDC boost (4:3 switching), stars:1, update:2024-05-16 11:52:18 (2024-05-17, KiCad Layout, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1715879300640171.html
+[其他] gen5w-utils
+
+现代KIA genesis Gen5W导航固件的有用实用程序。在此处加入Discord服务器：https:Discord.gg KpwrAeHmQJ
+Useful utilities for Hyundai KIA Genesis Gen5W navigation firmwares. Join the Discord server here: https: discord.gg KpwrAeHmQJ (2024-02-11, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1707685612367127.html
+[图标/字体] RimNGE
+
+RimWorld的化妆品模块，增加了Neon genesis Evangelion动画系列的八种标志性发型
+Cosmetic mod for RimWorld, which adds eight iconic hairstyles from the Neon Genesis Evangelion anime franchise (2024-02-08, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1707654447925603.html
+[汇编语言] genesisESP_Modem
+
+使用ESP32和Mega Drive Sega genesis从互联网获取数据的简单调制解调器。
+A simple modem to get data from internet, using a ESP32 and a Mega Drive Sega Genesis. (2024-01-28, Assembly, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1706504313968475.html
+[其他] genesis
+
+结构化样本中的基因估计和推断（genesis）：用于分析来自具有群体的样本的遗传数据的统计方法...
+GENetic EStimation and Inference in Structured samples (GENESIS): Statistical methods for analyzing genetic data from samples with population structure and/or relatedness (2023-11-08, R, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1699553606943984.html
+[硬件设计] MegaCD-Main-BD
+
+为世嘉Mega Drive genesis控制台的Mega CD Sega CD附加模块复制主板PCB。，
+Reproductions of main board PCBs for Sega s Mega CD Sega CD add-on for the Mega Drive Genesis console., (2023-09-21, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1695405722311908.html
+[项目开发与运营] speedball2-re-amiga
+
+Commodore Amiga的Speedball 2逆向工程。基于我对世嘉Megadrive（genesis）版本的逆转。，
+A reverse-engineering of Speedball 2 for the Commodore Amiga. Based on my reversing of the Sega Megadrive (Genesis) version., (2023-05-05, Assembly, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694975250155979.html
+[以太坊] sgn-v2-networks
+
+Celer State Guardian Network（SGN）V2二进制文件、操作说明、genesis文件和配置模板。，
+Celer State Guardian Network (SGN) V2 binaries, operational instructions, genesis files, and config templates., (2023-08-03, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1691253111834725.html
+[虚拟化] gp
+
+genesis Patch是一个内核补丁，可以将IDLE进程转换为分布式虚拟计算环境。精髓...，
+The Genesis Patch is a kernel patch which can transform IDLE processes into a distributed virtual computing environment. The quintessence of this kernel level distributed computing platform is that it cannot be switched off by users. Therefore, it would provide a sound basis as a living space for different machine consciousness applications. (2013-12-17, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689193243763736.html
+[数学计算] PSO2-Launcher-CSharp
+
+幻影之星在线2:New genesis（JP）的替代游戏启动器，用C#（.NET6）编写。，
+An alternative game launcher for Phantasy Star Online 2: New Genesis (JP) written in C# (.NET6)., (2023-07-06, C#, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688833410214055.html
+[汇编语言] defender-test
+
+Sega genesis Mega Drive的编程练习，用C编写。包括滚动、循环背景层和...
+Programming exercise for Sega Genesis/Mega Drive written in C. Includes scrolling, looping background layer and an animated player sprite. Compiles with SGDK. (2023-04-24, Assembly, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688302272826805.html
+[特征抽取] GLX_Autostaking
+
+创世纪联盟代币自动下注计划
+Genesis League Token Autostaking Program (2022-11-15, C#, 729KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687093154984038.html
+[内容生成] gimp-megadrive-generate-all-colors
+
+Gimp的Python插件，它生成一个包含所有512 Sega genesis Megadrive颜色的新图像
+A Python plug-in for Gimp, which generates a new image containing all 512 Sega Genesis Megadrive colors (2019-07-15, Python, 4KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686172763955485.html
+[Bootstrap] carbon-bootstrap
+
+碳引导脚本和成因数据。
+Carbon bootstrap scripts and genesis data. (2023-05-15, Shell, 56KB, 下载0次)
+http://www.pudn.com/Download/item/id/1684120363374396.html
+[软件设计/软件工程] 09106
+
+genesis 2000 v10.60更新说明PDF档
+This document contains proprietary information belonging to Frontline PCB Solutions LP. This information is not for publication and is issued on condition that it will not be copied, printed or disclosed to a third party, without the written consent of Frontline PCB Solutions. This document is subject to change without notice. (2018-12-01, C/C++, 505KB, 下载0次)
+http://www.pudn.com/Download/item/id/1543636530631317.html
+[VHDL/FPGA/Verilog] FLI30602H-AC_Datasheet_C30602-DAT-01
+
+为GM（genesis）C语言编程开发学习资料，为专业的LCD开发工程师经验总结。
+GM (GENESIS) C programming language development learning materials, the for professional LCD development engineer experience summary. (2013-05-19, C#, 666KB, 下载6次)
+http://www.pudn.com/Download/item/id/2248862.html
+[] ASP.net-Bible
+
+ASP.NET BIBLE- genesis AND REVELATION OF ASP.NET
+ASP.NET BIBLE- GENESIS AND REVELATION OF ASP.NET (2012-10-15, Visual Basic, 7149KB, 下载1次)
+http://www.pudn.com/Download/item/id/2016180.html
+[VHDL/FPGA/Verilog] STDP602x-DP-HDMI-VGAtoLVDS
+
+Datasheet for genesis Microchip STDP602x-DP,HDMI,VGAtoLVDS
+Datasheet for Genesis Microchip STDP602x-DP,HDMI,VGAtoLVDS (2011-02-28, C/C++, 1042KB, 下载25次)
+http://www.pudn.com/Download/item/id/1439272.html
+[] GM5020_VGA
+
+超级难得的保密资料 genesis 国际大厂的VGA显示器源码~
+Graphics Processing IC providing high-quality images for LCD monitors and other pixelated displays (2009-06-07, C++ Builder, 1594KB, 下载67次)
+http://www.pudn.com/Download/item/id/797297.html
+[matlab编程] lifegenesis
+
+Play life genesis game and compete with computer. Good example for interactive GUI.
+Play life genesis game and compete with computer. Good example for interactive GUI. (2007-12-25, matlab, 14KB, 下载5次)
+http://www.pudn.com/Download/item/id/382215.html 
+
+
+[其他] genesisDatapack
+
+genesis Minecraft RPG Datapack, stars:4, update:2024-04-21 18:08:13 (2024-04-22, mcfunction, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1713722951486535.html
+[其他] genesis_Guardian
+
+genesis Guardian is designed to serve as a digital steward for families seeking to nurture their faith and strengthen family bonds through daily devotions. Named to reflect the biblical roots of family and heritage, this bot embodies wisdom, compassion, and guidance. (2024-04-14, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1713034490756695.html
+[C/C++工具库] LibHandler
+
+一个简单的C#库，允许您从Library genesis项目中搜索和下载书籍。
+A simple C# Library that allows you to search and download books from the Library Genesis project. (2024-04-01, C#, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1712123151375377.html
+[其他] genesis
+
+使用UE5和Paragon资源生成字符
+Character generation using UE5 and Paragon assets (2024-04-01, C++, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1711997982498557.html
+[其他] genesis
+
+通用Mindustry插件库
+General Purpose Mindustry Plugin Library (2024-01-26, kotlin, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1706292891405331.html
+[快速开发平台] Dymension-genesis-Rolldrop-Checker
+
+自动检查合格用户空投
+Automation Check for Eligible Users Airdrop (2024-01-02, GO, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1704217999619080.html
+[生物医药技术] genesis
+
+有趣的仿生算法库
+A library for intriguing bio-inspired algorithms (2023-11-06, Nix, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1699368828288220.html
+[人工智能/神经网络/深度学习] Mortal-kombat-2-AI-bot
+
+为Mortal Kombat Sega genesis游戏实现人工智能机器人。深度Q学习算法。
+Implementation of AI bot for Mortal Kombat Sega Genesis game. Deep Q-learning algorithm. (2021-02-28, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1698653884700347.html
+[其他] genesisToCDi
+
+genesisToCDi允许在Philips CDi玩家游戏控制台上使用SEGA genesis SEGA Mega Drive游戏板（基于Arduino的项目），
+GenesisToCDi allows to use a SEGA Genesis SEGA Mega Drive gamepad on a Philips CDi player game console (Arduino-based project), (2022-02-15, C++, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694704450678090.html
+[其他] Epic-Eyes-Geometry-for-genesis-8
+
+Epic-Eyes-Geometry-for-Generis-8.1，，
+Epic-Eyes-Geometry-for-Genesis-8.1,, (2021-04-11, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1693845291800511.html
+[NFT] nftfi-services-status
+
+NFTfi genesis的正常运行时间监视器和状态页面，由[@upptime]（https:github.com upptime）提供支持，
+Uptime monitor and status page for NFTfi-Genesis, powered by [@upptime](https: github.com upptime), (2023-08-03, Markdown, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1691041573792130.html
+[] svpdev
+
+针对在Virtua Racing的Mega Drive genesis版本中发现的SEGA SVP芯片的开发工具集合。，
+A collection of development tools targetting SEGA s SVP chip found in the Mega Drive Genesis version of Virtua Racing., (2022-03-20, Rust, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688853488300745.html
+[C/C++基础] DaemonBite-Retro-Controllers-USB
+
+复古控制器USB适配器（SNES、NES、Mega Drive genesis、主系统、Atari、Commodore、Amiga和
+A collection of retro controller USB adapters (SNES, NES, Mega Drive Genesis, Master System, Atari, Commodore, Amiga and (2022-11-09, C++, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688374426370564.html
+[特征抽取] push-smart-contracts-genesis
+
+$PUSH代币+授权智能合约
+$PUSH Token + Vesting Smart Contracts (2022-10-31, JavaScript, 2178KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687088954745857.html
+[游戏引擎] genesis
+
+使用PyGame的Python中的Game+游戏引擎
+Game + Game engine in Python using PyGame (2011-03-04, Python, 20818KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686417531169377.html
+[加密货币] node-genesis-block
+
+为比特币、莱特币、达世币、X11、X13、X15、X17、Geek、Quark、Keccak、Qubit、NeoScrypt、Scrypt创建创世纪区块。。。
+Create Genesis Block for Bitcoin, Litcoin, Dash, X11, X13, X15, X17, Geek, Quark, Keccak, Qubit, NeoScrypt, Scrypt... (2021-12-30, JavaScript, 10KB, 下载0次)
+http://www.pudn.com/Download/item/id/1640857387409964.html
+[前端开发] Driskill
+
+创世纪的响应式设计儿童主题
+Responsive Design child theme for Genesis (2012-10-08, PHP, 50KB, 下载0次)
+http://www.pudn.com/Download/item/id/1349681814178683.html
+[前端开发] genesis-js-no-js
+
+创世纪儿童主题的WordPress插件。在前端添加一个无js的body类，并添加一个小的内联脚本...
+WordPress plugin for Genesis child themes. Adds a no-js body class to the front-end, and a small inline script that changes it to `js` if JavaScript is enabled. Allows for styling of elements (like potential hiding) if JavaScript is enabled. (2021-02-10, PHP, 11KB, 下载0次)
+http://www.pudn.com/Download/item/id/1612960615809561.html
+[前端开发] genesischild
+
+这是WordPress的入门创世纪儿童主题，将其作为核心创世纪框架的儿童主题-WooCom...
+This is a Starter Genesis Child Theme for WordPress, use it as a child theme with the core Genesis Framework - WooCommerce and Beaver Builder ready (2017-06-24, PHP, 60KB, 下载0次)
+http://www.pudn.com/Download/item/id/1498244260674498.html
+[C/C++工具库] LibHandler
+
+LibHandler，一个简单的C#库，允许您从Library genesis项目中搜索和下载书籍。
+LibHandler,A simple C# Library that allows you to search and download books from the Library Genesis project. (2023-04-24, C#, 23KB, 下载0次)
+http://www.pudn.com/Download/item/id/1682302292942183.html 
+
+
+[其他] pulumi-genesiscloud
+
+Pulumi provider for genesis Cloud., stars:1, update:2024-05-21 13:34:08 (2024-05-22, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1716315937902671.html
+[系统/网络安全] iutCTF24
+
+Challenges for iutCTF24 hosted by IUT genesis, stars:0, update:2024-04-20 18:48:48 (2024-04-21, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1713643116177132.html
+[汇编语言] NikonaSDK
+
+用于SEGA 16位控制台系列系统的纯组装SDK：genesis、SEGA CD、SEGA 32X、SEGA CD32X和SEGA Pico
+A SDK in pure assembly for the SEGA 16-bit console famly of systems: Genesis, Sega CD, Sega 32X, Sega CD32X and Sega Pico (2024-02-24, Assembly, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1708766775330959.html
+[数学计算] genesis-Crystal-calculators
+
+一个计算创世结晶的计算器
+A calculator for calculating Chuangshi Crystal (2024-02-22, CSS, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1708623238884792.html
+[其他] kgemng
+
+异步事件管理器。Kuyu genesis的一部分
+Asynchronous events managers. Part of KuyuGenesis (2023-12-13, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1702500036461311.html
+[快速开发平台] genesis-theme
+
+一个基于Octopress-Ink的Jekyll主题，
+A Jekyll theme build on Octopress Ink, (2015-12-21, CSS, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1698252739390498.html
+[其他] genesis
+
+用于arkOS的图形服务器管理应用程序，
+Graphical server management app for arkOS, (2017-01-21, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1695643604692470.html
+[开发工具] genesis-core
+
+为完整的世界简化构建工具，
+Simplified build tooling for a complected world, (2017-11-12, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1693872378666254.html
+[生物医药技术] genesis-indel
+
+genesis indel是一个计算管道，用于探索未映射的读取，以识别最初在原始中丢失的新突变...，
+Genesis-indel is a computational pipeline to explore the unmapped reads to identify novel mutations that are initially missed in the original alignment. The genes containing such mutations can be investigated to gain important biological insights. (2018-12-06, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689524020672036.html
+[汇编语言] learning-segaMD
+
+一个68k ASM项目，我在其中探索和学习如何为世嘉genesis Mega Drive编写软件。
+A 68k ASM project where I explore _and_ learn how to write software for the Sega Genesis Mega Drive. (2018-01-26, Assembly, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688301924727968.html
+[汇编语言] BW3G
+
+黑_白3：起源
+Black _and_ White 3: Genesis (2023-05-13, Assembly, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688300841571588.html
+[编程语言基础] genesis
+
+上帝的实际编程语言。
+God s actual programming language. (2022-08-20, Java, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687942931324078.html
+[物理/力学计算] Unity2DPlatformer360Movement
+
+2D Platformer游戏的简单360度运动物理。设计类似于Sonic the Hedgehoug genesis游戏。
+Simple 360 degree movement physics for a 2D Platformer game. Similar in design to Sonic the Hedgehog Genesis games. (2018-06-23, C#, 15059KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687028850924251.html
+[建站系统] Solace
+
+最小的创世纪框架WordPress儿童主题。
+A minimal Genesis Framework WordPress Child theme. (2015-09-16, CSS, 149KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686439970509334.html
+[Bootstrap] genesis-bootstrap-carousel
+
+WordPress创世纪插件，允许您创建一个简单的响应图像转盘，显示特色图像...
+WordPress Genesis plugin that allows you to create a simple responsive image carousel that displays the featured image, along with the title and excerpt from each post. (2013-02-20, PHP, 2359KB, 下载0次)
+http://www.pudn.com/Download/item/id/1361362346623445.html
+[以太坊] PrivateTestNetEthereum
+
+私有测试网以太坊。创世纪与链
+Private-TestNet Ethereum. Genesis and Chain (2017-03-21, Shell, 13KB, 下载0次)
+http://www.pudn.com/Download/item/id/1490095578846700.html
+[其他] EJ Easy Face Generator For genesis 8 Female
+
+daz studio element for face create
+daz studio element for face create (2019-06-21, WINDOWS, 4017KB, 下载0次)
+http://www.pudn.com/Download/item/id/1561111050744006.html
+[] zulkfor
+
+The full set of genesis 2004 Registry is suitable for diskless users
+The full set of Genesis 2004 Registry is suitable for diskless users (2019-04-18, C#, 84KB, 下载0次)
+http://www.pudn.com/Download/item/id/1555528207104205.html
+[其他] 设定权限Privs
+
+设定权限Privs /genesis/share/privs希望大家不要随便去修改/删除这个文件. 下面一个例子
+Set permissions Privs /genesis/share/privs I hope you don't just modify / delete this file Here's an example (2017-08-27, WINDOWS, 4KB, 下载1次)
+http://www.pudn.com/Download/item/id/1503802861671616.html
+[其他嵌入式/单片机内容] Prog_GM5621_TopTech
+
+Files programming genesis GM5621 for AdBoard Top-tech (VGA-DVI) Files(.Hex)
+Files programming Genesis GM5621 for AdBoard Top-tech (VGA-DVI) Files(.Hex) (2011-10-14, Others, 236KB, 下载15次)
+http://www.pudn.com/Download/item/id/1668901.html 
+
+
+[加密货币] genesis-block
+
+genesis区块是区块链中的第一个区块，也称为区块0。它包含中本聪（Satoshi Nakamoto）最初开采的50枚比特币，该实体是比特币网络的创始人。
+The Genesis Block is the first block in a blockchain, and is also known as Block 0. It contains the original 50 bitcoins mined by Satoshi Nakamoto, the entity that started the Bitcoin network. (2024-03-23, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1711198176586056.html
+[其他] Sunsdgarden-course-genesis
+
+从Sundsgarden课程开发网站的实践
+practice to develop website from Sundsgarden course (2024-02-29, CSS, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1709232426439744.html
+[Rust编程] moa
+
+一个用于各种基于m68k和z80的计算机的模拟器，用Rust编写。目前，它支持Sega genesis、TRS-80和Computie（我自己的项目），正在开发Macintosh支持
+An emulator for various m68k and z80 based computers, written in Rust. Currently it has support for the Sega Genesis, TRS-80, and Computie (my own project), with Macintosh support in the works (2024-02-20, Rust, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1708389275543242.html
+[区块链开发] landing
+
+Atlaspad的登录页。
+The landing page of Atlaspad. (2024-01-24, SCSS, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1706101199946511.html
+[硬件设计] RF-genesis
+
+RF成因：通过基于模拟的数据合成和生成扩散模型实现毫米波传感的零激发泛化（SenSys 23）
+RF Genesis: Zero-Shot Generalization of mmWave Sensing through Simulation-Based Data Synthesis and Generative Diffusion Models (SenSys 23) (2024-01-22, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1705978195103944.html
+[人工智能/神经网络/深度学习] genesis
+
+一种面向进化的深度模拟沙盒游戏
+An evolutionary focused deep-simulation sandbox game (2024-01-22, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1705956654493605.html
+[其他] genesis
+
+UIT项目1的微服务示例项目
+Microservices sample project for Project 1 at UIT (2024-01-12, Java, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1705084368259275.html
+[处理器开发] QAuth0-Imp-Frostbitghost-Balamb-Gardens
+
+“Sega genesis Pl”微控制器复原的特征审查，介绍了Arduino Pl.Lanskey.Hughes.\-erg的名称...，
+A character review for Micro-controller restitution of the "Sega Genesis Pl", introduces the Arduino Pl.Lanskey.Hughes.\-title of the ergonomic status and vitalised memorable creedences of the "Paranorman movie " --aka-Q\Answers based upon the Ip Addresses main-routes . . .of Arduino s main collections by FrostbitGhost-Balamb-Gardens (2023-10-19, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1697765053344028.html
+[前端开发] TikTuk
+
+创世纪前端学校实践任务，
+Practice Task for Genesis Front-End School, (2021-12-21, TypeScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1695664023484672.html
+[金融证券系统] genesis
+
+数据科学，金融市场，分形，机器学习。。，
+data science, financial markets, fractals, machine learning.., (2017-03-29, MQL5, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694235659371045.html
+[其他] genesis
+
+模板、脚手架和生成工具，
+Templating, scaffolding and generation tool, (2023-06-30, Swift, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689275455509908.html
+[虚拟化] Emulatrix
+
+Emulatrix-JavaScript和WebAssembly模拟器-世嘉genesis，任天堂，超级任天堂，游戏男孩，游戏男孩颜色，游戏男孩高级，MAME32...，
+Emulatrix - JavaScript and WebAssembly Emulator - Sega Genesis, Nintendo, Super Nintendo, GameBoy, GameBoy Color, GameBoy Advance, MAME32, DOSBox and Virtual Machines (2023-06-25, HTML, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689190151365418.html
+[虚拟化] tendermint-testnet
+
+vm ec2 ubuntu上的Tendermint Testnet，
+Tendermint Testnet on vm ec2 ubuntu, (2022-09-05, Shell, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689184980971757.html
+[单片机开发] genesis
+
+在C中进行简单MCU编程的库。，
+A Library for simple MCU programming in C., (2009-08-24, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688851027207833.html
+[游戏] genesis
+
+受《街头霸王2》启发的格斗游戏
+A Street Fighter 2 inspired fighting game (2023-04-20, Python, 144901KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687570335136059.html
+[游戏引擎] TheGetaway
+
+Getaway是2021年12月genesis game Jam期间制作的游戏。使用戈多游戏引擎。
+The Getaway is a game that was made during the Genesis Game Jam in December of 2021. Uses Godot Game Engine. (2022-01-22, GDScript, 1639KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686418526762851.html
+[聚类算法] genesis-Threat-Intelligence
+
+用于网站主题分类和威胁情报
+Used for websites Topic Classification and Threat Intelligence (2022-06-25, C, 187940KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686204889400724.html
+[前端开发] genesis-Starter-Child-Theme
+
+WordPress创世纪框架启动儿童主题，用于构建自定义儿童主题。使用SCSS、AutoPrefixr、Grunt等...
+WordPress Genesis Framework starter Child Theme for building custom child themes. Uses SCSS, AutoPrefixr, Grunt for compilation/linting/deployments, and BrowserSync for cross-device auto refreshing. (2015-07-09, PHP, 58KB, 下载0次)
+http://www.pudn.com/Download/item/id/1436415641968470.html
+[聚类算法] genesis-kafka-cluster
+
+部署Kafka集群用于警报流
+Deploy a Kafka cluster for alert streaming (2019-11-26, HCL, 12KB, 下载0次)
+http://www.pudn.com/Download/item/id/1574764783232066.html
+[区块链开发] chain-details
+
+Chain Details是一个将验证器、委托人和行权账户（从genesis文件）数据生成CSV文件的工具...
+Chain Details is a tool to generate validator, delegator and vesting accounts(from genesis file) data into a CSV file for further use cases. (2023-05-10, GO, 53KB, 下载0次)
+http://www.pudn.com/Download/item/id/1683714307964527.html 
+
+
+[音频处理] free_vgms
+
+Sega genesis Music Source Files For Everybody, stars:1, update:2024-05-17 15:12:55 (2024-05-18, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1715963023788369.html
+[其他] genesis
+
+The modern desktop environment for everyone on anything, stars:35, update:2024-05-03 17:45:42 (2024-05-04, Dart, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1714762011131436.html
+[前端开发] Composite-genesis-Sonic-style
+
+这只是一个占位符描述
+this is just a placeholder description for now (2024-02-12, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1707717810554756.html
+[硬件设计] neon-resources
+
+霓虹合成和霓虹成因的共享资源
+Shared resources for Neon Synthesis and Neon Genesis (2024-01-07, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1704590153464116.html
+[其他] affe-mit-waffe-ERC721
+
+该存储库将用于构建Affe mit Waffe genesis ERC-721集合的代码。最初，集合被部署为...
+This repository will be used to build the code for the Affe mit Waffe genesis ERC-721 collection. Initially the collection was deployed in the generic 1155 OpenSea Storefront contract. For various reasons it made sense to migrate the Affen to their own exclusive smart contract, which will be coded in this repository. (2022-08-23, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1698581402463084.html
+[后台框架] genesis
+
+PHP应用程序的通用引导框架，
+Universal bootstrapping framework for PHP applications, (2023-09-26, PHP, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1695796194425329.html
+[编程语言基础] genesis-nestjs-starter
+
+Nestjs初学者工具包，
+Nestjs starter kit, (2023-01-12, TypeScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694517420578853.html
+[区块链开发] theoffshore-map-dapp
+
+海上成因地图-，
+Offshore Genesis Map - , (2022-11-15, TypeScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1693491342697097.html
+[内容生成] blockchainProdigalAI
+
+如何在区块链genesis中创建锁的实现，使用终端和api us的三个实例在三个区块链之间演示...，
+implementation of how in blockchain genesis lock get created, demo between three blockchains using three instances of terminal and api using postman. (2023-08-13, HTML, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1691959430116234.html
+[GPU/显卡] genesis
+
+用C++20编写的小型Vulkan游戏引擎。，
+A small Vulkan game engine written in C++20., (2023-08-02, C++, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1690964327810116.html
+[collect] libgen-tor
+
+libgen tor是Library genesis Downloader，旨在为用户提供一种方便的方法，从Library genesis（libgen）下载各种出版物、书籍和其他资源的.pdf或.epub文件。由于LibGen仅限制从Tor镜像下载，而不是从clearnet别名下载，因此该项目将利用Tor网络访问和检索文件。
+libgen-tor is a Library Genesis Downloader aimed at providing users with a convenient way to download .pdf or .epub files for various publications, books, and other resources from Library Genesis (LibGen). As LibGen restricts downloads only from Tor mirrors vs clearnet aliases, this project will utilize the Tor network to access and retrieve files. (2023-07-30, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1690783305780046.html
+[] genesis
+
+江宁XXX教会 微 信 公众号项目
+Jiangning XXX church WeChat public account project (2018-07-21, GO, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688589250371673.html
+[前端开发] eva-title
+
+「福音战士标题生成器」 Evangelion Title Card Generator
+Evangelion Title Card Generator (2022-12-26, JavaScript, 202KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686940058145781.html
+[仿真建模] genesis_MBD_w3_q3
+
+使用Simulink的防抱死制动系统
+Anti-Lock Braking System using Simulink (2020-12-17, matlab, 648KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686687283296126.html
+[云计算] genesis
+
+多租户网络中的数据平面综合
+Data Plane Synthesis in Multi-Tenant networks (2018-05-25, TeX, 25450KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686518368131356.html
+[企业管理] CRM-Press
+
+CRM Press是Bill Erickson的TwentyTen CRM genesis CRM的独立版本，是迄今为止最好的WordPr...
+CRM Press is the standalone version of the TwentyTen CRM / Genesis CRM by Bill Erickson and is by far the best WordPress CRM on the planet. (2011-08-20, PHP, 225KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686285206394923.html
+[元宇宙] governance
+
+创世纪元宇宙的治理、社区和改进建议
+Governance, Community, and Improvement Proposals for the Genesis Metaverse (2022-01-02, HTML, 532KB, 下载0次)
+http://www.pudn.com/Download/item/id/1641083227228659.html
+[人工智能/神经网络/深度学习] airdrop-interface
+
+空投接口，P12创世纪灵魂绑定NFT空投
+airdrop-interface,P12 Genesis Soul-Bound NFT Airdrop (2023-03-29, TypeScript, 3431KB, 下载0次)
+http://www.pudn.com/Download/item/id/1680045772893214.html
+[其他] edit_main
+
+编辑 #!/usr/bin/perl -w use strict; use warnings; use genesis; my $host = shift; my $f = new genesis($host); use Tk; use Encode; use utf8; use Socket; use File::Basename; use Tk::NoteBook; require 'shellwords.pl'; #$f->PAUSE("$0"); my $dirname = dirname($0); #my $dirname = dirname(__FILE__); my $JOB = $ENV{JOB}; my $STEP = $ENV{STEP};
+edit #!/usr/bin/perl -w use strict; use warnings; use Genesis; my $host = shift; my $f = new Genesis($host); use Tk; use Encode; use utf8; use Socket; use File::Basename; use Tk::NoteBook; require 'shellwords.pl'; #$f->PAUSE("$0"); my $dirname = dirname($0); #my $dirname = dirname(__FILE__); my $JOB = $ENV{JOB}; my $STEP = $ENV{STEP}; (2020-07-08, Perl, 1KB, 下载0次)
+http://www.pudn.com/Download/item/id/1594202122835709.html
+[软件设计/软件工程] FGNgenesisa
+
+大名鼎鼎的GN：genesis的相关开发资料做液晶电视，和OSD字符叠加加和高级视频控制的朋友可以来看看，这些资料可是要和GN签订保密协议才会给的！
+Famous GN: genesis of the relevant information to do the development of LCD TV, and the OSD characteers and advanced video overlay controls to see if a friend can come, but such information should be e (2012-05-18, Visual C++, 2793KB, 下载9次)
+http://www.pudn.com/Download/item/id/1875193.html 
+
+
+[其他] genesisWrapper
+
+Python wrapper to analyze genesis 1.3 simulation output, stars:1, update:2024-05-28 09:27:33 (2024-05-29, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1716946391118533.html
+[] genesis
+
+Game engine for educational purposes., stars:0, update:2024-05-16 03:03:48 (2024-05-16, C++, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1715834345414283.html
+[特征抽取] push-smart-contracts-genesis
+
+$PUSH Token + Vesting Smart Contracts, stars:20, update:2024-04-27 15:17:34 (2024-04-28, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1714268416224106.html
+[] RadRuby
+
+Rad Ruby vs The Robot Rebels for Sega genesis, stars:1, update:2024-04-21 21:44:32 (2024-04-22, C#, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1713742471916754.html
+[特征抽取] saga-drop
+
+一种简单的工具，允许代币托管人将SPL代币分发给灵魂绑定NFT集合的持有者（例如，Saga genesis代币）。
+A simple tool to allow token dropers to distribute SPL tokens to holders of a Soul-bound NFT collection (e.g., Saga Genesis tokens). (2024-01-06, Rust, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1704643520768464.html
+[区块链开发] networks
+
+Testnet和Mainnet链的成因和对等信息
+Genesis and Peers information of Testnet and Mainnet chains (2023-12-13, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1702711073482920.html
+[内容生成] genesis
+
+为Roblox体验构建的程序地形生成系统
+Procedural terrain generation system built for Roblox experiences (2023-12-03, Lua, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1701646046999218.html
+[区块链开发] ipgg
+
+InterPlanetary Pirate genesis（IPPG）是一个由9999个独特的NFT组成的集合，这些NFT由高质量的收藏品艺术和创新实用工具创造。...，
+InterPlanetary Pirate Genesis(IPPG) is a collection of 9999 unique NFTs created with high-quality collectible art and innovative utility. It is also the genesis NFT of the Loomee platform, which manifests the benefits and privileges of Loomee co-founders worldwide. (2023-10-15, SCSS, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1697384606215853.html
+[NFT] habbo-master-genesis
+
+Habbo Avatars NFT系列的特征编辑操场，
+Trait editing playground for Habbo Avatars NFT collection, (2023-10-11, TypeScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1697073709659685.html
+[生物医药技术] genesis
+
+NOAH脉冲程序生成器：，
+NOAH pulse programme generator: , (2023-05-11, TypeScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1695353203904760.html
+[其他] Cosmos-genesis
+
+Minecraft Bedrock内部的太空探索游戏，
+A space exploration game inside of Minecraft Bedrock, (2022-09-02, TypeScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694185310715584.html
+[建站系统] genesis-wordpress-elementor-branding
+
+该项目由wordpress elementor构建，
+This project is built by wordpress elementor, (2023-08-14, PHP, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1692025176867771.html
+[其他] gg2c
+
+将16色（每像素4位）图形Gale文件（.gal）导出到C源文件的命令行工具。用于Sega genesis自制d...，
+Command line tool that exports 16 color (4 bits per pixel) Graphics Gale files (.gal) to C source files. Used for Sega Genesis and Master System homebrew development. (2023-07-29, C++, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1690754106809236.html
+[构建工具] ebpack-Bootstrap4-Wordpress-genesis-starter-theme
+
+将Webpack dev服务器与Wordpress集成可能相当具有挑战性，此回购使Webpack导出清单...
+Integrating Webpack-dev-server with Wordpress can be quite challenging, this repo gets Webpack to export a manifest file which Wordpress uses to fully integrate into your local Wordpress development environment. (2019-02-11, PHP, 949KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686921228443737.html
+[建站系统] genesis-wordpress
+
+在多个环境中快速创建、开发和部署WordPress。
+Rapidly create, develop, & deploy WordPress across multiple environments. (2016-12-13, Ruby, 1880KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686437589745243.html
+[以太坊] genesis.ethcon
+
+第一个ETHCon韩国网站呼吁参与
+The first ETHCon Korea website for the call for participation (2019-04-25, CSS, 2690KB, 下载0次)
+http://www.pudn.com/Download/item/id/1556162388674224.html
+[Python工具库] libgen-python-api
+
+libgen python api，一个python库，它提供了一个api来搜索和获取书籍、杂志、漫画等的链接，。。。来自图书馆创世纪。
+libgen-python-api,A Python library that provides an api to search and get links from Books,Magazines,Comics,... from Library Genesis. (2022-05-18, Python, 18KB, 下载0次)
+http://www.pudn.com/Download/item/id/1652858149996720.html
+[人工智能/神经网络/深度学习] Sonic_2_Rev_00_(Text_Format_by_drx)
+
+68000 assembler source code for Sonic 2 on Sega genesis
+68000 assembler source code for Sonic 2 on Sega Genesis (2015-09-18, Asm, 1339KB, 下载2次)
+http://www.pudn.com/Download/item/id/1442530155345743.html
+[单片机开发] Philips_15PF5121-01_7403_MX29LV040CQC-70G_gm5221H
+
+Flash dump from Philips 15PF5121 LCD TV, target device is genesis gm5221H scaler.
+Flash dump from Philips 15PF5121 LCD TV, target device is Genesis gm5221H scaler. (2014-03-13, Video, 122KB, 下载2次)
+http://www.pudn.com/Download/item/id/2482212.html
+[Windows编程] microwin-0.89
+
+Microwindows genesis was with the NanoGUI project, and is now the primary distribution for both the Microwindows and Nano-X codebase.
+Microwindows genesis was with the NanoGUI project, and is now the primary distribution for both the and Microwindows Nano-X codebase. (2006-07-18, Unix_Linux, 1940KB, 下载16次)
+http://www.pudn.com/Download/item/id/203994.html 
+
+
+[前端开发] Composite-genesis-Sonic-style
+
+this is just a placeholder description for now, stars:1, update:2024-06-10 03:13:40 (2024-06-12, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1718141288655581.html
+[项目开发与运营] HKG_Gen5W_ReverseEngineer
+
+Reverse Engineering Hyundai/Kia/genesis Gen5W Firmware, stars:1, update:2024-06-02 00:00:18 (2024-06-03, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1717428084866022.html
+[区块链开发] networks
+
+?? genesis and node configuration elements for joining Axone networks., stars:49, update:2024-05-16 15:26:42 (2024-05-17, Makefile, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1715893568699801.html
+[前端开发] identity-processes
+
+Placeholder description: @Mullefa created this with repo-genesis, stars:0, update:2024-04-29 11:54:51 (2024-04-29, Scala, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1714399671109569.html
+[游戏机] shining-force
+
+Sega genesis console game re-envisioned in Python, stars:0, update:2024-04-11 22:09:04 (2024-04-12, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1712886386639012.html
+[] genesis-Forum
+
+从madblog进行极端定制。我称之为创世纪论坛。我用GPT4完全改变了vuejs代码。添加cloudflare recaptcha、web图标和https协议。
+Extreme customizing from madblog. I call it Genesis Forum. I totally changed vuejs codes with GPT4. Add cloudflare recaptcha, web icon and https protocol. (2024-04-02, Vue, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1712055365701672.html
+[加密货币] xcpdev-genesis
+
+打开交易对手比特币数据浏览器-DIY节点
+Open Counterparty Bitcoin Data Explorer - DIY Node (2024-01-15, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1705351538890117.html
+[其他] libgen_torrent_cardiography
+
+监控库基因和科学中心的torrent健康
+Monitor Library Genesis and Sci-Hub s torrent health (2023-11-18, HTML, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1700324529917114.html
+[硬件设计] asteroidsSegagenesis
+
+该项目需要SGDK才能编译。这是一款Sega genesis小行星游戏，我用C语言编写。任何人都可以免费使用它...，
+This project requires SGDK in order to compile. This is a Sega Genesis Asteroids game that I have written in C. Anyone is free to use it and I hope that it helps you understand the hardware a bit better. Right now the project is unfinished but will be finished soon with all the bells and whistles and I hope to keep this version close to the arcade. (2023-01-08, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694137837932966.html
+[游戏引擎] Marsiano-MARS
+
+SEGA多系统游戏引擎。，
+A SEGA multi-system game engine., (2023-08-02, Assembly, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1690961591671673.html
+[人工智能/神经网络/深度学习] genesis
+
+基因效应大小分布——从摘要级数据推断，
+GENetic Effect-Size distribution Inference from Summary-level data, (2020-09-06, C++, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689741473357386.html
+[collect] nosanatest
+
+#为了降低使用ipget的速度，目前我们使用网关#PUT需要的CIDOFgenesis和CIDOFCONFIG，这里RUN wget-O genesis.json[https:ipfs...]（https:ipfs.io ipfs），
+# To slow using ipget, currently we use gateway # PUT needed CID_OF_GENESIS and CID_OF_CONFIG here RUN wget -O /genesis.json https://ipfs.io/ipfs/ RUN wget -O /config.toml https://ipfs.io/ipfs/ RUN wget -O /genesis.json https://ipfs.io/ipfs/QmZHpLc3H5RMXp3Z4LURNpKgNfXd3NZ8pZLYbjNFPL6T5n RUN wget -O /config.toml (2022-04-02, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689013822415562.html
+[汇编语言] GG-Shinobi-Remake-for-Sega-Megadrive
+
+使用SGDK为世嘉Megadrive genesis的第一款Game Gear Shinobi游戏进行了非官方的粉丝翻拍。这是...
+An unofficial, fan-made remake for the first Game Gear Shinobi game for the Sega Megadrive/Genesis using SGDK. This is merely intended to be a fun, personal project in order to learn C and SGDK. (2021-03-31, Assembly, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688301973291159.html
+[前端开发] genesis
+
+使用Jade、Stylus和Grunt.js的静态站点生成器
+Static site generator using Jade, Stylus and Grunt.js (2014-02-03, JavaScript, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687940787272484.html
+[内容生成] MewTwoPrototypeGWJ2021
+
+一个忍者风格的2D platformer，具有像素艺术，类似于NES或SEGA genesis时代的Platformers，并且非常漂亮...
+A ninja-styled 2D platformer with Pixel-Art, similar to platformer s of the NES or SEGA Genesis era, and beautifully arranged music on Unity. Utilizes Wwise for all audio purposes (first time using it), as well as SimpleTasks or "STasks" by Martin Isla. To Find a playable version, please go to the itch.io site: (2021-06-24, C#, 161573KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687073248234912.html
+[前端开发] LibgenBulkUpload
+
+将文件批量上传到<http:libgen.lc libraryr.php>（Selenium脚本）
+将文件批量上传到<http:libgen.lc libraryr.php>（Selenium脚本） (2022-01-22, Python, 3KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686582565547013.html
+[单片机开发] drl
+
+此文件的开发环境为Cshell 用于PCB行业专门软件genesis！它能够实现此软件的钻带自动输出及相应的排序。
+This document development environment for industry-specific software for PCB Cshell genesis! It can achieve this software drilled and the corresponding output with automatic sorting. (2013-08-22, Others, 36KB, 下载4次)
+http://www.pudn.com/Download/item/id/2336806.html
+[模式识别(视觉/语音等)] rename
+
+genesis2000 层识别 定义属性 层自动排列
+genesis2000 Layer identification (2013-01-13, Perl, 1KB, 下载4次)
+http://www.pudn.com/Download/item/id/2116141.html
+[] dgens117
+
+DGen is a genesis/Megadrive emulator, which currently runs under for Windows 95/98/NT/2000 using DirectX.
+DGen is a Genesis/Megadrive emulator, which currently runs under for Windows 95/98/NT/2000 using DirectX. (2008-05-24, Visual C++, 200KB, 下载4次)
+http://www.pudn.com/Download/item/id/472283.html
+[Windows编程] genesis3D-v1.6-Src
+
+Advanced genesis3D is the engine used by the Tsudashi project. This is a rebuild of The Premiere Open Source 3D Real-Time Rendering Engine: genesis3D. The aim is to fix bugs and to add new features.
+Advanced Genesis3D is the engine used by the Tsudashi project. This is a rebuild of The Premiere Open Source 3D Real-Time Rendering Engine: Genesis3D. The aim is to fix bugs and to add new features. (2007-08-03, C++, 2477KB, 下载30次)
+http://www.pudn.com/Download/item/id/315151.html 
+
+
+[其他] genesis
+
+Chef-solo cookbooks to handle my Mac (think "a bit more fancy dotfiles"), stars:5, update:2024-05-15 18:57:08 (2024-05-16, Ruby, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1715800195941656.html
+[DevOps] Project-genesis
+
+逐步实现DevOps和云学习旅程的方法
+A step-by-step approach towards a DevOps and Cloud learning journey (2024-02-26, HTML, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1708926999487639.html
+[其他] digging-the-digital
+
+此子主题与Indieweb Publisher主题一起使用。儿童主题在格式和顺序上受到StudioPress和genesis工作的影响。
+This child theme accompanies the Indieweb Publisher theme. The child theme is in formatting and order influenced by the work of StudioPress and Genesis. (2024-02-25, PHP, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1708851939338963.html
+[] genesis
+
+基于六边形架构的Go中RESTful API模板
+Template of RESTful API written in Go based on Hexagonal Architecture (2024-01-16, GO, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1705463842101285.html
+[hotest] The-Aether-genesis
+
+《以太》的插件，增加了《以太II：虚空的起源》的内容。
+An addon for The Aether, adding content from The Aether II: Genesis of the Void. (2023-12-28, Java, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1703851431428781.html
+[] genesis
+
+通用机器人和嵌入式人工智能学习的生成世界。
+A generative world for general-purpose robotics & embodied AI learning. (2023-10-31, Others, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1698813552358037.html
+[游戏机] 240pTestSuite
+
+为视频游戏控制台开发的自制软件套件，用于帮助评估升级机、上扫描转换器、线路倍增器和...，
+A homebrew software suite for video game consoles developed to help in the evaluation of upscalers, upscan converters, line doublers and of course TV processing of 240p video. The Wii and Dreamcast versions have modes for 480i and 480p evaluation as well. (2023-09-05, C, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694791853740139.html
+[其他] MD68000
+
+Mega Drive硬件的仿真，
+Emulation of the Mega Drive s Hardware, (2023-08-17, C++, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1694177110425246.html
+[hotest] genesis
+
+应用初学者工具包-采用Laravel Folio和Volt打造，
+An Application Starter Kit - Built with Laravel Folio and Volt, (2023-07-30, PHP, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1690749175402771.html
+[嵌入式/单片机/硬件编程] genesis
+
+一个用于将资产嵌入Go二进制文件的简单工具。，
+A simple tool for embedding assets in a Go binary., (2018-10-05, GO, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689641105843397.html
+[游戏] asge-creditscheat-tool
+
+一个命令行工具，它计算关于《创世纪外星人风暴》游戏的学分的一些东西，选择作弊。，
+A command-line tool that computes some stuff regarding the Genesis Alien Storm game s credits select cheat., (2023-07-03, C++, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689293413538595.html
+[系统/网络安全] genesis
+
+从密钥名称生成多个密码组合。，
+Generate multiple combinaisons of passwords from key names., (2020-02-28, Python, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1689240822148906.html
+[Fortran编程] divinewp
+
+干净、简约、神圣的创世纪儿童主题
+Clean, Minimal and Divine Genesis Child Theme (2013-11-13, CSS, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1688345884529680.html
+[hotest] Nuked-MD-FPGA
+
+Verilog port of Nuked-MD(<a href="https://github.com/nukeykt/Nuked- MD">https://github.com/nukeykt/Nuked-MD</a>) (WIP) , stars:12, update:2023-06-28 14:23:25
+Verilog port of Nuked-MD(<a href="https://github.com/nukeykt/Nuked- MD">https://github.com/nukeykt/Nuked-MD</a>) (WIP) , stars:12, update:2023-06-28 14:23:25 (2023-06-29, Verilog, 0KB, 下载0次)
+http://www.pudn.com/Download/item/id/1687992413360385.html
+[Python工具库] genesis
+
+大气流动相干结构分析的Python工具包
+Python toolkit for coherent structure analysis in atmospheric flows (2022-08-23, Python, 888KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686502192907030.html
+[游戏引擎] TetrisMD
+
+A Homebrew Tetris Game for the Sega Megadrive genesis, write with C and using SGDK. (自制SEGA MD平台的俄罗斯方块游戏,用C和SGDK引擎开发。)
+A Homebrew Tetris Game for the Sega Megadrive Genesis, write with C and using SGDK (Self made Tetris game on SEGA MD platform, developed with C and SGDK engines.) (2019-11-04, C, 6615KB, 下载0次)
+http://www.pudn.com/Download/item/id/1686420740411084.html
+[其他] SF_genesis-v1.7
+
+这是SandForce主控的固态硬盘，固件烧录软件SF_genesis-v1.7，可配合相应固件给SandForce2000系列主控的ssd烧录固件，支持sf2241、sf2281、sf2581、sf2582、sf2682、sf2685等。
+This is the solid-state hard disk controlled by sandforce. The firmware burning software sf'genesis-v1.7 can match the corresponding firmware to the SSD burning firmware controlled by sandforce 2000 series. It supports sf2241, sf2281, sf2581, sf2582, sf2682, sf2685, etc. (2020-01-10, LINUX, 24345KB, 下载2次)
+http://www.pudn.com/Download/item/id/1578667093517546.html
+[人工智能/神经网络/深度学习] emulator-master
+
+Game emulator with the ability to platy super Nintendo games, Sega genesis games, and more
+Game emulator with the ability to platy super Nintendo games, Sega genesis games, and more (2014-10-24, FlashMX, 5373KB, 下载5次)
+http://www.pudn.com/Download/item/id/2641241.html
+[] codes
+
+By using OFDM technique i have implemented the project that is genesis simulated annealing algorithm "Rank Deficiency scenario is eliminated".
+By using OFDM technique i have implemented the project that is Genesis simulated annealing algorithm "Rank Deficiency scenario is eliminated". (2012-07-02, matlab, 36KB, 下载2次)
+http://www.pudn.com/Download/item/id/1928273.html
+[单片机开发] 6015_3[1].21REL
+
+早期genesis一个完整的C51程序，非常不错的，一直保留的。程序的风格，注释，流程都非常不错，不信，看了就知道！
+Genesis of the early C51 a complete program, very good, has been retained. Style procedures, notes, processes are very good, does not believe it, read on to know! (2009-06-13, C/C++, 323KB, 下载46次)
+http://www.pudn.com/Download/item/id/806088.html 
