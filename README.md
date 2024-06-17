@@ -10,7 +10,7 @@
 **********************************************************************************************
 folders include :
 * ```last 24hrs``` ; a folder containing uploads made to github and then reproduced on pudn.com within the last 24hrs, it is by no means comprehensive.
-* ```keyword``` ; a folder containing all the files taken from github with the keyword 'genesis' , illustrating the
+* ```keyword``` ; a folder containing all the files taken from pudn.com with the keyword 'genesis' , illustrating the
   scale of the operation.
 * ```iframe.html``` enables safe browsing of pudn.com.  
 * js and css contain the jsa and css used by the site .
