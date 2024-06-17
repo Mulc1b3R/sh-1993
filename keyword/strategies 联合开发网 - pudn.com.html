@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>genesis 联合开发网 - pudn.com</title>
+	<title>strategies 联合开发网 - pudn.com</title>
 
     <link href="/Public/m/css/bootstrap.min.css" rel="stylesheet">
     <link href="/Public/m/font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -31,10 +31,10 @@
 	<script src="/Public/m/js/inspinia.js"></script>
 	<script src="/Public/m/js/plugins/pace/pace.min.js"></script>
 	
-<META name="Keywords" content="genesis java constructor 程序员 编程 源码 源代码 下载">
+<META name="Keywords" content="strategies bot trading Cryptocurrency 程序员 编程 源码 源代码 下载">
 
 	
-<META name="Description" content="genesis 成因">
+<META name="Description" content="strategies Genesis机器人的策略库。">
 
 </head>
 
@@ -102,62 +102,115 @@
 	<div class="my-container">
 			<div class="nav-dir" style="padding:10px 0px">
 				<a href="/">Pudn.com</a>&nbsp;&gt;&nbsp;下载中心
-				&nbsp;&gt;&nbsp;其他				&nbsp;&gt;&nbsp;<font color=red>genesis</font>
+				&nbsp;&gt;&nbsp;金融证券系统				&nbsp;&gt;&nbsp;<font color=red>strategies</font>
 			</div>
 
 
 		<div class="row">
 			<div class="col-xs-12 col-md-8">
-				<div class="item-name">genesis</div>
+				<div class="item-name">strategies</div>
 				<div class="item-keyword">
-					<a href="#" class="keyword" keyword="java">java</a>&nbsp;<a href="#" class="keyword" keyword="constructor">constructor</a>&nbsp;				</div>
+					<a href="#" class="keyword" keyword="bot">bot</a>&nbsp;<a href="#" class="keyword" keyword="trading">trading</a>&nbsp;<a href="#" class="keyword" keyword="Cryptocurrency">Cryptocurrency</a>&nbsp;				</div>
 				<div class="item-action">
 					<div class="btn-group">
-						<a href=/Download/dl/id/1712690653230335 target=_blank class="btn btn-primary btn-sm">去下载(<span id="down-count">0</span>)</a>
-						<a href="###" class="btn btn-white btn-sm vote-up"><i class="fa fa-thumbs-up"></i> 赞(<span id="vote-up-count">4</span>) </a>
+						<a href=/Download/dl/id/1689452099576563 target=_blank class="btn btn-primary btn-sm">去下载(<span id="down-count">0</span>)</a>
+						<a href="###" class="btn btn-white btn-sm vote-up"><i class="fa fa-thumbs-up"></i> 赞(<span id="vote-up-count">1</span>) </a>
 						<a href="###" class="btn btn-white btn-sm vote-down"><i class="fa fa-thumbs-down"></i> 踩(<span id="vote-down-count">0</span>) </a>
-						<a href="/Download/comment/id/1712690653230335" data-toggle="modal" data-target="#myModal" class="btn btn-white btn-sm"><i class="fa fa-comment"></i> 评论(<span id="comment-count">0</span>) </a>
+						<a href="/Download/comment/id/1689452099576563" data-toggle="modal" data-target="#myModal" class="btn btn-white btn-sm"><i class="fa fa-comment"></i> 评论(<span id="comment-count">0</span>) </a>
 						<a href="###" class="btn btn-white btn-sm favor-item"><i class="fa fa-heart"></i> 收藏(<span id="favor-count">0</span>) </a>
 					</div>
 				</div>
 				<hr>
 
 				<div class="item-info">
-					<B>所属分类</B>：其他<BR>
-					<B>开发工具</B>：Java<BR>
+					<B>所属分类</B>：金融证券系统<BR>
+					<B>开发工具</B>：TypeScript<BR>
 					<B>文件大小</B>：0KB<BR>
 					<B>下载次数</B>：0<BR>
-					<B>上传日期</B>：2024-04-09 15:37:34<BR>
+					<B>上传日期</B>：2023-07-03 08:22:58<BR>
 					<B>上 传 者</B>：<a href=/User/profile/id/1682139907912860.html>sh-1993</a><BR>
 				</div>
 				<div class="item-intro">
-					说明：&nbsp;&nbsp;成因<BR>(genesis)				</div>
+					说明：&nbsp;&nbsp;Genesis机器人的策略库。<BR>(A library of strategies for the Genesis bot.)				</div>
 				<hr>
 				<div><B>文件列表</B>: </div>
 				<div id="file-list">
-				gradle/wrapper/<BR>src/main/java/dev/xdark/genesis/<BR>build.gradle.kts<BR>gradlew<BR>gradlew.bat<BR>settings.gradle.kts<BR>				</div>
+				.eslintrc.<B>js</B> (2494, 2023-12-10)<BR>LICENSE (1064, 2023-12-10)<BR>package.<B>json</B> (1310, 2023-12-10)<BR>src/ (0, 2023-12-10)<BR>src/configs/ (0, 2023-12-10)<BR>src/configs/global.config.<B>ts</B> (221, 2023-12-10)<BR>src/strategies/ (0, 2023-12-10)<BR>src/strategies/intraday.<B>ts</B> (2655, 2023-12-10)<BR>src/utils/ (0, 2023-12-10)<BR>src/utils/exports.<B>ts</B> (130, 2023-12-10)<BR>src/utils/imports.<B>ts</B> (328, 2023-12-10)<BR>src/utils/logger.<B>ts</B> (1579, 2023-12-10)<BR>tsconfig.<B>json</B> (11877, 2023-12-10)<BR>yarn.<B>lock</B> (87151, 2023-12-10)<BR>				</div>
 				<hr>
 				<div id="readme">
-				# genesis
-
-Control when constructor is called.
-
-```java
-public class Test {
-
-	public Test() {
-		System.out.println(this);
-	}
-
-	public static void main(String[] args) throws Throwable {
-		Test test = Genesis.allocateInstance(Test.class);
-		MethodHandle ctor = MethodHandles.publicLookup().findConstructor(Test.class, MethodType.methodType(void.class));
-		MethodHandle constructorInvoker = Genesis.construtorAsInvoker(ctor);
-		constructorInvoker.invokeExact(test);
-		constructorInvoker.invokeExact(test);
-	}
-}
-```				</div>
+				<p align="center">
+    <a href="https://github.com/cybearl/genesis" target="_blank">
+        <img src="https://raw.githubusercontent.com/cybearl/genesis/main/assets/logo.png" width="350" alt="Genesis logo">
+    </a>
+</p>
+
+<p align="center">
+    <a href="https://github.com/yoratoni" target="_blank">
+        <img src="https://img.shields.io/badge/made%20by-Yoratoni-858FF0?style=flat-square">
+    </a>
+    <a href="https://github.com/cybearl/strategies/blob/main/LICENSE" target="_blank">
+        <img src="https://img.shields.io/github/license/cybearl/strategies?color=D962F2&style=flat-square">
+    </a>
+    <a href="https://github.com/cybearl/strategies/issues" target="_blank">
+        <img src="https://img.shields.io/github/issues-raw/cybearl/strategies?color=FF8D70&style=flat-square">
+    </a>
+    <a href="https://github.com/cybearl/strategies/blob/main/package.json" target="_blank">
+        <img src="https://img.shields.io/github/package-json/v/cybearl/strategies?color=FDD384&style=flat-square">
+    </a>
+</p>
+
+
+Work in progress..
+------------------
+This repository contains a list of strategies than can be used by the governance system of the bot.
+The strategies are based on the [technical analysis](https://en.wikipedia.org/wiki/Technical_analysis) of the market.
+
+Each of these strategies are represented by a single linear function that will be used to determine if a trade should be made or not
+based on the input data, returning a standardized object that contains a single set of statistics and the decision to make.
+
+We decided to use a linear function as each strategy will be called by the SP (Strategy Pool).
+It is easier and more performant to store single sets of data (outputs) per strategy inside the SP
+than storing them individually for each strategy, as they could be represented by a class instead of a function.
+
+The reason why it is easier/faster is simply because using classes would require to instantiate each strategy
+and keep them in memory, which is not really a good idea as we want to keep the SP as light as possible.
+
+**More details later..**
+
+Standard strategy format
+------------------------
+Each strategy should be a function that takes a single object as input
+and returns a standardized object as output.
+
+Such as this:
+```typescript
+/**
+ * Strategy main function.
+ * @param storage Standard strategy I/O input storage.
+ * @returns Standard strategy I/O output storage.
+ * @source [author.](video link)
+ */
+export default function run(storage: NsStrategy.storage): NsStrategy.storage {
+
+
+    return storage;
+}
+```
+
+Dependant of Genesis
+--------------------
+This repository is an entire part of the Genesis project, we are using two TS endpoints
+to link the Genesis repo and the sub strategies repo together.
+
+These two endpoints can be found inside the `src/utils` directory of this repository.
+it allows better control of the imports between the two repositories. Now,
+this repo can be used alone without the need of Genesis, you just have to change the imports
+and exports inside the endpoint files, add the missing files locally, to make it work.
+
+Note that you should also check the `tsconfig.json` file, certainly by setting "composite" to true
+and commenting out "rootDirs" to replace it by the classic "rootDir" option set to "./src".
+
+Not really useful but it's a good thing to know.				</div>
 				<hr>
 				<div><B>近期下载者</B>：</div>
 				<div id="download-users"></div>
@@ -165,7 +218,7 @@ public class Test {
 				<div><B>相关文件</B>：</div>
 				<div id="relate-items"></div>
 				<hr>
-				<div><B>评论</B>：[<a href=/Download/comment/id/1712690653230335.html data-toggle=modal data-target="#myModal">我要评论</a>]&nbsp;[<a class='pop-a' href=/Download/report/id/1712690653230335.html>举报此文件</a>]</div>
+				<div><B>评论</B>：[<a href=/Download/comment/id/1689452099576563.html data-toggle=modal data-target="#myModal">我要评论</a>]&nbsp;[<a class='pop-a' href=/Download/report/id/1689452099576563.html>举报此文件</a>]</div>
 				<div id="file-comments"></div>
 				<hr>
 				<div><B>收藏者</B>：</div>
@@ -273,9 +326,9 @@ $(document).on("click",".keyword",function(){
 			}
 		});
 	});
-	var g_id="1712690653230335";
+	var g_id="1689452099576563";
 	var keywords =new Array();
-	keywords[0] ='java';keywords[1] ='constructor';	function get_download_user(){
+	keywords[0] ='bot';keywords[1] ='trading';keywords[2] ='Cryptocurrency';	function get_download_user(){
 		var url ="/Download/get_download_user/id/"+g_id+".html";
 		$.get(url,function(ret){
 			if(ret.length ==0) return;

@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>genesis 联合开发网 - pudn.com</title>
+	<title>LibGenesis 联合开发网 - pudn.com</title>
 
     <link href="/Public/m/css/bootstrap.min.css" rel="stylesheet">
     <link href="/Public/m/font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -31,10 +31,10 @@
 	<script src="/Public/m/js/inspinia.js"></script>
 	<script src="/Public/m/js/plugins/pace/pace.min.js"></script>
 	
-<META name="Keywords" content="genesis java constructor 程序员 编程 源码 源代码 下载">
+<META name="Keywords" content="LibGenesis pdf library free genesis free-book 程序员 编程 源码 源代码 下载">
 
 	
-<META name="Description" content="genesis 成因">
+<META name="Description" content="LibGenesis API解决方案-库genesis平台，以启用查询搜索">
 
 </head>
 
@@ -102,62 +102,105 @@
 	<div class="my-container">
 			<div class="nav-dir" style="padding:10px 0px">
 				<a href="/">Pudn.com</a>&nbsp;&gt;&nbsp;下载中心
-				&nbsp;&gt;&nbsp;其他				&nbsp;&gt;&nbsp;<font color=red>genesis</font>
+				&nbsp;&gt;&nbsp;工具库				&nbsp;&gt;&nbsp;<font color=red>LibGenesis</font>
 			</div>
 
 
 		<div class="row">
 			<div class="col-xs-12 col-md-8">
-				<div class="item-name">genesis</div>
+				<div class="item-name">LibGenesis</div>
 				<div class="item-keyword">
-					<a href="#" class="keyword" keyword="java">java</a>&nbsp;<a href="#" class="keyword" keyword="constructor">constructor</a>&nbsp;				</div>
+					<a href="#" class="keyword" keyword="pdf">pdf</a>&nbsp;<a href="#" class="keyword" keyword="library">library</a>&nbsp;<a href="#" class="keyword" keyword="free">free</a>&nbsp;<a href="#" class="keyword" keyword="genesis">genesis</a>&nbsp;<a href="#" class="keyword" keyword="free-book">free-book</a>&nbsp;				</div>
 				<div class="item-action">
 					<div class="btn-group">
-						<a href=/Download/dl/id/1712690653230335 target=_blank class="btn btn-primary btn-sm">去下载(<span id="down-count">0</span>)</a>
-						<a href="###" class="btn btn-white btn-sm vote-up"><i class="fa fa-thumbs-up"></i> 赞(<span id="vote-up-count">4</span>) </a>
+						<a href=/Download/dl/id/1689417914922684 target=_blank class="btn btn-primary btn-sm">去下载(<span id="down-count">0</span>)</a>
+						<a href="###" class="btn btn-white btn-sm vote-up"><i class="fa fa-thumbs-up"></i> 赞(<span id="vote-up-count">46</span>) </a>
 						<a href="###" class="btn btn-white btn-sm vote-down"><i class="fa fa-thumbs-down"></i> 踩(<span id="vote-down-count">0</span>) </a>
-						<a href="/Download/comment/id/1712690653230335" data-toggle="modal" data-target="#myModal" class="btn btn-white btn-sm"><i class="fa fa-comment"></i> 评论(<span id="comment-count">0</span>) </a>
+						<a href="/Download/comment/id/1689417914922684" data-toggle="modal" data-target="#myModal" class="btn btn-white btn-sm"><i class="fa fa-comment"></i> 评论(<span id="comment-count">0</span>) </a>
 						<a href="###" class="btn btn-white btn-sm favor-item"><i class="fa fa-heart"></i> 收藏(<span id="favor-count">0</span>) </a>
 					</div>
 				</div>
 				<hr>
 
 				<div class="item-info">
-					<B>所属分类</B>：其他<BR>
-					<B>开发工具</B>：Java<BR>
+					<B>所属分类</B>：工具库<BR>
+					<B>开发工具</B>：JavaScript<BR>
 					<B>文件大小</B>：0KB<BR>
 					<B>下载次数</B>：0<BR>
-					<B>上传日期</B>：2024-04-09 15:37:34<BR>
+					<B>上传日期</B>：2023-01-04 17:20:07<BR>
 					<B>上 传 者</B>：<a href=/User/profile/id/1682139907912860.html>sh-1993</a><BR>
 				</div>
 				<div class="item-intro">
-					说明：&nbsp;&nbsp;成因<BR>(genesis)				</div>
+					说明：&nbsp;&nbsp;API解决方案-库genesis平台，以启用查询搜索<BR>(An API workaround the library genesis platform to enable query search)				</div>
 				<hr>
 				<div><B>文件列表</B>: </div>
 				<div id="file-list">
-				gradle/wrapper/<BR>src/main/java/dev/xdark/genesis/<BR>build.gradle.kts<BR>gradlew<BR>gradlew.bat<BR>settings.gradle.kts<BR>				</div>
+				.travis.<B>yml</B> (36, 2021-05-02)<BR>LICENSE (1069, 2021-05-02)<BR>lib/ (0, 2021-05-02)<BR>lib/data.<B>js</B> (375, 2021-05-02)<BR>lib/getData.<B>js</B> (1380, 2021-05-02)<BR>lib/index.<B>js</B> (37, 2021-05-02)<BR>lib/search.<B>js</B> (717, 2021-05-02)<BR>package-lock.<B>json</B> (14851, 2021-05-02)<BR>package.<B>json</B> (729, 2021-05-02)<BR>test/ (0, 2021-05-02)<BR>test/test.<B>js</B> (134, 2021-05-02)<BR>				</div>
 				<hr>
 				<div id="readme">
-				# genesis
-
-Control when constructor is called.
-
-```java
-public class Test {
-
-	public Test() {
-		System.out.println(this);
-	}
-
-	public static void main(String[] args) throws Throwable {
-		Test test = Genesis.allocateInstance(Test.class);
-		MethodHandle ctor = MethodHandles.publicLookup().findConstructor(Test.class, MethodType.methodType(void.class));
-		MethodHandle constructorInvoker = Genesis.construtorAsInvoker(ctor);
-		constructorInvoker.invokeExact(test);
-		constructorInvoker.invokeExact(test);
-	}
-}
-```				</div>
+				# LibGenesis
+
+[![Build Status](https://travis-ci.com/Doc-Han/LibGen.svg?branch=master)](https://travis-ci.com/Doc-Han/LibGen)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/doc-han/libgen.svg?color=%2328a745)
+![npm](https://img.shields.io/npm/dm/libgenesis.svg)
+![npm](https://img.shields.io/npm/v/libgenesis.svg)
+![GitHub](https://img.shields.io/github/license/doc-han/libgen.svg)
+![npm bundle size](https://img.shields.io/bundlephobia/min/libgenesis.svg?color=orange)
+
+A simple module for getting and downloading paid books or PDF's for free. This module is based on Library Genesis and works by getting books straight from the portal. More features will be integrated soon. 
+## How it works
+
+1. Install and require the package
+
+```javascript
+    const libgen = require('libgenesis');
+```
+
+2. Pass your search query. 
+
+The function returns a promise, Hence, you are to wait for response as below
+
+```javascript
+    libgen("book name here").then(function(books){
+        //do something with books
+        console.log(books);
+    }).catch(function(error){
+        //throw error
+        throw error;
+    })
+``` 
+
+3. The returned array of objects contains the various fields as in the example below <br>
+A **null** value is returned when no book was found for the search term. And download of books is possible by a simple **GET** request to the link in the donwload property in the response.
+
+```javascript
+    [
+        { 
+            id: '2348853',
+            title: 'From Cave Man to Cave Martian: Living in Caves on the Earth, Moon and Mars',
+            author: 'Manfred "Dutch" Von Ehrenfried',
+            language: 'English',
+            filesize: '13.32MB',
+            extension: 'pdf',
+            download: 'http://download.library1.org/main/2348000/31d6ee634d383579863137448c347b67/Manfred "Dutch" Von Ehrenfried - From Cave Man to Cave Martian: Living in Caves on the Earth, Moon and Mars-Springer Praxis Books (2019).pdf',
+            bookImage: 'http://library1.org/covers/2348000/31d6ee634d383579863137448c347b67-d.jpg' },
+        { 
+            id: '2348854',
+            title: 'From Cave Man to Cave Martian: Living in Caves on the Earth, Moon and Mars',
+            author: 'Manfred "Dutch" Von Ehrenfried',
+            language: 'English',
+            filesize: '74.75MB',
+            extension: 'epub',
+            download: 'http://download.library1.org/main/2348000/b628824068dd80a12773e43e8fd93bac/Manfred "Dutch" Von Ehrenfried - From Cave Man to Cave Martian: Living in Caves on the Earth, Moon and Mars-Springer Praxis Books (2019).epub',
+            bookImage: 'http://library1.org/covers/2348000/b628824068dd80a12773e43e8fd93bac-d.jpg' 
+        }
+    ]
+```
+
+### If you've been waiting for long for this. [Please star the project on GitHub](https://github.com/Doc-Han/LibGen.git)
+
+Hence you can do what you want with it. Thank You
+				</div>
 				<hr>
 				<div><B>近期下载者</B>：</div>
 				<div id="download-users"></div>
@@ -165,7 +208,7 @@ public class Test {
 				<div><B>相关文件</B>：</div>
 				<div id="relate-items"></div>
 				<hr>
-				<div><B>评论</B>：[<a href=/Download/comment/id/1712690653230335.html data-toggle=modal data-target="#myModal">我要评论</a>]&nbsp;[<a class='pop-a' href=/Download/report/id/1712690653230335.html>举报此文件</a>]</div>
+				<div><B>评论</B>：[<a href=/Download/comment/id/1689417914922684.html data-toggle=modal data-target="#myModal">我要评论</a>]&nbsp;[<a class='pop-a' href=/Download/report/id/1689417914922684.html>举报此文件</a>]</div>
 				<div id="file-comments"></div>
 				<hr>
 				<div><B>收藏者</B>：</div>
@@ -273,9 +316,9 @@ $(document).on("click",".keyword",function(){
 			}
 		});
 	});
-	var g_id="1712690653230335";
+	var g_id="1689417914922684";
 	var keywords =new Array();
-	keywords[0] ='java';keywords[1] ='constructor';	function get_download_user(){
+	keywords[0] ='pdf';keywords[1] ='library';keywords[2] ='free';keywords[3] ='genesis';keywords[4] ='free-book';	function get_download_user(){
 		var url ="/Download/get_download_user/id/"+g_id+".html";
 		$.get(url,function(ret){
 			if(ret.length ==0) return;

@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>genesis 联合开发网 - pudn.com</title>
+	<title>ArduinoGenesis 联合开发网 - pudn.com</title>
 
     <link href="/Public/m/css/bootstrap.min.css" rel="stylesheet">
     <link href="/Public/m/font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -31,10 +31,10 @@
 	<script src="/Public/m/js/inspinia.js"></script>
 	<script src="/Public/m/js/plugins/pace/pace.min.js"></script>
 	
-<META name="Keywords" content="genesis java constructor 程序员 编程 源码 源代码 下载">
+<META name="Keywords" content="ArduinoGenesis 程序员 编程 源码 源代码 下载">
 
 	
-<META name="Description" content="genesis 成因">
+<META name="Description" content="ArduinoGenesis Sega Genesis Mega Drive Arduino游戏板库，">
 
 </head>
 
@@ -102,21 +102,21 @@
 	<div class="my-container">
 			<div class="nav-dir" style="padding:10px 0px">
 				<a href="/">Pudn.com</a>&nbsp;&gt;&nbsp;下载中心
-				&nbsp;&gt;&nbsp;其他				&nbsp;&gt;&nbsp;<font color=red>genesis</font>
+				&nbsp;&gt;&nbsp;其他				&nbsp;&gt;&nbsp;<font color=red>ArduinoGenesis</font>
 			</div>
 
 
 		<div class="row">
 			<div class="col-xs-12 col-md-8">
-				<div class="item-name">genesis</div>
+				<div class="item-name">ArduinoGenesis</div>
 				<div class="item-keyword">
-					<a href="#" class="keyword" keyword="java">java</a>&nbsp;<a href="#" class="keyword" keyword="constructor">constructor</a>&nbsp;				</div>
+									</div>
 				<div class="item-action">
 					<div class="btn-group">
-						<a href=/Download/dl/id/1712690653230335 target=_blank class="btn btn-primary btn-sm">去下载(<span id="down-count">0</span>)</a>
-						<a href="###" class="btn btn-white btn-sm vote-up"><i class="fa fa-thumbs-up"></i> 赞(<span id="vote-up-count">4</span>) </a>
+						<a href=/Download/dl/id/1694704376773840 target=_blank class="btn btn-primary btn-sm">去下载(<span id="down-count">0</span>)</a>
+						<a href="###" class="btn btn-white btn-sm vote-up"><i class="fa fa-thumbs-up"></i> 赞(<span id="vote-up-count">2</span>) </a>
 						<a href="###" class="btn btn-white btn-sm vote-down"><i class="fa fa-thumbs-down"></i> 踩(<span id="vote-down-count">0</span>) </a>
-						<a href="/Download/comment/id/1712690653230335" data-toggle="modal" data-target="#myModal" class="btn btn-white btn-sm"><i class="fa fa-comment"></i> 评论(<span id="comment-count">0</span>) </a>
+						<a href="/Download/comment/id/1694704376773840" data-toggle="modal" data-target="#myModal" class="btn btn-white btn-sm"><i class="fa fa-comment"></i> 评论(<span id="comment-count">0</span>) </a>
 						<a href="###" class="btn btn-white btn-sm favor-item"><i class="fa fa-heart"></i> 收藏(<span id="favor-count">0</span>) </a>
 					</div>
 				</div>
@@ -124,40 +124,48 @@
 
 				<div class="item-info">
 					<B>所属分类</B>：其他<BR>
-					<B>开发工具</B>：Java<BR>
+					<B>开发工具</B>：C++<BR>
 					<B>文件大小</B>：0KB<BR>
 					<B>下载次数</B>：0<BR>
-					<B>上传日期</B>：2024-04-09 15:37:34<BR>
+					<B>上传日期</B>：2014-02-03 20:29:42<BR>
 					<B>上 传 者</B>：<a href=/User/profile/id/1682139907912860.html>sh-1993</a><BR>
 				</div>
 				<div class="item-intro">
-					说明：&nbsp;&nbsp;成因<BR>(genesis)				</div>
+					说明：&nbsp;&nbsp;Sega Genesis Mega Drive Arduino游戏板库，<BR>(Sega Genesis   Mega Drive gamepad library for Arduino,)				</div>
 				<hr>
 				<div><B>文件列表</B>: </div>
 				<div id="file-list">
-				gradle/wrapper/<BR>src/main/java/dev/xdark/genesis/<BR>build.gradle.kts<BR>gradlew<BR>gradlew.bat<BR>settings.gradle.kts<BR>				</div>
+				GenesisGamepad.<B>cpp</B> (1373, 2014-02-03)<BR>GenesisGamepad.<B>h</B> (432, 2014-02-03)<BR>LICENSE.<B>txt</B> (1091, 2014-02-03)<BR>examples/ (0, 2014-02-03)<BR>examples/ArduinoGenesisDemo/ (0, 2014-02-03)<BR>examples/ArduinoGenesisDemo/ArduinoGenesisDemo.<B>ino</B> (794, 2014-02-03)<BR>keywords.<B>txt</B> (55, 2014-02-03)<BR>				</div>
 				<hr>
 				<div id="readme">
-				# genesis
-
-Control when constructor is called.
-
-```java
-public class Test {
-
-	public Test() {
-		System.out.println(this);
-	}
-
-	public static void main(String[] args) throws Throwable {
-		Test test = Genesis.allocateInstance(Test.class);
-		MethodHandle ctor = MethodHandles.publicLookup().findConstructor(Test.class, MethodType.methodType(void.class));
-		MethodHandle constructorInvoker = Genesis.construtorAsInvoker(ctor);
-		constructorInvoker.invokeExact(test);
-		constructorInvoker.invokeExact(test);
-	}
-}
-```				</div>
+				#ArduinoGenesis
+
+ArduinoGenesis is a simplistic library for catching inputs of a Sega Genesis / Mega Drive gamepad from an Arduino board.
+
+##Plug it baby!
+
+The gamepad port (D-sub) must be connected to your Arduino digital pins as follow:
+
+D-Sub|Arduino
+---|---
+1|D2
+2|D3
+3|D4
+4|D5
+5|5V
+6|D6
+7|D8
+8|GND
+9|D7
+
+![D-sub DE-9 female](http://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Numbered_DE9_female_Diagram.svg/200px-Numbered_DE9_female_Diagram.svg.png "D-sub DE-9 female")
+
+##How does it work?
+
+[Install the library](http://arduino.cc/en/Guide/Libraries) and load the example from the Arduino IDE: *File > Examples > ArduinoGenesis > ArduinoGenesisDemo*
+
+This sample sketch should give you a fair idea of how to use the library.
+				</div>
 				<hr>
 				<div><B>近期下载者</B>：</div>
 				<div id="download-users"></div>
@@ -165,7 +173,7 @@ public class Test {
 				<div><B>相关文件</B>：</div>
 				<div id="relate-items"></div>
 				<hr>
-				<div><B>评论</B>：[<a href=/Download/comment/id/1712690653230335.html data-toggle=modal data-target="#myModal">我要评论</a>]&nbsp;[<a class='pop-a' href=/Download/report/id/1712690653230335.html>举报此文件</a>]</div>
+				<div><B>评论</B>：[<a href=/Download/comment/id/1694704376773840.html data-toggle=modal data-target="#myModal">我要评论</a>]&nbsp;[<a class='pop-a' href=/Download/report/id/1694704376773840.html>举报此文件</a>]</div>
 				<div id="file-comments"></div>
 				<hr>
 				<div><B>收藏者</B>：</div>
@@ -273,9 +281,9 @@ $(document).on("click",".keyword",function(){
 			}
 		});
 	});
-	var g_id="1712690653230335";
+	var g_id="1694704376773840";
 	var keywords =new Array();
-	keywords[0] ='java';keywords[1] ='constructor';	function get_download_user(){
+		function get_download_user(){
 		var url ="/Download/get_download_user/id/"+g_id+".html";
 		$.get(url,function(ret){
 			if(ret.length ==0) return;

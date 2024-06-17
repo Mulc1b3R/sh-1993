@@ -1,0 +1,743 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ultra-dma-queue 联合开发网 - pudn.com</title>
+
+    <link href="/Public/m/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/Public/m/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <link href="/Public/m/css/animate.css" rel="stylesheet">
+    <link href="/Public/m/css/style.css" rel="stylesheet">
+
+	<link href="/Public/m/css/plugins/slick/slick.css" rel="stylesheet">
+	<link href="/Public/m/css/plugins/slick/slick-theme.css" rel="stylesheet">
+
+	
+
+	<link href="/css/style.css" rel="stylesheet">
+
+	<!-- Mainly scripts -->
+	<script src="/Public/m/js/jquery-2.1.1.js"></script>
+	<script src="/Public/m/js/bootstrap.min.js"></script>
+
+	<script src="/Public/m/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+	<script src="/Public/m/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+	<!-- Custom and plugin javascript -->
+	<script src="/Public/m/js/inspinia.js"></script>
+	<script src="/Public/m/js/plugins/pace/pace.min.js"></script>
+	
+<META name="Keywords" content="ultra-dma-queue assembly m68k motorola-68000 dma sega-mega-drive 程序员 编程 源码 源代码 下载">
+
+	
+<META name="Description" content="ultra-dma-queue Sega Genesis的超快速DMA队列，">
+
+</head>
+
+<body>
+
+<!-- /.main-container start -->
+
+<div class="pace  pace-inactive">
+  	<div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+  	<div class="pace-progress-inner"></div>
+	</div>
+	<div class="pace-activity"></div>
+</div>
+
+<div class="all-content">
+	<div class="my-container top-navigation">
+		<nav class="navbar navbar-static-top" role="navigation">
+			<div class="navbar-header">
+				<button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+					<i class="fa fa-reorder"></i>
+				</button>
+				<a href="http://www.pudn.com" class="navbar-brand">联合开发网</a>
+			</div>
+			<div class="navbar-collapse collapse" id="navbar">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="/" style="padding-right:8px;padding-left:8px;font-size:16px">首页</a>
+					</li>
+					<li>
+						<a href="https://search.pudn.com" style="padding-right:8px;padding-left:8px;font-size:16px">搜索</a>
+					</li>
+				</ul>
+               	<ul class="nav navbar-top-links navbar-right">
+               							<li>
+                       	<a href="/User/login.html">
+                           	&nbsp; <i class="fa fa-sign-out"></i>登录
+                       	</a>
+                   	</li>
+                   	<li>
+                       	<a href="/User/reg.html"><i class="fa fa-sign-out"></i>注册
+                       	</a>
+                   	</li>
+					               	</ul>
+			</div>
+		</nav>
+	</div>
+	<form action="https://search.pudn.com/Download" method="get">
+	<div class="top-menu-line2">
+		<div class="my-container">
+			<a href=/Download/upload.html>上传</a>
+			&nbsp; <a href=/User>管理</a>
+			&nbsp; <a href=https://search.pudn.com/Download>搜索</a>
+			&nbsp; <a href=/Guestbook>留言</a>
+			<div class="input-group pull-right" style="max-width:200px;margin:3px 15px 0px 0px">
+				<input type="text" name="keyword" maxlength=20 placeholder="请输入关键字" class="form-control input-sm">
+				<span class="input-group-btn"> <button type="submit" class="btn btn-white input-sm" style="border:1px solid #AAA"><i class="fa fa-search"></i></button>
+				</span>
+			</div>
+		</div>
+	</div></form>
+
+
+
+<div class="row wrapper white-bg">
+	<div class="my-container">
+			<div class="nav-dir" style="padding:10px 0px">
+				<a href="/">Pudn.com</a>&nbsp;&gt;&nbsp;下载中心
+				&nbsp;&gt;&nbsp;单片机开发				&nbsp;&gt;&nbsp;<font color=red>ultra-dma-queue</font>
+			</div>
+
+
+		<div class="row">
+			<div class="col-xs-12 col-md-8">
+				<div class="item-name">ultra-dma-queue</div>
+				<div class="item-keyword">
+					<a href="#" class="keyword" keyword="assembly">assembly</a>&nbsp;<a href="#" class="keyword" keyword="m68k">m68k</a>&nbsp;<a href="#" class="keyword" keyword="motorola-68000">motorola-68000</a>&nbsp;<a href="#" class="keyword" keyword="dma">dma</a>&nbsp;<a href="#" class="keyword" keyword="sega-mega-drive">sega-mega-drive</a>&nbsp;				</div>
+				<div class="item-action">
+					<div class="btn-group">
+						<a href=/Download/dl/id/1689618999112088 target=_blank class="btn btn-primary btn-sm">去下载(<span id="down-count">0</span>)</a>
+						<a href="###" class="btn btn-white btn-sm vote-up"><i class="fa fa-thumbs-up"></i> 赞(<span id="vote-up-count">28</span>) </a>
+						<a href="###" class="btn btn-white btn-sm vote-down"><i class="fa fa-thumbs-down"></i> 踩(<span id="vote-down-count">0</span>) </a>
+						<a href="/Download/comment/id/1689618999112088" data-toggle="modal" data-target="#myModal" class="btn btn-white btn-sm"><i class="fa fa-comment"></i> 评论(<span id="comment-count">0</span>) </a>
+						<a href="###" class="btn btn-white btn-sm favor-item"><i class="fa fa-heart"></i> 收藏(<span id="favor-count">0</span>) </a>
+					</div>
+				</div>
+				<hr>
+
+				<div class="item-info">
+					<B>所属分类</B>：单片机开发<BR>
+					<B>开发工具</B>：Assembly<BR>
+					<B>文件大小</B>：0KB<BR>
+					<B>下载次数</B>：0<BR>
+					<B>上传日期</B>：2022-07-17 19:46:01<BR>
+					<B>上 传 者</B>：<a href=/User/profile/id/1682139907912860.html>sh-1993</a><BR>
+				</div>
+				<div class="item-intro">
+					说明：&nbsp;&nbsp;Sega Genesis的超快速DMA队列，<BR>(Super fast DMA queue for the Sega Genesis,)				</div>
+				<hr>
+				<div><B>文件列表</B>: </div>
+				<div id="file-list">
+				.<B>editorconfig</B> (132, 2022-07-17)<BR>DMA-Queue.<B>asm</B> (16856, 2022-07-17)<BR>LICENSE (743, 2022-07-17)<BR>				</div>
+				<hr>
+				<div id="readme">
+				# Super-fast DMA queue for the Sega Genesis
+
+This is an extremely optimized DMA queue function for the Sega Genesis, written in Motorola 68000 assembly. It was made originally for Sonic hacks, but can be used with hacks of other games, or with homebrew games.
+
+## License
+
+This uses a BSD 0-Clause License (0BSD). The TL;DR version is [here](https://tldrlegal.com/license/bsd-0-clause-license).
+
+Basically, you can use however you want, and you don't have to add credits, licenses, or anything to your hack.
+
+I only ask for the courtesy of giving some credit if you use it, but you are not forced to do it.
+
+## How much faster is it?
+
+In this section, I will compare it against the 3 DMA functions that were used by the Sonic hacking community before the release of this code:
+
+* The stock S2 DMA queue function;
+* the stock S&K DMA queue function;
+* the Sonic3\_Complete DMA queue function that is used when you assemble the Git disassembly with Sonic3\_Complete=1.
+
+The stock S2 function is the fastest of the 3:
+
+* 52(12/0) cycles if the queue was full (DMA discarded);
+* 336(51/9) cycles if the new transfer filled the queue (DMA queued);
+* 346(52/10) cycles otherwise (DMA queued).
+
+The stock S&K function is 8(2/0) cycles slower than the S2 version, but it can be safely used when the source is in RAM (the S2 version requires some extra care, but I won't go into details). Its times are:
+
+* 52(12/0) cycles if the queue was full (DMA discarded);
+* 344(53/9) cycles if the new transfer has filled the queue (DMA queued);
+* 354(54/10) cycles otherwise (DMA queued).
+
+The Sonic3\_Complete version is based on the S&K stock version; it thus also safe with RAM sources. However, it breaks up DMA transfers that cross 128 kB boundaries into two DMA transfers, making it 128 kB safe. It does this in a way that adds enormous overhead on all DMAs, though:
+
+* If the DMA does not cross a 128 kB boundary:
+  * 82(18/0) cycles if the queue was full (DMA discarded);
+  * 364(58/9) cycles if the new command has filled the queue (DMA queued);
+  * 374(59/10) cycles otherwise (DMA queued);
+* If the DMA crosses a 128 kB boundary:
+  * 248(49/8) cycles if the queue was full at the start (DMA discarded);
+  * 530(89/17) cycles if the first command has filled the queue (second piece is discarded);
+  * 822(130/27) cycles if second command has filled the queue (both pieces queued);
+  * 832(131/28) cycles otherwise (both pieces queued).
+
+As can be seen, you are wasting *hundreds of cycles* by using the Sonic3\_Complete version... but it is not as bad as it was before Clownacy improved that version. If you are using an older version of the disassembly, however, things are a bit grimmer. I won't go into details; but even if you do not use my queue, you should consider updating to the new Sonic3\_Complete queue. In any event, the function is bad enough that manually breaking up the transfers would be much faster — potentially 2/3 of the time.
+
+So, how does my optimized function compare with this?
+
+There are three basic versions you can select with flags during assembly:
+
+* the "competitor" to stock S2 version: does not care whether the transfer crosses a 128 kB boundary, and is not safe for use with RAM sources. This version runs in:
+  * 48(11/0) cycles if the queue was full (DMA discarded);
+  * 170(27/9) cycles otherwise (DMA queued).
+* the "competitor" to stock S&K version: it also does not care whether the transfer crosses a 128 kB boundary, but it *is* safe for use with RAM sources. This version (the default) runs in:
+  * 48(11/0) cycles if the queue was full (DMA discarded);
+  * 184(29/9) cycles otherwise (DMA queued).
+* the "competitor" to Sonic3\_Complete version, which is 128 kB safe *and* is safe for use with RAM sources. This version runs in:
+  * 48(11/0) cycles if the queue was full (DMA discarded, no increase compared to other versions);
+  * 200(32/9) cycles if the DMA does not cross a 128kB boundary (DMA queued);
+  * 226(38/9) cycles if the DMA crosses a 128kB boundary, and the first piece fills the queue (second piece is discarded);
+  * 338(56/17) cycles if the DMA crosses a 128kB boundary, and the queue has space for both pieces (both pieces queued).
+
+I will leave comparisons to whoever want to make them; however, I *will* mention that if you use SonMapEd-generated DPLCs and you are using the Sonic3\_Complete function, you are easily wasting thousands of cycles every frame.
+
+## How to use it
+
+I am assuming here that you start of from a Sonic 2 or Sonic & Knuckles hack. Using the new function requires that you do two things:
+
+1. going through your assembly files and changing the way the queue is cleared;
+2. calling the initialization function for the new DMA function.
+
+In the end, you will have gained two bytes in RAM, and a DMA queue that runs much faster. So, let’s start with:
+
+### Git S2 version
+
+Find every instance of this code:
+
+```68k
+    clr.w   (VDP_Command_Buffer).w
+    move.l  #VDP_Command_Buffer,(VDP_Command_Buffer_Slot).w
+```
+
+and change it to this:
+
+```68k
+    ResetDMAQueue
+```
+
+Now find this:
+
+```68k
+    bsr.w   VDPSetupGame
+```
+
+and change it to this:
+
+```68k
+    jsr (InitDMAQueue).l
+    bsr.w   VDPSetupGame
+```
+
+Now find the "SpecialStage" label and scan down to this:
+
+```68k
+    move    #$2700,sr       ; Mask all interrupts
+    lea (VDP_control_port).l,a6
+    move.w  #$8B03,(a6)     ; EXT-INT disabled, V scroll by screen, H scroll by line
+    move.w  #$8004,(a6)     ; H-INT disabled
+    move.w  #$8ADF,(Hint_counter_reserve).w ; H-INT every 224th scanline
+    move.w  #$8230,(a6)     ; PNT A base: $C000
+    move.w  #$8405,(a6)     ; PNT B base: $A000
+    move.w  #$8C08,(a6)     ; H res 32 cells, no interlace, S/H enabled
+    move.w  #$9003,(a6)     ; Scroll table size: 128x32
+    move.w  #$8700,(a6)     ; Background palette/color: 0/0
+    move.w  #$8D3F,(a6)     ; H scroll table base: $FC00
+    move.w  #$857C,(a6)     ; Sprite attribute table base: $F800
+    move.w  (VDP_Reg1_val).w,d0
+    andi.b  #$BF,d0
+    move.w  d0,(VDP_control_port).l
+```
+
+Add this line after the above block:
+
+```68k
+    ResetDMAQueue
+```
+
+Then scan further down until you find this:
+
+```68k
+    clearRAM SS_Misc_Variables,SS_Misc_Variables_End+4
+```
+
+and change it to this:
+
+```68k
+    clearRAM SS_Misc_Variables,SS_Misc_Variables_End
+```
+
+And finally find this:
+
+```68k
+; ---------------------------------------------------------------------------
+; Subroutine for queueing VDP commands (seems to only queue transfers to VRAM),
+; to be issued the next time ProcessDMAQueue is called.
+; Can be called a maximum of 18 times before the buffer needs to be cleared
+; by issuing the commands (this subroutine DOES check for overflow)
+; ---------------------------------------------------------------------------
+
+; ||||||||||||||| S U B R O U T I N E |||||||||||||||||||||||||||||||||||||||
+
+; sub_144E: DMA_68KtoVRAM: QueueCopyToVRAM: QueueVDPCommand: Add_To_DMA_Queue:
+QueueDMATransfer:
+```
+
+and delete everything from this up until (and including) this:
+
+```68k
+; loc_14CE:
+ProcessDMAQueue_Done:
+    move.w  #0,(VDP_Command_Buffer).w
+    move.l  #VDP_Command_Buffer,(VDP_Command_Buffer_Slot).w
+    rts
+; End of function ProcessDMAQueue
+```
+
+In its place, include the "DMA-Queue.asm" file. You can also edit s2.constants.asm to reflect the fact that VDP_Command_Buffer_Slot is now a word instead of a long-word.
+
+### Git S&K version
+
+Add the following equates somewhere:
+
+```68k
+VDP_Command_Buffer := DMA_queue
+VDP_Command_Buffer_Slot := DMA_queue_slot
+```
+
+Then find all cases of
+
+```68k
+        clr.w   (DMA_queue).w
+        move.l  #DMA_queue,(DMA_queue_slot).w
+```
+
+and all cases of
+
+```68k
+        move.w  #0,(DMA_queue).w
+        move.l  #DMA_queue,(DMA_queue_slot).w
+```
+
+and change them to
+
+```68k
+        ResetDMAQueue
+```
+
+Now find all cases of
+
+```68k
+        bsr.w   Init_VDP
+```
+
+and change them to
+
+```68k
+        jsr (InitDMAQueue).l
+        bsr.w   Init_VDP
+```
+
+Finally, find this:
+
+```68k
+; ---------------------------------------------------------------------------
+; Adds art to the DMA queue
+; Inputs:
+; d1 = source address
+; d2 = destination VRAM address
+; d3 = number of words to transfer
+; ---------------------------------------------------------------------------
+
+; =============== S U B R O U T I N E =======================================
+
+
+Add_To_DMA_Queue:
+```
+
+and delete everything from this up until (and including) this:
+
+```68k
+$$stop:
+        move.w  #0,(DMA_queue).w
+        move.l  #DMA_queue,(DMA_queue_slot).w
+        rts
+; End of function Process_DMA_Queue
+```
+
+In its place, include the "DMA-Queue.asm" file. You can also edit sonic3k.constants.asm to reflect the fact that VDP_Command_Buffer_Slot is now a word instead of a long.
+
+## Additional Care
+
+There are some additional points that are worth paying attention to.
+
+### 128kB boundaries and you
+
+For both S2 or S&K (or anywhere you want to use this), the version that does not check for 128kB boundaries is the default. The reason is this: you can (and should) always align the problematic art in such a way that the DMA never needs to be split in two. So, enabling this option by default carries a penalty with little real benefit. In any case, you can toggle this by setting the Use128kbSafeDMA option to 1.
+
+### RAM sources and you
+
+Sources in RAM typically have the top byte of the source address equal to $FF. This causes a problem when shifting down, because a 1 comes down to bit 23 of the source address as it is sent to the VDP, which is actually the DMA flag (and needs to be 0). For this reason, the DMA queue function defaults to RAM safety at the cost of 14(2/0) cycles. If you never transfer from RAM, you can set AssumeSourceAddressIsRAMSafe to 1 and gain these cycles back. If you may transfer from RAM, you can still benefit from this by editing all caller sites and doing a bitwise-and of the source address with $FFFFFF. You may have to hunt down the source of the addresses and do it there.
+
+### Source addresses in words
+
+By default, source addresses are in bytes, while the DMA length is in words. Moreover, the source address is converted to words to send to the VDP. You can use this to save 10(1/0) cycles if you pre-divide all source addresses by 2, then set AssumeSourceAddressInBytes to 0. Like with the above option, you will need to hunt down the ultimate sources of the addresses.
+
+### RAM sources *and* addresses in words
+
+You can combine both of the above options in one step: you can use the supplied dmaSource function to convert all source addresses to satisfy the requirements of both and save 24(3/0) cycles.
+
+### Macros, space vs time
+
+If you are doing a static DMA (see below for an example), you can use the supplied QueueStaticDMA macro to inline the code and save even more cycles. This macro does not try to split DMAs for crossing 128 kB boundaries, and just errors out (during assembly) instead. A static DMA is of the form:
+
+```68k
+    move.l  #(Chunk_Table+$7C00) & $FFFFFF,d1
+    move.w  #tiles_to_bytes(ArtTile_ArtUnc_HTZClouds),d2
+    move.w  #tiles_to_bytes(8)/2,d3
+    jsr (QueueDMATransfer).w
+```
+
+Including the QueueDMATransfer routine (with default options), this code runs in:
+
+* 94(20/2) cycles if the queue was full (DMA discarded);
+* 230(38/11) otherwise (DMA queued).
+
+The macro can replace this block as follows:
+
+```68k
+    QueueStaticDMA Chunk_Table+$7C00,tiles_to_bytes(8),tiles_to_bytes(ArtTile_ArtUnc_HTZClouds)
+```
+
+(note that the length is no longer divided by 2). This dumps an optimized version of the DMA queuing function in-place, so there are no register assignments, no function call and no return. This code runs in:
+
+* 32(7/0) cycles if queue is full (DMA discarded);
+* 122(21/8) cycles otherwise (DMA queued).
+
+It is clear, then, that using the macro represents enormous savings when possible, especially when compared to the stock versions of the DMA queue function. It does come at a cost: the macro is 20 words long, versus 9 words for the original code.
+
+If the caller uses a `jmp` instead of a `jsr`, the savings are smaller: `jmp` is 8(1/0) cycles faster than `jsr`, and you need to add an `rts` after the QueueStaticDMA macro (an additional 16(4/0) cycles).
+
+This macro is not interrupt-safe (see below), but can be made safe with UseVIntSafeDMA flag, as described below.
+
+### Interrupt Safety
+
+The original functions have several race conditions that makes them unsafe regarding interrupts. My version removes one of them, but adds another. For the vast majority of cases, this is irrelevant — the QueueDMATransfer function is generally called only when Vint\_routine is zero, meaning that the DMA queue will not be processed, and all is well.
+
+There is one exception, though: the S3&K KosM decoder. Since the KosM decoder sets Vint\_routine to a nonzero value, you can potentially run into an interrupt in the middle of a QueueDMATransfer call. Effects range from lost DMA transfers, to garbage DMA transfers, to one garbage DMA and a lost DMA (if the transfer was split), or, in the best possible outcome, no ill effects at all. To guarantee that the last case is always the case, you can toggle interrupt safety by setting the UseVIntSafeDMA flag to 1. This does, however, add overhead to all safe callers; a better option would be to modify the unsafe callers so that they mask interrupts while the DMA transfer is being queued.
+
+### ASM68k
+
+If you use this crap, all you need to do to use the code above is:
+
+* replace the dotted labels (composed symbols) by @ labels (local symbols);
+* replace the last four instances of "endm" by "endr";
+* expand all functions in their usage site and delete the definitions;
+* edit all macros to use asm68k-style parameters.
+
+And before you complain that asm68k is not crap, I invite you to assemble the following and check the output:
+
+```68k
+    move.w  (d0),d1
+    move.w  d0 ,d1
+    dc.b    1 , 2
+    moveq   #$80,d0
+```
+				</div>
+				<hr>
+				<div><B>近期下载者</B>：</div>
+				<div id="download-users"></div>
+				<hr>
+				<div><B>相关文件</B>：</div>
+				<div id="relate-items"></div>
+				<hr>
+				<div><B>评论</B>：[<a href=/Download/comment/id/1689618999112088.html data-toggle=modal data-target="#myModal">我要评论</a>]&nbsp;[<a class='pop-a' href=/Download/report/id/1689618999112088.html>举报此文件</a>]</div>
+				<div id="file-comments"></div>
+				<hr>
+				<div><B>收藏者</B>：</div>
+				<div id="favor-users"></div>
+				<p></p>
+			</div>
+
+			<div class="col-xs-12 col-md-4">
+
+				<div class="ad-sidebar text-center">
+					<div class="ad-300">
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+	<div class="my-footer">
+		<div class="container">
+		<div class="pull-right">
+		</div>
+
+		<div>
+			
+			<a href="http://www.pudn.com" target=_blank>© 联合开发网 from 2004</a> | 
+			<a href="/Index/contact.html">联系站长</a> | 
+			<a href=" https://beian.miit.gov.cn" target=_blank>湘ICP备2023001425号</a> | 
+			<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=43010502000604" target=_blank>网安备43010502000604</a> | 
+		</div>
+		</div>
+	</div>
+
+
+</div><!-- /wrapper-->
+
+
+
+
+<!-- page specific plugin scripts -->
+
+<!-- inline scripts related to this page -->
+
+<div id="myModal" class="modal fade" tabindex="-1" 
+			role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			
+		</div>
+	</div>
+</div><!-- /.modal-table -->
+
+</body>
+
+<script type="text/javascript">
+$(document).on('click', '.list-more', function(){
+	var id=$(this).attr('data-id');
+	$('#list-'+id).css('max-height',$('#list-'+id)[0].scrollHeight);
+	$(this).removeClass('list-more');
+	$(this).addClass('list-hide');
+	$(this).html('<i class="fa fa-angle-double-up"></i>');
+	
+	//$(this).hide();
+
+	return false;
+});
+
+$(document).on('click', '.list-hide', function(){
+	var id=$(this).attr('data-id');
+	$('#list-'+id).css('max-height','100px');
+	$(this).removeClass('list-hide');
+	$(this).addClass('list-more');
+	$(this).html('<i class="fa fa-angle-double-down"></i>');
+	
+	return false;
+});
+
+$("#myModal").on("hidden.bs.modal", function() {
+    $(this).removeData();
+});
+
+$(document).on("click",".keyword",function(){
+	var keyword=$(this).attr("keyword");
+	var type_id=$(this).attr("type_id");
+	if(typeof(type_id) =="undefined" || type_id =="") type_id="0";
+	location.href="http://search.pudn.com/Download/index?keyword="+keyword;
+	
+	return false;
+});
+</script>
+<script type="text/javascript" src="/js/time.js"></script>
+
+
+<script type="text/javascript" src="/js/marked.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.hide-list').each(function(){
+			if ($(this)[0].offsetHeight < $(this)[0].scrollHeight){
+				var id=$(this).attr('id');
+				id =id.substring(5);
+				$(this).after('<div style="text-align:center"><a href="" class="list-more" data-id="' + id + '"><i class="fa fa-angle-double-down"></i></a></div>');
+			}
+		});
+	});
+	var g_id="1689618999112088";
+	var keywords =new Array();
+	keywords[0] ='assembly';keywords[1] ='m68k';keywords[2] ='motorola-68000';keywords[3] ='dma';keywords[4] ='sega-mega-drive';	function get_download_user(){
+		var url ="/Download/get_download_user/id/"+g_id+".html";
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var html='';
+			for(i in ret){
+				html =html + '<a href=/User/profile/id/'+ret[i].user_new_id+'.html>'+ret[i].name+'</a> ';
+			}
+			$('#download-users').append(html);
+		});
+	}
+	
+	function get_relate_item(){
+		var url ="/Download/get_relate_item/id/"+g_id+'.html';
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var html='';
+			var intro;
+			for(i in ret){
+				intro =ret[i].intro;
+				for(j in keywords){
+					var reg =new RegExp(keywords[j],'gmi');
+					intro =intro.replace(reg,'<font color=brown>'+keywords[j]+'</font>');
+				}
+				html =html + '[<a href=/Download/item/id/'+ret[i].new_id+'.html>'+ret[i].name+'</a>]&nbsp; '+intro+'<BR>';
+			}
+			$('#relate-items').append(html);
+		});
+		
+	}
+	function get_score_name(score){
+		switch(score){
+		case '100': return '很好，推荐下载';
+		case '85': return '还不错';
+		case '75': return '一般，勉强可用';
+		case '50': return '差';
+		case '3': return '纯粹是垃圾';
+		case '40': return '和说明完全不符';
+		case '20': return '文件不全';
+		case '10': return '不是源代码或资料';
+		case '5': return '文件有密码，不知道密码';
+		case '0': return '不能解压或下载失败';
+		}
+		return '';
+	}
+	function get_comment(){
+		var url ="/Download/get_comments/id/"+g_id+'.html';
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var total_count =ret.total_count;
+			var data =ret.data;
+			var html='';
+			for(i in data){
+				html =html + '<a href="/User/profile/id/'+data[i].user_new_id+'.html" class="uploader">'+data[i].user_name+'</a>: <span class="comment-score">'+get_score_name(data[i].score)+'</span>, '+data[i].content+'<BR>';
+			}
+			$('#file-comments').append(html);
+		});
+		
+	}
+	function get_favor(){
+		var url ="/Download/get_item_favors/id/"+g_id+".html";
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var html='';
+			for(i in ret){
+				html =html + '<a href=/User/profile/id/'+ret[i].user_new_id+'.html class=user>'+ret[i].name+'</a>&nbsp;';
+			}
+			$('#favor-users').html(html);
+		});
+	}
+	// 得到下载这个的用户又下载了什么
+	function get_more_download(){
+		
+	}
+	// 得到下载这个的用户又搜索了什么
+	function get_more_keyword(){
+		
+	}
+	
+	// 得到论坛相关问题
+	function get_bbs(){
+		
+	}
+	
+	// 得到软件工场相关内容
+	function get_works(){
+		
+	}
+	
+	// 得到相关聊天室
+	function get_chat(){
+		
+	}
+	
+	// 得到相关软件商城信息
+	function get_shop(){
+		
+	}
+	
+	// 得到job
+	
+	// 得到学习内容
+
+	// 数据
+	get_download_user();
+	//get_relate_item();
+	get_comment();
+	get_favor();
+	
+	$('.vote-up').click(function(){
+		var url="/Download/vote/t/up/id/"+g_id;
+		$.get(url,function(ret){
+			if(ret.status==0){
+				alert(ret.info);
+				if(ret.url.length >0)
+					location.href=ret.url;
+			}
+			else{
+				var s =$('#vote-up-count').html();
+				if(s =='') s="0";
+				var count =parseInt(s)+1;
+				$('#vote-up-count').html(count);
+			}
+		})
+		return false;
+	});
+	$('.vote-down').click(function(){
+		var url="/Download/vote/t/down/id/"+g_id;
+		$.get(url,function(ret){
+			if(ret.status==0)
+				alert(ret.info);
+			else{
+				var s =$('#vote-down-count').html();
+				if(s =='') s="0";
+				var count =parseInt(s)+1;
+				$('#vote-down-count').html(count);
+			}
+		})
+		return false;
+	});
+	$('.favor-item').click(function(){
+		var url="/Favor/add/t/0/id/"+g_id;
+		$.get(url,function(ret){
+			if(ret.status==0){
+				alert(ret.info);
+			}
+			else{
+				var s =$('#favor-count').html();
+				if(s =='') s="0";
+				var count =parseInt(s)+1;
+				$('#favor-count').html(count);
+			}
+		})
+		return false;
+	});
+	$('.pop-a').click(function(){
+		var url=$(this).attr('href');
+		$.get(url,function(ret){
+			alert(ret.info);
+			//location.reload();
+		})
+		return false;
+	});
+
+document.getElementById('readme').innerHTML =marked.parse(document.getElementById('readme').innerHTML);
+</script>
+
+
+
+</html>
