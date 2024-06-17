@@ -1,6 +1,9 @@
 # sh-1993
 ```<sh-1993>``` is the username of an entity responsible for hacking github.com on an industrial scale. Work submitted to github repo's is duplicated on a Chinese website called pudn.com
 
+* pudn.com contains 8,460000 files extracted programmatically from github.com over the course of time.
+* pudn.com has 5,900000 registered Chinese users
+  
 * The data from github repo's is scraped every 10 minutes 24hrs a day and uploaded to servers in Changsha , Hunan province , China.
 * pudn.com un inaccessable to western users via browser due to the fact that the website has no SSL certificate and is therefore blocked by google,mozilla e.t.c
 * ```IP address : 175.0.0.0```
