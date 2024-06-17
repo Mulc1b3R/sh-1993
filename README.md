@@ -13,4 +13,6 @@ folders include :
 * keyword ; a folder containing all the files taken from github with the keyword 'genesis' , illustrating the
   scale of the operation.
 * data.json contains relevant data pertaining to the website pudn.com
-*     
+* an html file is created programmatically with the format , 1516516556534242.html , each file representing a github listing.
+* the example index pages of our work in this repo have been renamed by me in order so as to be more human readable , with both the
+* listed name submitted by the git hub user and the chinese name injected by pudn.com prior to relisting in China.  
