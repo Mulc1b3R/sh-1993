@@ -31,6 +31,14 @@ folders include :
 * the file of my own work i discovered was named 'genesis' therefore the files in the 'keyword' folder are all of the files on
 * pudn.com with the keyword 'genesis'.
 ***************************************************************************************************
+TXT on login page of pudn.com : 
+* Welcome to the United Development Network
+* One-stop service platform for programmers
+* New users will receive 200 points when registering.
+* Uploaded data can be downloaded 20 times a day, non-uploaded data can only be downloaded 5 times a day.
+* Users without points can download 2 times a day. You need to verify your mobile phone number to download
+
+***************************************************************************************************
 * security @ git hub have been informed but have failed to respond to the information provided within 24hrs , 
 * i have therefore decided to take the matter into my own hands.
 * The work in both mine and your github repo's is our intellectual property , and is protected by law.
