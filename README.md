@@ -15,4 +15,10 @@ folders include :
 * data.json contains relevant data pertaining to the website pudn.com
 * an html file is created programmatically with the format , 1516516556534242.html , each file representing a github listing.
 * the example index pages of our work in this repo have been renamed by me in order so as to be more human readable , with both the
-* listed name submitted by the git hub user and the chinese name injected by pudn.com prior to relisting in China.  
+* listed name submitted by the git hub user and the chinese name injected by pudn.com prior to relisting in China.
+* the file of my own work i discovered was named 'genesis' therefore the files in the 'keyword' folder are all of the files on
+* pudn.com with the keyword 'genesis'.
+***************************************************************************************************
+* security @ git hub have been informed but have failed to respond to the information provided within 24hrs , 
+* i have therefore decided to take the matter into my own hands.
+* The work in both mine and your github repo's is our intellectual property , and is protected by law.
