@@ -9,8 +9,8 @@
 
 **********************************************************************************************
 folders include :
-* recent ; a folder containing uploads made to github and then reproduced on pudn.com within the last 24hrs
-* keyword ; a folder containing all the files taken from github with the keyword 'genesis' , illustrating the
+* ```last 24hrs``` ; a folder containing uploads made to github and then reproduced on pudn.com within the last 24hrs, it is by no means comprehensive.
+* ```keyword``` ; a folder containing all the files taken from github with the keyword 'genesis' , illustrating the
   scale of the operation.
 * js and css contain the jsa and css used by the site .
 * ```cronos.py``` is a python script that scrapes the site for all the new uploads it has most recently reposted from github.
