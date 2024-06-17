@@ -34,7 +34,7 @@
 <META name="Keywords" content="libgen-api 程序员 编程 源码 源代码 下载">
 
 	
-<META name="Description" content="libgen-api libgen api，Library Genesis Python搜索库">
+<META name="Description" content="libgen-api libgen-api，用Python和Flask编写的RESTful api，用于从Library Genesis中刮取书籍">
 
 </head>
 
@@ -113,10 +113,10 @@
 									</div>
 				<div class="item-action">
 					<div class="btn-group">
-						<a href=/Download/dl/id/1681815502225296 target=_blank class="btn btn-primary btn-sm"><i class="fa fa-download"></i> 下载(<span id="down-count">0</span>)</a>
-						<a href="###" class="btn btn-white btn-sm vote-up"><i class="fa fa-thumbs-up"></i> 赞(<span id="vote-up-count">97</span>) </a>
+						<a href=/Download/dl/id/1670458684474772 target=_blank class="btn btn-primary btn-sm"><i class="fa fa-download"></i> 下载(<span id="down-count">0</span>)</a>
+						<a href="###" class="btn btn-white btn-sm vote-up"><i class="fa fa-thumbs-up"></i> 赞(<span id="vote-up-count">7</span>) </a>
 						<a href="###" class="btn btn-white btn-sm vote-down"><i class="fa fa-thumbs-down"></i> 踩(<span id="vote-down-count">0</span>) </a>
-						<a href="/Download/comment/id/1681815502225296" data-toggle="modal" data-target="#myModal" class="btn btn-white btn-sm"><i class="fa fa-comment"></i> 评论(<span id="comment-count">0</span>) </a>
+						<a href="/Download/comment/id/1670458684474772" data-toggle="modal" data-target="#myModal" class="btn btn-white btn-sm"><i class="fa fa-comment"></i> 评论(<span id="comment-count">0</span>) </a>
 						<a href="###" class="btn btn-white btn-sm favor-item"><i class="fa fa-heart"></i> 收藏(<span id="favor-count">0</span>) </a>
 					</div>
 				</div>
@@ -125,276 +125,93 @@
 				<div class="item-info">
 					<B>所属分类</B>：Python工具库<BR>
 					<B>开发工具</B>：Python<BR>
-					<B>文件大小</B>：24KB<BR>
+					<B>文件大小</B>：4KB<BR>
 					<B>下载次数</B>：0<BR>
-					<B>上传日期</B>：2023-04-18 18:58:22<BR>
+					<B>上传日期</B>：2022-12-08 08:18:04<BR>
 					<B>上 传 者</B>：<a href=/User/profile/id/1682139907912860.html>sh-1993</a><BR>
 				</div>
 				<div class="item-intro">
-					说明：&nbsp;&nbsp;libgen api，Library Genesis Python搜索库<BR>(libgen-api,Library Genesis search library for Python)				</div>
+					说明：&nbsp;&nbsp;libgen-api，用Python和Flask编写的RESTful api，用于从Library Genesis中刮取书籍<BR>(libgen-api,RESTful API written in Python and Flask to scrape books from the Library Genesis)				</div>
 				<hr>
 				<div><B>文件列表</B>: </div>
 				<div id="file-list">
-				LICENSE (1075, 2022-01-09)<BR>Pipfile (298, 2022-01-09)<BR>libgen_api.<B>egg-info</B> (0, 2022-01-09)<BR>libgen_api.<B>egg-info\PKG-INFO</B> (9185, 2022-01-09)<BR>libgen_api (0, 2022-01-09)<BR>libgen_api\__init__.<B>py</B> (82, 2022-01-09)<BR>libgen_api\libgen_api_helpers.<B>py</B> (0, 2022-01-09)<BR>libgen_api\libgen_search.<B>py</B> (2716, 2022-01-09)<BR>libgen_api\search_request.<B>py</B> (2640, 2022-01-09)<BR>libgen_api\setup.<B>cfg</B> (39, 2022-01-09)<BR>logo.<B>png</B> (10127, 2022-01-09)<BR>setup.<B>cfg</B> (30, 2022-01-09)<BR>setup.<B>py</B> (940, 2022-01-09)<BR>test (0, 2022-01-09)<BR>test\manualtesting.<B>py</B> (4500, 2022-01-09)<BR>test\test_pytest.<B>py</B> (3901, 2022-01-09)<BR>				</div>
+				Procfile (22, 2021-04-25)<BR>app.<B>py</B> (904, 2021-04-25)<BR>downloadFetcher.<B>py</B> (927, 2021-04-25)<BR>requirements.<B>txt</B> (270, 2021-04-25)<BR>scrapper.<B>py</B> (2298, 2021-04-25)<BR>				</div>
 				<hr>
 				<div id="readme">
-				<div align="center">
+				## libgen-api
 
-![logo](https://github.com/harrison-broadbent/libgen-api/blob/master/logo.png)
+### Setup
+`pip install`
 
-![PyPI - Downloads](https://github.com/harrison-broadbent/libgen-api/blob/master/https://img.shields.io/pypi/dm/libgen-api?style=plastic)
-![GitHub](https://github.com/harrison-broadbent/libgen-api/blob/master/https://img.shields.io/github/license/harrison-broadbent/libgen-api?style=plastic)
-![PyPI](https://github.com/harrison-broadbent/libgen-api/blob/master/https://img.shields.io/pypi/v/libgen-api?style=plastic)
-![GitHub Repo stars](https://github.com/harrison-broadbent/libgen-api/blob/master/https://img.shields.io/github/stars/harrison-broadbent/libgen-api?style=plastic)
+Run the Flask server
+`python app.py`
 
-</div>
+<hr>
 
-Search Library Genesis programmatically using a simple Python library.
-
-Allows you to search Library Genesis by title or author, filter results, and resolve download links.
-
-## Contents
-
-- [Getting Started](https://github.com/harrison-broadbent/libgen-api/blob/master/#getting-started)
-- [Basic Searching](https://github.com/harrison-broadbent/libgen-api/blob/master/#basic-searching)
-- [Filtered Searching](https://github.com/harrison-broadbent/libgen-api/blob/master/#filtered-searching)
-  - [Filtered Title Searching](https://github.com/harrison-broadbent/libgen-api/blob/master/#filtered-title-searching)
-  - [Filtered Author Searching](https://github.com/harrison-broadbent/libgen-api/blob/master/#filtered-author-searching)
-  - [Non-exact Filtered Searching](https://github.com/harrison-broadbent/libgen-api/blob/master/#non-exact-filtered-searching)
-  - [Filter Fields](https://github.com/harrison-broadbent/libgen-api/blob/master/#filter-fields)
-- [Resolving mirror links](https://github.com/harrison-broadbent/libgen-api/blob/master/#resolving-mirror-links)
-- [More Examples](https://github.com/harrison-broadbent/libgen-api/blob/master/#more-examples)
-- [Further Information](https://github.com/harrison-broadbent/libgen-api/blob/master/#further-information)
-- [Testing](https://github.com/harrison-broadbent/libgen-api/blob/master/#testing)
-- [Contributors](https://github.com/harrison-broadbent/libgen-api/blob/master/#contributors)
-
----
-
-Please  if you find this useful!
-
----
-
-## Getting Started
-
-Install the package -
+### Endpoints
 
 ```
-pip install libgen-api
+GET /query
 ```
+> Example: GET /python
 
-Perform a basic search -
-
-```python
-# search_title()
-
-from libgen_api import LibgenSearch
-s = LibgenSearch()
-results = s.search_title("Pride and Prejudice")
-print(results)
-```
-
-Check out the [results layout](https://github.com/harrison-broadbent/libgen-api/blob/master/#results-layout) to see how the results data is formatted.
-
-## Basic Searching:
-
-**_NOTE_**: All queries must be at least 3 characters long. This is to avoid any errors on the LibGen end (different mirrors have different requirements, but a minimum of 3 characters is the official limit).
-
-Search by title or author:
-
-### Title:
-
-```python
-# search_title()
-
-from libgen_api import LibgenSearch
-s = LibgenSearch()
-results = s.search_title("Pride and Prejudice")
-print(results)
-```
-
-### Author:
-
-```python
-# search_author()
-
-from libgen_api import LibgenSearch
-s = LibgenSearch()
-results = s.search_author("Jane Austen")
-print(results)
-```
-
-## Filtered Searching
-
-Skip to the [Examples](https://github.com/harrison-broadbent/libgen-api/blob/master/#filtered-title-searching)
-
-- You can define a set of filters, and then use them to filter the search results that get returned.
-- By default, filtering will remove results that do not match the filters exactly (case-sensitive) -
-  - This can be adjusted by setting `exact_match=False` when calling one of the filter methods, which allows for case-insensitive and substring filtering.
-
-### Filtered Title Searching
-
-```python
-# search_title_filtered()
-
-from libgen_api import LibgenSearch
-
-tf = LibgenSearch()
-title_filters = {"Year": "2007", "Extension": "epub"}
-titles = tf.search_title_filtered("Pride and Prejudice", title_filters, exact_match=True)
-print(titles)
-```
-
-### Filtered Author Searching
-
-```python
-# search_author_filtered()
-
-from libgen_api import LibgenSearch
-
-af = LibgenSearch()
-author_filters = {"Language": "German", "Year": "2009"}
-titles = af.search_author_filtered("Agatha Christie", author_filters, exact_match=True)
-print(titles)
-```
-
-### Non-exact Filtered Searching
-
-```python
-# search_author_filtered(exact_match = False)
-
-from libgen_api import LibgenSearch
-
-ne_af = LibgenSearch()
-partial_filters = {"Year": "200"}
-titles = ne_af.search_author_filtered("Agatha Christie", partial_filters, exact_match=False)
-print(titles)
-
-```
-
-### Filter Fields
-
-You can filter against any of the Library Genesis column names, which are given as -
-
-```python
-col_names = [
-        "ID",
-        "Author",
-        "Title",
-        "Publisher",
-        "Year",
-        "Pages",
-        "Language",
-        "Size",
-        "Extension",
-        "Mirror_1",
-        "Mirror_2",
-        "Mirror_3",
-        "Mirror_4",
-        "Mirror_5",
-        "Edit",
-    ]
-```
-
-## Resolving mirror links
-
-The mirror links returned in the results (ie. by running search_author() or search_title()) are not direct download links and do not resolve to a downloadable URL without further parsing.
-
-An additional method, `resolve_download_links()`, can be to resolve the mirror links of a search item into direct download links.
-
-The `Mirror_1` field is used by `resolve_download_links()` as the results generally contain the most useful URLs.
-
-This method accepts a single result (type: dictionary) from the array of searched results, and
-returns a dictionary of all the download links for `Mirror_1` (each mirror link has up to 4 download links):
-
-```python
-# resolve_download_links()
-
-from libgen_api import LibgenSearch
-
-s = LibgenSearch()
-results = s.search_author("Jane Austen")
-item_to_download = results[0]
-download_links = s.resolve_download_links(item_to_download)
-print(download_links)
-```
-
-Example output:
-
+**RESULT**
 ```json
 {
-  "GET": "http://example.com/file.epub",
-  "Cloudflare": "http://example.com/file.epub",
-  "IPFS.io": "http://example.com/file.epub",
-  "Infura": "http://example.com/file.epub"
+    "books": [
+        {
+            "Author(s)": [
+                "Markus Nix"
+            ],
+            "Book": {
+                "link": "link-for-the-book",
+                "title": "Exploring Python"
+            },
+            "Extension": "djvu",
+            "Language": "German",
+            "Pages": "174",
+            "Publisher": "Entwickler",
+            "Size": "2 Mb",
+            "Year": "2005"
+        },
+        {
+            "Author(s)": [
+                "Peter C. Norton",
+                "Alex Samuel",
+                "Dave Aitel",
+                "Eric Foster-Johnson",
+                "Leonard Richardson",
+                "Jason Diamond",
+                "Aleatha Parker",
+                "Michael Roberts"
+            ],
+            "Book": {
+                "link": "link-for-the-book",
+                "title": "Beginning Python"
+            },
+            "Extension": "pdf",
+            "Language": "English",
+            "Pages": "679",
+            "Publisher": "Wiley Pub",
+            "Size": "4 Mb",
+            "Year": "2005"
+        },
+        ...
+    ]
+
 }
+
 ```
 
-## More Examples
-
-See the [testing file](https://github.com/harrison-broadbent/libgen-api/blob/master/test/manualtesting.py) for more examples.
-
-## Results Layout
-
-Results are returned as a list of dictionaries:
-
-```json
-[
-  {
-    "Author": "John Smith",
-    "Edit": "http://example.com",
-    "Extension": "epub",
-    "ID": "00000",
-    "Language": "German",
-    "Mirror_1": "http://example.com",
-    "Mirror_2": "http://example.com",
-    "Mirror_3": "http://example.com",
-    "Mirror_4": "http://example.com",
-    "Mirror_5": "http://example.com",
-    "Pages": "410",
-    "Publisher": "Publisher",
-    "Size": "1005 Kb",
-    "Title": "Title",
-    "Year": "2021"
-  }
-]
+```
+GET /query/book_name
 ```
 
-## Further information
+> Example: GET /python/Exploring Python
 
-- If there are no results, the library will return an empty array.
-- All fields are strings.
-- If a value is not present, the field will contain an empty string.
-- Some listings will have page count listed in the form of "count[secondary-count]" as this is how they appear on Library Genesis.
-- Only the first page of results (max. 25) will be returned.
 
-## Testing
+`book_name` needs to be a `title` from the `/query` response
 
-libgen-api uses Pytest to run unit tests.
-
-To run the tests -
-
-- ## Clone this repo -
-  ```
-  git clone https://github.com/harrison-broadbent/libgen-api.git && cd libgen-api
-  ```
-- ## Install dependencies with -
-  ```
-  pip install .
-  ```
-- ## Run tests with -
-  ```
-  pytest
-  ```
-
-## Contributors
-
-A massive thank you to those that have contributed to this project!
-
-Please don't hesitate to raise an issue, or fork this project and improve on it.
-
-Thanks to the following contributors -
-
-- [calmoo](https://github.com/harrison-broadbent/libgen-api/blob/master/https://github.com/calmoo)
 				</div>
 				<hr>
 				<div><B>近期下载者</B>：</div>
@@ -403,7 +220,7 @@ Thanks to the following contributors -
 				<div><B>相关文件</B>：</div>
 				<div id="relate-items"></div>
 				<hr>
-				<div><B>评论</B>：[<a href=/Download/comment/id/1681815502225296.html data-toggle=modal data-target="#myModal">我要评论</a>]&nbsp;[<a class='pop-a' href=/Download/report/id/1681815502225296.html>举报此文件</a>]</div>
+				<div><B>评论</B>：[<a href=/Download/comment/id/1670458684474772.html data-toggle=modal data-target="#myModal">我要评论</a>]&nbsp;[<a class='pop-a' href=/Download/report/id/1670458684474772.html>举报此文件</a>]</div>
 				<div id="file-comments"></div>
 				<hr>
 				<div><B>收藏者</B>：</div>
@@ -511,7 +328,7 @@ $(document).on("click",".keyword",function(){
 			}
 		});
 	});
-	var g_id="1681815502225296";
+	var g_id="1670458684474772";
 	var keywords =new Array();
 		function get_download_user(){
 		var url ="/Download/get_download_user/id/"+g_id+".html";

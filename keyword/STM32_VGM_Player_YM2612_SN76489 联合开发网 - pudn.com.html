@@ -1,0 +1,561 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>STM32_VGM_Player_YM2612_SN76489 联合开发网 - pudn.com</title>
+
+    <link href="/Public/m/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/Public/m/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <link href="/Public/m/css/animate.css" rel="stylesheet">
+    <link href="/Public/m/css/style.css" rel="stylesheet">
+
+	<link href="/Public/m/css/plugins/slick/slick.css" rel="stylesheet">
+	<link href="/Public/m/css/plugins/slick/slick-theme.css" rel="stylesheet">
+
+	
+
+	<link href="/css/style.css" rel="stylesheet">
+
+	<!-- Mainly scripts -->
+	<script src="/Public/m/js/jquery-2.1.1.js"></script>
+	<script src="/Public/m/js/bootstrap.min.js"></script>
+
+	<script src="/Public/m/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+	<script src="/Public/m/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+	<!-- Custom and plugin javascript -->
+	<script src="/Public/m/js/inspinia.js"></script>
+	<script src="/Public/m/js/plugins/pace/pace.min.js"></script>
+	
+<META name="Keywords" content="STM32_VGM_Player_YM2612_SN76489 程序员 编程 源码 源代码 下载">
+
+	
+<META name="Description" content="STM32_VGM_Player_YM2612_SN76489 基于STM32 BluePill板和真正的YM2612+SN76489声音芯片的世嘉Genesis音乐播放器。">
+
+</head>
+
+<body>
+
+<!-- /.main-container start -->
+
+<div class="pace  pace-inactive">
+  	<div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+  	<div class="pace-progress-inner"></div>
+	</div>
+	<div class="pace-activity"></div>
+</div>
+
+<div class="all-content">
+	<div class="my-container top-navigation">
+		<nav class="navbar navbar-static-top" role="navigation">
+			<div class="navbar-header">
+				<button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+					<i class="fa fa-reorder"></i>
+				</button>
+				<a href="http://www.pudn.com" class="navbar-brand">联合开发网</a>
+			</div>
+			<div class="navbar-collapse collapse" id="navbar">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="/" style="padding-right:8px;padding-left:8px;font-size:16px">首页</a>
+					</li>
+					<li>
+						<a href="https://search.pudn.com" style="padding-right:8px;padding-left:8px;font-size:16px">搜索</a>
+					</li>
+				</ul>
+               	<ul class="nav navbar-top-links navbar-right">
+               							<li>
+                       	<a href="/User/login.html">
+                           	&nbsp; <i class="fa fa-sign-out"></i>登录
+                       	</a>
+                   	</li>
+                   	<li>
+                       	<a href="/User/reg.html"><i class="fa fa-sign-out"></i>注册
+                       	</a>
+                   	</li>
+					               	</ul>
+			</div>
+		</nav>
+	</div>
+	<form action="https://search.pudn.com/Download" method="get">
+	<div class="top-menu-line2">
+		<div class="my-container">
+			<a href=/Download/upload.html>上传</a>
+			&nbsp; <a href=/User>管理</a>
+			&nbsp; <a href=https://search.pudn.com/Download>搜索</a>
+			&nbsp; <a href=/Guestbook>留言</a>
+			<div class="input-group pull-right" style="max-width:200px;margin:3px 15px 0px 0px">
+				<input type="text" name="keyword" maxlength=20 placeholder="请输入关键字" class="form-control input-sm">
+				<span class="input-group-btn"> <button type="submit" class="btn btn-white input-sm" style="border:1px solid #AAA"><i class="fa fa-search"></i></button>
+				</span>
+			</div>
+		</div>
+	</div></form>
+
+
+
+<div class="row wrapper white-bg">
+	<div class="my-container">
+			<div class="nav-dir" style="padding:10px 0px">
+				<a href="/">Pudn.com</a>&nbsp;&gt;&nbsp;下载中心
+				&nbsp;&gt;&nbsp;处理器开发				&nbsp;&gt;&nbsp;<font color=red>STM32_VGM_Player_YM2612_SN76489</font>
+			</div>
+
+
+		<div class="row">
+			<div class="col-xs-12 col-md-8">
+				<div class="item-name">STM32_VGM_Player_YM2612_SN76489</div>
+				<div class="item-keyword">
+									</div>
+				<div class="item-action">
+					<div class="btn-group">
+						<a href=/Download/dl/id/1686650059223688 target=_blank class="btn btn-primary btn-sm"><i class="fa fa-download"></i> 下载(<span id="down-count">0</span>)</a>
+						<a href="###" class="btn btn-white btn-sm vote-up"><i class="fa fa-thumbs-up"></i> 赞(<span id="vote-up-count">99</span>) </a>
+						<a href="###" class="btn btn-white btn-sm vote-down"><i class="fa fa-thumbs-down"></i> 踩(<span id="vote-down-count">0</span>) </a>
+						<a href="/Download/comment/id/1686650059223688" data-toggle="modal" data-target="#myModal" class="btn btn-white btn-sm"><i class="fa fa-comment"></i> 评论(<span id="comment-count">0</span>) </a>
+						<a href="###" class="btn btn-white btn-sm favor-item"><i class="fa fa-heart"></i> 收藏(<span id="favor-count">0</span>) </a>
+					</div>
+				</div>
+				<hr>
+
+				<div class="item-info">
+					<B>所属分类</B>：处理器开发<BR>
+					<B>开发工具</B>：C<BR>
+					<B>文件大小</B>：52124KB<BR>
+					<B>下载次数</B>：0<BR>
+					<B>上传日期</B>：2021-03-23 05:32:45<BR>
+					<B>上 传 者</B>：<a href=/User/profile/id/1682139907912860.html>sh-1993</a><BR>
+				</div>
+				<div class="item-intro">
+					说明：&nbsp;&nbsp;基于STM32 BluePill板和真正的YM2612+SN76489声音芯片的世嘉Genesis音乐播放器。<BR>(A Sega Genesis music player based off of the STM32 BluePill board and real YM2612+SN76489 sound chips.)				</div>
+				<hr>
+				<div><B>文件列表</B>: </div>
+				<div id="file-list">
+				.<B>DS_Store</B> (8196, 2021-03-23)<BR>.<B>pio</B> (0, 2021-03-23)<BR>.<B>pio\build</B> (0, 2021-03-23)<BR>.<B>pio\build\genericSTM32F103C8</B> (0, 2021-03-23)<BR>.pio\build\genericSTM32F103C8\.sconsign37.<B>dblite</B> (613443, 2021-03-23)<BR>.<B>pio\build\genericSTM32F103C8\FrameworkArduino</B> (0, 2021-03-23)<BR>.pio\build\genericSTM32F103C8\FrameworkArduino\HardwareSerial.cpp.<B>o</B> (32900, 2021-03-23)<BR>.pio\build\genericSTM32F103C8\FrameworkArduino\HardwareTimer.cpp.<B>o</B> (31972, 2021-03-23)<BR>.pio\build\genericSTM32F103C8\FrameworkArduino\IPAddress.cpp.<B>o</B> (25304, 2021-03-23)<BR>.pio\build\genericSTM32F103C8\FrameworkArduino\Print.cpp.<B>o</B> (41740, 2021-03-23)<BR>.pio\build\genericSTM32F103C8\FrameworkArduino\Stream.cpp.<B>o</B> (31692, 2021-03-23)<BR>.pio\build\genericSTM32F103C8\FrameworkArduino\WString.cpp.<B>o</B> (74528, 2021-03-23)<BR>.<B>pio\build\genericSTM32F103C8\FrameworkArduino\avr</B> (0, 2021-03-23)<BR>.pio\build\genericSTM32F103C8\FrameworkArduino\avr\dtostrf.c.<B>o</B> (3972, 2021-03-23)<BR>.pio\build\genericSTM32F103C8\FrameworkArduino\cxxabi-compat.cpp.<B>o</B> (2424, 2021-03-23)<BR>.pio\build\genericSTM32F103C8\FrameworkArduino\ext_interrupts.cpp.<B>o</B> (14656, 2021-03-23)<BR>.pio\build\genericSTM32F103C8\FrameworkArduino\hooks.c.<B>o</B> (2360, 2021-03-23)<BR>.pio\build\genericSTM32F103C8\FrameworkArduino\itoa.c.<B>o</B> (6824, 2021-03-23)<BR>.<B>pio\build\genericSTM32F103C8\FrameworkArduino\libmaple</B> (0, 2021-03-23)<BR>.pio\build\genericSTM32F103C8\FrameworkArduino\libmaple\adc.c.<B>o</B> (11188, 2021-03-23)<BR>.pio\build\genericSTM32F103C8\FrameworkArduino\libmaple\adc_f1.c.<B>o</B> (18088, 2021-03-23)<BR>.pio\build\genericSTM32F103C8\FrameworkArduino\libmaple\bkp_f1.c.<B>o</B> (8016, 2021-03-23)<BR>.pio\build\genericSTM32F103C8\FrameworkArduino\libmaple\dac.c.<B>o</B> (9600, 2021-03-23)<BR>.pio\build\genericSTM32F103C8\FrameworkArduino\libmaple\dma.c.<B>o</B> (9668, 2021-03-23)<BR>.pio\build\genericSTM32F103C8\FrameworkArduino\libmaple\dma_f1.c.<B>o</B> (33480, 2021-03-23)<BR>.pio\build\genericSTM32F103C8\FrameworkArduino\libmaple\exc.S.<B>o</B> (2032, 2021-03-23)<BR>.pio\build\genericSTM32F103C8\FrameworkArduino\libmaple\exti.c.<B>o</B> (20056, 2021-03-23)<BR>.pio\build\genericSTM32F103C8\FrameworkArduino\libmaple\exti_f1.c.<B>o</B> (4872, 2021-03-23)<BR>.pio\build\genericSTM32F103C8\FrameworkArduino\libmaple\flash.c.<B>o</B> (3868, 2021-03-23)<BR>.pio\build\genericSTM32F103C8\FrameworkArduino\libmaple\fsmc_f1.c.<B>o</B> (903, 2021-03-23)<BR>.pio\build\genericSTM32F103C8\FrameworkArduino\libmaple\gpio.c.<B>o</B> (5684, 2021-03-23)<BR>.pio\build\genericSTM32F103C8\FrameworkArduino\libmaple\gpio_f1.c.<B>o</B> (11952, 2021-03-23)<BR>.pio\build\genericSTM32F103C8\FrameworkArduino\libmaple\i2c.c.<B>o</B> (25876, 2021-03-23)<BR>.pio\build\genericSTM32F103C8\FrameworkArduino\libmaple\i2c_f1.c.<B>o</B> (16324, 2021-03-23)<BR>.pio\build\genericSTM32F103C8\FrameworkArduino\libmaple\iwdg.c.<B>o</B> (4024, 2021-03-23)<BR>.pio\build\genericSTM32F103C8\FrameworkArduino\libmaple\nvic.c.<B>o</B> (9016, 2021-03-23)<BR>.pio\build\genericSTM32F103C8\FrameworkArduino\libmaple\pwr.c.<B>o</B> (4452, 2021-03-23)<BR>... ...<BR>				</div>
+				<hr>
+				<div id="readme">
+				# This Version of the Project is now Deprecated
+This is the old version of the Mega Blaster Project. Please visit this repo for the latest and greatest Mega Blaster 2 source material
+https://github.com/AidanHockey5/MegaBlaster2
+
+
+# Mega Blaster
+
+See this project in action here: https://www.youtube.com/watch?v=WoAp2-gWaLM
+
+For more information, visit: http://www.aidanlawrence.com/megablaster-hardware-sega-genesis-video-game-music-player/
+
+This project is a hardware Video Game Music (VGM) player that uses a genuine YM2612 synthesizer chip + SN7***89AN PSG. 
+This project is driven by an STM32 "Blue Pill" board, chosen for it's ample speed, I/O, and best of all, price!
+
+Included in this repository is the source code for the project, all of the schematic files, and a completed 
+Ki-CAD printed circuit board /w Gerber files. Feel free to produce your own board!
+
+![PCB](http://www.aidanlawrence.com/wp-content/uploads/2018/05/Thumbnail-1024x576.jpg)
+
+# Information about the main sound chips and VGM
+
+The YM2612 is a 6-channel FM synthesizer IC that was most prominently featured in the Sega Genesis (AKA Megadrive) home video game console. The YM2612 was also featured in the FM-Towns home computer and the Sega C2 Arcade System.
+The YM2612 also had a CMOS alias that is functionally identical named the YM3438.
+The SN7***89 is a 3-channel + 1 noise channel programmable sound generator (PSG) that was popular with several early video game systems and home computers.
+Most notably, the SN7***89 was featured in the Sega Master system, the predecessor to the Genesis. To allow for backwards compatibility, Sega included a clone of the SN7***89 in their new Genesis consoles.
+Programmers and sound designers could leverage the SN7***89 to add three more square wave channels to the YM2612's 6-channels of FM synth, creating 9 channels + 1 noise channels in total.
+While this player was designed with the Genesis in mind, it can play back any VGM files designed for the Master System, FM-Towns PC, C2 machine, or any other machine that used the YM2612/YM3438 and/or the SN7***89.
+This project synthesizes music from .VGM files in real time on genuine hardware. There is no emulation here.
+
+VGM stands for Video Game Music, and it is a 44.1KHz logging format that stores real soundchip register information. My player will parse these files and send the data to the appropriate chips. You can learn more about the VGM file format here: http://www.smspower.org/Music/VGMFileFormat
+
+http://www.smspower.org/uploads/Music/vgmspec170.txt?sid=58da937e68300c059412b536d4db2ca0
+
+# SD Card Information
+This project is built for full-sized SD cards, but you may use adapters to fit your desired card. You must format your SD card to Fat32 in order for this device to work correctly. Your SD card must only contain uncompressed .vgm files. VGZ FILES WILL NOT WORK! You may download .vgz files and use [7zip](http://www.7-zip.org/download.html) to extract the uncompressed file out of them. Vgm files on the SD card do not need to have the .vgm extension. As long as they contain valid, uncompressed vgm data, they will be read by the program regardless of their name.
+You can find VGM files by Googling "myGameName VGM," or by checking out sites like http://vgmrips.net/packs/
+
+# Control Over Serial
+You can use a serial connection to control playback features. The commands are as follows:
+
+Command | Result
+------------ | -------------
+\+ | Next Track
+\- | Previous Track
+\* | Random Track
+\/ | Toggle Shuffle Mode
+\. | Toggle Song Looping
+r: | Request song
+? | What song is playing?
+\! | Toggle the OLED display
+
+A song request is formatted as follows: ```r:mySongFile.vgm```
+Once a song request is sent through the serial console, an attempt will be made to open that song file. The file must exist on the SD card, and spelling/capitalization must be correct.
+Need an easy-to-use serial console? [I've made one here.](https://github.com/AidanHockey5/OpenArduinoSerialConsole)
+
+# Schematic
+![Schematic](https://raw.githubusercontent.com/AidanHockey5/STM32_VGM_Player_YM2612_SN7***89/master/Schematics/STM32_MegaBlaster/STM32_MegaBlaster.png)
+
+[PDF](https://github.com/AidanHockey5/STM32_VGM_Player_YM2612_SN7***89/raw/master/Schematics/STM32_MegaBlaster/STM32_MegaBlaster.pdf)
+
+[Bill Of Materials (BOM)](https://github.com/AidanHockey5/STM32_VGM_Player_YM2612_SN7***89/tree/master/Schematics/STM32_MegaBlaster/BOM)
+
+# Interactive Assembly Guide
+[You can view the interactive guide here.](https://www.aidanlawrence.com/wp-content/uploads/2018/09/ibom.html)
+
+Courtesy of the stellar KiCAD plugin, [Interactive HTML BOM](https://github.com/openscopeproject/InteractiveHtmlBom)
+
+Use this guide to help you assemble the Mega Blaster. Hover your cursor over the list of parts and this web page will show you where to place each component. I have included the source HTML file under the [Schematic's BOM folder](https://github.com/AidanHockey5/STM32_VGM_Player_YM2612_SN7***89/tree/master/Schematics/STM32_MegaBlaster/BOM) for local viewing. 
+
+# Programming
+
+Programming must be done through the built-in serial port. YOU CAN NOT USE AN STLINK FOR PROGRAMMING.
+
+You have two programming options: Using the flashing tool OR flashing from source.
+
+[DOWNLOAD THE FLASHING TOOL HERE](https://www.aidanlawrence.com/tools/ee/megablaster/MegaFlasher_MB.zip)
+
+Windows users can just use the pre-compiled Flash.exe program to skip worrying about Python installs or dependancies.
+All other operating system users can simply run the Flash.py script using Python 3.0+.
+
+Read the Readme file included with the tool for usage instructions and python dependancies.
+
+I have also made a quick video guide on how to program the MegaBlaster from source. It's pretty simple!
+
+https://youtu.be/sSx3_d5n6gs
+
+1) Set the "Bluepill" left jumper to the '1' position.
+2) Turn on the MegaBlaster
+3) Hit the reset button on the Bluepill board.
+4) Open the source code in Visual Studio Code /w the PlatformIO extension.
+5) Upload the code using the upload button on the bottom ribbon.
+6) Replace the jumper on the Bluepill board to it's original '0' position.
+
+Link to VS Code: https://code.visualstudio.com/
+
+PlatformIO install guide: http://docs.platformio.org/en/latest/ide/vscode.html#installation 
+
+PlatformIO Not finding your serial port? Try opening up your Platformio.ini file and adding the following lines:
+```
+upload_port = COMX
+
+upload_protocol = serial
+```
+
+(Make sure to change 'X' to the number of your COM port that the MegaBlaster is connected to. (I.E. COM4, COM8, COM10, etc.)
+
+# KiCad
+The schematic and PCB of this project was made in a nightly version of KiCad 5, specifically, 5.0.0 RC2 (dev-493-gd776eaca8)
+Since then, the project has been migrated to KiCAD 5 stable.
+Please download the latest stable release of KiCAD 5 here: http://kicad-pcb.org/download/
+
+# YM3438 Support
+After a little tinkering, I've managed to get a YM3438 working as a replacement for the YM2612. For those that don't know, the YM3438 is functionally equivalent to the YM2612, but is made using a CMOS process. The YM3438 is pin-compatible but it is not a drop-in replacement since the output impedance is significantly higher. Fortunately, all you need to do to get a YM3438 to work is mod a couple resistors.
+
+
+Resistor Number | Replace with
+------------ | -------------
+R7 | LEAVE UNPOPULATED
+R8 | LEAVE UNPOPULATED
+R6 | 1.2K
+R9 | 100K
+R10 | 100K
+R27 | 33K
+R30 | 33K
+R28 | 150K
+R29 | 150K
+
+
+WARNING! The final sound output volume will be SIGNIFICANTLY HIGHER with this setup. Be sure to start your YM3438 MegaBlaster at the lowest possible volume before turning on the device and slowly increase the volume to prevent equipment damage and or hearing damage.
+
+Why replace the YM2612 with a YM3438? Well, for one, the YM3438 runs very cool while the YM2612s typically get screaming hot during normal operation. The sound quality is also slightly altered with FM synths typically sounding a little more 'sterile' compared to the YM2612's characteristic grit. PCM sample quality is also significantly improved. Later revisions of the Sega Genesis used an ASIC YM3438 instead of a discrete YM2612, so some users may be more familiar with the likes of the YM3438 than the YM2612. It's all personal preference really.
+
+You can see a YM2612/YM3438 comparison video here: https://www.youtube.com/watch?v=jMHRtriv1wM
+				</div>
+				<hr>
+				<div><B>近期下载者</B>：</div>
+				<div id="download-users"></div>
+				<hr>
+				<div><B>相关文件</B>：</div>
+				<div id="relate-items"></div>
+				<hr>
+				<div><B>评论</B>：[<a href=/Download/comment/id/1686650059223688.html data-toggle=modal data-target="#myModal">我要评论</a>]&nbsp;[<a class='pop-a' href=/Download/report/id/1686650059223688.html>举报此文件</a>]</div>
+				<div id="file-comments"></div>
+				<hr>
+				<div><B>收藏者</B>：</div>
+				<div id="favor-users"></div>
+				<p></p>
+			</div>
+
+			<div class="col-xs-12 col-md-4">
+
+				<div class="ad-sidebar text-center">
+					<div class="ad-300">
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+	<div class="my-footer">
+		<div class="container">
+		<div class="pull-right">
+		</div>
+
+		<div>
+			
+			<a href="http://www.pudn.com" target=_blank>© 联合开发网 from 2004</a> | 
+			<a href="/Index/contact.html">联系站长</a> | 
+			<a href=" https://beian.miit.gov.cn" target=_blank>湘ICP备2023001425号</a> | 
+			<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=43010502000604" target=_blank>网安备43010502000604</a> | 
+		</div>
+		</div>
+	</div>
+
+
+</div><!-- /wrapper-->
+
+
+
+
+<!-- page specific plugin scripts -->
+
+<!-- inline scripts related to this page -->
+
+<div id="myModal" class="modal fade" tabindex="-1" 
+			role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			
+		</div>
+	</div>
+</div><!-- /.modal-table -->
+
+</body>
+
+<script type="text/javascript">
+$(document).on('click', '.list-more', function(){
+	var id=$(this).attr('data-id');
+	$('#list-'+id).css('max-height',$('#list-'+id)[0].scrollHeight);
+	$(this).removeClass('list-more');
+	$(this).addClass('list-hide');
+	$(this).html('<i class="fa fa-angle-double-up"></i>');
+	
+	//$(this).hide();
+
+	return false;
+});
+
+$(document).on('click', '.list-hide', function(){
+	var id=$(this).attr('data-id');
+	$('#list-'+id).css('max-height','100px');
+	$(this).removeClass('list-hide');
+	$(this).addClass('list-more');
+	$(this).html('<i class="fa fa-angle-double-down"></i>');
+	
+	return false;
+});
+
+$("#myModal").on("hidden.bs.modal", function() {
+    $(this).removeData();
+});
+
+$(document).on("click",".keyword",function(){
+	var keyword=$(this).attr("keyword");
+	var type_id=$(this).attr("type_id");
+	if(typeof(type_id) =="undefined" || type_id =="") type_id="0";
+	location.href="http://search.pudn.com/Download/index?keyword="+keyword;
+	
+	return false;
+});
+</script>
+<script type="text/javascript" src="/js/time.js"></script>
+
+
+<script type="text/javascript" src="/js/marked.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.hide-list').each(function(){
+			if ($(this)[0].offsetHeight < $(this)[0].scrollHeight){
+				var id=$(this).attr('id');
+				id =id.substring(5);
+				$(this).after('<div style="text-align:center"><a href="" class="list-more" data-id="' + id + '"><i class="fa fa-angle-double-down"></i></a></div>');
+			}
+		});
+	});
+	var g_id="1686650059223688";
+	var keywords =new Array();
+		function get_download_user(){
+		var url ="/Download/get_download_user/id/"+g_id+".html";
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var html='';
+			for(i in ret){
+				html =html + '<a href=/User/profile/id/'+ret[i].user_new_id+'.html>'+ret[i].name+'</a> ';
+			}
+			$('#download-users').append(html);
+		});
+	}
+	
+	function get_relate_item(){
+		var url ="/Download/get_relate_item/id/"+g_id+'.html';
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var html='';
+			var intro;
+			for(i in ret){
+				intro =ret[i].intro;
+				for(j in keywords){
+					var reg =new RegExp(keywords[j],'gmi');
+					intro =intro.replace(reg,'<font color=brown>'+keywords[j]+'</font>');
+				}
+				html =html + '[<a href=/Download/item/id/'+ret[i].new_id+'.html>'+ret[i].name+'</a>]&nbsp; '+intro+'<BR>';
+			}
+			$('#relate-items').append(html);
+		});
+		
+	}
+	function get_score_name(score){
+		switch(score){
+		case '100': return '很好，推荐下载';
+		case '85': return '还不错';
+		case '75': return '一般，勉强可用';
+		case '50': return '差';
+		case '3': return '纯粹是垃圾';
+		case '40': return '和说明完全不符';
+		case '20': return '文件不全';
+		case '10': return '不是源代码或资料';
+		case '5': return '文件有密码，不知道密码';
+		case '0': return '不能解压或下载失败';
+		}
+		return '';
+	}
+	function get_comment(){
+		var url ="/Download/get_comments/id/"+g_id+'.html';
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var total_count =ret.total_count;
+			var data =ret.data;
+			var html='';
+			for(i in data){
+				html =html + '<a href="/User/profile/id/'+data[i].user_new_id+'.html" class="uploader">'+data[i].user_name+'</a>: <span class="comment-score">'+get_score_name(data[i].score)+'</span>, '+data[i].content+'<BR>';
+			}
+			$('#file-comments').append(html);
+		});
+		
+	}
+	function get_favor(){
+		var url ="/Download/get_item_favors/id/"+g_id+".html";
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var html='';
+			for(i in ret){
+				html =html + '<a href=/User/profile/id/'+ret[i].user_new_id+'.html class=user>'+ret[i].name+'</a>&nbsp;';
+			}
+			$('#favor-users').html(html);
+		});
+	}
+	// 得到下载这个的用户又下载了什么
+	function get_more_download(){
+		
+	}
+	// 得到下载这个的用户又搜索了什么
+	function get_more_keyword(){
+		
+	}
+	
+	// 得到论坛相关问题
+	function get_bbs(){
+		
+	}
+	
+	// 得到软件工场相关内容
+	function get_works(){
+		
+	}
+	
+	// 得到相关聊天室
+	function get_chat(){
+		
+	}
+	
+	// 得到相关软件商城信息
+	function get_shop(){
+		
+	}
+	
+	// 得到job
+	
+	// 得到学习内容
+
+	// 数据
+	get_download_user();
+	//get_relate_item();
+	get_comment();
+	get_favor();
+	
+	$('.vote-up').click(function(){
+		var url="/Download/vote/t/up/id/"+g_id;
+		$.get(url,function(ret){
+			if(ret.status==0){
+				alert(ret.info);
+				if(ret.url.length >0)
+					location.href=ret.url;
+			}
+			else{
+				var s =$('#vote-up-count').html();
+				if(s =='') s="0";
+				var count =parseInt(s)+1;
+				$('#vote-up-count').html(count);
+			}
+		})
+		return false;
+	});
+	$('.vote-down').click(function(){
+		var url="/Download/vote/t/down/id/"+g_id;
+		$.get(url,function(ret){
+			if(ret.status==0)
+				alert(ret.info);
+			else{
+				var s =$('#vote-down-count').html();
+				if(s =='') s="0";
+				var count =parseInt(s)+1;
+				$('#vote-down-count').html(count);
+			}
+		})
+		return false;
+	});
+	$('.favor-item').click(function(){
+		var url="/Favor/add/t/0/id/"+g_id;
+		$.get(url,function(ret){
+			if(ret.status==0){
+				alert(ret.info);
+			}
+			else{
+				var s =$('#favor-count').html();
+				if(s =='') s="0";
+				var count =parseInt(s)+1;
+				$('#favor-count').html(count);
+			}
+		})
+		return false;
+	});
+	$('.pop-a').click(function(){
+		var url=$(this).attr('href');
+		$.get(url,function(ret){
+			alert(ret.info);
+			//location.reload();
+		})
+		return false;
+	});
+
+document.getElementById('readme').innerHTML =marked.parse(document.getElementById('readme').innerHTML);
+</script>
+
+
+
+</html>
