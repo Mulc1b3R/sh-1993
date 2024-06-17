@@ -14,6 +14,8 @@ folders include :
   scale of the operation.
 * ```iframe.html``` enables safe browsing of pudn.com.  
 * js and css contain the jsa and css used by the site .
+* ```pudn-viewer``` enables you to view recent index pages from pudn com as they appear on the website. Github is scraped approx every 10 mins and the
+* most recent uploads appear on the index page of pudn.com as seen in the 'viewer'.
 * ```cronos.py``` is a python script that scrapes the site for all the new uploads it has most recently reposted from github.
 * 'comparison files' illustrates the similarity of the content of uploaded github files with those reposred on pudn.com.  
 * ```data.json``` contains relevant data pertaining to the website pudn.com
