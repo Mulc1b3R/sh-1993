@@ -1,0 +1,857 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>speedball2-re-amiga 联合开发网 - pudn.com</title>
+
+    <link href="/Public/m/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/Public/m/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <link href="/Public/m/css/animate.css" rel="stylesheet">
+    <link href="/Public/m/css/style.css" rel="stylesheet">
+
+	<link href="/Public/m/css/plugins/slick/slick.css" rel="stylesheet">
+	<link href="/Public/m/css/plugins/slick/slick-theme.css" rel="stylesheet">
+
+	
+
+	<link href="/css/style.css" rel="stylesheet">
+
+	<!-- Mainly scripts -->
+	<script src="/Public/m/js/jquery-2.1.1.js"></script>
+	<script src="/Public/m/js/bootstrap.min.js"></script>
+
+	<script src="/Public/m/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+	<script src="/Public/m/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+	<!-- Custom and plugin javascript -->
+	<script src="/Public/m/js/inspinia.js"></script>
+	<script src="/Public/m/js/plugins/pace/pace.min.js"></script>
+	
+<META name="Keywords" content="speedball2-re-amiga 程序员 编程 源码 源代码 下载">
+
+	
+<META name="Description" content="speedball2-re-amiga Commodore Amiga的Speedball 2逆向工程。基于我对世嘉Megadrive（Genesis）版本的逆转。，">
+
+</head>
+
+<body>
+
+<!-- /.main-container start -->
+
+<div class="pace  pace-inactive">
+  	<div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+  	<div class="pace-progress-inner"></div>
+	</div>
+	<div class="pace-activity"></div>
+</div>
+
+<div class="all-content">
+	<div class="my-container top-navigation">
+		<nav class="navbar navbar-static-top" role="navigation">
+			<div class="navbar-header">
+				<button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+					<i class="fa fa-reorder"></i>
+				</button>
+				<a href="http://www.pudn.com" class="navbar-brand">联合开发网</a>
+			</div>
+			<div class="navbar-collapse collapse" id="navbar">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="/" style="padding-right:8px;padding-left:8px;font-size:16px">首页</a>
+					</li>
+					<li>
+						<a href="https://search.pudn.com" style="padding-right:8px;padding-left:8px;font-size:16px">搜索</a>
+					</li>
+				</ul>
+               	<ul class="nav navbar-top-links navbar-right">
+               							<li>
+                       	<a href="/User/login.html">
+                           	&nbsp; <i class="fa fa-sign-out"></i>登录
+                       	</a>
+                   	</li>
+                   	<li>
+                       	<a href="/User/reg.html"><i class="fa fa-sign-out"></i>注册
+                       	</a>
+                   	</li>
+					               	</ul>
+			</div>
+		</nav>
+	</div>
+	<form action="https://search.pudn.com/Download" method="get">
+	<div class="top-menu-line2">
+		<div class="my-container">
+			<a href=/Download/upload.html>上传</a>
+			&nbsp; <a href=/User>管理</a>
+			&nbsp; <a href=https://search.pudn.com/Download>搜索</a>
+			&nbsp; <a href=/Guestbook>留言</a>
+			<div class="input-group pull-right" style="max-width:200px;margin:3px 15px 0px 0px">
+				<input type="text" name="keyword" maxlength=20 placeholder="请输入关键字" class="form-control input-sm">
+				<span class="input-group-btn"> <button type="submit" class="btn btn-white input-sm" style="border:1px solid #AAA"><i class="fa fa-search"></i></button>
+				</span>
+			</div>
+		</div>
+	</div></form>
+
+
+
+<div class="row wrapper white-bg">
+	<div class="my-container">
+			<div class="nav-dir" style="padding:10px 0px">
+				<a href="/">Pudn.com</a>&nbsp;&gt;&nbsp;下载中心
+				&nbsp;&gt;&nbsp;项目开发与运营				&nbsp;&gt;&nbsp;<font color=red>speedball2-re-amiga</font>
+			</div>
+
+
+		<div class="row">
+			<div class="col-xs-12 col-md-8">
+				<div class="item-name">speedball2-re-amiga</div>
+				<div class="item-keyword">
+									</div>
+				<div class="item-action">
+					<div class="btn-group">
+						<a href=/Download/dl/id/1694975250155979 target=_blank class="btn btn-primary btn-sm">去下载(<span id="down-count">0</span>)</a>
+						<a href="###" class="btn btn-white btn-sm vote-up"><i class="fa fa-thumbs-up"></i> 赞(<span id="vote-up-count">11</span>) </a>
+						<a href="###" class="btn btn-white btn-sm vote-down"><i class="fa fa-thumbs-down"></i> 踩(<span id="vote-down-count">0</span>) </a>
+						<a href="/Download/comment/id/1694975250155979" data-toggle="modal" data-target="#myModal" class="btn btn-white btn-sm"><i class="fa fa-comment"></i> 评论(<span id="comment-count">0</span>) </a>
+						<a href="###" class="btn btn-white btn-sm favor-item"><i class="fa fa-heart"></i> 收藏(<span id="favor-count">0</span>) </a>
+					</div>
+				</div>
+				<hr>
+
+				<div class="item-info">
+					<B>所属分类</B>：项目开发与运营<BR>
+					<B>开发工具</B>：Assembly<BR>
+					<B>文件大小</B>：0KB<BR>
+					<B>下载次数</B>：0<BR>
+					<B>上传日期</B>：2023-05-05 22:45:09<BR>
+					<B>上 传 者</B>：<a href=/User/profile/id/1682139907912860.html>sh-1993</a><BR>
+				</div>
+				<div class="item-intro">
+					说明：&nbsp;&nbsp;Commodore Amiga的Speedball 2逆向工程。基于我对世嘉Megadrive（Genesis）版本的逆转。，<BR>(A reverse-engineering of Speedball 2 for the Commodore Amiga. Based on my reversing of the Sega Megadrive (Genesis) version.,)				</div>
+				<hr>
+				<div><B>文件列表</B>: </div>
+				<div id="file-list">
+				COPY_PROTECTION.<B>md</B> (37935, 2023-05-05)<BR>boot/ (0, 2023-05-05)<BR>boot/first-level.<B>asm</B> (7260, 2023-05-05)<BR>boot/second-level.<B>asm</B> (57674, 2023-05-05)<BR>boot/second-level.bin.<B>gzf</B> (77328, 2023-05-05)<BR>cp-tracing/ (0, 2023-05-05)<BR>cp-tracing/ghidra_detrace.<B>py</B> (13419, 2023-05-05)<BR>cp-tracing/ghidra_trace_v0.<B>py</B> (3725, 2023-05-05)<BR>cp-tracing/ghidra_trace_v1.<B>py</B> (4330, 2023-05-05)<BR>cp-tracing/trace.<B>asm</B> (35823, 2023-05-05)<BR>cp-tracing/uae_trace_v0.<B>expect</B> (678, 2023-05-05)<BR>cp-tracing/uae_trace_v0.<B>out</B> (336305, 2023-05-05)<BR>cp-tracing/uae_trace_v1.<B>expect</B> (531, 2023-05-05)<BR>cp-tracing/uae_trace_v1.<B>out</B> (329323, 2023-05-05)<BR>speedball2-amiga.<B>asm</B> (8443463, 2023-05-05)<BR>speedball2-amiga.bin.<B>gzf</B> (1858751, 2023-05-05)<BR>symbols.<B>md</B> (263949, 2023-05-05)<BR>tools/ (0, 2023-05-05)<BR>tools/Cargo.<B>lock</B> (8607, 2023-05-05)<BR>tools/Cargo.<B>toml</B> (107, 2023-05-05)<BR>tools/extract_iff_image/ (0, 2023-05-05)<BR>tools/extract_iff_image/Cargo.<B>toml</B> (170, 2023-05-05)<BR>tools/extract_iff_image/src/ (0, 2023-05-05)<BR>tools/extract_iff_image/src/main.<B>rs</B> (4569, 2023-05-05)<BR>tools/extract_images/ (0, 2023-05-05)<BR>tools/extract_images/Cargo.<B>toml</B> (255, 2023-05-05)<BR>tools/extract_images/src/ (0, 2023-05-05)<BR>tools/extract_images/src/main.<B>rs</B> (11458, 2023-05-05)<BR>tools/extract_overlays.<B>sh</B> (1626, 2023-05-05)<BR>tools/make_labels/ (0, 2023-05-05)<BR>tools/make_labels/Cargo.<B>toml</B> (180, 2023-05-05)<BR>tools/make_labels/src/ (0, 2023-05-05)<BR>tools/make_labels/src/main.<B>rs</B> (5286, 2023-05-05)<BR>tools/unpack/ (0, 2023-05-05)<BR>tools/unpack/Cargo.<B>toml</B> (190, 2023-05-05)<BR>tools/unpack/src/ (0, 2023-05-05)<BR>... ...<BR>				</div>
+				<hr>
+				<div id="readme">
+				# Reverse engineering of Speedball 2 for Commodore Amiga
+
+Following up on my reverse engineering of the [Megadrive
+version](https://github.com/simon-frankau/speedball2-re.git), I
+thought I'd have a go at the Amiga version, in order to understand the
+differences and similarities between these 68K ports. That's this
+project.
+
+## Getting started
+
+I started on the Megadrive version because I believed (correctly, as
+it turned out!) that it would be easier to get going with, as a ROM
+image. Getting from a disk image to a memory image was a fun little
+learning curve.
+
+I started with "Speedball 2 - Brutal Deluxe (1990)(ImageWorks)[cr
+CLS - RZR]"
+([here](https://www.planetemu.net/rom/commodore-amiga-games-adf/speedball-2-brutal-deluxe-1990-imageworks-cr-cls-rzr-3)). The
+disk image was just the right size for 80 cylinders, 2 heads, 11
+sectors/track and 512 bytes/sector, so it looked like the ADF format
+would be very tractable.
+
+### Boot block
+
+[first-level.asm](boot/first-level.asm)
+
+My starting point was the boot block, as described at
+http://lclevy.free.fr/adflib/adf_info.html#p41 . The first thing the
+boot block does is run the intro. Data reading is accomplished using
+the [`TrackDisk`](https://wiki.amigaos.net/wiki/Trackdisk_Device)
+device. The relevant constants and structs to decipher the assembly
+can be found in the Amiga developer CD [include
+files](http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_2._guide/node0094.html#line19).
+
+It then sets up a trap and triggers the Reset PC interrupt vector,
+presumably to ensure it's in a nice, reset state and in supervisor
+mode, and attempts to allocate memory.
+
+The status of these allocation attempts are stored in locations 0x1c,
+0x28 and 0x84. Since these locations overlap with (executed) code, it
+looks a bit messy if I make them variables.
+
+If we can allocate at least 100kB of chip memory, we load 5 sectors,
+starting at sector 3 (via `DoIO`), into the start of the alloction and
+jump to it.
+
+### Second-level loader
+
+[second-level.asm](boot/second-level.asm)
+
+The first-level loader relies on the OS quite heavily, using it for
+e.g. memory allocation. As long as it can allocate 100kB, it'll load
+the second level into that. It uses the ROM for disk access. Around
+here, things start to change, as the loader just uses memory and
+hardware directly.
+
+The loader basically ignores whatever memory allocations the OS told
+us about. In short, it skips 22 512 byte sectors (i.e. goes to track
+2, side 1), and reads in 600 sectors (300kB) to addresses
+0x32000-0x7D000 (i.e. starting 200kB into RAM). It then writes
+0x21570d25 to address 0x2c (copy-protection magic?) and jumps to
+0x32000.
+
+It does this without OS help by directly accessing the disk
+hardware. I had no idea that the Amiga did explicit MFM
+encoding/decoding in software, and could use the blitter to accelerate
+this process. http://lclevy.free.fr/adflib/adf_info.html was very
+useful for details of MFM decoding.
+
+Interestingly, the code is quite general, including modes to not just
+read data, but write it out, and the writing mode can either overwrite
+sectors selectively (by reading existing sectors and merging the data)
+or creating fresh tracks. Writes are always whole-track writes.
+
+### Unpacking the main binary
+
+The binary at 0x32000 does a `move #0x2700, SR` and jumps over the
+compressed data to the start of the decompression routine at
+0x7c92a. This disables interrupts and DMA, has a bunch of NOPs
+(presumably disabled copy protection), sets up the stack at 0x7f000,
+and copies 0x03200a-0x07a81e down to 0x000084-0x48898, before
+unpacking it, expanding it from 296980 bytes to 379292
+bytes.
+
+Everything is then checksummed by a routine that places the result
+(0xfbef) in D6. This routine adds 0xdeaa4347(l) to address 0x00002c,
+and writes 0x3460(w) to 0x000000.
+
+Finally, it jumps to the code entry point at 0x000084.
+
+This leaves 0x07cab8-0x07d00 and 0x07a81e-0x07c900 as unused, but
+aparently not uninitialised...
+
+### A second opinion: The DC crack
+
+Since this is a cracked image, it's not necessarily clear what's part
+of the original image, and what's been cracked. I reverse engineered
+the "Speedball 2 - Brutal Deluxe (1990)(ImageWorks)[cr DC].adf" image,
+too, which has a different (much simpler!) compression algorithm, but
+produces a very similar RAM image. The memory image diff are (apart
+from an extra 0xffff at the end, that makes no difference):
+
+```
+< 0001549c  75 20 e7 0d 9c 38 95 0d  b8 04 13 09 1a c0 73 09  19 20
+> 0001549c  1d fb a0 29 69 fb 46 b9  8b 69 a1 29 9f 69 87 28  e1 6a
+```
+
+This change is inside the XOR-protected region, deep in the obfuscated
+copy protection routines.
+
+```
+< 0003f09a  3f ff
+> 0003f09a  f8 f1
+```
+
+This is literally one sample different in an audio sample. I have no
+idea why it's changed!
+
+The interesting thing about this is, though, that it appears the
+different cracks leave the loaded memory image pretty much the same,
+modulo adjustments to the core of the copy protection routines.
+
+### Third opinion: CSL crack
+
+If you have two different things, it's hard to tell what's original,
+and what isn't. Does a third data point give us any triangulation? I
+pulled apart "Speedball 2 - Brutal Deluxe (1990)(ImageWorks)[cr
+CSL]". The compression mechanism is the same as DC's, and it's a very
+similar image with just a few changes, if we ignore a rather lame
+credits-overwriting in the intro, and an even lamer check to make sure
+no-one changes their credits hack. What remains is:
+
+```
+< 0000cc74  41 f9 00 03 61 d6
+> 0000cc74  4e b9 00 07 f8 00
+```
+
+This replaces the first instruction of `init_screen_status_bar` with a
+rather surprising `jsr 0x7f800`. The routine at 0x7f800 is installed
+by the boot sector, as follows:
+
+```
+lea        (DAT_000361d6).l,A0
+move.l     #0x4d9780a1,(DAT_0001549c).l
+move.l     #0xA48FE0A1,(DAT_000154a0).l
+move.w     #0xA767,(DAT_000154a4).l
+move.l     #0x41f90003,(DAT_0000cc74).l
+move.w     #0x61d6,(DAT_0000cc78).l
+rts
+```
+
+The first instruction is the one overwritten, the rest are
+patches. The first three of those patch an area inside the bit that
+already differs between the DC and CLS-RZR cracks, inside the
+encrypted region. The last two undo the patch to
+`init_screen_status_bar`!
+
+All this doesn't teach me much, except that that encrypted region
+looks pretty key to copy protection!
+
+## Program start-up
+
+### Main binary environment
+
+As well as decompressing the binary into 0x000084-0x05ca20, the
+bootstrap system has left various odds-and-ends over the place:
+
+ * First-level loader initialises, 0x1c, 0x28, 0x84 (address where
+   compressed image was initially loaded).
+ * Second-level loader writes 0x21570d25 to address 0x00002c.
+ * Decompressor adds 0xdeaa4347 to address 0x00002c.
+ * Decompressor writes 0x3460(w) to 0x000000.
+ * Decompressor checksums 150,000 bytes into D6.
+ * D6 gets saved to address 0x000080 by the start of the SB2 binary.
+
+Note that the checksum produces different values for the different
+cracks, which should have been a hint to me that nothing really
+depends on it.
+
+### Copy protection measures
+
+After more effort than it really should have taken, I reversed the
+remains of the copy protection. It's slightly epic, so I've put it in
+[COPY_PROTECTION.md](./COPY_PROTECTION.md).
+
+## Comparison with the Megadrive port
+
+### Binary comparison
+
+I should start by saying that
+[BinDiff](https://www.zynamics.com/software.html) was an excellent
+starting point, able to very effectively identify the equivalent
+functions between the Amiga and Megadrive ports. It got a bit useless
+on the less similar functions, but when the differences were small it
+did really well. While Ghidra integration is clearly a lot poorer than
+that for the other mainstream RE tools, it can still mark up the
+matching symbols. I wish it were able to also do variables, but I
+slowly ploughed through and matched them manually.
+
+There is a lot of similarity between the versions. The core engine of
+the game is even largely identical. The bits that are a bit graphical
+had some fairly consistent changes - code to do with flipping buffers
+(Amiga) or updating cells (Megadrive) for example, is pretty
+pervasive, and makes for a bunch of minor changes.
+
+Obviuosly there are huge changes around I/O: Graphics code, mostly
+involving heavy Blitter usage needed to be reversed, as did controls
+(the keyboard being a bit yuck), disk access (the base layer of which
+is shared with the second-level loader) and sound. The latter was a
+separate chaunk of code on both platforms. They share a data format,
+but the Amiga is more flexible, so some no-ops on the Megadrive were
+implemented on the Amiga, helping the data make sense.
+
+There was some dead code on the Megadrive that finally made sense in
+the context of the Amiga - for example around saving replays to
+disk. There's also some dead code of its own on the Amiga side - like
+a menu that allows you to select a team, that's never used.
+
+In a few places there are minor code differences that are not
+well-motivated by the port; they're just little tidy-ups between the
+versions. I suspect this just means the port was branched from a
+slightly different version than the Amiga version.
+
+A lot of the code and data is laid out in the same sequence on both
+platforms, as you'd expect starting from the same assembly source. In
+places things are juggled about. This is inevitable when the Megadrive
+has a lot of ROM and a little RAM, while the Amiga is purely RAM based
+and can load overlays from disk. There are a few different places
+where you can see how they've squeezed storage for the Megadrive
+version.
+
+### On commenting
+
+I commented the implementation of most of the Megadrive
+functions. Unfortunately, I don't see a simple way of automating the
+transfer of comments from the Megadrive edition to the Amiga edition,
+and I'm not doing it by hand (soooo many comments, sooo tedious). So
+my Amiga edition reversing only comments on the Amiga-specific
+things. If you want to understand a specific piece of uncommented
+code, look up the same function in my Megadrive reversing!
+
+A second effect on commenting of starting with the Megadrive version
+is that, despite the Amiga port being the earlier release, I treat the
+Megadrive version as the baseline, and explain the Amiga port in terms
+of diffs from that. In some ways, this is a bit ridiculous, but I'm
+sure you can work it out. ;)
+
+A third point is that there are various bits in the Megadrive code
+that are just remnants of the Amiga code that do nothing, and leave me
+going "???". If you look at the rare comments on the Amiga side,
+things become clear. I have not back-ported clarifications from the
+Amiga code to the Megadrive dissessembly as I am lazy.
+
+### Symbol table comparison
+
+[symbols.md](./symbols.md) provides a comparison between the symbol
+tables for the two versions.
+
+### Gameplay comparison
+
+In terms of functional differences between the Amiga and Megadrive
+versions, there are a few bug-fixes, but the main visible differences
+are:
+
+ * The Amiga has (significantly) better sound.
+ * The Amiga has a better arena backdrop when playing the game.
+ * Amiga has better load/save - games can be saved to disk at more
+   regular points, controlled via the mangament menus, rather than
+   getting a code at the end of a season that represents a compressed
+   state.
+ * Amiga allows you to save action replays.
+ * Amiga UI relies on a single fire button (but supports some keyboard
+   shortcuts).
+ * Amiga does not have goal marker objects (little dots at the screen
+   edge when the goal is offscreen).
+ * Amiga AI is more cautious about doing a high pass near an enemy player.
+ * Items are dropped on 16-pixel boundary, vs. 32-pixel for Megadrive.
+
+I think the key takeaway is that the gameplay itself is really very
+similar between the two versions. In my opinoin, the Megadrive version
+is an excellent conversion given the constraints.
+
+## Memory structure
+
+Despite the complications of the initial loading process, the game
+seems to assume a flat 512kB of RAM is available, and the upper limit
+of RAM in 0x28 if there's more.
+
+The decompression routine sets the game up for the intro sequence, as
+follows:
+
+ * 0x000000-0x000084 Low memory
+ * 0x000084-0x05ca20 From initial disk load:
+   * 0x000084-0x007f94 Variables
+   * 0x007f94-0x0124ca Main game engine
+   * 0x0124ca-0x0138b6 Mostly sprite routines
+   * 0x0138b6-0x014e78 Sound routines
+   * 0x014e78-0x015fe4 Misc hardware routines
+   * 0x015fe4-0x016862 Disk routines, identical to those in the
+     second-level loader
+   * 0x016862-0x0173be Graphics variables
+   * 0x0173be-0x01afbe Images used on the "monitor" overlay
+   * 0x01afbe-0x01b55e Font used in monitor overlays.
+   * 0x01b55e-0x01bc3e Variables and buffers.
+   * 0x01bc3e-0x04963a Sound data
+   * 0x04963a-0x05ca20 Intro sequence
+ * Free memory
+ * 0x05fbaa-0x06a71c `screen_3_buf`
+ * 0x06a71c-0x07528e `screen_2_buf`
+ * 0x07528e-0x07fe00 `screen_1_buf`
+ * 0x07fe00-0x080000 Stack (512 bytes)
+
+The screens are of size 0x224a = 209 lines of (320 + 16) pixels.
+
+The main game engine is pretty well conserved between the Megadrive
+and Amiga versions.
+
+The memory up to 0x1bc3e, including all the key game code stays
+stable, while the memory above it, up to the screen buffers, is used
+by overlays.
+
+### Overlays
+
+The `load_overlay` routine can load chunks from disk into memory. The
+chunk directory is stored on-disk - see the "Disk structure" section
+below. 
+
+Some of the overlays are just sub-sets of other overlays, and never
+used directly. They can be safely ignored.
+
+IFF-based splash image overlays (overlays #12-#17) are loaded into one
+of the screen buffers (from where they need to be decompressed into
+another buffer). verlay 1 starts with an IFF image, but is not just a
+splash image overlay.
+
+The remaining overlays effectively work in a couple of modes:
+
+ * Overlay #0 is loaded at 0x1bc3e-0x36c3e at the start of game, once
+   the intro sequence is complete. It overwrites the intro music, data
+   and graphics, and prodvides replacement sound.
+ * Overlays #1 and #28 are loaded together to provide the graphics for
+   the menus and mangement mode.
+ * Overlays #18, #26 and #27 are loaded together to provide the
+   graphics for game mode. The space between 0x361d6 and 0x3a2d6 is
+   initialised at runtime, rather than loaded from disk.
+
+Overlays #27 and #28 contain sound data. Overlay 28 is actually an
+almost verbatim copy of the data in overlay 0 that it overwrites (I
+looks to me like there are about 10 samples at the end that don't
+match, and they're extremely low amplitude).
+
+It looks like Overlay #27 provides Sample 22 for game mode, while Overlay
+#28/Overlay #0 provide Samples 25, 26 and 27 for management mode.
+
+Memory-wise, these overlays are loaded as follows:
+
+| Overlay number | Start sector | # sectors | RAM range         |
+|----------------|--------------|-----------|-------------------|
+| #0             | 0x26f        | 0xd8      | 0x01bc3e-0x036c3e |
+| #1             | 0x347        | 0x13f     | 0x0361d6-0x05dfd6 |
+| #18            | 0x568        | 0xae      | 0x03a2d6-0x04fed6 |
+| #26            | 0x616        | 0x75      | 0x04fed6-0x05e8d6 |
+| #27            | 0x68b        | 0x16      | 0x030d56-0x033956 |
+| #28            | 0x6a1        | 0x1c      | 0x030d56-0x034456 |
+
+In more detail, they provide the following variables:
+
+| Overlay # | RAM start | Contents                                               |
+|-----------|-----------|--------------------------------------------------------|
+| #0        | 0x01bc3e  | Start of overlay #0 - Sound data                       |
+| #0        | 0x0361d6  | Status bar image                                       |
+| #0        | 0x036bd6  | Blank area                                             |
+| #0        | 0x036c3e  | End of overlay #0                                      |
+| #1        | 0x0361d6  | IFF of menu backdrop - `splash_backdrop`               |
+| #1        | 0x03d744  | Management screen backdrop - `sprites_mgmt_background` |
+| #1        | 0x044364  | Small characters - `sprites_font_orange`               |
+| #1        | 0x044b5c  | Menu characters - `sprites_menu_font`                  |
+| #1        | 0x04631c  | Font - `sprites_fonts_title_top`                       |
+| #1        | 0x04677c  | Font - `sprites_fonts_title_bottom`                    |
+| #1        | 0x046a9c  | Font - `sprites_fonts_cash`                            |
+| #1        | 0x046bdc  | Font - `sprites_fonts_mgr_xfer_gym`                    |
+| #1        | 0x04703c  | Font - `sprites_fonts_small_green`                     |
+| #1        | 0x0475dc  | Font - `sprites_fonts_white`                           |
+| #1        | 0x047b7c  | Management screen lights - `sprites_mgmt_lights`       |
+| #1        | 0x04857c  | Management screen buttons - `sprites_mgmt_buttons`     |
+| #1        | 0x04d57c  | Management screen armour - `sprites_mgmt_armour`       |
+| #1        | 0x0531fc  | Faces - `sprites_player_faces`                         |
+| #1        | 0x05b8fc  | Group icons (referenced via faces)                     |
+| #1        | 0x05d51c  | Data - `scores_table`                                  |
+| #1        | 0x05dd1c  | Data - `gym_tile_map`                                  |
+| #1        | 0x05de20  | Data - `manager_transfer_tile_map`                     |
+| #1        | 0x05df24  | Blank area                                             |
+| #1        | 0x05dfd6  | End of overlay #1                                      |
+| (#18)     | 0x0361d6  | `sprites_players_team_mask` - runtime generated        |
+| #18       | 0x03a2d6  | Small, in-game sprites - `sprites_game_misc`           |
+| #18       | 0x03cf56  | Main game character sprites - `sprites_players`        |
+| #18       | 0x04d356  | Main game character sprites - `sprites_big_ball`       |
+| #18       | 0x04dd56  | Bouncers and ball launcher - `sprites_launcher`        |
+| #18       | 0x04fdd6  | Blank area                                             |
+| #18       | 0x04fed6  | End of overlay #18                                     |
+| #26       | 0x04fed6  | Arena tiles - `sprites_arena`                          |
+| #26       | 0x05e896  | Blank area                                             |
+| #26       | 0x05e8d6  | End of overlay #26                                     |
+| #27       | 0x030d56  | Overlay 27 data - game sound overlay                   |
+| #27       | 0x033956  | End of overlay #27                                     |
+| #28       | 0x030d56  | Overlay 28 data - management sound overlay             |
+| #28       | 0x034556  | End of overlay #28                                     |
+
+It looks like the boot loader initialises 0x000028 with 0x100000 if
+the machine has (at least?) 1MB of RAM, and zero otherwise. This is
+used by the `start` routine to decide if we can cache the overlays in
+the high 512kB.
+
+If so, `preload_data` at 0x8056 copies relevant chunks into higher
+memory if available, saving the need to load from disk. It simply
+copies the whole preload chunks around, nothing subtle.
+
+`generate_player_team_masks` uses `splash_backdrop` to create the
+bitplane images for the second player. This is why overlay #18 is
+loaded in slightly higher memory, to make space for that bufer.
+
+### Intro sequence
+
+Before it is overwritten by overlay #0, the intro sequence uses the
+following resources:
+
+ * 0x01bc3e-0x04963a Intro sound data
+ * 0x04963a-0x049bce Intro sequence code
+ * 0x049bce-0x049e5e Introduction text
+ * 0x049e5e-0x052d0e IFF picture - title  ... ...				</div>
+				<hr>
+				<div><B>近期下载者</B>：</div>
+				<div id="download-users"></div>
+				<hr>
+				<div><B>相关文件</B>：</div>
+				<div id="relate-items"></div>
+				<hr>
+				<div><B>评论</B>：[<a href=/Download/comment/id/1694975250155979.html data-toggle=modal data-target="#myModal">我要评论</a>]&nbsp;[<a class='pop-a' href=/Download/report/id/1694975250155979.html>举报此文件</a>]</div>
+				<div id="file-comments"></div>
+				<hr>
+				<div><B>收藏者</B>：</div>
+				<div id="favor-users"></div>
+				<p></p>
+			</div>
+
+			<div class="col-xs-12 col-md-4">
+
+				<div class="ad-sidebar text-center">
+					<div class="ad-300">
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+	<div class="my-footer">
+		<div class="container">
+		<div class="pull-right">
+		</div>
+
+		<div>
+			
+			<a href="http://www.pudn.com" target=_blank>© 联合开发网 from 2004</a> | 
+			<a href="/Index/contact.html">联系站长</a> | 
+			<a href=" https://beian.miit.gov.cn" target=_blank>湘ICP备2023001425号</a> | 
+			<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=43010502000604" target=_blank>网安备43010502000604</a> | 
+		</div>
+		</div>
+	</div>
+
+
+</div><!-- /wrapper-->
+
+
+
+
+<!-- page specific plugin scripts -->
+
+<!-- inline scripts related to this page -->
+
+<div id="myModal" class="modal fade" tabindex="-1" 
+			role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			
+		</div>
+	</div>
+</div><!-- /.modal-table -->
+
+</body>
+
+<script type="text/javascript">
+$(document).on('click', '.list-more', function(){
+	var id=$(this).attr('data-id');
+	$('#list-'+id).css('max-height',$('#list-'+id)[0].scrollHeight);
+	$(this).removeClass('list-more');
+	$(this).addClass('list-hide');
+	$(this).html('<i class="fa fa-angle-double-up"></i>');
+	
+	//$(this).hide();
+
+	return false;
+});
+
+$(document).on('click', '.list-hide', function(){
+	var id=$(this).attr('data-id');
+	$('#list-'+id).css('max-height','100px');
+	$(this).removeClass('list-hide');
+	$(this).addClass('list-more');
+	$(this).html('<i class="fa fa-angle-double-down"></i>');
+	
+	return false;
+});
+
+$("#myModal").on("hidden.bs.modal", function() {
+    $(this).removeData();
+});
+
+$(document).on("click",".keyword",function(){
+	var keyword=$(this).attr("keyword");
+	var type_id=$(this).attr("type_id");
+	if(typeof(type_id) =="undefined" || type_id =="") type_id="0";
+	location.href="http://search.pudn.com/Download/index?keyword="+keyword;
+	
+	return false;
+});
+</script>
+<script type="text/javascript" src="/js/time.js"></script>
+
+
+<script type="text/javascript" src="/js/marked.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.hide-list').each(function(){
+			if ($(this)[0].offsetHeight < $(this)[0].scrollHeight){
+				var id=$(this).attr('id');
+				id =id.substring(5);
+				$(this).after('<div style="text-align:center"><a href="" class="list-more" data-id="' + id + '"><i class="fa fa-angle-double-down"></i></a></div>');
+			}
+		});
+	});
+	var g_id="1694975250155979";
+	var keywords =new Array();
+		function get_download_user(){
+		var url ="/Download/get_download_user/id/"+g_id+".html";
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var html='';
+			for(i in ret){
+				html =html + '<a href=/User/profile/id/'+ret[i].user_new_id+'.html>'+ret[i].name+'</a> ';
+			}
+			$('#download-users').append(html);
+		});
+	}
+	
+	function get_relate_item(){
+		var url ="/Download/get_relate_item/id/"+g_id+'.html';
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var html='';
+			var intro;
+			for(i in ret){
+				intro =ret[i].intro;
+				for(j in keywords){
+					var reg =new RegExp(keywords[j],'gmi');
+					intro =intro.replace(reg,'<font color=brown>'+keywords[j]+'</font>');
+				}
+				html =html + '[<a href=/Download/item/id/'+ret[i].new_id+'.html>'+ret[i].name+'</a>]&nbsp; '+intro+'<BR>';
+			}
+			$('#relate-items').append(html);
+		});
+		
+	}
+	function get_score_name(score){
+		switch(score){
+		case '100': return '很好，推荐下载';
+		case '85': return '还不错';
+		case '75': return '一般，勉强可用';
+		case '50': return '差';
+		case '3': return '纯粹是垃圾';
+		case '40': return '和说明完全不符';
+		case '20': return '文件不全';
+		case '10': return '不是源代码或资料';
+		case '5': return '文件有密码，不知道密码';
+		case '0': return '不能解压或下载失败';
+		}
+		return '';
+	}
+	function get_comment(){
+		var url ="/Download/get_comments/id/"+g_id+'.html';
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var total_count =ret.total_count;
+			var data =ret.data;
+			var html='';
+			for(i in data){
+				html =html + '<a href="/User/profile/id/'+data[i].user_new_id+'.html" class="uploader">'+data[i].user_name+'</a>: <span class="comment-score">'+get_score_name(data[i].score)+'</span>, '+data[i].content+'<BR>';
+			}
+			$('#file-comments').append(html);
+		});
+		
+	}
+	function get_favor(){
+		var url ="/Download/get_item_favors/id/"+g_id+".html";
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var html='';
+			for(i in ret){
+				html =html + '<a href=/User/profile/id/'+ret[i].user_new_id+'.html class=user>'+ret[i].name+'</a>&nbsp;';
+			}
+			$('#favor-users').html(html);
+		});
+	}
+	// 得到下载这个的用户又下载了什么
+	function get_more_download(){
+		
+	}
+	// 得到下载这个的用户又搜索了什么
+	function get_more_keyword(){
+		
+	}
+	
+	// 得到论坛相关问题
+	function get_bbs(){
+		
+	}
+	
+	// 得到软件工场相关内容
+	function get_works(){
+		
+	}
+	
+	// 得到相关聊天室
+	function get_chat(){
+		
+	}
+	
+	// 得到相关软件商城信息
+	function get_shop(){
+		
+	}
+	
+	// 得到job
+	
+	// 得到学习内容
+
+	// 数据
+	get_download_user();
+	//get_relate_item();
+	get_comment();
+	get_favor();
+	
+	$('.vote-up').click(function(){
+		var url="/Download/vote/t/up/id/"+g_id;
+		$.get(url,function(ret){
+			if(ret.status==0){
+				alert(ret.info);
+				if(ret.url.length >0)
+					location.href=ret.url;
+			}
+			else{
+				var s =$('#vote-up-count').html();
+				if(s =='') s="0";
+				var count =parseInt(s)+1;
+				$('#vote-up-count').html(count);
+			}
+		})
+		return false;
+	});
+	$('.vote-down').click(function(){
+		var url="/Download/vote/t/down/id/"+g_id;
+		$.get(url,function(ret){
+			if(ret.status==0)
+				alert(ret.info);
+			else{
+				var s =$('#vote-down-count').html();
+				if(s =='') s="0";
+				var count =parseInt(s)+1;
+				$('#vote-down-count').html(count);
+			}
+		})
+		return false;
+	});
+	$('.favor-item').click(function(){
+		var url="/Favor/add/t/0/id/"+g_id;
+		$.get(url,function(ret){
+			if(ret.status==0){
+				alert(ret.info);
+			}
+			else{
+				var s =$('#favor-count').html();
+				if(s =='') s="0";
+				var count =parseInt(s)+1;
+				$('#favor-count').html(count);
+			}
+		})
+		return false;
+	});
+	$('.pop-a').click(function(){
+		var url=$(this).attr('href');
+		$.get(url,function(ret){
+			alert(ret.info);
+			//location.reload();
+		})
+		return false;
+	});
+
+document.getElementById('readme').innerHTML =marked.parse(document.getElementById('readme').innerHTML);
+</script>
+
+
+
+</html>

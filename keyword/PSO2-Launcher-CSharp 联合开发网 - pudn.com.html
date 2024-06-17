@@ -1,0 +1,535 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PSO2-Launcher-CSharp 联合开发网 - pudn.com</title>
+
+    <link href="/Public/m/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/Public/m/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <link href="/Public/m/css/animate.css" rel="stylesheet">
+    <link href="/Public/m/css/style.css" rel="stylesheet">
+
+	<link href="/Public/m/css/plugins/slick/slick.css" rel="stylesheet">
+	<link href="/Public/m/css/plugins/slick/slick-theme.css" rel="stylesheet">
+
+	
+
+	<link href="/css/style.css" rel="stylesheet">
+
+	<!-- Mainly scripts -->
+	<script src="/Public/m/js/jquery-2.1.1.js"></script>
+	<script src="/Public/m/js/bootstrap.min.js"></script>
+
+	<script src="/Public/m/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+	<script src="/Public/m/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+	<!-- Custom and plugin javascript -->
+	<script src="/Public/m/js/inspinia.js"></script>
+	<script src="/Public/m/js/plugins/pace/pace.min.js"></script>
+	
+<META name="Keywords" content="PSO2-Launcher-CSharp csharp dotnet windows-desktop PSO2 game-launcher 程序员 编程 源码 源代码 下载">
+
+	
+<META name="Description" content="PSO2-Launcher-CSharp 幻影之星在线2:New Genesis（JP）的替代游戏启动器，用C#（.NET6）编写。，">
+
+</head>
+
+<body>
+
+<!-- /.main-container start -->
+
+<div class="pace  pace-inactive">
+  	<div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+  	<div class="pace-progress-inner"></div>
+	</div>
+	<div class="pace-activity"></div>
+</div>
+
+<div class="all-content">
+	<div class="my-container top-navigation">
+		<nav class="navbar navbar-static-top" role="navigation">
+			<div class="navbar-header">
+				<button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+					<i class="fa fa-reorder"></i>
+				</button>
+				<a href="http://www.pudn.com" class="navbar-brand">联合开发网</a>
+			</div>
+			<div class="navbar-collapse collapse" id="navbar">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="/" style="padding-right:8px;padding-left:8px;font-size:16px">首页</a>
+					</li>
+					<li>
+						<a href="https://search.pudn.com" style="padding-right:8px;padding-left:8px;font-size:16px">搜索</a>
+					</li>
+				</ul>
+               	<ul class="nav navbar-top-links navbar-right">
+               							<li>
+                       	<a href="/User/login.html">
+                           	&nbsp; <i class="fa fa-sign-out"></i>登录
+                       	</a>
+                   	</li>
+                   	<li>
+                       	<a href="/User/reg.html"><i class="fa fa-sign-out"></i>注册
+                       	</a>
+                   	</li>
+					               	</ul>
+			</div>
+		</nav>
+	</div>
+	<form action="https://search.pudn.com/Download" method="get">
+	<div class="top-menu-line2">
+		<div class="my-container">
+			<a href=/Download/upload.html>上传</a>
+			&nbsp; <a href=/User>管理</a>
+			&nbsp; <a href=https://search.pudn.com/Download>搜索</a>
+			&nbsp; <a href=/Guestbook>留言</a>
+			<div class="input-group pull-right" style="max-width:200px;margin:3px 15px 0px 0px">
+				<input type="text" name="keyword" maxlength=20 placeholder="请输入关键字" class="form-control input-sm">
+				<span class="input-group-btn"> <button type="submit" class="btn btn-white input-sm" style="border:1px solid #AAA"><i class="fa fa-search"></i></button>
+				</span>
+			</div>
+		</div>
+	</div></form>
+
+
+
+<div class="row wrapper white-bg">
+	<div class="my-container">
+			<div class="nav-dir" style="padding:10px 0px">
+				<a href="/">Pudn.com</a>&nbsp;&gt;&nbsp;下载中心
+				&nbsp;&gt;&nbsp;数学计算				&nbsp;&gt;&nbsp;<font color=red>PSO2-Launcher-CSharp</font>
+			</div>
+
+
+		<div class="row">
+			<div class="col-xs-12 col-md-8">
+				<div class="item-name">PSO2-Launcher-CSharp</div>
+				<div class="item-keyword">
+					<a href="#" class="keyword" keyword="csharp">csharp</a>&nbsp;<a href="#" class="keyword" keyword="dotnet">dotnet</a>&nbsp;<a href="#" class="keyword" keyword="windows-desktop">windows-desktop</a>&nbsp;<a href="#" class="keyword" keyword="PSO2">PSO2</a>&nbsp;<a href="#" class="keyword" keyword="game-launcher">game-launcher</a>&nbsp;				</div>
+				<div class="item-action">
+					<div class="btn-group">
+						<a href=/Download/dl/id/1688833410214055 target=_blank class="btn btn-primary btn-sm">去下载(<span id="down-count">0</span>)</a>
+						<a href="###" class="btn btn-white btn-sm vote-up"><i class="fa fa-thumbs-up"></i> 赞(<span id="vote-up-count">7</span>) </a>
+						<a href="###" class="btn btn-white btn-sm vote-down"><i class="fa fa-thumbs-down"></i> 踩(<span id="vote-down-count">0</span>) </a>
+						<a href="/Download/comment/id/1688833410214055" data-toggle="modal" data-target="#myModal" class="btn btn-white btn-sm"><i class="fa fa-comment"></i> 评论(<span id="comment-count">0</span>) </a>
+						<a href="###" class="btn btn-white btn-sm favor-item"><i class="fa fa-heart"></i> 收藏(<span id="favor-count">0</span>) </a>
+					</div>
+				</div>
+				<hr>
+
+				<div class="item-info">
+					<B>所属分类</B>：数学计算<BR>
+					<B>开发工具</B>：C#<BR>
+					<B>文件大小</B>：0KB<BR>
+					<B>下载次数</B>：0<BR>
+					<B>上传日期</B>：2023-07-06 06:32:41<BR>
+					<B>上 传 者</B>：<a href=/User/profile/id/1682139907912860.html>sh-1993</a><BR>
+				</div>
+				<div class="item-intro">
+					说明：&nbsp;&nbsp;幻影之星在线2:New Genesis（JP）的替代游戏启动器，用C#（.NET6）编写。，<BR>(An alternative game launcher for Phantasy Star Online 2: New Genesis (JP) written in C# (.NET6).,)				</div>
+				<hr>
+				<div><B>文件列表</B>: </div>
+				<div id="file-list">
+				Dev.<B>bat</B> (346, 2023-11-25)<BR>Feature-Explanation.<B>md</B> (2105, 2023-11-25)<BR>LICENSE (1071, 2023-11-25)<BR>LauncherCore/ (0, 2023-11-25)<BR>LauncherCore/App.<B>xaml</B> (1940, 2023-11-25)<BR>LauncherCore/App.xaml.<B>cs</B> (22843, 2023-11-25)<BR>LauncherCore/AssemblyInfo.<B>cs</B> (595, 2023-11-25)<BR>LauncherCore/Classes/ (0, 2023-11-25)<BR>LauncherCore/Classes/AvalonEdit/ (0, 2023-11-25)<BR>LauncherCore/Classes/AvalonEdit/CustomColorTextTransformer.<B>cs</B> (1845, 2023-11-25)<BR>LauncherCore/Classes/AvalonEdit/CustomElementGenerator.<B>cs</B> (2507, 2023-11-25)<BR>LauncherCore/Classes/AvalonEdit/HyperlinkVisualLineElementData.<B>cs</B> (796, 2023-11-25)<BR>LauncherCore/Classes/AvalonEdit/HyperlinkVisualLineText.<B>cs</B> (1812, 2023-11-25)<BR>LauncherCore/Classes/AvalonEdit/Placement.<B>cs</B> (834, 2023-11-25)<BR>LauncherCore/Classes/AvalonEdit/SortedListHelper.<B>cs</B> (1336, 2023-11-25)<BR>LauncherCore/Classes/AvalonEdit/TextCustomTransformData.<B>cs</B> (1230, 2023-11-25)<BR>LauncherCore/Classes/AvalonEdit/TextStaticTransformData.<B>cs</B> (2793, 2023-11-25)<BR>LauncherCore/Classes/AvalonEdit/TextTransformCollection.<B>cs</B> (394, 2023-11-25)<BR>LauncherCore/Classes/AvalonEdit/TextTransformData.<B>cs</B> (545, 2023-11-25)<BR>LauncherCore/Classes/AvalonEdit/VisualLineElementData.<B>cs</B> (412, 2023-11-25)<BR>LauncherCore/Classes/AvalonEdit/VisualLineElementDataCollection.<B>cs</B> (394, 2023-11-25)<BR>LauncherCore/Classes/BackgroundSelfUpdateChecker.<B>cs</B> (11498, 2023-11-25)<BR>LauncherCore/Classes/BitmapSourceHelper.<B>cs</B> (1928, 2023-11-25)<BR>LauncherCore/Classes/BooleanUnifyAndOperatorConverter.<B>cs</B> (1128, 2023-11-25)<BR>LauncherCore/Classes/BooleanUnifyOrOperatorConverter.<B>cs</B> (1194, 2023-11-25)<BR>LauncherCore/Classes/BoyerMoore.<B>cs</B> (3817, 2023-11-25)<BR>LauncherCore/Classes/ConfigurationFile.<B>cs</B> (21369, 2023-11-25)<BR>LauncherCore/Classes/ConfigurationFile.pso2tweaker.<B>cs</B> (1684, 2023-11-25)<BR>LauncherCore/Classes/CustomLibraryModMetadata.<B>cs</B> (12979, 2023-11-25)<BR>LauncherCore/Classes/DebounceDispatcher.<B>cs</B> (7391, 2023-11-25)<BR>LauncherCore/Classes/DispatcherHelper.<B>cs</B> (1567, 2023-11-25)<BR>LauncherCore/Classes/DoubleToIntConverter.<B>cs</B> (527, 2023-11-25)<BR>LauncherCore/Classes/EnumDisplayNameAttribute.<B>cs</B> (3092, 2023-11-25)<BR>LauncherCore/Classes/EnumVisibleInOptionAttribute.<B>cs</B> (1667, 2023-11-25)<BR>LauncherCore/Classes/Enums.<B>cs</B> (1683, 2023-11-25)<BR>LauncherCore/Classes/ExAssemblyLoadContext.<B>cs</B> (2075, 2023-11-25)<BR>LauncherCore/Classes/InverseBooleanConverter.<B>cs</B> (755, 2023-11-25)<BR>... ...<BR>				</div>
+				<hr>
+				<div id="readme">
+				# PSO2-Launcher-CSharp
+
+An alternative game launcher for Phantasy Star Online 2: New Genesis (JP) written in C# (.NET8).
+
+The launcher only targets PSO2 Japan. It may not work for other regions without modifications.
+
+This project is just a hobby one.
+
+# Feature Overviews
+
+- The launcher is designed to be left running for a very long time. Therefore, it is not necessary to close the launcher shortly after using, but it's totally okay to do it, too.
+  - If leaving the launcher's window visible on the screen is not a good taste for you, please try `Minimize to tray` feature (read below).
+- All functions related to update PSO2 JP client.
+  - Check for PSO2 Updates.
+  - Perform game client update with some customizable settings (see the UI previews below).
+- ~~Installing~~ Deploying PSO2 JP client:
+  - This is actually a little different from an installation. There will be no uninstaller created.
+  - To remove the deployed game client, you just need to delete the game's directory. That's pretty much all you need to do.
+- Launch PSO2 JP game (traditional method and new method supported):
+  - Traditional method: launch game without asking for login info. Then player will login in-game.
+    - This is the old way to launch PSO2 game before NGS release.
+  - New method: Prompt a login with SEGA JP account then use the info to launch the game.
+    - If you don't trust this launcher, you shouldn't use this.
+    - The login info is not persistently saved anywhere. There is an unrelated feature which will remember the login info in the memory until the launcher exits. However, this is not enabled by default. By default, the launcher will `login-and-forget` for each GameStart.
+  - **You can set the default method as you desired in the `Launcher behavior manager` (preview image below).**
+- Minimize to tray (or minimize to `Notification Area`, or `Windows's clock area` on the taskbar):
+  - Double-click on the launcher's icon in the Notification Area to restore the launcher from tray.
+  - There is a quick menu if you right-click the launcher's icon in the Notification Area. The quick menu contains quick `most used functions`:
+    - Game start (using default method which is set by user).
+      - Game start without SEGA login (Bypass user's setting).
+      - Game start with SEGA login (Bypass user's setting).
+      - Forget SEGA Login (Forget the SEGA login if user logged in with `remember the login info`).
+    - Check for PSO2 updates.
+    - Scan for damaged/missing game files.
+    - Toolbox.
+- Configure PSO2 Client's options.
+  - Classic options are planned.
+- Customizable RSS Feeds:
+  - Add or remove RSS Feeds by URLs (When adding, the `Default` Base Handler or `Leayal.PSO2Launcher.RSS.Handlers.WordpressRSSFeed` Base Handler should be sufficient for most cases).
+  - Plugin system is available to add more handler to handle special RSS Feeds.
+  - `Deferred Refresh` setting per-feed allows the user to customize which feed will be actively refreshed: If enabled, this `deferred refresh` will stop any unfocused RSS feeds (in UI) from refreshing the feed data, only when they're focused (or being in the UI view) that they start to refresh data.
+- \[BETA\] PSO2 Client Troubleshooting:
+  - The feature is currently in beta, but it's not changing anything to the system or any files so it's perfectly safe to try. Any technical advices, fixes and explanations are welcomed to share, but please do so by [Creating issues](https://github.com/Leayal/PSO2-Launcher-CSharp/issues) with `label` including `enhancement`. The more you explain about how and why the problem is there, and how the fix works is valuable information.
+  - Main purpose is to help player who has technical issue(s) with the game client. However, anything outside of the game client is not mentioned, such as Internet's problem, damaged OS's important files, etc...
+  - Most of results and words are "advices", it is **NOT** a 'must' to follow accordingly unless stated.
+- Convenient Utilities/Toolbox:
+  - Currently, the toolbox has only 2 items:
+    - `Alpha Reactor & Stellar Seed Counter` which helps user to keep track of the amount of Alpha Reactor and Stellar Seed that user has picked up in-game. [How does it work?](Feature-Explanation.md#PSO2-Alpha-Reactor-Counter)
+    - `PSO2 Data Organizer` which helps user to manage the local files (E.g: Deleting PSO2 Classic, move PSO2 Classic's files to another place).
+  - The toolbox is accessible via the main menu and via the quick menu if you minimize the launcher to tray.
+- Minimal JST clock:
+  - The clock can be enabled/disabled in Launcher Behavior Manager dialog.
+  - When enabled, it will be visible at the bottom of the launcher's window and at the context menu of the Tray Icon.
+  - When disabled, it will be hidden in all places and the clock instance will be stopped to save CPU. Though, the amount is very insignificant.
+- Minimal compatibility with [PSO2 Tweaker](https://arks-layer.com/):
+  - **It is disabled by default**. To enable, please press `Launcher Options` and then select `Manage launcher's compatibility` in the dropdown.
+  - Update Tweaker's hash cache (which is used to speed up game client updating progress) when updating the game client with this launcher. However, you should **NOT** using both to update the game at the same time.
+  - Allow user to launch the game via PSO2 Tweaker instead of launching the game client directly. This also allows Tweaker to manage Patches and perform its workaround magics. But you shouldn't exit this launcher before Tweaker is closed in order to avoid corrupting Tweaker's config. To enable this launching game method, you can the setting in Launcher's behavior or in the GameStart's dropdown menu.
+- Purging Wellbia's `XignCode` out of your system:
+  - Can be found in `Troubleshooting` menu on the main window.
+  - The XignCode boot loader will reinstall the next time you start PSO2:NGS with Wellbia anti-cheat, aka backing to the square one, so select nProtect GameGuard before starting game is advised.
+
+### Launcher arguments:
+
+- `--tray`: Launch the launcher and minimize to tray immediately.
+- `--no-self-update`: Launch the launcher without checking for self-updates. In the other words, ignore all launcher's updates.
+- `--no-self-update-prompt`: Launch the launcher and agree to update if there's any self-updates found without user's interaction.
+
+# UI Previews
+
+- Theming: User can let the launcher sync with Windows 10's `Dark|Light App Mode` setting or manually select a theme that you prefer.
+
+|                                       |                                                          Dark theme                                                          |                                                          Light theme                                                           |
+| :------------------------------------ | :--------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: |
+| Main menu                             |             ![Dark theme mainmenu](https://leayal.github.io/PSO2-Launcher-CSharp/imgs/preview/mainmenu-dark.png)             |             ![Light theme mainmenu](https://leayal.github.io/PSO2-Launcher-CSharp/imgs/preview/mainmenu-light.png)             |
+| Main menu (RSS Feeds)                 |           ![Dark theme mainmenu](https://leayal.github.io/PSO2-Launcher-CSharp/imgs/preview/mainmenu-rss-dark.png)           |           ![Light theme mainmenu](https://leayal.github.io/PSO2-Launcher-CSharp/imgs/preview/mainmenu-rss-light.png)           |
+| Main menu (Console log)               |     ![Dark theme mainmenu console](https://leayal.github.io/PSO2-Launcher-CSharp/imgs/preview/mainmenu-console-dark.png)     |     ![Light theme mainmenu console](https://leayal.github.io/PSO2-Launcher-CSharp/imgs/preview/mainmenu-console-light.png)     |
+| Dialog: Launcher Behavior Manager     |             ![Dark theme behavior](https://leayal.github.io/PSO2-Launcher-CSharp/imgs/preview/behavior-dark.png)             |             ![Light theme behavior](https://leayal.github.io/PSO2-Launcher-CSharp/imgs/preview/behavior-light.png)             |
+| Dialog: PSO2 Data Manager             |           ![Dark theme data manager](https://leayal.github.io/PSO2-Launcher-CSharp/imgs/preview/data-mgr-dark.png)           |           ![Light theme data manager](https://leayal.github.io/PSO2-Launcher-CSharp/imgs/preview/data-mgr-light.png)           |
+| Dialog: RSS Feeds Manager             |         ![Dark theme behavior](https://leayal.github.io/PSO2-Launcher-CSharp/imgs/preview/rss-feed-manager-dark.png)         |         ![Light theme behavior](https://leayal.github.io/PSO2-Launcher-CSharp/imgs/preview/rss-feed-manager-light.png)         |
+| Dialog: Launcher Theming Manager      |             ![Dark theme behavior](https://leayal.github.io/PSO2-Launcher-CSharp/imgs/preview/thememgr-dark.png)             |             ![Light theme behavior](https://leayal.github.io/PSO2-Launcher-CSharp/imgs/preview/thememgr-light.png)             |
+| Dialog: PSO2 Configuration            |       ![Dark theme PSO2 User Config](https://leayal.github.io/PSO2-Launcher-CSharp/imgs/preview/pso2options-dark.png)        |       ![Light theme PSO2 User Config](https://leayal.github.io/PSO2-Launcher-CSharp/imgs/preview/pso2options-light.png)        |
+| Dialog: PSO2 Configuration (Advanced) | ![Dark theme PSO2 Advanced User Config](https://leayal.github.io/PSO2-Launcher-CSharp/imgs/preview/pso2options-adv-dark.png) | ![Light theme PSO2 Advanced User Config](https://leayal.github.io/PSO2-Launcher-CSharp/imgs/preview/pso2options-adv-light.png) |
+
+# Download Releases
+
+- If you are interested in using this launcher, please check out the [Release section of this repository](https://github.com/Leayal/PSO2-Launcher-CSharp/releases/).
+- If you are curious about what changes are made (or `change log`), please check out the [Git commit log](https://github.com/Leayal/PSO2-Launcher-CSharp/commits/main):
+  - "Checkpoint" commits are non-release commits. Their main purpose is to make a revertible point (in case I mess things up).
+  - Anything else is self-explained, such as `minor updates`, `bugfixes` and `feature update`. They are the releases which are published and so they contain short description to summarize the changes. If you are curious about what's the changes, these commits are what you're probably looking for.
+
+# Development
+
+As of writing this `README.md`, I am using: `Visual Studio 2022` (stable channel) with `.NET desktop development` bundle. Specifically, the launcher was written with `C# 10.0`.
+
+- Any IDEs supporting `.NET6 SDK` development should be usable to develop or compile this launcher.
+
+# Third-party libraries
+- [AvalonEdit](https://github.com/icsharpcode/AvalonEdit): WPF-based text editor.
+- [MahApps.Metro](https://github.com/MahApps/MahApps.Metro): Metro themes and styles for WPF controls.
+- [MahApps.Metro.IconPacks.FontAwesome](https://www.nuget.org/packages/MahApps.Metro.IconPacks.FontAwesome): It's a subset of [MahApps.Metro.IconPacks](https://github.com/MahApps/MahApps.Metro.IconPacks).
+- [WebView2](https://www.nuget.org/packages/Microsoft.Web.WebView2): WebBrowser embedding using [MSEdge's engine](https://learn.microsoft.com/en-us/microsoft-edge/webview2/).
+- [CsWin32](https://github.com/Microsoft/CsWin32): A source code generator which generates P/Invoke function "easily" (as sometimes you have to deal with pointers and aliased types).
+- [SQLitePCLRaw.core](https://www.nuget.org/packages/SQLitePCLRaw.core): Low-level bindings for SQLite3 native libraries.
+- [SQLitePCLRaw.lib.e_sqlcipher](https://www.nuget.org/packages/SQLitePCLRaw.lib.e_sqlcipher): Binary redistribution package for SQLite3 Cipher.
+- [sqlite-net](https://github.com/praeclarum/sqlite-net): For API interfaces and high-level bindings for SQLite3.
+- [System.Reflection.MetadataLoadContext](https://www.nuget.org/packages/System.Reflection.MetadataLoadContext): Allows read-only reflection on .NET assemblies (probing a .NET metadata without executing it).
+				</div>
+				<hr>
+				<div><B>近期下载者</B>：</div>
+				<div id="download-users"></div>
+				<hr>
+				<div><B>相关文件</B>：</div>
+				<div id="relate-items"></div>
+				<hr>
+				<div><B>评论</B>：[<a href=/Download/comment/id/1688833410214055.html data-toggle=modal data-target="#myModal">我要评论</a>]&nbsp;[<a class='pop-a' href=/Download/report/id/1688833410214055.html>举报此文件</a>]</div>
+				<div id="file-comments"></div>
+				<hr>
+				<div><B>收藏者</B>：</div>
+				<div id="favor-users"></div>
+				<p></p>
+			</div>
+
+			<div class="col-xs-12 col-md-4">
+
+				<div class="ad-sidebar text-center">
+					<div class="ad-300">
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+	<div class="my-footer">
+		<div class="container">
+		<div class="pull-right">
+		</div>
+
+		<div>
+			
+			<a href="http://www.pudn.com" target=_blank>© 联合开发网 from 2004</a> | 
+			<a href="/Index/contact.html">联系站长</a> | 
+			<a href=" https://beian.miit.gov.cn" target=_blank>湘ICP备2023001425号</a> | 
+			<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=43010502000604" target=_blank>网安备43010502000604</a> | 
+		</div>
+		</div>
+	</div>
+
+
+</div><!-- /wrapper-->
+
+
+
+
+<!-- page specific plugin scripts -->
+
+<!-- inline scripts related to this page -->
+
+<div id="myModal" class="modal fade" tabindex="-1" 
+			role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			
+		</div>
+	</div>
+</div><!-- /.modal-table -->
+
+</body>
+
+<script type="text/javascript">
+$(document).on('click', '.list-more', function(){
+	var id=$(this).attr('data-id');
+	$('#list-'+id).css('max-height',$('#list-'+id)[0].scrollHeight);
+	$(this).removeClass('list-more');
+	$(this).addClass('list-hide');
+	$(this).html('<i class="fa fa-angle-double-up"></i>');
+	
+	//$(this).hide();
+
+	return false;
+});
+
+$(document).on('click', '.list-hide', function(){
+	var id=$(this).attr('data-id');
+	$('#list-'+id).css('max-height','100px');
+	$(this).removeClass('list-hide');
+	$(this).addClass('list-more');
+	$(this).html('<i class="fa fa-angle-double-down"></i>');
+	
+	return false;
+});
+
+$("#myModal").on("hidden.bs.modal", function() {
+    $(this).removeData();
+});
+
+$(document).on("click",".keyword",function(){
+	var keyword=$(this).attr("keyword");
+	var type_id=$(this).attr("type_id");
+	if(typeof(type_id) =="undefined" || type_id =="") type_id="0";
+	location.href="http://search.pudn.com/Download/index?keyword="+keyword;
+	
+	return false;
+});
+</script>
+<script type="text/javascript" src="/js/time.js"></script>
+
+
+<script type="text/javascript" src="/js/marked.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.hide-list').each(function(){
+			if ($(this)[0].offsetHeight < $(this)[0].scrollHeight){
+				var id=$(this).attr('id');
+				id =id.substring(5);
+				$(this).after('<div style="text-align:center"><a href="" class="list-more" data-id="' + id + '"><i class="fa fa-angle-double-down"></i></a></div>');
+			}
+		});
+	});
+	var g_id="1688833410214055";
+	var keywords =new Array();
+	keywords[0] ='csharp';keywords[1] ='dotnet';keywords[2] ='windows-desktop';keywords[3] ='PSO2';keywords[4] ='game-launcher';	function get_download_user(){
+		var url ="/Download/get_download_user/id/"+g_id+".html";
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var html='';
+			for(i in ret){
+				html =html + '<a href=/User/profile/id/'+ret[i].user_new_id+'.html>'+ret[i].name+'</a> ';
+			}
+			$('#download-users').append(html);
+		});
+	}
+	
+	function get_relate_item(){
+		var url ="/Download/get_relate_item/id/"+g_id+'.html';
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var html='';
+			var intro;
+			for(i in ret){
+				intro =ret[i].intro;
+				for(j in keywords){
+					var reg =new RegExp(keywords[j],'gmi');
+					intro =intro.replace(reg,'<font color=brown>'+keywords[j]+'</font>');
+				}
+				html =html + '[<a href=/Download/item/id/'+ret[i].new_id+'.html>'+ret[i].name+'</a>]&nbsp; '+intro+'<BR>';
+			}
+			$('#relate-items').append(html);
+		});
+		
+	}
+	function get_score_name(score){
+		switch(score){
+		case '100': return '很好，推荐下载';
+		case '85': return '还不错';
+		case '75': return '一般，勉强可用';
+		case '50': return '差';
+		case '3': return '纯粹是垃圾';
+		case '40': return '和说明完全不符';
+		case '20': return '文件不全';
+		case '10': return '不是源代码或资料';
+		case '5': return '文件有密码，不知道密码';
+		case '0': return '不能解压或下载失败';
+		}
+		return '';
+	}
+	function get_comment(){
+		var url ="/Download/get_comments/id/"+g_id+'.html';
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var total_count =ret.total_count;
+			var data =ret.data;
+			var html='';
+			for(i in data){
+				html =html + '<a href="/User/profile/id/'+data[i].user_new_id+'.html" class="uploader">'+data[i].user_name+'</a>: <span class="comment-score">'+get_score_name(data[i].score)+'</span>, '+data[i].content+'<BR>';
+			}
+			$('#file-comments').append(html);
+		});
+		
+	}
+	function get_favor(){
+		var url ="/Download/get_item_favors/id/"+g_id+".html";
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var html='';
+			for(i in ret){
+				html =html + '<a href=/User/profile/id/'+ret[i].user_new_id+'.html class=user>'+ret[i].name+'</a>&nbsp;';
+			}
+			$('#favor-users').html(html);
+		});
+	}
+	// 得到下载这个的用户又下载了什么
+	function get_more_download(){
+		
+	}
+	// 得到下载这个的用户又搜索了什么
+	function get_more_keyword(){
+		
+	}
+	
+	// 得到论坛相关问题
+	function get_bbs(){
+		
+	}
+	
+	// 得到软件工场相关内容
+	function get_works(){
+		
+	}
+	
+	// 得到相关聊天室
+	function get_chat(){
+		
+	}
+	
+	// 得到相关软件商城信息
+	function get_shop(){
+		
+	}
+	
+	// 得到job
+	
+	// 得到学习内容
+
+	// 数据
+	get_download_user();
+	//get_relate_item();
+	get_comment();
+	get_favor();
+	
+	$('.vote-up').click(function(){
+		var url="/Download/vote/t/up/id/"+g_id;
+		$.get(url,function(ret){
+			if(ret.status==0){
+				alert(ret.info);
+				if(ret.url.length >0)
+					location.href=ret.url;
+			}
+			else{
+				var s =$('#vote-up-count').html();
+				if(s =='') s="0";
+				var count =parseInt(s)+1;
+				$('#vote-up-count').html(count);
+			}
+		})
+		return false;
+	});
+	$('.vote-down').click(function(){
+		var url="/Download/vote/t/down/id/"+g_id;
+		$.get(url,function(ret){
+			if(ret.status==0)
+				alert(ret.info);
+			else{
+				var s =$('#vote-down-count').html();
+				if(s =='') s="0";
+				var count =parseInt(s)+1;
+				$('#vote-down-count').html(count);
+			}
+		})
+		return false;
+	});
+	$('.favor-item').click(function(){
+		var url="/Favor/add/t/0/id/"+g_id;
+		$.get(url,function(ret){
+			if(ret.status==0){
+				alert(ret.info);
+			}
+			else{
+				var s =$('#favor-count').html();
+				if(s =='') s="0";
+				var count =parseInt(s)+1;
+				$('#favor-count').html(count);
+			}
+		})
+		return false;
+	});
+	$('.pop-a').click(function(){
+		var url=$(this).attr('href');
+		$.get(url,function(ret){
+			alert(ret.info);
+			//location.reload();
+		})
+		return false;
+	});
+
+document.getElementById('readme').innerHTML =marked.parse(document.getElementById('readme').innerHTML);
+</script>
+
+
+
+</html>
