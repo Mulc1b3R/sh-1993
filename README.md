@@ -7,7 +7,7 @@ sh-1993 is the username of an entity responsible for hacking github.com on an in
 * Organization: CHINANET HUNAN PROVINCE NETWORK China Telecom No.31,jingrong street Beijing 100032
 * Location: China, Changsha(28.2014, 112.9611, ~10km)
 
-*********************************************************************************************************************************************8
+**********************************************************************************************
 folders include :
 * recent ; a folder containing uploads made to github and then reproduced on pudn.com within the last 24hrs
 * keyword ; a folder containing all the files taken from github with the keyword 'genesis' , illustrating the
