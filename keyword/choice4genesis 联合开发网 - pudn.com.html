@@ -1,0 +1,876 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>choice4genesis 联合开发网 - pudn.com</title>
+
+    <link href="/Public/m/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/Public/m/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <link href="/Public/m/css/animate.css" rel="stylesheet">
+    <link href="/Public/m/css/style.css" rel="stylesheet">
+
+	<link href="/Public/m/css/plugins/slick/slick.css" rel="stylesheet">
+	<link href="/Public/m/css/plugins/slick/slick-theme.css" rel="stylesheet">
+
+	
+
+	<link href="/css/style.css" rel="stylesheet">
+
+	<!-- Mainly scripts -->
+	<script src="/Public/m/js/jquery-2.1.1.js"></script>
+	<script src="/Public/m/js/bootstrap.min.js"></script>
+
+	<script src="/Public/m/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+	<script src="/Public/m/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+	<!-- Custom and plugin javascript -->
+	<script src="/Public/m/js/inspinia.js"></script>
+	<script src="/Public/m/js/plugins/pace/pace.min.js"></script>
+	
+<META name="Keywords" content="choice4genesis homebrew slideshow compiler multimedia presentation 程序员 编程 源码 源代码 下载">
+
+	
+<META name="Description" content="choice4genesis ChoiceScript克隆，为Sega Genesis生成与SGDK兼容的C源">
+
+</head>
+
+<body>
+
+<!-- /.main-container start -->
+
+<div class="pace  pace-inactive">
+  	<div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+  	<div class="pace-progress-inner"></div>
+	</div>
+	<div class="pace-activity"></div>
+</div>
+
+<div class="all-content">
+	<div class="my-container top-navigation">
+		<nav class="navbar navbar-static-top" role="navigation">
+			<div class="navbar-header">
+				<button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+					<i class="fa fa-reorder"></i>
+				</button>
+				<a href="http://www.pudn.com" class="navbar-brand">联合开发网</a>
+			</div>
+			<div class="navbar-collapse collapse" id="navbar">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="/" style="padding-right:8px;padding-left:8px;font-size:16px">首页</a>
+					</li>
+					<li>
+						<a href="https://search.pudn.com" style="padding-right:8px;padding-left:8px;font-size:16px">搜索</a>
+					</li>
+				</ul>
+               	<ul class="nav navbar-top-links navbar-right">
+               							<li>
+                       	<a href="/User/login.html">
+                           	&nbsp; <i class="fa fa-sign-out"></i>登录
+                       	</a>
+                   	</li>
+                   	<li>
+                       	<a href="/User/reg.html"><i class="fa fa-sign-out"></i>注册
+                       	</a>
+                   	</li>
+					               	</ul>
+			</div>
+		</nav>
+	</div>
+	<form action="https://search.pudn.com/Download" method="get">
+	<div class="top-menu-line2">
+		<div class="my-container">
+			<a href=/Download/upload.html>上传</a>
+			&nbsp; <a href=/User>管理</a>
+			&nbsp; <a href=https://search.pudn.com/Download>搜索</a>
+			&nbsp; <a href=/Guestbook>留言</a>
+			<div class="input-group pull-right" style="max-width:200px;margin:3px 15px 0px 0px">
+				<input type="text" name="keyword" maxlength=20 placeholder="请输入关键字" class="form-control input-sm">
+				<span class="input-group-btn"> <button type="submit" class="btn btn-white input-sm" style="border:1px solid #AAA"><i class="fa fa-search"></i></button>
+				</span>
+			</div>
+		</div>
+	</div></form>
+
+
+
+<div class="row wrapper white-bg">
+	<div class="my-container">
+			<div class="nav-dir" style="padding:10px 0px">
+				<a href="/">Pudn.com</a>&nbsp;&gt;&nbsp;下载中心
+				&nbsp;&gt;&nbsp;C/C++基础				&nbsp;&gt;&nbsp;<font color=red>choice4genesis</font>
+			</div>
+
+
+		<div class="row">
+			<div class="col-xs-12 col-md-8">
+				<div class="item-name">choice4genesis</div>
+				<div class="item-keyword">
+					<a href="#" class="keyword" keyword="homebrew">homebrew</a>&nbsp;<a href="#" class="keyword" keyword="slideshow">slideshow</a>&nbsp;<a href="#" class="keyword" keyword="compiler">compiler</a>&nbsp;<a href="#" class="keyword" keyword="multimedia">multimedia</a>&nbsp;<a href="#" class="keyword" keyword="presentation">presentation</a>&nbsp;				</div>
+				<div class="item-action">
+					<div class="btn-group">
+						<a href=/Download/dl/id/1687153067358000 target=_blank class="btn btn-primary btn-sm"><i class="fa fa-download"></i> 下载(<span id="down-count">0</span>)</a>
+						<a href="###" class="btn btn-white btn-sm vote-up"><i class="fa fa-thumbs-up"></i> 赞(<span id="vote-up-count">11</span>) </a>
+						<a href="###" class="btn btn-white btn-sm vote-down"><i class="fa fa-thumbs-down"></i> 踩(<span id="vote-down-count">0</span>) </a>
+						<a href="/Download/comment/id/1687153067358000" data-toggle="modal" data-target="#myModal" class="btn btn-white btn-sm"><i class="fa fa-comment"></i> 评论(<span id="comment-count">0</span>) </a>
+						<a href="###" class="btn btn-white btn-sm favor-item"><i class="fa fa-heart"></i> 收藏(<span id="favor-count">0</span>) </a>
+					</div>
+				</div>
+				<hr>
+
+				<div class="item-info">
+					<B>所属分类</B>：C/C++基础<BR>
+					<B>开发工具</B>：JavaScript<BR>
+					<B>文件大小</B>：1617KB<BR>
+					<B>下载次数</B>：0<BR>
+					<B>上传日期</B>：2023-05-24 21:48:09<BR>
+					<B>上 传 者</B>：<a href=/User/profile/id/1682139907912860.html>sh-1993</a><BR>
+				</div>
+				<div class="item-intro">
+					说明：&nbsp;&nbsp;ChoiceScript克隆，为Sega Genesis生成与SGDK兼容的C源<BR>(A ChoiceScript clone that generates SGDK-compatible C source for the Sega Genesis)				</div>
+				<hr>
+				<div><B>文件列表</B>: </div>
+				<div id="file-list">
+				.<B>proxyrc</B> (104, 2023-05-25)<BR>LICENSE (1085, 2023-05-25)<BR>base (0, 2023-05-25)<BR>base\res (0, 2023-05-25)<BR>base\res\base.<B>res</B> (0, 2023-05-25)<BR>base\src (0, 2023-05-25)<BR>base\src\main.<B>c</B> (260, 2023-05-25)<BR>base\src\vn_engine.<B>c</B> (9608, 2023-05-25)<BR>base\src\vn_engine.<B>h</B> (1348, 2023-05-25)<BR>editor (0, 2023-05-25)<BR>editor\back (0, 2023-05-25)<BR>editor\back\backend.<B>js</B> (2134, 2023-05-25)<BR>editor\editor-dev.<B>js</B> (854, 2023-05-25)<BR>editor\editor.<B>js</B> (1330, 2023-05-25)<BR>editor\front (0, 2023-05-25)<BR>editor\front\App.<B>css</B> (101, 2023-05-25)<BR>editor\front\App.<B>js</B> (3087, 2023-05-25)<BR>editor\front\OpenFileExplorer.<B>js</B> (571, 2023-05-25)<BR>editor\front\ProjectList.<B>js</B> (851, 2023-05-25)<BR>editor\front\RunButton.<B>js</B> (930, 2023-05-25)<BR>editor\front\SaveAllButton.<B>js</B> (751, 2023-05-25)<BR>editor\front\Scene.<B>js</B> (952, 2023-05-25)<BR>editor\front\SceneList.<B>js</B> (1470, 2023-05-25)<BR>editor\front\hooks (0, 2023-05-25)<BR>editor\front\hooks\api.<B>js</B> (1951, 2023-05-25)<BR>editor\front\hooks\scene.<B>js</B> (430, 2023-05-25)<BR>editor\front\index.<B>html</B> (216, 2023-05-25)<BR>editor\front\index.<B>js</B> (183, 2023-05-25)<BR>editor\front\syntax.<B>js</B> (592, 2023-05-25)<BR>examples (0, 2023-05-25)<BR>examples\test (0, 2023-05-25)<BR>examples\test\clean.<B>bat</B> (29, 2023-05-25)<BR>examples\test\compile.<B>bat</B> (39, 2023-05-25)<BR>examples\test\project (0, 2023-05-25)<BR>examples\test\project\Actraiser - Fillmore.<B>vgm</B> (94249, 2023-05-25)<BR>examples\test\project\Blue Hedgehog.<B>png</B> (6356, 2023-05-25)<BR>examples\test\project\Cartoon Fox.<B>png</B> (892427, 2023-05-25)<BR>... ...<BR>				</div>
+				<hr>
+				<div id="readme">
+				# choice4genesis
+
+This is a ChoiceScript clone that generates Sega Genesis ROMs. If can be used for visual novels or simple multimedia presentations.
+
+It takes a bunch of scripts and images and, from that, it generates SGDK-compatible `.c` and `.res` files. Those are then compiled into a Sega Genesis compatible ROM, which can be run on an emulator or even on real hardware.
+
+The syntax of the scripts is somewhat based on ChoiceScript, but it is not exactly the same.
+
+*Please note that this is an early work and progress, and it is not as stable or user-friendly as it is planned to become.*
+
+## Indentation
+
+Just like ChoiceScript, choice4genesis uses indentation to identify nested commands:
+
+```shell
+* choice
+	# Say yes
+		You said yes!
+	# Say no
+		You said no!
+```
+
+You can use any amount  spaces or tabs to indent the code, but not both at the same time; the indentation character must be consistent.
+
+## Structure of the commands
+
+Each command can take three basic types of parameters:
+* Positional parameters: are obligatory, and must be always inform right at the start of the command:
+	```shell
+	* music "Actraiser - Fillmore.vgm"
+	```
+    In the example above, the `music` command has one positional parameter: the file name.
+* Named parameters: are optional, and if informed, must be placed after the positional parameters; the positional parameters themselves can have one or more positional parameters:
+	```shell
+	* image "Smiley.png", at(30, 3)
+	```
+	In the example above, the `image` command has one positional parameter, the file name, and one named parameter, called `at`, which, in turn, has two positional parameters, `x` and `y`.
+* Flags: are optional, and, if informed, must be placed after the positional parameters:
+	```shell
+	* clear background, foreground
+	```
+	In the example above, the `clear` command comes with two flags: `background` and `foreground`.
+	
+## Expressions
+
+Many commands accept expressions as parameters; the expressions can contain the following operators:
+* Comparison:
+	* Equality: `variable = 33`;
+	* Non equal to: `variable != 12`;
+	* Greater than: `variable > 37`;
+	* Less than: `variable < ***`;
+	* Greater or equal to: `variable >= 56`;
+	* Greater or lesser than: `variable <= 78`.
+* Arithmetic:
+	* Addition: `variable + 48`;
+	* Subtraction: `variable - 13`;
+	* Multiplication: `variable * 89`;
+	* Division: `variable / 75`;
+	* Negation: `-variable`.
+* Logic:
+	* And: `(variable > 32) and (variable < ***)`;
+	* Or: `(variable < 15) or (variable > 32)`;
+	* Not: `!(variable > 31)`.
+* Constants:
+	* Numeric: `123`, `456`;
+	* Logical: `true`, `false`;
+	* String: `"This is a string."`.
+
+## Commands implemented so far
+
+### `font`
+Loads a `.png` file containing the 8x8 font. Fonts will use palette #1.
+#### Positional parameters:
+* `fileName`: a string pointing to the `.png` file to use.
+#### Example:
+```shell
+* font "damieng.com - Hourglass font.png"
+```
+Loads a image file named `"damieng.com - Hourglass font.png"` as a font.
+
+### `background`
+Loads a `.png` file as a background image. If the image is not paletized with 16 colors, it will be automatically converted by the tool. Backgrounds will use palette #0.
+#### Positional parameters:
+* `fileName`: a string pointing to the `.png` file to use.
+#### Example:
+```shell
+* background "Blue Hedgehog.png"
+```
+Displays a image file named `"Blue Hedgehog.png"` into the background.
+
+### `choice`
+Presents a menu to the user, allowing to choose between multiple options.
+
+#### Example:
+```shell
+* choice
+	# Play a music
+		* music "Example.vgm"
+	# Play a sound effect
+		* sound "Example.vgm"
+```
+This displays a menu with two options "Play a music" and "Play a sound effect"; if the first one is selected, a music starts playing; if the second one is selected, a sound effect is played.
+
+### `music`
+Starts playing a `.vgm`/`.xgm` music in the background.
+
+#### Positional parameters:
+* `fileName`: a string pointing to the `.vgm` or `.xgm` file to use.
+
+#### Example:
+```shell
+* music "Actraiser - Fillmore.vgm"
+```
+Starts playing a music file named `"Actraiser - Fillmore.vgm"`.
+
+### `sound`
+Plays a digitized sound.
+
+#### Positional parameters:
+* `fileName`: a string pointing to the `.wav` file to use.
+
+#### Example:
+```shell
+* sound "ready.wav"
+```
+Starts playing a sound file named `"ready.wav"`.
+
+### `stop`
+Stops the music and/or sound.
+
+#### Flags:
+* `music`: tells it that it should stop the current music;
+* `sound`: tells it that it should stop the current sound effect.
+
+#### Examples:
+```shell
+* stop music
+```
+Stops current music.
+```shell
+* stop sound
+```
+Stops current sound.
+```shell
+* stop music, sound
+```
+Stops both current music and current sound.
+```shell
+* stop
+```
+Also stops both current music and current sound.
+
+
+### `image`
+Allows drawing a small image in `.png` format somewhere in the background. If the image is not paletized with 16 colors, it will be automatically converted by the tool. This command uses palette #2.
+
+#### Positional parameters:
+* `fileName`: a string pointing to the `.png` file to use.
+#### Named parameters:
+* `at(x, y)` if informed, will place the image at map position `x, y` on the target layer.
+#### Flags:
+* `foreground`: tells that the image should be drawn on the foreground layer;
+* `background`: tells that the image should be drawn on the background layer.
+
+#### Examples:
+```shell
+* image "Example.png", at(1, 2)
+```
+Draws the image "Example.png" at position `1, 2` of the background layer.
+```shell
+* image "Example.png", at(1, 2), foreground
+```
+Draws the image "Example.png" at position `1, 2` of the foreground layer.
+```shell
+* image "Example.png"
+```
+Draws the image "Example.png" background layer, at the same position used by the previous `image` command.
+
+
+
+### `wait`
+Waits for a few seconds.
+
+#### Positional parameters:
+* `duration`: tells how many seconds the command should wait.
+
+#### Example:
+```shell
+* wait 3
+```
+Waits for 3 seconds.
+
+### `create`
+Creates a global variable.
+
+#### Positional parameters:
+* `variable`: the name of the variable to create;
+* `initialValue`: the initial value of the variable; the type of this value also determines the type of the variable.
+
+#### Examples:
+```shell
+* create someVar, 12
+```
+Creates an integer variable named `someVar`, whose initial value is `12`.
+```shell
+* create anotherOne, true
+```
+Creates a logical variable named `anotherOne`, whose initial value is `true`.
+
+### `temp`
+Creates a local variable. `temp` variables are only visible inside the scene file that created them.
+
+#### Positional parameters:
+* `variable`: the name of the variable to create;
+* `initialValue`: the initial value of the variable; the type of this value also determines the type of the variable.
+
+#### Examples:
+```shell
+* temp someVar, 12
+```
+Creates an integer variable named `someVar`, whose initial value is `12`.
+```shell
+* temp anotherOne, true
+```
+Creates a logical variable named `anotherOne`, whose initial value is `true`.
+
+### `set`
+Changes the current value of an existing variable.
+
+#### Positional parameters:
+* `variable`: name of the variable to update;
+* `newValue`: expression defining the new value of the variable.
+
+#### Examples:
+```shell
+* set someThing, 2
+```
+Updates the value of the `someThing` variable to be `2`.
+```shell
+* set anotherThing, anotherVar * 3
+```
+Updates the value of the `anotherThing` variable to be the value of the variable `anotherVar` multiplied by `3`.
+```shell
+* set counter, counter + 2
+```
+Adds `2` to the value of the `counter` variable.
+
+### `if`/`elseif`/`else`
+
+Allows a certain block of code to only be executed on a given condition.
+
+#### Positional parameters for the `if` and `elseif` commands:
+* `condition`: a logical expression that will be used to determine if the corresponding block will be entered or not.
+
+#### Example:
+```shell
+* if myVar = 2
+	It is two.
+* elseif myVar = 3
+	It is three.
+* else
+	It is some other number.
+```
+If the variable `myVar` equals `2`, it will say `It is two.` or else, if `myVar` equals `3`, instead, it will say `It is three.`; otherwise, it will say `It is some other number.`.
+
+### `while`
+Keeps looping a block of code while a given condition is met.
+
+#### Positional parameters:
+* `condition`: a logical expression that will be used to determine if the corresponding block will be entered or not.
+
+#### Example:
+```shell
+* temp counter, 3
+* while counter > 0
+	Value is ${counter}
+	* set counter, counter - 1
+```
+This will say `Value is 3`, then `Value is 2`, then `Value is 1`.
+
+### `goto_scene`
+Jumps to a different scene. The scene files are located on the script directory, and have the `.choice` extension.
+
+#### Positional parameters:
+* `target`: the name of the scene to jump to.
+
+#### Example
+```shell
+* goto_scene test
+```
+Jumps to the scene contained in the archive `test.choice`.
+
+### `window`
+Allows to configure the region of the screen that will be used for the text popups and menus.
+
+#### Positional parameters:
+* `from(x, y)`: the window will start at this coordinate, in characters;
+* `to(x, y)`: the window will end at this coordinate, in characters;
+* `size(w, h)`: the window will have this width and height, in characters.
+#### Flags:
+* `default`: the window will be located at the default position, with the default size.
+
+#### Examples:
+```shell
+* window from(1, 1), to(10, 4)
+```
+Tells that the window will start at position `1, 1` and end at position `10, 4`, in characters.
+```shell
+* window from(29, 1), size(10, 6)
+```
+Tells that the window will start at position `29, 1` and have a width of `10` and a height of `6`, in characters.
+```shell
+* window default
+```
+Tells that the window will be located at the default position, with the default size.
+
+### `cursor`
+Allows to configure the blinking text cursor. It uses the palette #1.
+
+#### Positional parameters:
+* `fileName`: name of the `.png` file containing the graphics of the cursor sprite;
+* `width` of the cursor sprite, in characters; the amount of frames will be the width of the image file divided by the width of the sprite, both in characters;
+* `height`: height of the cursor sprite, in characters;
+* `frameDelay`: the amount of video frames that the animation should wait before advance to the next cursor animation frame.
+
+#### Example:
+```shell
+* cursor "Cursor sprite.png", 1, 1, 3
+```
+Loads the file `"Cursor sprite.png"` as a cursor, with a width of 1 character and a height of one character; it will wait 3 video frames betweeen one sprite frame and the next.
+
+### `flush`
+Immediately shows the contents of the current text buffer on the text window; if passed the flag `nowait`, does not wait for a button press.
+
+#### Flags:
+* `nowait`: if present, does not wait for a button press.
+
+#### Examples:
+```shell
+* flush
+```
+Displays the text on the text window and waits for a button press.
+```shell
+* flush nowait
+```
+Displays the text on the text window without waiting for a button press.
+
+### `clear`
+Allows to clear regions of the screen.
+
+#### Flags:
+* `background`: if present, clears the background layer;
+* `foreground`: if present, clears the foreground layer;
+* `window`: if present, clears the text window.
+
+#### Examples:
+```shell
+* clear background
+```
+Clears the background.
+```shell
+* clear foreground
+```
+Clears the foreground.
+```shell
+* clear window
+```
+Clears the text window.
+```shell
+* clear background, foreground
+```
+Clears both background and foreground.
+```shell
+* clear
+```
+Also clears both background and foreground.
+
+### `title`
+Sets the title of the story. Used to populate the ROM headers.
+
+#### Positional parameters:
+* `name`: The title of the story.
+
+#### Example
+```shell
+* title "choice4genesis demo"
+```
+
+### `author`
+Sets the author of the story. Used to populate the ROM headers.
+
+#### Positional parameters:
+* `name`: The author of the story.
+
+#### Example
+```shell
+* author "John Doe"
+```
+
+### `import`
+Imports the given `.h` file into the generated code. Useful when combined with the `native` command.
+
+#### Positional parameters:
+* `fileName`: The name of the `.h` file.
+
+#### Example
+```shell
+* import "extra.h"
+```
+Will import "extra.h" into the generated `C` file.
+
+### `native`
+Directly calls a `C` language function.
+
+#### Positional parameters:
+* `functionName`: The name of the `C` function to call.
+
+#### Variadic parameters:
+All the positional parameters after `functionName` are passed as parameters to the function.
+
+#### Named parameters:
+* `into(variable)` if informed, will update the given variable with the return of the callsed function.
+
+#### Example
+```shell
+* native addExample, currentTick, 1 + 2, into(functionResult)
+```
+Will call the function `addExample` passing as parameters the value of the variable `currentTick` and the result of `1 + 2`; the result of the function will be stored in the `functionResult` variable.
+
+
+
+## Planned commands
+
+The tool accepts those commands, but, at the moment, they don't do anything.
+
+### `label`
+Will allow to mark a place where the `goto` command can jump to.
+
+### `goto`
+Will jump to a given label from anywhere on the same scene.
+
+### `scene_list`
+Will configure the default sequence in which the scenes will be played.
+
+### `finish`
+Will jump to the next scene in the game.
+
+### `video`
+Will play a full screen video.				</div>
+				<hr>
+				<div><B>近期下载者</B>：</div>
+				<div id="download-users"></div>
+				<hr>
+				<div><B>相关文件</B>：</div>
+				<div id="relate-items"></div>
+				<hr>
+				<div><B>评论</B>：[<a href=/Download/comment/id/1687153067358000.html data-toggle=modal data-target="#myModal">我要评论</a>]&nbsp;[<a class='pop-a' href=/Download/report/id/1687153067358000.html>举报此文件</a>]</div>
+				<div id="file-comments"></div>
+				<hr>
+				<div><B>收藏者</B>：</div>
+				<div id="favor-users"></div>
+				<p></p>
+			</div>
+
+			<div class="col-xs-12 col-md-4">
+
+				<div class="ad-sidebar text-center">
+					<div class="ad-300">
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+	<div class="my-footer">
+		<div class="container">
+		<div class="pull-right">
+		</div>
+
+		<div>
+			
+			<a href="http://www.pudn.com" target=_blank>© 联合开发网 from 2004</a> | 
+			<a href="/Index/contact.html">联系站长</a> | 
+			<a href=" https://beian.miit.gov.cn" target=_blank>湘ICP备2023001425号</a> | 
+			<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=43010502000604" target=_blank>网安备43010502000604</a> | 
+		</div>
+		</div>
+	</div>
+
+
+</div><!-- /wrapper-->
+
+
+
+
+<!-- page specific plugin scripts -->
+
+<!-- inline scripts related to this page -->
+
+<div id="myModal" class="modal fade" tabindex="-1" 
+			role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			
+		</div>
+	</div>
+</div><!-- /.modal-table -->
+
+</body>
+
+<script type="text/javascript">
+$(document).on('click', '.list-more', function(){
+	var id=$(this).attr('data-id');
+	$('#list-'+id).css('max-height',$('#list-'+id)[0].scrollHeight);
+	$(this).removeClass('list-more');
+	$(this).addClass('list-hide');
+	$(this).html('<i class="fa fa-angle-double-up"></i>');
+	
+	//$(this).hide();
+
+	return false;
+});
+
+$(document).on('click', '.list-hide', function(){
+	var id=$(this).attr('data-id');
+	$('#list-'+id).css('max-height','100px');
+	$(this).removeClass('list-hide');
+	$(this).addClass('list-more');
+	$(this).html('<i class="fa fa-angle-double-down"></i>');
+	
+	return false;
+});
+
+$("#myModal").on("hidden.bs.modal", function() {
+    $(this).removeData();
+});
+
+$(document).on("click",".keyword",function(){
+	var keyword=$(this).attr("keyword");
+	var type_id=$(this).attr("type_id");
+	if(typeof(type_id) =="undefined" || type_id =="") type_id="0";
+	location.href="http://search.pudn.com/Download/index?keyword="+keyword;
+	
+	return false;
+});
+</script>
+<script type="text/javascript" src="/js/time.js"></script>
+
+
+<script type="text/javascript" src="/js/marked.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.hide-list').each(function(){
+			if ($(this)[0].offsetHeight < $(this)[0].scrollHeight){
+				var id=$(this).attr('id');
+				id =id.substring(5);
+				$(this).after('<div style="text-align:center"><a href="" class="list-more" data-id="' + id + '"><i class="fa fa-angle-double-down"></i></a></div>');
+			}
+		});
+	});
+	var g_id="1687153067358000";
+	var keywords =new Array();
+	keywords[0] ='homebrew';keywords[1] ='slideshow';keywords[2] ='compiler';keywords[3] ='multimedia';keywords[4] ='presentation';	function get_download_user(){
+		var url ="/Download/get_download_user/id/"+g_id+".html";
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var html='';
+			for(i in ret){
+				html =html + '<a href=/User/profile/id/'+ret[i].user_new_id+'.html>'+ret[i].name+'</a> ';
+			}
+			$('#download-users').append(html);
+		});
+	}
+	
+	function get_relate_item(){
+		var url ="/Download/get_relate_item/id/"+g_id+'.html';
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var html='';
+			var intro;
+			for(i in ret){
+				intro =ret[i].intro;
+				for(j in keywords){
+					var reg =new RegExp(keywords[j],'gmi');
+					intro =intro.replace(reg,'<font color=brown>'+keywords[j]+'</font>');
+				}
+				html =html + '[<a href=/Download/item/id/'+ret[i].new_id+'.html>'+ret[i].name+'</a>]&nbsp; '+intro+'<BR>';
+			}
+			$('#relate-items').append(html);
+		});
+		
+	}
+	function get_score_name(score){
+		switch(score){
+		case '100': return '很好，推荐下载';
+		case '85': return '还不错';
+		case '75': return '一般，勉强可用';
+		case '50': return '差';
+		case '3': return '纯粹是垃圾';
+		case '40': return '和说明完全不符';
+		case '20': return '文件不全';
+		case '10': return '不是源代码或资料';
+		case '5': return '文件有密码，不知道密码';
+		case '0': return '不能解压或下载失败';
+		}
+		return '';
+	}
+	function get_comment(){
+		var url ="/Download/get_comments/id/"+g_id+'.html';
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var total_count =ret.total_count;
+			var data =ret.data;
+			var html='';
+			for(i in data){
+				html =html + '<a href="/User/profile/id/'+data[i].user_new_id+'.html" class="uploader">'+data[i].user_name+'</a>: <span class="comment-score">'+get_score_name(data[i].score)+'</span>, '+data[i].content+'<BR>';
+			}
+			$('#file-comments').append(html);
+		});
+		
+	}
+	function get_favor(){
+		var url ="/Download/get_item_favors/id/"+g_id+".html";
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var html='';
+			for(i in ret){
+				html =html + '<a href=/User/profile/id/'+ret[i].user_new_id+'.html class=user>'+ret[i].name+'</a>&nbsp;';
+			}
+			$('#favor-users').html(html);
+		});
+	}
+	// 得到下载这个的用户又下载了什么
+	function get_more_download(){
+		
+	}
+	// 得到下载这个的用户又搜索了什么
+	function get_more_keyword(){
+		
+	}
+	
+	// 得到论坛相关问题
+	function get_bbs(){
+		
+	}
+	
+	// 得到软件工场相关内容
+	function get_works(){
+		
+	}
+	
+	// 得到相关聊天室
+	function get_chat(){
+		
+	}
+	
+	// 得到相关软件商城信息
+	function get_shop(){
+		
+	}
+	
+	// 得到job
+	
+	// 得到学习内容
+
+	// 数据
+	get_download_user();
+	//get_relate_item();
+	get_comment();
+	get_favor();
+	
+	$('.vote-up').click(function(){
+		var url="/Download/vote/t/up/id/"+g_id;
+		$.get(url,function(ret){
+			if(ret.status==0){
+				alert(ret.info);
+				if(ret.url.length >0)
+					location.href=ret.url;
+			}
+			else{
+				var s =$('#vote-up-count').html();
+				if(s =='') s="0";
+				var count =parseInt(s)+1;
+				$('#vote-up-count').html(count);
+			}
+		})
+		return false;
+	});
+	$('.vote-down').click(function(){
+		var url="/Download/vote/t/down/id/"+g_id;
+		$.get(url,function(ret){
+			if(ret.status==0)
+				alert(ret.info);
+			else{
+				var s =$('#vote-down-count').html();
+				if(s =='') s="0";
+				var count =parseInt(s)+1;
+				$('#vote-down-count').html(count);
+			}
+		})
+		return false;
+	});
+	$('.favor-item').click(function(){
+		var url="/Favor/add/t/0/id/"+g_id;
+		$.get(url,function(ret){
+			if(ret.status==0){
+				alert(ret.info);
+			}
+			else{
+				var s =$('#favor-count').html();
+				if(s =='') s="0";
+				var count =parseInt(s)+1;
+				$('#favor-count').html(count);
+			}
+		})
+		return false;
+	});
+	$('.pop-a').click(function(){
+		var url=$(this).attr('href');
+		$.get(url,function(ret){
+			alert(ret.info);
+			//location.reload();
+		})
+		return false;
+	});
+
+document.getElementById('readme').innerHTML =marked.parse(document.getElementById('readme').innerHTML);
+</script>
+
+
+
+</html>

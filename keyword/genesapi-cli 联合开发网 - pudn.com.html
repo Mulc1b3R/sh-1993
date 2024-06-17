@@ -1,0 +1,842 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>genesapi-cli 联合开发网 - pudn.com</title>
+
+    <link href="/Public/m/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/Public/m/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <link href="/Public/m/css/animate.css" rel="stylesheet">
+    <link href="/Public/m/css/style.css" rel="stylesheet">
+
+	<link href="/Public/m/css/plugins/slick/slick.css" rel="stylesheet">
+	<link href="/Public/m/css/plugins/slick/slick-theme.css" rel="stylesheet">
+
+	
+
+	<link href="/css/style.css" rel="stylesheet">
+
+	<!-- Mainly scripts -->
+	<script src="/Public/m/js/jquery-2.1.1.js"></script>
+	<script src="/Public/m/js/bootstrap.min.js"></script>
+
+	<script src="/Public/m/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+	<script src="/Public/m/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+	<!-- Custom and plugin javascript -->
+	<script src="/Public/m/js/inspinia.js"></script>
+	<script src="/Public/m/js/plugins/pace/pace.min.js"></script>
+	
+<META name="Keywords" content="genesapi-cli 程序员 编程 源码 源代码 下载">
+
+	
+<META name="Description" content="genesapi-cli 将GENESIS中的多维数据集转换为graphql api的数据管道，">
+
+</head>
+
+<body>
+
+<!-- /.main-container start -->
+
+<div class="pace  pace-inactive">
+  	<div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+  	<div class="pace-progress-inner"></div>
+	</div>
+	<div class="pace-activity"></div>
+</div>
+
+<div class="all-content">
+	<div class="my-container top-navigation">
+		<nav class="navbar navbar-static-top" role="navigation">
+			<div class="navbar-header">
+				<button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+					<i class="fa fa-reorder"></i>
+				</button>
+				<a href="http://www.pudn.com" class="navbar-brand">联合开发网</a>
+			</div>
+			<div class="navbar-collapse collapse" id="navbar">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="/" style="padding-right:8px;padding-left:8px;font-size:16px">首页</a>
+					</li>
+					<li>
+						<a href="https://search.pudn.com" style="padding-right:8px;padding-left:8px;font-size:16px">搜索</a>
+					</li>
+				</ul>
+               	<ul class="nav navbar-top-links navbar-right">
+               							<li>
+                       	<a href="/User/login.html">
+                           	&nbsp; <i class="fa fa-sign-out"></i>登录
+                       	</a>
+                   	</li>
+                   	<li>
+                       	<a href="/User/reg.html"><i class="fa fa-sign-out"></i>注册
+                       	</a>
+                   	</li>
+					               	</ul>
+			</div>
+		</nav>
+	</div>
+	<form action="https://search.pudn.com/Download" method="get">
+	<div class="top-menu-line2">
+		<div class="my-container">
+			<a href=/Download/upload.html>上传</a>
+			&nbsp; <a href=/User>管理</a>
+			&nbsp; <a href=https://search.pudn.com/Download>搜索</a>
+			&nbsp; <a href=/Guestbook>留言</a>
+			<div class="input-group pull-right" style="max-width:200px;margin:3px 15px 0px 0px">
+				<input type="text" name="keyword" maxlength=20 placeholder="请输入关键字" class="form-control input-sm">
+				<span class="input-group-btn"> <button type="submit" class="btn btn-white input-sm" style="border:1px solid #AAA"><i class="fa fa-search"></i></button>
+				</span>
+			</div>
+		</div>
+	</div></form>
+
+
+
+<div class="row wrapper white-bg">
+	<div class="my-container">
+			<div class="nav-dir" style="padding:10px 0px">
+				<a href="/">Pudn.com</a>&nbsp;&gt;&nbsp;下载中心
+				&nbsp;&gt;&nbsp;其他				&nbsp;&gt;&nbsp;<font color=red>genesapi-cli</font>
+			</div>
+
+
+		<div class="row">
+			<div class="col-xs-12 col-md-8">
+				<div class="item-name">genesapi-cli</div>
+				<div class="item-keyword">
+									</div>
+				<div class="item-action">
+					<div class="btn-group">
+						<a href=/Download/dl/id/1689298037101782 target=_blank class="btn btn-primary btn-sm">去下载(<span id="down-count">0</span>)</a>
+						<a href="###" class="btn btn-white btn-sm vote-up"><i class="fa fa-thumbs-up"></i> 赞(<span id="vote-up-count">4</span>) </a>
+						<a href="###" class="btn btn-white btn-sm vote-down"><i class="fa fa-thumbs-down"></i> 踩(<span id="vote-down-count">0</span>) </a>
+						<a href="/Download/comment/id/1689298037101782" data-toggle="modal" data-target="#myModal" class="btn btn-white btn-sm"><i class="fa fa-comment"></i> 评论(<span id="comment-count">0</span>) </a>
+						<a href="###" class="btn btn-white btn-sm favor-item"><i class="fa fa-heart"></i> 收藏(<span id="favor-count">0</span>) </a>
+					</div>
+				</div>
+				<hr>
+
+				<div class="item-info">
+					<B>所属分类</B>：其他<BR>
+					<B>开发工具</B>：Python<BR>
+					<B>文件大小</B>：0KB<BR>
+					<B>下载次数</B>：0<BR>
+					<B>上传日期</B>：2020-04-10 09:15:35<BR>
+					<B>上 传 者</B>：<a href=/User/profile/id/1682139907912860.html>sh-1993</a><BR>
+				</div>
+				<div class="item-intro">
+					说明：&nbsp;&nbsp;将GENESIS中的多维数据集转换为graphql api的数据管道，<BR>(The data pipeline to turn cubes from GENESIS into a graphql api,)				</div>
+				<hr>
+				<div><B>文件列表</B>: </div>
+				<div id="file-list">
+				LICENSE (1057, 2020-03-04)<BR>MANIFEST.<B>in</B> (18, 2020-03-04)<BR>example/ (0, 2020-03-04)<BR>example/catalog.<B>yaml</B> (521, 2020-03-04)<BR>example/data/ (0, 2020-03-04)<BR>example/data/attributes.tar.<B>xz</B> (114490, 2020-03-04)<BR>example/data/cubes.tar.<B>xz</B> (41061165, 2020-03-04)<BR>example/logstash.<B>conf</B> (195, 2020-03-04)<BR>genesapi/ (0, 2020-03-04)<BR>genesapi/build_es_template.<B>py</B> (1622, 2020-03-04)<BR>genesapi/build_markdown.<B>py</B> (1045, 2020-03-04)<BR>genesapi/build_regions.<B>py</B> (2628, 2020-03-04)<BR>genesapi/build_schema.<B>py</B> (3506, 2020-03-04)<BR>genesapi/entry.<B>py</B> (4427, 2020-03-04)<BR>genesapi/exceptions.<B>py</B> (188, 2020-03-04)<BR>genesapi/fetch.<B>py</B> (864, 2020-03-04)<BR>genesapi/jsonify.<B>py</B> (2385, 2020-03-04)<BR>genesapi/soap_services.<B>py</B> (3415, 2020-03-04)<BR>genesapi/status.<B>py</B> (2195, 2020-03-04)<BR>genesapi/storage.<B>py</B> (11748, 2020-03-04)<BR>genesapi/util.<B>py</B> (11046, 2020-03-04)<BR>setup.<B>py</B> (1344, 2020-03-04)<BR>				</div>
+				<hr>
+				<div id="readme">
+				# genesapi-cli
+
+A command-line interface to download, process and index german public statistic
+data from *GENESIS*-Instances like
+[www.regionalstatistik.de](http://www.regionalstatistik.de/) into a `JSON`
+format that can then be loaded via
+[Logstash](https://www.elastic.co/products/logstash) into an
+[Elasticsearch](https://www.elastic.co/products/elasticsearch) index.
+
+This package has a very modular approach so it can be used for different
+purposes when dealing with german public statistics data from *GENESIS*.
+
+For example, it is used within (and developed for) the
+[datengui.de](https://datengui.de) tech stack to provide a
+[GraphQL](https://graphql.org)-API that feeds the website.
+
+## install
+
+`genesapi-cli` requires python 3.
+
+We recommend organizing your python stuff via pip and virtual environments.
+
+**FIXME**: `genesapi-cli` relies on a fork of
+[regenesis](https://github.com/pudo/regenesis), that needs to be installed
+manually beforehand, any pull requests to hook this properly into our
+`setup.py` are welcomed ;)
+
+    pip install -e git+git@github.com:datenguide/regenesis.git#egg=regenesis
+
+    pip install -e git+git@github.com:datenguide/genesapi-cli.git#egg=genesapi
+
+This will install the `genesapi` command-line interface and all the
+requirements, like [pandas](https://pandas.pydata.org) (see their [install
+documentation](https://pandas.pydata.org/pandas-docs/stable/install.html) if
+you run into trouble during installation).
+
+*Note:* Although *the very very great* `regenesis` package is a bit outdated,
+`genesapi` is only importing some parts of it, so don't worry if you don't get
+`regenesis` running by yourself locally. But *if* you get it running, its
+creator [@pudo](https://github.com/pudo/) + the
+[datenguide-team](https://github.com/orgs/datenguide/people) would be very
+happy about pull requests :-)
+
+After installing, you should be able to type this into your command line:
+
+    genesapi -h
+
+## usage
+
+*Wait:* If you ended up here because you just want to set up a small local
+instance of the [genesapi flask app](https://github.com/datenguide/datenguide-backend)
+that exposes the `GraphQL`-api, [follow the steps described
+there](https://github.com/datenguide/datenguide-backend#setup-elasticsearch-locally-with-sample-data).
+
+## tl;dr
+
+A complete process to download the complete *GENESIS* data and upload it into
+an Elasticsearch index is listed below – continue reading the [Full
+Documentation](#full-documentation) if you need to understand whats going on exactly.
+
+Before *really executing* this, read at least the notes below this list.
+
+    mkdir ./data/
+    CATALOG=catalog.yml genesapi fetch ./data/
+    genesapi build_regions ./data/ > regions.json
+    genesapi build_schema ./data/ > schema.json
+    genesapi build_es_template ./schema.json > template.json
+    curl -H 'Content-Type: application/json' -XPOST http://localhost:9200/_template/genesapi -d@template.json
+    genesapi jsonify ./data/ | logstash -f logstash.conf
+    genesapi status --host localhost:9200 --index genesapi > status.csv
+
+Its roughly about to download 1.2G from the *GENESIS* soap api. The
+Elasticsearch index well be around 8G at the end. The soap api is very slow
+and the complete download (currently 2278 single csv files aka *cubes*) takes
+*several* hours, as well as the indexing into Elasticsearch.
+
+Plus, most of the scripts make use of python3's built-in
+[multiprocessing](https://docs.python.org/3.5/library/multiprocessing.html), so
+most of the time all the cores of the machine that is running these commands
+are in heavy use.
+
+It is as well highly recommended that you make yourself a bit familiar with
+[Elasticsearch](https://www.elastic.co/products/elasticsearch) and
+[Logstash](https://www.elastic.co/products/logstash) and how to tweak it for
+your machine(s).
+
+## Example data
+
+For playing around with this package *without* downloading from the GENESIS
+api, there is some downloaded data in the `example/` folder of this repo.
+
+## Full Documentation
+
+This package is split in several small tasks, that can all be invoked via
+
+    genesapi <task> arg1 --kwarg1 foo
+
+The tasks are all a step within the general "data pipeline" that downloads raw
+csv data *cubes* and transform them into a json-serializable format.
+
+### Tasks:
+
+1. [**fetch**](#fetch)
+2. [build_schema](#build_schema)
+3. [build_regions](#build_regions)
+4. [build_markdown](#build_markdown)
+5. [build_es_template](#build_es_template)
+6. [**jsonify**](#jsonify)
+7. [status](#status)
+
+For transforming csv data *cubes* to json *facts*, only `fetch` and `jsonify`
+are necessary.
+
+To provide some context data & schema definitions to load the jsonified data
+into Elasticsearch, the other tasks are needed in between (see below)
+
+##### Logging
+
+`genesapi` prints a lot to `stdout`, for instance the jsonified *facts* so that
+they can easily piped to logstash, so logging happens to `stderr`
+
+You can adjust the logging level (default: `INFO`) to any valid python logging
+level, for example:
+
+    genesapi --logging DEBUG <task> <args>
+
+#### fetch
+
+Download csv data (aka *cubes*) from a *GENESIS* instance like
+[www.regionalstatistik.de](https://www.regionalstatistik.de) and store them
+somewhere in the local filesystem.
+
+Cubes are stored as *Revisions*, if a cube is updated the old one will still
+be present in the file system. The `fetch` command as well stores some meta
+information about the downloading process in the given directory.
+
+Create a *catalog* in `YAML` format, see `example/catalog.yml` for details
+(basically, just put in your credentials) and use this path as environment
+variable `CATALOG`
+
+```
+usage: genesapi fetch [-h] [--new] [--prefix PREFIX] storage
+
+positional arguments:
+  storage          Directory where to store cube data
+
+optional arguments:
+  -h, --help       show this help message and exit
+  --new            Initialize Storage if it doesn't exist and start
+                   downloading
+  --prefix PREFIX  Prefix of cube names to restrict downloading, e.g. "111"
+```
+
+Example:
+
+    CATALOG=catalog.yml genesapi fetch ./data/cubes/
+
+
+##### prefix
+
+You can filter for a prefix of the cube names with the `--prefix` option.
+
+To retrieve only cubes for the statistic id "11111":
+
+    CATALOG=catalog.yml genesapi fetch ./data/cubes/ --prefix 11111
+
+#### jsonify
+
+Transform downloaded *cubes* (csv files) into *facts* (json lines)
+
+A fact is *a unique value of a specific topic at a specific location at a
+specific point in time (or timespan)*
+
+- value: a number, either `int` or `float`
+- topic: a broader topic like "work statistics" described with a combination of
+  *measures* and their *dimensions*, e.g. "Gender: Female, Age: 15 to 20 years"
+- location: Germany itself or a state, district or municipality in Germany.
+- time: either a year or a specific date.
+
+The *number of flats* (`WOHNY1`) that have *5 rooms* (` WHGGR1` = `WHGRME05`)
+in the german municipality *Baddeckenstedt* (`id`: 03158402) in the state of
+"Niedersachsen" in *2016* (`year`) was **1120** (`value`).
+
+In the current implementation, this described fact looks like this in json:
+
+```json
+{
+    "year" : "2016",
+    "WOHNY1" : {
+        "error" : "0",
+        "quality" : "e",
+        "locked" : "",
+        "value" : 1120
+    },
+    "STAG" : {
+        "until" : "2016-12-31T23:59:59",
+        "value" : "31.12.2016",
+        "from" : "2016-12-31T00:00:00"
+    },
+    "fact_id" : "394ce1e5e76fdb9599c46ecbb3db6c8f8ae09c33",
+    "id" : "03158402",
+    "cube" : "31231GJ006",
+    "GEMEIN" : "03158402",
+    "WHGGR1" : "WHGRME05",
+    "lau" : 1
+}
+```
+
+[See this fact query at api.genesapi.org](https://api.genesapi.org/?query=%7B%0A%20%20region(id%3A%20%2203158402%22)%20%7B%0A%20%20%20%20id%0A%20%20%20%20name%0A%20%20%20%20WOHNY1(year%3A%20%222016%22%2C%20WHGGR1%3A%20%22WHGRME05%22)%20%7B%0A%20%20%20%20%20%20year%0A%20%20%20%20%20%20value%0A%20%20%20%20%20%20id%0A%20%20%20%20%20%20source%20%7B%0A%20%20%20%20%20%20%20%20name%0A%20%20%20%20%20%20%20%20valid_from%0A%20%20%20%20%20%20%20%20url%0A%20%20%20%20%20%20%20%20title_de%0A%20%20%20%20%20%20%20%20periodicity%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D%0A)
+
+You can either store the facts as json files on disk or directly pipe them to
+[logstash](https://www.elastic.co/products/logstash)
+
+*Note:* Storing a whole json-serialized *GENESIS* dump to disk requires a lot
+of time and space. The option to store the facts as json files is more for
+debugging purposes or to share serialized subsets of the data accross devices
+or people.  We recommend directly piping to logstash if you want to feed a
+complete Elasticsearch index (which takes a lot of time and space, too...).
+
+```
+usage: genesapi jsonify [-h] [--output OUTPUT] [--pretty] directory
+
+positional arguments:
+  storage          Directory with raw cubes downloaded via the `fetch` command
+
+optional arguments:
+  -h, --help       show this help message and exit
+  --output OUTPUT  Output directory. If none, print each record per line to
+                   stdout
+  --pretty         Print pretty indented json (for debugging purposes)
+```
+
+**How to use this command to feed an Elasticsearch index**
+
+Download logstash and install it somehow, use the logstash config in this repo.
+
+    genesapi jsonify cubes | logstash -f logstash.conf
+
+[See here a more detailed description how to set up an Elasticsearch cluster
+for genesapi](https://github.com/datenguide/datenguide-backend#setup-elasticsearch-locally-with-sample-data)
+
+
+#### build_regions
+
+Create a id => region mapping for all the regions in json format.
+
+```js
+{
+    "08425": {
+        "id": "08425", // AGS for the region
+        "name": "Alb-Donau-Kreis", // Nicely formated name of the region
+        "type": "Landkreis", // Type of region (e.g. Kreisfreie Stadt, Regierungsbezirk)
+        "level": 3, // NUTS level (1-3), LAU (4)
+        "duration": {
+            "from": "2012-01-01", // ISO dates for earliest available statistical measure
+            "until": "2019-12-31"  // ISO dates for latest available statistical measure
+        }
+    },
+}
+```
+
+```
+usage: genesapi build_regions [-h] storage
+
+positional arguments:
+  storage     Directory with raw cubes downloaded via the `fetch` command
+
+optional arguments:
+  -h, --help  show this help message and exit
+```
+
+Example:
+
+    genesapi build_regions ./data/cubes/ > names.json
+
+
+#### build_schema
+
+The schema is needed for the [flask
+app](https://github.com/datenguide/datenguide-backend) and for the tasks
+[`build_es_template`](#build_es_template) and
+[`build_markdown`](#build_markdown).
+
+This commands grabs the raw *cubes* and extracts the measures ("Merkmal")
+structure out of it into a json format printed to `stdout`.
+
+
+```
+usage: genesapi build_schema [-h] directory
+
+positional arguments:
+  directory             Directory with raw cubes downloaded via the `fetch`
+                        command
+
+optional arguments:
+  -h, --help            show this help message and exit
+```
+
+Example:
+
+    genesapi build_schema ./data/cubes/ > schema.json
+
+#### build_es_template
+
+Create a template mapping for Elasticsearch, based on the schema from
+[`build_schema`](#build_schema)
+
+```
+usage: genesapi build_es_template [-h] [--index INDEX] [--shards SHARDS]
+                                  [--replicas REPLICAS]
+                                  schema
+
+positional arguments:
+  schema               JSON file from `build_schema` output
+
+optional arguments:
+  -h, --help           show this help message and exit
+  --index INDEX        Name of elasticsearch index
+  --shards SHARDS      Number of shards for elasticsearch index
+  --replicas REPLICAS  Number of replicas for elasticsearch index
+```
+
+Example:
+
+    genesapi build_es_template ./data/schema.json > template.json
+
+Apply this template (index name *genesapi*, could be anything):
+
+    curl -H 'Content-Type: application/json' -XPOST http://localhost:9200/_template/genesapi -d@template.json
+
+[See here a more detailed description how to set up an Elasticsearch cluster
+for genesapi](https://github.com/datenguide/datenguide-backend#setup-elasticsearch-locally-with-sample-data)
+
+#### build_markdown
+
+Export each *measure* (from [the schema](#build_schema) to a markdown with
+frontmatter that could be used to generate a documentation page powered by
+[jekyll](https://jekyllrb.com/) or [gatsby](https://www.gatsbyjs.org/).
+
+```
+usage: genesapi build_markdown [-h] schema output
+
+positional arguments:
+  schema      JSON file from `build_schema` output
+  output      Output directory.
+
+optional arguments:
+  -h, --help  show this help message and exit
+```
+
+Example:
+
+    genesapi build_markdown ./data/schema.json ../path-to-my-jekyll/_posts/
+
+
+#### status
+
+Obtain metadata for cubes in the storage like last downloaded, last exported,
+number of facts...
+
+Optionally retrieve the number of facts for each cube from elasticsearch to
+compare.
+
+```
+usage: genesapi status [-h] [--host HOST] [--index INDEX] storage
+
+positional arguments:
+  storage        Directory to storage
+
+optional arguments:
+  -h, --help     show this help message and exit
+  --host HOST    Elastic host:port to obtain stats from
+  --index INDEX  Elastic index
+```
+
+Example:
+
+    genesapi status regionalstatistik --host localhost:9200 --index genesapi > status.csv
+
+
+### Storage
+
+the store manages cubes data on disk, download from webservices and export
+to json facts
+
+it can be created and updated with the `fetch` command (see above)
+
+it allows partial updates (when cubes changes)
+
+every information is stored in the filesystem so there is no need for an
+extra database to keep track of the status of the cubes
+
+a `Storage` has a base directory with this layout:
+
+```
+./
+    webservice_url                  -   plain text file containing the webservice url used
+    last_updated                    -   plain text file containing date in isoformat
+    last_exported                   -   plain text file containing date in isoformat
+    logs/                           -   folder for keeping logfiles
+    11111BJ001/                     -   directory for cube name "11111BJ001"
+        last_updated                -   plain text file containing date in isoformat
+        last_exported               -   plain text file containing date in isoformat
+        current/                    -   symbolic link to the latest revision directory
+        2019-08-07T08:40:20/        -   revision directory for given date (isoformat)
+            downloaded              -   plain text file containing date in isoformat
+            exported                -   plain text file containing date in isoformat
+            meta.yml                -   original metadata from webservice in yaml format
+            data.csv                -   original csv data for this cube
+        2017-06-07T08:40:20/        -   an older revision...
+            ...
+    11111BJ002/                     -   another cube...
+        ...
+```
+				</div>
+				<hr>
+				<div><B>近期下载者</B>：</div>
+				<div id="download-users"></div>
+				<hr>
+				<div><B>相关文件</B>：</div>
+				<div id="relate-items"></div>
+				<hr>
+				<div><B>评论</B>：[<a href=/Download/comment/id/1689298037101782.html data-toggle=modal data-target="#myModal">我要评论</a>]&nbsp;[<a class='pop-a' href=/Download/report/id/1689298037101782.html>举报此文件</a>]</div>
+				<div id="file-comments"></div>
+				<hr>
+				<div><B>收藏者</B>：</div>
+				<div id="favor-users"></div>
+				<p></p>
+			</div>
+
+			<div class="col-xs-12 col-md-4">
+
+				<div class="ad-sidebar text-center">
+					<div class="ad-300">
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+	<div class="my-footer">
+		<div class="container">
+		<div class="pull-right">
+		</div>
+
+		<div>
+			
+			<a href="http://www.pudn.com" target=_blank>© 联合开发网 from 2004</a> | 
+			<a href="/Index/contact.html">联系站长</a> | 
+			<a href=" https://beian.miit.gov.cn" target=_blank>湘ICP备2023001425号</a> | 
+			<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=43010502000604" target=_blank>网安备43010502000604</a> | 
+		</div>
+		</div>
+	</div>
+
+
+</div><!-- /wrapper-->
+
+
+
+
+<!-- page specific plugin scripts -->
+
+<!-- inline scripts related to this page -->
+
+<div id="myModal" class="modal fade" tabindex="-1" 
+			role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			
+		</div>
+	</div>
+</div><!-- /.modal-table -->
+
+</body>
+
+<script type="text/javascript">
+$(document).on('click', '.list-more', function(){
+	var id=$(this).attr('data-id');
+	$('#list-'+id).css('max-height',$('#list-'+id)[0].scrollHeight);
+	$(this).removeClass('list-more');
+	$(this).addClass('list-hide');
+	$(this).html('<i class="fa fa-angle-double-up"></i>');
+	
+	//$(this).hide();
+
+	return false;
+});
+
+$(document).on('click', '.list-hide', function(){
+	var id=$(this).attr('data-id');
+	$('#list-'+id).css('max-height','100px');
+	$(this).removeClass('list-hide');
+	$(this).addClass('list-more');
+	$(this).html('<i class="fa fa-angle-double-down"></i>');
+	
+	return false;
+});
+
+$("#myModal").on("hidden.bs.modal", function() {
+    $(this).removeData();
+});
+
+$(document).on("click",".keyword",function(){
+	var keyword=$(this).attr("keyword");
+	var type_id=$(this).attr("type_id");
+	if(typeof(type_id) =="undefined" || type_id =="") type_id="0";
+	location.href="http://search.pudn.com/Download/index?keyword="+keyword;
+	
+	return false;
+});
+</script>
+<script type="text/javascript" src="/js/time.js"></script>
+
+
+<script type="text/javascript" src="/js/marked.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.hide-list').each(function(){
+			if ($(this)[0].offsetHeight < $(this)[0].scrollHeight){
+				var id=$(this).attr('id');
+				id =id.substring(5);
+				$(this).after('<div style="text-align:center"><a href="" class="list-more" data-id="' + id + '"><i class="fa fa-angle-double-down"></i></a></div>');
+			}
+		});
+	});
+	var g_id="1689298037101782";
+	var keywords =new Array();
+		function get_download_user(){
+		var url ="/Download/get_download_user/id/"+g_id+".html";
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var html='';
+			for(i in ret){
+				html =html + '<a href=/User/profile/id/'+ret[i].user_new_id+'.html>'+ret[i].name+'</a> ';
+			}
+			$('#download-users').append(html);
+		});
+	}
+	
+	function get_relate_item(){
+		var url ="/Download/get_relate_item/id/"+g_id+'.html';
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var html='';
+			var intro;
+			for(i in ret){
+				intro =ret[i].intro;
+				for(j in keywords){
+					var reg =new RegExp(keywords[j],'gmi');
+					intro =intro.replace(reg,'<font color=brown>'+keywords[j]+'</font>');
+				}
+				html =html + '[<a href=/Download/item/id/'+ret[i].new_id+'.html>'+ret[i].name+'</a>]&nbsp; '+intro+'<BR>';
+			}
+			$('#relate-items').append(html);
+		});
+		
+	}
+	function get_score_name(score){
+		switch(score){
+		case '100': return '很好，推荐下载';
+		case '85': return '还不错';
+		case '75': return '一般，勉强可用';
+		case '50': return '差';
+		case '3': return '纯粹是垃圾';
+		case '40': return '和说明完全不符';
+		case '20': return '文件不全';
+		case '10': return '不是源代码或资料';
+		case '5': return '文件有密码，不知道密码';
+		case '0': return '不能解压或下载失败';
+		}
+		return '';
+	}
+	function get_comment(){
+		var url ="/Download/get_comments/id/"+g_id+'.html';
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var total_count =ret.total_count;
+			var data =ret.data;
+			var html='';
+			for(i in data){
+				html =html + '<a href="/User/profile/id/'+data[i].user_new_id+'.html" class="uploader">'+data[i].user_name+'</a>: <span class="comment-score">'+get_score_name(data[i].score)+'</span>, '+data[i].content+'<BR>';
+			}
+			$('#file-comments').append(html);
+		});
+		
+	}
+	function get_favor(){
+		var url ="/Download/get_item_favors/id/"+g_id+".html";
+		$.get(url,function(ret){
+			if(ret.length ==0) return;
+			var html='';
+			for(i in ret){
+				html =html + '<a href=/User/profile/id/'+ret[i].user_new_id+'.html class=user>'+ret[i].name+'</a>&nbsp;';
+			}
+			$('#favor-users').html(html);
+		});
+	}
+	// 得到下载这个的用户又下载了什么
+	function get_more_download(){
+		
+	}
+	// 得到下载这个的用户又搜索了什么
+	function get_more_keyword(){
+		
+	}
+	
+	// 得到论坛相关问题
+	function get_bbs(){
+		
+	}
+	
+	// 得到软件工场相关内容
+	function get_works(){
+		
+	}
+	
+	// 得到相关聊天室
+	function get_chat(){
+		
+	}
+	
+	// 得到相关软件商城信息
+	function get_shop(){
+		
+	}
+	
+	// 得到job
+	
+	// 得到学习内容
+
+	// 数据
+	get_download_user();
+	//get_relate_item();
+	get_comment();
+	get_favor();
+	
+	$('.vote-up').click(function(){
+		var url="/Download/vote/t/up/id/"+g_id;
+		$.get(url,function(ret){
+			if(ret.status==0){
+				alert(ret.info);
+				if(ret.url.length >0)
+					location.href=ret.url;
+			}
+			else{
+				var s =$('#vote-up-count').html();
+				if(s =='') s="0";
+				var count =parseInt(s)+1;
+				$('#vote-up-count').html(count);
+			}
+		})
+		return false;
+	});
+	$('.vote-down').click(function(){
+		var url="/Download/vote/t/down/id/"+g_id;
+		$.get(url,function(ret){
+			if(ret.status==0)
+				alert(ret.info);
+			else{
+				var s =$('#vote-down-count').html();
+				if(s =='') s="0";
+				var count =parseInt(s)+1;
+				$('#vote-down-count').html(count);
+			}
+		})
+		return false;
+	});
+	$('.favor-item').click(function(){
+		var url="/Favor/add/t/0/id/"+g_id;
+		$.get(url,function(ret){
+			if(ret.status==0){
+				alert(ret.info);
+			}
+			else{
+				var s =$('#favor-count').html();
+				if(s =='') s="0";
+				var count =parseInt(s)+1;
+				$('#favor-count').html(count);
+			}
+		})
+		return false;
+	});
+	$('.pop-a').click(function(){
+		var url=$(this).attr('href');
+		$.get(url,function(ret){
+			alert(ret.info);
+			//location.reload();
+		})
+		return false;
+	});
+
+document.getElementById('readme').innerHTML =marked.parse(document.getElementById('readme').innerHTML);
+</script>
+
+
+
+</html>
