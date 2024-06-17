@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Genesis 联合开发网 - pudn.com</title>
+	<title>aws-signed-request 联合开发网 - pudn.com</title>
 
     <link href="/Public/m/css/bootstrap.min.css" rel="stylesheet">
     <link href="/Public/m/font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -31,10 +31,10 @@
 	<script src="/Public/m/js/inspinia.js"></script>
 	<script src="/Public/m/js/plugins/pace/pace.min.js"></script>
 	
-<META name="Keywords" content="Genesis 程序员 编程 源码 源代码 下载">
+<META name="Keywords" content="aws-signed-request 程序员 编程 源码 源代码 下载">
 
 	
-<META name="Description" content="Genesis KI AI软件网">
+<META name="Description" content="aws-signed-request 占位符描述：[@piuccio]（https:github.com piuccio）使用repo genesis创建了这个，">
 
 </head>
 
@@ -102,46 +102,129 @@
 	<div class="my-container">
 			<div class="nav-dir" style="padding:10px 0px">
 				<a href="/">Pudn.com</a>&nbsp;&gt;&nbsp;下载中心
-				&nbsp;&gt;&nbsp;人工智能/神经网络/深度学习				&nbsp;&gt;&nbsp;<font color=red>Genesis</font>
+				&nbsp;&gt;&nbsp;前端开发				&nbsp;&gt;&nbsp;<font color=red>aws-signed-request</font>
 			</div>
 
 
 		<div class="row">
 			<div class="col-xs-12 col-md-8">
-				<div class="item-name">Genesis</div>
+				<div class="item-name">aws-signed-request</div>
 				<div class="item-keyword">
 									</div>
 				<div class="item-action">
 					<div class="btn-group">
-						<a href=/Download/dl/id/1687225679523823 target=_blank class="btn btn-primary btn-sm"><i class="fa fa-download"></i> 下载(<span id="down-count">0</span>)</a>
+						<a href=/Download/dl/id/1689685542244420 target=_blank class="btn btn-primary btn-sm">去下载(<span id="down-count">0</span>)</a>
 						<a href="###" class="btn btn-white btn-sm vote-up"><i class="fa fa-thumbs-up"></i> 赞(<span id="vote-up-count">1</span>) </a>
 						<a href="###" class="btn btn-white btn-sm vote-down"><i class="fa fa-thumbs-down"></i> 踩(<span id="vote-down-count">0</span>) </a>
-						<a href="/Download/comment/id/1687225679523823" data-toggle="modal" data-target="#myModal" class="btn btn-white btn-sm"><i class="fa fa-comment"></i> 评论(<span id="comment-count">0</span>) </a>
+						<a href="/Download/comment/id/1689685542244420" data-toggle="modal" data-target="#myModal" class="btn btn-white btn-sm"><i class="fa fa-comment"></i> 评论(<span id="comment-count">0</span>) </a>
 						<a href="###" class="btn btn-white btn-sm favor-item"><i class="fa fa-heart"></i> 收藏(<span id="favor-count">0</span>) </a>
 					</div>
 				</div>
 				<hr>
 
 				<div class="item-info">
-					<B>所属分类</B>：人工智能/神经网络/深度学习<BR>
-					<B>开发工具</B>：Others<BR>
-					<B>文件大小</B>：1KB<BR>
+					<B>所属分类</B>：前端开发<BR>
+					<B>开发工具</B>：JavaScript<BR>
+					<B>文件大小</B>：0KB<BR>
 					<B>下载次数</B>：0<BR>
-					<B>上传日期</B>：2023-05-18 20:23:21<BR>
+					<B>上传日期</B>：2016-06-16 12:44:11<BR>
 					<B>上 传 者</B>：<a href=/User/profile/id/1682139907912860.html>sh-1993</a><BR>
 				</div>
 				<div class="item-intro">
-					说明：&nbsp;&nbsp;KI AI软件网<BR>(KI AI Software net)				</div>
+					说明：&nbsp;&nbsp;占位符描述：[@piuccio]（https:github.com piuccio）使用repo genesis创建了这个，<BR>(Placeholder description: [@piuccio](https:  github.com piuccio) created this with repo-genesis,)				</div>
 				<hr>
-				
-				
+				<div><B>文件列表</B>: </div>
+				<div id="file-list">
+				.<B>editorconfig</B> (373, 2016-06-16)<BR>.<B>eslintrc</B> (789, 2016-06-16)<BR>.travis.<B>yml</B> (63, 2016-06-16)<BR>LICENSE (564, 2016-06-16)<BR>index.<B>js</B> (3172, 2016-06-16)<BR>package.<B>json</B> (578, 2016-06-16)<BR>test.<B>js</B> (8017, 2016-06-16)<BR>				</div>
+				<hr>
+				<div id="readme">
+				# Signed AWS requests
+
+Module to send signed requests to an AWS service.
+
+Heavily inspired by [aws samples](https://github.com/awslabs/amazon-elasticsearch-lambda-samples).
+
+## Install
+
+```
+npm install --save aws-signed-request
+```
+
+## Usage
+
+### ElasticSearch
+
+```js
+var elastic = require('aws-signed-request')({
+	endpoint: 'htps://your.elasticsearch.es.amazon.com',
+	region: 'eu-west-1',
+	service: 'es'
+});
+
+elastic.send({
+	method: 'GET',
+	path: '/domain/index/id'
+}, function (err, data) {
+	console.log(data);
+});
+```
+
+### API Gateway
+
+```js
+var gateway = require('aws-signed-request')({
+	endpoint: 'https://your.api.gateway.amazon.com',
+	region: 'eu-west-1',
+	service: 'execute-api'
+});
+
+gateway.send({
+	method: 'POST',
+	path: '/action',
+	message: {
+		json
+	}
+}, function (err, data) {
+	console.log(data);
+});
+```
+
+
+### Advanced usage
+
+By default the module expects a JSON response. If you're expecting plain text you can call
+
+```js
+elastic.send({
+	method: 'GET',
+	path: '/_cat/indices',
+	json: false
+}, function (err, data) {
+	console.log(data); // as plain text
+});
+```
+
+If `json:true` and the response is not a valid JSON, the callback receives an error containing `responseText` for debug purposes.
+
+## Contribute
+
+Clone the repo, write some test, make them pass and pull request your changes.
+
+You can watch your tests by running
+
+```js
+npm install -g watch
+watch "npm test" . -d
+```
+				</div>
+				<hr>
 				<div><B>近期下载者</B>：</div>
 				<div id="download-users"></div>
 				<hr>
 				<div><B>相关文件</B>：</div>
 				<div id="relate-items"></div>
 				<hr>
-				<div><B>评论</B>：[<a href=/Download/comment/id/1687225679523823.html data-toggle=modal data-target="#myModal">我要评论</a>]&nbsp;[<a class='pop-a' href=/Download/report/id/1687225679523823.html>举报此文件</a>]</div>
+				<div><B>评论</B>：[<a href=/Download/comment/id/1689685542244420.html data-toggle=modal data-target="#myModal">我要评论</a>]&nbsp;[<a class='pop-a' href=/Download/report/id/1689685542244420.html>举报此文件</a>]</div>
 				<div id="file-comments"></div>
 				<hr>
 				<div><B>收藏者</B>：</div>
@@ -249,7 +332,7 @@ $(document).on("click",".keyword",function(){
 			}
 		});
 	});
-	var g_id="1687225679523823";
+	var g_id="1689685542244420";
 	var keywords =new Array();
 		function get_download_user(){
 		var url ="/Download/get_download_user/id/"+g_id+".html";
